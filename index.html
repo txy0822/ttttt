@@ -93,6 +93,7 @@
 <div class="container">
     <h1>纳斯达克定投助手</h1>
     <p class="subtitle">多维度指标综合评估 · 智能定投建议</p>
+    <p class="subtitle" id="update-time" style="color:#4cdf8b;font-size:0.8em;"></p>
 <!-- PART2 -->
     <div class="card">
         <h2>综合定投评分</h2>
@@ -209,6 +210,25 @@ const CURRENT = {
     ma200: 19267,
     ath: 20382
 };
+
+let DATA_LOADED = false;
+
+async function loadRealData() {
+    try {
+        const resp = await fetch('data.json');
+        if (!resp.ok) throw new Error('fetch failed');
+        const d = await resp.json();
+        CURRENT.pe = d.pe ?? CURRENT.pe;
+        CURRENT.fearGreed = d.fearGreed ?? CURRENT.fearGreed;
+        CURRENT.maDeviation = d.maDeviation ?? CURRENT.maDeviation;
+        CURRENT.rsi = d.rsi ?? CURRENT.rsi;
+        CURRENT.drawdown = d.drawdown ?? CURRENT.drawdown;
+        DATA_LOADED = true;
+        document.getElementById('update-time').textContent = '数据更新：' + d.updateTime;
+    } catch (e) {
+        document.getElementById('update-time').textContent = '使用离线数据（获取实时数据失败）';
+    }
+}
 // LOGIC_PLACEHOLDER
 function lerp(val, low, high, scoreLow, scoreHigh) {
     const ratio = (val - low) / (high - low);
@@ -448,7 +468,7 @@ function checkAlert() {
     }
 }
 
-function init() {
+async function init() {
     if ('Notification' in window && Notification.permission === 'default') {
         Notification.requestPermission();
     }
@@ -460,6 +480,7 @@ function init() {
         document.getElementById('alert-status').className = 'alert-status active';
         document.getElementById('alert-status').textContent = `已设置：综合评分 > ${saved} 时提醒`;
     }
+    await loadRealData();
     renderAll();
 }
 

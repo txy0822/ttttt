@@ -249,6 +249,24 @@ if __name__ == "__main__":
     scores, total = get_composite_score(pe, fg, ma, rsi, dd)
     print(f"综合评分: {total}/100")
 
+    # 保存数据到 data.json 供网页读取
+    from datetime import datetime, timezone, timedelta
+    bj_time = datetime.now(timezone(timedelta(hours=8)))
+    data_out = {
+        "updateTime": bj_time.strftime("%Y-%m-%d %H:%M"),
+        "pe": pe,
+        "fearGreed": fg,
+        "maDeviation": ma,
+        "rsi": rsi,
+        "drawdown": dd,
+        "scores": scores,
+        "total": total,
+        "multiplier": get_multiplier(total)
+    }
+    with open("data.json", "w", encoding="utf-8") as f:
+        json.dump(data_out, f, ensure_ascii=False, indent=2)
+    print("data.json 已更新")
+
     title = f"纳斯达克定投提醒 | 评分 {total}/100"
     content = build_message(pe, fg, ma, rsi, dd, scores, total)
     send_pushplus(title, content)
