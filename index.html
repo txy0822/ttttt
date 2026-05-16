@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纳斯达克定投助手</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 960px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 1.8em; margin-bottom: 8px; color: #7c9cff; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 30px; font-size: 0.9em; }
+        .card {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a4a;
+        }
+        .card h2 { font-size: 1.1em; color: #7c9cff; margin-bottom: 16px; }
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+        }
+        .status-item {
+            background: #12122a;
+            border-radius: 8px;
+            padding: 14px;
+            text-align: center;
+        }
+        .status-item .label { font-size: 0.75em; color: #888; margin-bottom: 4px; }
+        .status-item .value { font-size: 1.4em; font-weight: bold; }
+        .low { color: #4cdf8b; }
+        .normal { color: #f0c040; }
+        .high { color: #ff6b6b; }
+        .suggestion {
+            margin-top: 16px; padding: 16px; border-radius: 8px;
+            font-size: 1.05em; text-align: center; font-weight: bold;
+        }
+        .suggestion.low { background: rgba(76,223,139,0.1); border: 1px solid #4cdf8b; }
+        .suggestion.normal { background: rgba(240,192,64,0.1); border: 1px solid #f0c040; }
+        .suggestion.high { background: rgba(255,107,107,0.1); border: 1px solid #ff6b6b; }
+        .chart-container { position: relative; height: 280px; margin-bottom: 10px; }
+        .indicator-bar {
+            display: flex; align-items: center; gap: 10px;
+            margin-bottom: 12px; padding: 10px 14px;
+            background: #12122a; border-radius: 8px;
+        }
+        .indicator-bar .ind-name { width: 120px; font-size: 0.85em; color: #aaa; }
+        .indicator-bar .ind-track {
+            flex: 1; height: 8px; background: #2a2a4a; border-radius: 4px;
+            position: relative; overflow: hidden;
+        }
+        .indicator-bar .ind-fill {
+            height: 100%; border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        .indicator-bar .ind-val { width: 60px; text-align: right; font-weight: bold; font-size: 0.9em; }
+        .score-circle {
+            width: 140px; height: 140px; border-radius: 50%;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            margin: 0 auto 16px; border: 4px solid;
+        }
+        .score-circle .score-num { font-size: 2.2em; font-weight: bold; }
+        .score-circle .score-label { font-size: 0.8em; color: #aaa; }
+        .alert-section { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+        .alert-section label { font-size: 0.85em; color: #aaa; }
+        .alert-section input {
+            background: #12122a; border: 1px solid #3a3a5a; border-radius: 6px;
+            padding: 8px 12px; color: #fff; width: 100px; font-size: 1em;
+        }
+        .alert-section button {
+            background: #7c9cff; color: #0f0f1a; border: none; border-radius: 6px;
+            padding: 8px 20px; font-weight: bold; cursor: pointer; font-size: 0.95em;
+        }
+        .alert-section button:hover { background: #5a7cee; }
+        .alert-status { margin-top: 12px; font-size: 0.85em; color: #888; }
+        .alert-status.active { color: #4cdf8b; }
+        .footer { text-align: center; color: #555; font-size: 0.75em; margin-top: 20px; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>纳斯达克定投助手</h1>
+    <p class="subtitle">多维度指标综合评估 · 智能定投建议</p>
+<!-- PART2 -->
+    <div class="card">
+        <h2>综合定投评分</h2>
+        <div class="score-circle" id="score-circle">
+            <div class="score-num" id="total-score">--</div>
+            <div class="score-label">综合得分</div>
+        </div>
+        <div class="suggestion" id="suggestion"></div>
+    </div>
+
+    <div class="card">
+        <h2>各项指标详情</h2>
+        <div class="status-grid" id="status-grid">
+            <div class="status-item">
+                <div class="label">PE 估值</div>
+                <div class="value" id="val-pe">--</div>
+                <div class="label" style="margin-top:6px;">越低越值得买入，&lt;25为偏低</div>
+            </div>
+            <div class="status-item">
+                <div class="label">恐惧贪婪指数</div>
+                <div class="value" id="val-fg">--</div>
+                <div class="label" style="margin-top:6px;">0-100，越低越恐惧=适合买入</div>
+            </div>
+            <div class="status-item">
+                <div class="label">均线偏离度</div>
+                <div class="value" id="val-ma">--</div>
+                <div class="label" style="margin-top:6px;">负值=低于200日均线，适合买入</div>
+            </div>
+            <div class="status-item">
+                <div class="label">RSI(14)</div>
+                <div class="value" id="val-rsi">--</div>
+                <div class="label" style="margin-top:6px;">&lt;30超卖=买入，&gt;70超买=观望</div>
+            </div>
+            <div class="status-item">
+                <div class="label">距前高回撤</div>
+                <div class="value" id="val-dd">--</div>
+                <div class="label" style="margin-top:6px;">距历史最高跌幅，跌越多机会越大</div>
+            </div>
+            <div class="status-item">
+                <div class="label">建议定投倍数</div>
+                <div class="value" id="val-mult">--</div>
+                <div class="label" style="margin-top:6px;">基于综合评分的建议倍数</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>指标仪表盘</h2>
+        <div id="indicator-bars"></div>
+    </div>
+
+    <div class="two-col">
+        <div class="card">
+            <h2>PE 历史走势</h2>
+            <div class="chart-container"><canvas id="pe-chart"></canvas></div>
+        </div>
+        <div class="card">
+            <h2>恐惧贪婪指数走势</h2>
+            <div class="chart-container"><canvas id="fg-chart"></canvas></div>
+        </div>
+    </div>
+<!-- PART3 -->
+    <div class="card">
+        <h2>定投设置</h2>
+        <div class="alert-section">
+            <div>
+                <label>综合评分高于此值提醒</label><br>
+                <input type="number" id="alert-threshold" value="70" step="5">
+            </div>
+            <div>
+                <label>每月基础定投(元)</label><br>
+                <input type="number" id="base-amount" value="1000" step="100">
+            </div>
+            <button onclick="saveSettings()">保存设置</button>
+        </div>
+        <div class="alert-status" id="alert-status"></div>
+    </div>
+
+    <p class="footer">数据仅供参考，不构成投资建议。请根据自身情况独立判断。</p>
+</div>
+
+<script>
+const HIST_PE = [
+    {date:'2014-01',pe:22.5},{date:'2014-06',pe:23.8},{date:'2015-01',pe:25.1},
+    {date:'2015-06',pe:26.3},{date:'2016-01',pe:21.2},{date:'2016-06',pe:23.0},
+    {date:'2017-01',pe:24.5},{date:'2017-06',pe:26.1},{date:'2018-01',pe:28.9},
+    {date:'2018-06',pe:27.2},{date:'2018-12',pe:20.8},{date:'2019-06',pe:25.4},
+    {date:'2019-12',pe:28.6},{date:'2020-03',pe:22.1},{date:'2020-06',pe:32.5},
+    {date:'2020-12',pe:38.2},{date:'2021-06',pe:36.8},{date:'2021-12',pe:34.5},
+    {date:'2022-06',pe:24.3},{date:'2022-12',pe:22.8},{date:'2023-06',pe:30.2},
+    {date:'2023-12',pe:33.1},{date:'2024-06',pe:35.4},{date:'2024-12',pe:33.8},
+    {date:'2025-06',pe:31.2},{date:'2025-12',pe:29.5},{date:'2026-03',pe:30.8}
+];
+
+const HIST_FG = [
+    {date:'2014-01',val:55},{date:'2014-06',val:62},{date:'2015-01',val:48},
+    {date:'2015-06',val:65},{date:'2016-01',val:22},{date:'2016-06',val:45},
+    {date:'2017-01',val:58},{date:'2017-06',val:70},{date:'2018-01',val:78},
+    {date:'2018-06',val:55},{date:'2018-12',val:12},{date:'2019-06',val:60},
+    {date:'2019-12',val:72},{date:'2020-03',val:8},{date:'2020-06',val:52},
+    {date:'2020-12',val:80},{date:'2021-06',val:75},{date:'2021-12',val:68},
+    {date:'2022-06',val:18},{date:'2022-12',val:25},{date:'2023-06',val:65},
+    {date:'2023-12',val:70},{date:'2024-06',val:72},{date:'2024-12',val:60},
+    {date:'2025-06',val:55},{date:'2025-12',val:48},{date:'2026-03',val:42}
+];
+
+const CURRENT = {
+    pe: 30.8,
+    fearGreed: 42,
+    maDeviation: -3.2,
+    rsi: 45,
+    drawdown: -8.5,
+    price: 18650,
+    ma200: 19267,
+    ath: 20382
+};
+// LOGIC_PLACEHOLDER
+function scorePE(pe) {
+    if (pe < 20) return 100;
+    if (pe < 25) return 80;
+    if (pe < 28) return 60;
+    if (pe < 32) return 40;
+    if (pe < 36) return 20;
+    return 0;
+}
+
+function scoreFearGreed(fg) {
+    if (fg < 15) return 100;
+    if (fg < 25) return 85;
+    if (fg < 40) return 65;
+    if (fg < 55) return 45;
+    if (fg < 70) return 25;
+    return 5;
+}
+
+function scoreMA(dev) {
+    if (dev < -15) return 100;
+    if (dev < -10) return 85;
+    if (dev < -5) return 65;
+    if (dev < 0) return 50;
+    if (dev < 5) return 35;
+    if (dev < 10) return 15;
+    return 0;
+}
+
+function scoreRSI(rsi) {
+    if (rsi < 25) return 100;
+    if (rsi < 35) return 80;
+    if (rsi < 45) return 60;
+    if (rsi < 55) return 40;
+    if (rsi < 65) return 25;
+    if (rsi < 75) return 10;
+    return 0;
+}
+
+function scoreDrawdown(dd) {
+    if (dd < -30) return 100;
+    if (dd < -20) return 85;
+    if (dd < -10) return 65;
+    if (dd < -5) return 45;
+    if (dd < 0) return 30;
+    return 10;
+}
+
+function getCompositeScore() {
+    const weights = { pe: 0.3, fg: 0.25, ma: 0.2, rsi: 0.15, dd: 0.1 };
+    const scores = {
+        pe: scorePE(CURRENT.pe),
+        fg: scoreFearGreed(CURRENT.fearGreed),
+        ma: scoreMA(CURRENT.maDeviation),
+        rsi: scoreRSI(CURRENT.rsi),
+        dd: scoreDrawdown(CURRENT.drawdown)
+    };
+    const total = Math.round(
+        scores.pe * weights.pe + scores.fg * weights.fg +
+        scores.ma * weights.ma + scores.rsi * weights.rsi +
+        scores.dd * weights.dd
+    );
+    return { scores, total };
+}
+
+function getMultiplier(score) {
+    if (score >= 80) return '3x';
+    if (score >= 65) return '2x';
+    if (score >= 50) return '1.5x';
+    if (score >= 35) return '1x';
+    if (score >= 20) return '0.5x';
+    return '暂停';
+}
+
+function getLevel(score) {
+    if (score >= 60) return 'low';
+    if (score >= 35) return 'normal';
+    return 'high';
+}
+// RENDER_PLACEHOLDER
+function renderAll() {
+    const { scores, total } = getCompositeScore();
+    const level = getLevel(total);
+    const mult = getMultiplier(total);
+    const baseAmount = parseInt(localStorage.getItem('baseAmount') || '1000');
+
+    const circle = document.getElementById('score-circle');
+    circle.style.borderColor = level === 'low' ? '#4cdf8b' : level === 'normal' ? '#f0c040' : '#ff6b6b';
+    document.getElementById('total-score').textContent = total;
+    document.getElementById('total-score').className = 'score-num ' + level;
+
+    const suggestion = document.getElementById('suggestion');
+    const multNum = parseFloat(mult) || 0;
+    if (multNum > 0) {
+        suggestion.textContent = `综合评分 ${total}/100 → 建议定投 ${Math.round(baseAmount * multNum)} 元/月（${mult}）`;
+    } else {
+        suggestion.textContent = `综合评分 ${total}/100 → 市场过热，建议暂停定投`;
+    }
+    suggestion.className = 'suggestion ' + level;
+
+    document.getElementById('val-pe').textContent = CURRENT.pe;
+    document.getElementById('val-pe').className = 'value ' + getLevel(scores.pe);
+    document.getElementById('val-fg').textContent = CURRENT.fearGreed;
+    document.getElementById('val-fg').className = 'value ' + getLevel(scores.fg);
+    document.getElementById('val-ma').textContent = CURRENT.maDeviation + '%';
+    document.getElementById('val-ma').className = 'value ' + getLevel(scores.ma);
+    document.getElementById('val-rsi').textContent = CURRENT.rsi;
+    document.getElementById('val-rsi').className = 'value ' + getLevel(scores.rsi);
+    document.getElementById('val-dd').textContent = CURRENT.drawdown + '%';
+    document.getElementById('val-dd').className = 'value ' + getLevel(scores.dd);
+    document.getElementById('val-mult').textContent = mult;
+    document.getElementById('val-mult').className = 'value ' + level;
+
+    renderBars(scores);
+    renderCharts();
+}
+
+function renderBars(scores) {
+    const indicators = [
+        { name: 'PE 估值', score: scores.pe, color: '#7c9cff' },
+        { name: '恐惧贪婪', score: scores.fg, color: '#e07cff' },
+        { name: '均线偏离', score: scores.ma, color: '#4cdf8b' },
+        { name: 'RSI', score: scores.rsi, color: '#f0c040' },
+        { name: '回撤幅度', score: scores.dd, color: '#ff9c6b' }
+    ];
+    const container = document.getElementById('indicator-bars');
+    container.innerHTML = indicators.map(ind => `
+        <div class="indicator-bar">
+            <span class="ind-name">${ind.name}</span>
+            <div class="ind-track">
+                <div class="ind-fill" style="width:${ind.score}%;background:${ind.color};"></div>
+            </div>
+            <span class="ind-val" style="color:${ind.color}">${ind.score}</span>
+        </div>
+    `).join('');
+}
+// CHARTS_PLACEHOLDER
+function renderCharts() {
+    const peCtx = document.getElementById('pe-chart').getContext('2d');
+    const peLabels = HIST_PE.map(d => d.date);
+    const peData = HIST_PE.map(d => d.pe);
+    const peAvg = peData.reduce((s, v) => s + v, 0) / peData.length;
+
+    new Chart(peCtx, {
+        type: 'line',
+        data: {
+            labels: peLabels,
+            datasets: [{
+                label: 'PE',
+                data: peData,
+                borderColor: '#7c9cff',
+                backgroundColor: 'rgba(124,156,255,0.08)',
+                fill: true, tension: 0.3, pointRadius: 2
+            }, {
+                label: '平均 ' + peAvg.toFixed(1),
+                data: Array(peLabels.length).fill(peAvg),
+                borderColor: '#f0c040', borderDash: [5,5], pointRadius: 0, fill: false
+            }, {
+                label: '低估线 25',
+                data: Array(peLabels.length).fill(25),
+                borderColor: '#4cdf8b', borderDash: [3,3], pointRadius: 0, fill: false
+            }]
+        },
+        options: chartOpts()
+    });
+
+    const fgCtx = document.getElementById('fg-chart').getContext('2d');
+    new Chart(fgCtx, {
+        type: 'line',
+        data: {
+            labels: HIST_FG.map(d => d.date),
+            datasets: [{
+                label: '恐惧贪婪指数',
+                data: HIST_FG.map(d => d.val),
+                borderColor: '#e07cff',
+                backgroundColor: 'rgba(224,124,255,0.08)',
+                fill: true, tension: 0.3, pointRadius: 2
+            }, {
+                label: '极度恐惧 25',
+                data: Array(HIST_FG.length).fill(25),
+                borderColor: '#4cdf8b', borderDash: [3,3], pointRadius: 0, fill: false
+            }, {
+                label: '极度贪婪 75',
+                data: Array(HIST_FG.length).fill(75),
+                borderColor: '#ff6b6b', borderDash: [3,3], pointRadius: 0, fill: false
+            }]
+        },
+        options: chartOpts()
+    });
+}
+
+function chartOpts() {
+    return {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { labels: { color: '#aaa', font: { size: 10 } } } },
+        scales: {
+            x: { ticks: { color: '#555', font: { size: 9 } }, grid: { color: '#1f1f3a' } },
+            y: { ticks: { color: '#555' }, grid: { color: '#1f1f3a' } }
+        }
+    };
+}
+
+function saveSettings() {
+    const threshold = document.getElementById('alert-threshold').value;
+    const baseAmount = document.getElementById('base-amount').value;
+    localStorage.setItem('alertThreshold', threshold);
+    localStorage.setItem('baseAmount', baseAmount);
+    const status = document.getElementById('alert-status');
+    status.className = 'alert-status active';
+    status.textContent = `已保存：综合评分 > ${threshold} 时提醒加仓，基础定投 ${baseAmount} 元/月`;
+    renderAll();
+    checkAlert();
+}
+
+function checkAlert() {
+    const threshold = parseInt(localStorage.getItem('alertThreshold') || '70');
+    const { total } = getCompositeScore();
+    if (total >= threshold && 'Notification' in window && Notification.permission === 'granted') {
+        new Notification('纳斯达克定投提醒', {
+            body: `综合评分 ${total}，达到加仓条件！`
+        });
+    }
+}
+
+function init() {
+    if ('Notification' in window && Notification.permission === 'default') {
+        Notification.requestPermission();
+    }
+    const saved = localStorage.getItem('alertThreshold');
+    if (saved) document.getElementById('alert-threshold').value = saved;
+    const savedAmt = localStorage.getItem('baseAmount');
+    if (savedAmt) document.getElementById('base-amount').value = savedAmt;
+    if (saved) {
+        document.getElementById('alert-status').className = 'alert-status active';
+        document.getElementById('alert-status').textContent = `已设置：综合评分 > ${saved} 时提醒`;
+    }
+    renderAll();
+}
+
+init();
+</script>
+</body>
+</html>
