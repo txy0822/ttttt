@@ -147,11 +147,11 @@
 
     <div class="two-col">
         <div class="card">
-            <h2>纳斯达克100 近一年走势</h2>
+            <h2>PE 历史走势</h2>
             <div class="chart-container"><canvas id="pe-chart"></canvas></div>
         </div>
         <div class="card">
-            <h2>QQQ 月度走势</h2>
+            <h2>恐惧贪婪指数走势</h2>
             <div class="chart-container"><canvas id="fg-chart"></canvas></div>
         </div>
     </div>
@@ -212,8 +212,6 @@ const CURRENT = {
 };
 
 let DATA_LOADED = false;
-let REAL_PRICE_HISTORY = null;
-let REAL_MONTHLY_PRICES = null;
 
 async function loadRealData() {
     try {
@@ -225,8 +223,6 @@ async function loadRealData() {
         CURRENT.maDeviation = d.maDeviation ?? CURRENT.maDeviation;
         CURRENT.rsi = d.rsi ?? CURRENT.rsi;
         CURRENT.drawdown = d.drawdown ?? CURRENT.drawdown;
-        if (d.priceHistory) REAL_PRICE_HISTORY = d.priceHistory;
-        if (d.monthlyPrices) REAL_MONTHLY_PRICES = d.monthlyPrices;
         DATA_LOADED = true;
         document.getElementById('update-time').textContent = '数据更新：' + d.updateTime;
     } catch (e) {
@@ -387,18 +383,8 @@ function renderBars(scores) {
 // CHARTS_PLACEHOLDER
 function renderCharts() {
     const peCtx = document.getElementById('pe-chart').getContext('2d');
-
-    // 优先使用实时价格数据
-    let peLabels, peData, peChartLabel;
-    if (REAL_PRICE_HISTORY && REAL_PRICE_HISTORY.length > 0) {
-        peLabels = REAL_PRICE_HISTORY.map(d => d.date.slice(5));
-        peData = REAL_PRICE_HISTORY.map(d => d.price);
-        peChartLabel = '纳斯达克100';
-    } else {
-        peLabels = HIST_PE.map(d => d.date);
-        peData = HIST_PE.map(d => d.pe);
-        peChartLabel = 'PE';
-    }
+    const peLabels = HIST_PE.map(d => d.date);
+    const peData = HIST_PE.map(d => d.pe);
     const peAvg = peData.reduce((s, v) => s + v, 0) / peData.length;
 
     new Chart(peCtx, {
@@ -406,44 +392,43 @@ function renderCharts() {
         data: {
             labels: peLabels,
             datasets: [{
-                label: peChartLabel,
+                label: 'PE',
                 data: peData,
                 borderColor: '#7c9cff',
                 backgroundColor: 'rgba(124,156,255,0.08)',
                 fill: true, tension: 0.3, pointRadius: 2
             }, {
-                label: '均值 ' + peAvg.toFixed(0),
+                label: '平均 ' + peAvg.toFixed(1),
                 data: Array(peLabels.length).fill(peAvg),
                 borderColor: '#f0c040', borderDash: [5,5], pointRadius: 0, fill: false
+            }, {
+                label: '低估线 25',
+                data: Array(peLabels.length).fill(25),
+                borderColor: '#4cdf8b', borderDash: [3,3], pointRadius: 0, fill: false
             }]
         },
         options: chartOpts()
     });
 
     const fgCtx = document.getElementById('fg-chart').getContext('2d');
-
-    // 月度价格走势图（如果有）
-    let fgLabels, fgData, fgLabel;
-    if (REAL_MONTHLY_PRICES && REAL_MONTHLY_PRICES.length > 0) {
-        fgLabels = REAL_MONTHLY_PRICES.map(d => d.date);
-        fgData = REAL_MONTHLY_PRICES.map(d => d.close);
-        fgLabel = 'QQQ 月度收盘价';
-    } else {
-        fgLabels = HIST_FG.map(d => d.date);
-        fgData = HIST_FG.map(d => d.val);
-        fgLabel = '恐惧贪婪指数';
-    }
-
     new Chart(fgCtx, {
         type: 'line',
         data: {
-            labels: fgLabels,
+            labels: HIST_FG.map(d => d.date),
             datasets: [{
-                label: fgLabel,
-                data: fgData,
+                label: '恐惧贪婪指数',
+                data: HIST_FG.map(d => d.val),
                 borderColor: '#e07cff',
                 backgroundColor: 'rgba(224,124,255,0.08)',
                 fill: true, tension: 0.3, pointRadius: 2
+            }, {
+                label: '极度恐惧 25',
+                data: Array(HIST_FG.length).fill(25),
+                borderColor: '#4cdf8b', borderDash: [3,3], pointRadius: 0, fill: false
+            }, {
+                label: '极度贪婪 75',
+                data: Array(HIST_FG.length).fill(75),
+                borderColor: '#ff6b6b', borderDash: [3,3], pointRadius: 0, fill: false
             }]
         },
         options: chartOpts()

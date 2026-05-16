@@ -27,20 +27,7 @@ def get_price_data():
     hist = ticker.history(period="1y")
     if hist.empty:
         return None
-    return hist["Close"].tolist(), hist.index.tolist()
-
-
-def get_monthly_pe():
-    """获取近1年每月PE数据用于图表"""
-    import yfinance as yf
-    qqq = yf.Ticker("QQQ")
-    hist = qqq.history(period="1y", interval="1mo")
-    if hist.empty:
-        return []
-    result = []
-    for date, row in hist.iterrows():
-        result.append({"date": date.strftime("%Y-%m"), "close": round(row["Close"], 1)})
-    return result
+    return hist["Close"].tolist()
 
 
 def get_pe_ratio():
@@ -250,11 +237,7 @@ def send_pushplus(title, content):
 if __name__ == "__main__":
     print("正在获取实时数据...")
 
-    price_result = get_price_data()
-    if price_result:
-        closes, dates = price_result
-    else:
-        closes, dates = None, None
+    closes = get_price_data()
     pe = get_pe_ratio()
     fg = get_fear_greed()
     rsi = calc_rsi(closes) if closes else None
@@ -265,16 +248,6 @@ if __name__ == "__main__":
 
     scores, total = get_composite_score(pe, fg, ma, rsi, dd)
     print(f"综合评分: {total}/100")
-
-    # 生成图表用的历史数据
-    monthly_prices = get_monthly_pe()
-    price_history = []
-    if closes and dates:
-        step = max(1, len(closes) // 30)
-        for i in range(0, len(closes), step):
-            d = dates[i]
-            date_str = d.strftime("%Y-%m-%d") if hasattr(d, 'strftime') else str(d)[:10]
-            price_history.append({"date": date_str, "price": round(closes[i], 1)})
 
     # 保存数据到 data.json 供网页读取
     from datetime import datetime, timezone, timedelta
@@ -288,9 +261,7 @@ if __name__ == "__main__":
         "drawdown": dd,
         "scores": scores,
         "total": total,
-        "multiplier": get_multiplier(total),
-        "priceHistory": price_history,
-        "monthlyPrices": monthly_prices
+        "multiplier": get_multiplier(total)
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data_out, f, ensure_ascii=False, indent=2)
