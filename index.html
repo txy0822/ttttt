@@ -210,51 +210,66 @@ const CURRENT = {
     ath: 20382
 };
 // LOGIC_PLACEHOLDER
+function lerp(val, low, high, scoreLow, scoreHigh) {
+    const ratio = (val - low) / (high - low);
+    return Math.round(scoreLow + (scoreHigh - scoreLow) * ratio);
+}
+
 function scorePE(pe) {
-    if (pe < 20) return 100;
-    if (pe < 25) return 80;
-    if (pe < 28) return 60;
-    if (pe < 32) return 40;
-    if (pe < 36) return 20;
+    if (pe <= 18) return 100;
+    if (pe <= 22) return lerp(pe, 18, 22, 100, 85);
+    if (pe <= 25) return lerp(pe, 22, 25, 85, 70);
+    if (pe <= 28) return lerp(pe, 25, 28, 70, 55);
+    if (pe <= 30) return lerp(pe, 28, 30, 55, 45);
+    if (pe <= 33) return lerp(pe, 30, 33, 45, 30);
+    if (pe <= 36) return lerp(pe, 33, 36, 30, 15);
+    if (pe <= 40) return lerp(pe, 36, 40, 15, 5);
     return 0;
 }
 
 function scoreFearGreed(fg) {
-    if (fg < 15) return 100;
-    if (fg < 25) return 85;
-    if (fg < 40) return 65;
-    if (fg < 55) return 45;
-    if (fg < 70) return 25;
-    return 5;
+    if (fg <= 10) return 100;
+    if (fg <= 20) return lerp(fg, 10, 20, 100, 85);
+    if (fg <= 30) return lerp(fg, 20, 30, 85, 70);
+    if (fg <= 40) return lerp(fg, 30, 40, 70, 55);
+    if (fg <= 50) return lerp(fg, 40, 50, 55, 45);
+    if (fg <= 60) return lerp(fg, 50, 60, 45, 30);
+    if (fg <= 75) return lerp(fg, 60, 75, 30, 15);
+    if (fg <= 90) return lerp(fg, 75, 90, 15, 5);
+    return 0;
 }
 
 function scoreMA(dev) {
-    if (dev < -15) return 100;
-    if (dev < -10) return 85;
-    if (dev < -5) return 65;
-    if (dev < 0) return 50;
-    if (dev < 5) return 35;
-    if (dev < 10) return 15;
+    if (dev <= -20) return 100;
+    if (dev <= -15) return lerp(dev, -20, -15, 100, 90);
+    if (dev <= -10) return lerp(dev, -15, -10, 90, 75);
+    if (dev <= -5) return lerp(dev, -10, -5, 75, 60);
+    if (dev <= 0) return lerp(dev, -5, 0, 60, 45);
+    if (dev <= 5) return lerp(dev, 0, 5, 45, 30);
+    if (dev <= 10) return lerp(dev, 5, 10, 30, 15);
+    if (dev <= 15) return lerp(dev, 10, 15, 15, 5);
     return 0;
 }
 
 function scoreRSI(rsi) {
-    if (rsi < 25) return 100;
-    if (rsi < 35) return 80;
-    if (rsi < 45) return 60;
-    if (rsi < 55) return 40;
-    if (rsi < 65) return 25;
-    if (rsi < 75) return 10;
+    if (rsi <= 20) return 100;
+    if (rsi <= 30) return lerp(rsi, 20, 30, 100, 85);
+    if (rsi <= 40) return lerp(rsi, 30, 40, 85, 65);
+    if (rsi <= 50) return lerp(rsi, 40, 50, 65, 45);
+    if (rsi <= 60) return lerp(rsi, 50, 60, 45, 30);
+    if (rsi <= 70) return lerp(rsi, 60, 70, 30, 15);
+    if (rsi <= 80) return lerp(rsi, 70, 80, 15, 5);
     return 0;
 }
 
 function scoreDrawdown(dd) {
-    if (dd < -30) return 100;
-    if (dd < -20) return 85;
-    if (dd < -10) return 65;
-    if (dd < -5) return 45;
-    if (dd < 0) return 30;
-    return 10;
+    if (dd <= -35) return 100;
+    if (dd <= -25) return lerp(dd, -35, -25, 100, 90);
+    if (dd <= -15) return lerp(dd, -25, -15, 90, 70);
+    if (dd <= -10) return lerp(dd, -15, -10, 70, 55);
+    if (dd <= -5) return lerp(dd, -10, -5, 55, 40);
+    if (dd <= 0) return lerp(dd, -5, 0, 40, 20);
+    return 5;
 }
 
 function getCompositeScore() {
