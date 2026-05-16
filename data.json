@@ -1,0 +1,17 @@
+{
+  "updateTime": "2026-05-16 15:47",
+  "pe": 34.6,
+  "fearGreed": 81,
+  "maDeviation": 16.01,
+  "rsi": 72.8,
+  "drawdown": -1.54,
+  "scores": {
+    "pe": 22,
+    "fg": 11,
+    "ma": 0,
+    "rsi": 12,
+    "dd": 26
+  },
+  "total": 14,
+  "multiplier": "暂停"
+}
