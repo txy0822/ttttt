@@ -1,5 +1,5 @@
 {
-  "updateTime": "2026-05-16 16:02",
+  "updateTime": "2026-05-16 16:07",
   "pe": 34.6,
   "fearGreed": 81,
   "maDeviation": 16.01,
@@ -13,5 +13,17 @@
     "dd": 26
   },
   "total": 14,
-  "multiplier": "暂停"
+  "multiplier": "暂停",
+  "peHistory": [
+    {
+      "date": "2026-05-16",
+      "pe": 34.6
+    }
+  ],
+  "fgHistory": [
+    {
+      "date": "2026-05-16",
+      "val": 81
+    }
+  ]
 }
