@@ -147,11 +147,11 @@
 
     <div class="two-col">
         <div class="card">
-            <h2>PE 历史走势</h2>
+            <h2>纳斯达克100 近一年走势</h2>
             <div class="chart-container"><canvas id="pe-chart"></canvas></div>
         </div>
         <div class="card">
-            <h2>恐惧贪婪指数走势</h2>
+            <h2>QQQ 月度走势</h2>
             <div class="chart-container"><canvas id="fg-chart"></canvas></div>
         </div>
     </div>
@@ -391,9 +391,9 @@ function renderCharts() {
     // 优先使用实时价格数据
     let peLabels, peData, peChartLabel;
     if (REAL_PRICE_HISTORY && REAL_PRICE_HISTORY.length > 0) {
-        peLabels = REAL_PRICE_HISTORY.map(d => d.date);
+        peLabels = REAL_PRICE_HISTORY.map(d => d.date.slice(5));
         peData = REAL_PRICE_HISTORY.map(d => d.price);
-        peChartLabel = '纳斯达克100 价格';
+        peChartLabel = '纳斯达克100';
     } else {
         peLabels = HIST_PE.map(d => d.date);
         peData = HIST_PE.map(d => d.pe);

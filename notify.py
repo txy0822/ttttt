@@ -273,7 +273,7 @@ if __name__ == "__main__":
         step = max(1, len(closes) // 30)
         for i in range(0, len(closes), step):
             d = dates[i]
-            date_str = d.strftime("%m-%d") if hasattr(d, 'strftime') else str(d)[:5]
+            date_str = d.strftime("%Y-%m-%d") if hasattr(d, 'strftime') else str(d)[:10]
             price_history.append({"date": date_str, "price": round(closes[i], 1)})
 
     # 保存数据到 data.json 供网页读取
