@@ -1,7 +1,6 @@
-import urllib.request
-import urllib.parse
 import json
 import os
+import urllib.request
 import ssl
 
 PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
@@ -12,11 +11,8 @@ ssl_ctx.check_hostname = False
 ssl_ctx.verify_mode = ssl.CERT_NONE
 
 
-def fetch_json(url, headers=None):
-    hdrs = {"User-Agent": "Mozilla/5.0"}
-    if headers:
-        hdrs.update(headers)
-    req = urllib.request.Request(url, headers=hdrs)
+def fetch_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         resp = urllib.request.urlopen(req, timeout=15, context=ssl_ctx)
         return json.loads(resp.read().decode())
@@ -26,17 +22,20 @@ def fetch_json(url, headers=None):
 
 
 def get_price_data():
-    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?interval=1d&range=1y"
-    data = fetch_json(url)
-    if not data:
+    import yfinance as yf
+    ticker = yf.Ticker("^NDX")
+    hist = ticker.history(period="1y")
+    if hist.empty:
         return None
-    try:
-        result = data["chart"]["result"][0]
-        closes = result["indicators"]["quote"][0]["close"]
-        closes = [c for c in closes if c is not None]
-        return closes
-    except (KeyError, IndexError):
-        return None
+    return hist["Close"].tolist()
+
+
+def get_pe_ratio():
+    import yfinance as yf
+    ticker = yf.Ticker("QQQ")
+    info = ticker.info
+    pe = info.get("trailingPE")
+    return round(pe, 1) if pe else None
 
 
 def get_fear_greed():
@@ -81,18 +80,6 @@ def calc_drawdown(closes):
     current = closes[-1]
     return round((current - peak) / peak * 100, 2)
 
-    url = ("https://query1.finance.yahoo.com/v10/finance/quoteSummary/"
-           "QQQ?modules=defaultKeyStatistics,summaryDetail")
-    data = fetch_json(url)
-    if not data:
-        return None
-    try:
-        detail = data["quoteSummary"]["result"][0]["summaryDetail"]
-        pe = detail.get("trailingPE", {}).get("raw")
-        return pe
-    except (KeyError, IndexError, TypeError):
-        return None
-
 
 def score_pe(pe):
     if pe is None: return 40
@@ -121,6 +108,7 @@ def score_ma(dev):
     if dev < 5: return 35
     if dev < 10: return 15
     return 0
+
 
 def score_rsi(rsi):
     if rsi is None: return 40
@@ -173,10 +161,8 @@ def build_message(pe, fg, ma, rsi, dd, scores, total):
     mult_num = float(mult.replace("x", "")) if "x" in mult else 0
     amount = round(BASE_AMOUNT * mult_num) if mult_num > 0 else 0
     level = "适合加仓" if total >= 60 else "正常定投" if total >= 35 else "建议观望"
-
     def fmt(val, suffix=""):
         return f"{val}{suffix}" if val is not None else "获取失败"
-
     msg = f"""<h2>纳斯达克定投日报</h2>
 <h3>综合评分：{total}/100 — {level}</h3>
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
@@ -189,7 +175,6 @@ def build_message(pe, fg, ma, rsi, dd, scores, total):
 </table>
 <p><b>建议定投倍数：{mult}</b></p>
 <p>建议本月定投金额：<b>{amount} 元</b>（基础 {BASE_AMOUNT} 元 × {mult}）</p>
-<p style="color:#888;font-size:0.85em;">数据来源：Yahoo Finance / CNN Fear & Greed Index</p>
 """
     return msg
 
@@ -232,3 +217,4 @@ if __name__ == "__main__":
     title = f"纳斯达克定投提醒 | 评分 {total}/100"
     content = build_message(pe, fg, ma, rsi, dd, scores, total)
     send_pushplus(title, content)
+
