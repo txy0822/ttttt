@@ -212,6 +212,8 @@ const CURRENT = {
 };
 
 let DATA_LOADED = false;
+let REAL_PE_HISTORY = null;
+let REAL_FG_HISTORY = null;
 
 async function loadRealData() {
     try {
@@ -223,6 +225,8 @@ async function loadRealData() {
         CURRENT.maDeviation = d.maDeviation ?? CURRENT.maDeviation;
         CURRENT.rsi = d.rsi ?? CURRENT.rsi;
         CURRENT.drawdown = d.drawdown ?? CURRENT.drawdown;
+        if (d.peHistory && d.peHistory.length > 0) REAL_PE_HISTORY = d.peHistory;
+        if (d.fgHistory && d.fgHistory.length > 0) REAL_FG_HISTORY = d.fgHistory;
         DATA_LOADED = true;
         document.getElementById('update-time').textContent = '数据更新：' + d.updateTime;
     } catch (e) {
@@ -383,8 +387,8 @@ function renderBars(scores) {
 // CHARTS_PLACEHOLDER
 function renderCharts() {
     const peCtx = document.getElementById('pe-chart').getContext('2d');
-    const peLabels = HIST_PE.map(d => d.date);
-    const peData = HIST_PE.map(d => d.pe);
+    const peLabels = REAL_PE_HISTORY ? REAL_PE_HISTORY.map(d => d.date.slice(5)) : HIST_PE.map(d => d.date);
+    const peData = REAL_PE_HISTORY ? REAL_PE_HISTORY.map(d => d.pe) : HIST_PE.map(d => d.pe);
     const peAvg = peData.reduce((s, v) => s + v, 0) / peData.length;
 
     new Chart(peCtx, {
@@ -411,23 +415,26 @@ function renderCharts() {
     });
 
     const fgCtx = document.getElementById('fg-chart').getContext('2d');
+    const fgLabels = REAL_FG_HISTORY ? REAL_FG_HISTORY.map(d => d.date.slice(5)) : HIST_FG.map(d => d.date);
+    const fgData = REAL_FG_HISTORY ? REAL_FG_HISTORY.map(d => d.val) : HIST_FG.map(d => d.val);
+
     new Chart(fgCtx, {
         type: 'line',
         data: {
-            labels: HIST_FG.map(d => d.date),
+            labels: fgLabels,
             datasets: [{
                 label: '恐惧贪婪指数',
-                data: HIST_FG.map(d => d.val),
+                data: fgData,
                 borderColor: '#e07cff',
                 backgroundColor: 'rgba(224,124,255,0.08)',
                 fill: true, tension: 0.3, pointRadius: 2
             }, {
                 label: '极度恐惧 25',
-                data: Array(HIST_FG.length).fill(25),
+                data: Array(fgLabels.length).fill(25),
                 borderColor: '#4cdf8b', borderDash: [3,3], pointRadius: 0, fill: false
             }, {
                 label: '极度贪婪 75',
-                data: Array(HIST_FG.length).fill(75),
+                data: Array(fgLabels.length).fill(75),
                 borderColor: '#ff6b6b', borderDash: [3,3], pointRadius: 0, fill: false
             }]
         },

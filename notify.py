@@ -249,9 +249,37 @@ if __name__ == "__main__":
     scores, total = get_composite_score(pe, fg, ma, rsi, dd)
     print(f"综合评分: {total}/100")
 
-    # 保存数据到 data.json 供网页读取
+    # 读取已有的 data.json，追加历史数据
     from datetime import datetime, timezone, timedelta
     bj_time = datetime.now(timezone(timedelta(hours=8)))
+    today_str = bj_time.strftime("%Y-%m-%d")
+
+    existing = {}
+    try:
+        with open("data.json", "r", encoding="utf-8") as f:
+            existing = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+
+    # 追加 PE 历史
+    pe_history = existing.get("peHistory", [])
+    if pe is not None:
+        if not pe_history or pe_history[-1]["date"] != today_str:
+            pe_history.append({"date": today_str, "pe": pe})
+        else:
+            pe_history[-1]["pe"] = pe
+    # 只保留最近 90 天
+    pe_history = pe_history[-90:]
+
+    # 追加恐惧贪婪历史
+    fg_history = existing.get("fgHistory", [])
+    if fg is not None:
+        if not fg_history or fg_history[-1]["date"] != today_str:
+            fg_history.append({"date": today_str, "val": fg})
+        else:
+            fg_history[-1]["val"] = fg
+    fg_history = fg_history[-90:]
+
     data_out = {
         "updateTime": bj_time.strftime("%Y-%m-%d %H:%M"),
         "pe": pe,
@@ -261,7 +289,9 @@ if __name__ == "__main__":
         "drawdown": dd,
         "scores": scores,
         "total": total,
-        "multiplier": get_multiplier(total)
+        "multiplier": get_multiplier(total),
+        "peHistory": pe_history,
+        "fgHistory": fg_history
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data_out, f, ensure_ascii=False, indent=2)
