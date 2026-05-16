@@ -2,18 +2,100 @@ import urllib.request
 import urllib.parse
 import json
 import os
+import ssl
 
 PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
+BASE_AMOUNT = int(os.environ.get("BASE_AMOUNT", "1000"))
 
-CURRENT = {
-    "pe": 30.8,
-    "fearGreed": 42,
-    "maDeviation": -3.2,
-    "rsi": 45,
-    "drawdown": -8.5,
-}
+ssl_ctx = ssl.create_default_context()
+ssl_ctx.check_hostname = False
+ssl_ctx.verify_mode = ssl.CERT_NONE
+
+
+def fetch_json(url, headers=None):
+    hdrs = {"User-Agent": "Mozilla/5.0"}
+    if headers:
+        hdrs.update(headers)
+    req = urllib.request.Request(url, headers=hdrs)
+    try:
+        resp = urllib.request.urlopen(req, timeout=15, context=ssl_ctx)
+        return json.loads(resp.read().decode())
+    except Exception as e:
+        print(f"请求失败 {url}: {e}")
+        return None
+
+
+def get_price_data():
+    url = "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?interval=1d&range=1y"
+    data = fetch_json(url)
+    if not data:
+        return None
+    try:
+        result = data["chart"]["result"][0]
+        closes = result["indicators"]["quote"][0]["close"]
+        closes = [c for c in closes if c is not None]
+        return closes
+    except (KeyError, IndexError):
+        return None
+
+
+def get_fear_greed():
+    url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    data = fetch_json(url)
+    if not data:
+        return None
+    try:
+        return round(data["fear_and_greed"]["score"])
+    except (KeyError, TypeError):
+        return None
+
+
+def calc_rsi(closes, period=14):
+    if len(closes) < period + 1:
+        return None
+    gains, losses = [], []
+    for i in range(len(closes) - period, len(closes)):
+        diff = closes[i] - closes[i - 1]
+        gains.append(max(diff, 0))
+        losses.append(max(-diff, 0))
+    avg_gain = sum(gains) / period
+    avg_loss = sum(losses) / period
+    if avg_loss == 0:
+        return 100
+    rs = avg_gain / avg_loss
+    return round(100 - (100 / (1 + rs)), 1)
+
+
+def calc_ma_deviation(closes, period=200):
+    if len(closes) < period:
+        return None
+    ma = sum(closes[-period:]) / period
+    current = closes[-1]
+    return round((current - ma) / ma * 100, 2)
+
+
+def calc_drawdown(closes):
+    if not closes:
+        return None
+    peak = max(closes)
+    current = closes[-1]
+    return round((current - peak) / peak * 100, 2)
+
+    url = ("https://query1.finance.yahoo.com/v10/finance/quoteSummary/"
+           "QQQ?modules=defaultKeyStatistics,summaryDetail")
+    data = fetch_json(url)
+    if not data:
+        return None
+    try:
+        detail = data["quoteSummary"]["result"][0]["summaryDetail"]
+        pe = detail.get("trailingPE", {}).get("raw")
+        return pe
+    except (KeyError, IndexError, TypeError):
+        return None
+
 
 def score_pe(pe):
+    if pe is None: return 40
     if pe < 20: return 100
     if pe < 25: return 80
     if pe < 28: return 60
@@ -22,6 +104,7 @@ def score_pe(pe):
     return 0
 
 def score_fear_greed(fg):
+    if fg is None: return 40
     if fg < 15: return 100
     if fg < 25: return 85
     if fg < 40: return 65
@@ -30,6 +113,7 @@ def score_fear_greed(fg):
     return 5
 
 def score_ma(dev):
+    if dev is None: return 40
     if dev < -15: return 100
     if dev < -10: return 85
     if dev < -5: return 65
@@ -39,6 +123,7 @@ def score_ma(dev):
     return 0
 
 def score_rsi(rsi):
+    if rsi is None: return 40
     if rsi < 25: return 100
     if rsi < 35: return 80
     if rsi < 45: return 60
@@ -48,6 +133,7 @@ def score_rsi(rsi):
     return 0
 
 def score_drawdown(dd):
+    if dd is None: return 40
     if dd < -30: return 100
     if dd < -20: return 85
     if dd < -10: return 65
@@ -56,14 +142,14 @@ def score_drawdown(dd):
     return 10
 
 
-def get_composite_score():
+def get_composite_score(pe, fg, ma, rsi, dd):
     weights = {"pe": 0.3, "fg": 0.25, "ma": 0.2, "rsi": 0.15, "dd": 0.1}
     scores = {
-        "pe": score_pe(CURRENT["pe"]),
-        "fg": score_fear_greed(CURRENT["fearGreed"]),
-        "ma": score_ma(CURRENT["maDeviation"]),
-        "rsi": score_rsi(CURRENT["rsi"]),
-        "dd": score_drawdown(CURRENT["drawdown"]),
+        "pe": score_pe(pe),
+        "fg": score_fear_greed(fg),
+        "ma": score_ma(ma),
+        "rsi": score_rsi(rsi),
+        "dd": score_drawdown(dd),
     }
     total = round(
         scores["pe"] * weights["pe"] + scores["fg"] * weights["fg"] +
@@ -82,26 +168,28 @@ def get_multiplier(score):
     return "暂停"
 
 
-def build_message(scores, total):
+def build_message(pe, fg, ma, rsi, dd, scores, total):
     mult = get_multiplier(total)
-    base = int(os.environ.get("BASE_AMOUNT", "1000"))
     mult_num = float(mult.replace("x", "")) if "x" in mult else 0
-    amount = round(base * mult_num) if mult_num > 0 else 0
-
+    amount = round(BASE_AMOUNT * mult_num) if mult_num > 0 else 0
     level = "适合加仓" if total >= 60 else "正常定投" if total >= 35 else "建议观望"
+
+    def fmt(val, suffix=""):
+        return f"{val}{suffix}" if val is not None else "获取失败"
 
     msg = f"""<h2>纳斯达克定投日报</h2>
 <h3>综合评分：{total}/100 — {level}</h3>
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
 <tr><th>指标</th><th>当前值</th><th>得分</th></tr>
-<tr><td>PE 估值</td><td>{CURRENT['pe']}</td><td>{scores['pe']}</td></tr>
-<tr><td>恐惧贪婪指数</td><td>{CURRENT['fearGreed']}</td><td>{scores['fg']}</td></tr>
-<tr><td>均线偏离度</td><td>{CURRENT['maDeviation']}%</td><td>{scores['ma']}</td></tr>
-<tr><td>RSI(14)</td><td>{CURRENT['rsi']}</td><td>{scores['rsi']}</td></tr>
-<tr><td>距前高回撤</td><td>{CURRENT['drawdown']}%</td><td>{scores['dd']}</td></tr>
+<tr><td>PE 估值</td><td>{fmt(pe)}</td><td>{scores['pe']}</td></tr>
+<tr><td>恐惧贪婪指数</td><td>{fmt(fg)}</td><td>{scores['fg']}</td></tr>
+<tr><td>均线偏离度</td><td>{fmt(ma, '%')}</td><td>{scores['ma']}</td></tr>
+<tr><td>RSI(14)</td><td>{fmt(rsi)}</td><td>{scores['rsi']}</td></tr>
+<tr><td>距前高回撤</td><td>{fmt(dd, '%')}</td><td>{scores['dd']}</td></tr>
 </table>
 <p><b>建议定投倍数：{mult}</b></p>
-<p>建议本月定投金额：<b>{amount} 元</b>（基础 {base} 元 × {mult}）</p>
+<p>建议本月定投金额：<b>{amount} 元</b>（基础 {BASE_AMOUNT} 元 × {mult}）</p>
+<p style="color:#888;font-size:0.85em;">数据来源：Yahoo Finance / CNN Fear & Greed Index</p>
 """
     return msg
 
@@ -127,8 +215,20 @@ def send_pushplus(title, content):
 
 
 if __name__ == "__main__":
-    scores, total = get_composite_score()
-    print(f"综合评分: {total}")
+    print("正在获取实时数据...")
+
+    closes = get_price_data()
+    pe = get_pe_ratio()
+    fg = get_fear_greed()
+    rsi = calc_rsi(closes) if closes else None
+    ma = calc_ma_deviation(closes) if closes else None
+    dd = calc_drawdown(closes) if closes else None
+
+    print(f"PE={pe}, 恐惧贪婪={fg}, 均线偏离={ma}%, RSI={rsi}, 回撤={dd}%")
+
+    scores, total = get_composite_score(pe, fg, ma, rsi, dd)
+    print(f"综合评分: {total}/100")
+
     title = f"纳斯达克定投提醒 | 评分 {total}/100"
-    content = build_message(scores, total)
+    content = build_message(pe, fg, ma, rsi, dd, scores, total)
     send_pushplus(title, content)
