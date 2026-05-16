@@ -225,8 +225,8 @@ async function loadRealData() {
         CURRENT.maDeviation = d.maDeviation ?? CURRENT.maDeviation;
         CURRENT.rsi = d.rsi ?? CURRENT.rsi;
         CURRENT.drawdown = d.drawdown ?? CURRENT.drawdown;
-        if (d.peHistory && d.peHistory.length > 0) REAL_PE_HISTORY = d.peHistory;
-        if (d.fgHistory && d.fgHistory.length > 0) REAL_FG_HISTORY = d.fgHistory;
+        if (d.peHistory && d.peHistory.length >= 5) REAL_PE_HISTORY = d.peHistory;
+        if (d.fgHistory && d.fgHistory.length >= 5) REAL_FG_HISTORY = d.fgHistory;
         DATA_LOADED = true;
         document.getElementById('update-time').textContent = '数据更新：' + d.updateTime;
     } catch (e) {
