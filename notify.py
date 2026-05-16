@@ -41,12 +41,32 @@ def get_pe_ratio():
 def get_fear_greed():
     url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
     data = fetch_json(url)
-    if not data:
-        return None
+    if data:
+        try:
+            return round(data["fear_and_greed"]["score"])
+        except (KeyError, TypeError):
+            pass
+    url2 = "https://production.dataviz.cnn.io/index/fearandgreed/current"
+    data2 = fetch_json(url2)
+    if data2:
+        try:
+            return round(data2["fear_and_greed"]["score"])
+        except (KeyError, TypeError):
+            pass
+    # 备用方案：用 VIX 反推恐惧贪婪值
     try:
-        return round(data["fear_and_greed"]["score"])
-    except (KeyError, TypeError):
-        return None
+        import yfinance as yf
+        vix = yf.Ticker("^VIX")
+        hist = vix.history(period="5d")
+        if not hist.empty:
+            vix_val = hist["Close"].iloc[-1]
+            # VIX 越高越恐惧：VIX=10→贪婪90, VIX=30→恐惧20, VIX=50→极度恐惧5
+            fg = max(0, min(100, round(100 - (vix_val - 10) * 2.25)))
+            print(f"使用 VIX={vix_val:.1f} 估算恐惧贪婪指数={fg}")
+            return fg
+    except Exception as e:
+        print(f"VIX 备用方案也失败: {e}")
+    return None
 
 
 def calc_rsi(closes, period=14):
