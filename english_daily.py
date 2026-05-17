@@ -70,22 +70,45 @@ def fetch_news():
         except Exception as e:
             print(f"NewsData API 失败: {e}")
 
-    # 备用：用 RSS 抓取 TechCrunch
-    try:
-        url = "https://techcrunch.com/feed/"
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        resp = urllib.request.urlopen(req, timeout=15, context=ssl_ctx)
-        content = resp.read().decode()
-        titles = re.findall(r"<title><!\[CDATA\[(.*?)\]\]></title>", content)
-        descs = re.findall(r"<description><!\[CDATA\[(.*?)\]\]></description>", content)
-        articles = []
-        for i in range(min(6, len(titles))):
-            desc = re.sub(r"<[^>]+>", "", descs[i]) if i < len(descs) else ""
-            articles.append({"title": titles[i], "content": desc[:300]})
-        return articles
-    except Exception as e:
-        print(f"RSS 备用方案也失败: {e}")
-        return []
+    # 备用：用多个 RSS 源抓取
+    rss_feeds = [
+        "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "https://www.theverge.com/rss/index.xml",
+        "https://techcrunch.com/feed/",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+    ]
+    articles = []
+    for feed_url in rss_feeds:
+        if len(articles) >= 6:
+            break
+        try:
+            req = urllib.request.Request(feed_url, headers={"User-Agent": "Mozilla/5.0"})
+            resp = urllib.request.urlopen(req, timeout=10, context=ssl_ctx)
+            content = resp.read().decode()
+            # 通用 RSS 解析：匹配 <title> 和 <description>
+            items = re.findall(r"<item>(.*?)</item>", content, re.DOTALL)
+            if not items:
+                items = re.findall(r"<entry>(.*?)</entry>", content, re.DOTALL)
+            for item in items[:4]:
+                title = re.search(r"<title[^>]*>(.*?)</title>", item, re.DOTALL)
+                desc = re.search(r"<description[^>]*>(.*?)</description>", item, re.DOTALL)
+                if not desc:
+                    desc = re.search(r"<summary[^>]*>(.*?)</summary>", item, re.DOTALL)
+                if title:
+                    t = re.sub(r"<!\[CDATA\[|\]\]>", "", title.group(1)).strip()
+                    d = ""
+                    if desc:
+                        d = re.sub(r"<!\[CDATA\[|\]\]>", "", desc.group(1))
+                        d = re.sub(r"<[^>]+>", "", d).strip()[:300]
+                    if t and len(t) > 10:
+                        articles.append({"title": t, "content": d})
+                if len(articles) >= 6:
+                    break
+        except Exception as e:
+            print(f"RSS {feed_url} 失败: {e}")
+            continue
+
+    return articles
 
 
 def find_vocab(text):
