@@ -27,21 +27,57 @@
     },
     {
       "title": "Snap, YouTube, and TikTok settle suit over harm to students",
-      "content": "Snap, YouTube, and TikTok have settled the first lawsuit of its kind, alleging that social media addiction has cost public schools massive amounts of money, according to Bloomberg. The suit, filed by the Breathitt County School District in Kentucky, claims that social media has disrupted learning an",
+      "content": "Snap, YouTube, and TikTok have settled the first lawsuit of its kind, alleging that social media addiction has cost public schools massive amounts of money, according to Bloomberg. The suit, filed by the Breathitt County School District in Kentucky, claims that social media has disrupted learning and created a mental health crisis, straining budgets. The [&#8230;]",
       "titleZh": "SNAP、YouTube和TikTok就对学生的伤害达成和解",
-      "contentZh": "据彭博社报道， Snap、YouTube和TikTok已经解决了第一起此类诉讼，指控社交媒体成瘾使公立学校花费了大量资金。该诉讼由肯塔基州布雷西特县学区提起，声称社交媒体扰乱了"
+      "contentZh": "据彭博社报道， Snap、YouTube和TikTok已经解决了第一起此类诉讼，指控社交媒体成瘾使公立学校花费了大量资金。该诉讼由肯塔基州布雷西特县学区提起，声称社交媒体扰乱了学习并造成了心理健康危机，使预算紧张。[…]"
     },
     {
       "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
-      "content": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
+      "content": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options [&#8230;]",
       "titleZh": "索尼试图解释其AI相机助手并不糟糕",
-      "contentZh": "在索尼在Xperia 1 XIII上展示其AI相机助手的帖子引起了一些不必要的注意之后，它正试图澄清该功能的工作原理。该公司表示不会编辑照片，但会根据光线、深度和主题提供建议。将相机对准某物，它会"
+      "contentZh": "在索尼在Xperia 1 XIII上展示其AI相机助手的帖子引起了一些不必要的注意之后，它正试图澄清该功能的工作原理。该公司表示不会编辑照片，但会根据光线、深度和主题提供建议。将相机对准某物，它将为您提供四个选项[…]"
     }
   ],
   "vocab": [
     {
       "word": "revenue",
       "meaning": "营收"
+    },
+    {
+      "word": "vulnerability",
+      "meaning": "漏洞"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "lawsuit",
+      "meaning": "诉讼"
+    },
+    {
+      "word": "layoff",
+      "meaning": "裁员"
+    },
+    {
+      "word": "restructure",
+      "meaning": "重组"
+    },
+    {
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
