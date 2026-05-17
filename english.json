@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-17",
+  "articles": [
+    {
+      "title": "AI continues to reshape the technology landscape",
+      "content": "Major tech companies are investing heavily in artificial intelligence infrastructure, with semiconductor demand reaching new highs as data centers expand globally."
+    }
+  ],
+  "vocab": [
+    {
+      "word": "artificial intelligence",
+      "meaning": "人工智能"
+    },
+    {
+      "word": "infrastructure",
+      "meaning": "基础设施"
+    },
+    {
+      "word": "semiconductor",
+      "meaning": "半导体"
+    }
+  ]
+}
