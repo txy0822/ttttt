@@ -55,13 +55,13 @@ def fetch_news():
     """从 NewsData.io 免费 API 获取科技新闻"""
     api_key = os.environ.get("NEWSDATA_KEY", "")
     if api_key:
-        url = f"https://newsdata.io/api/1/latest?apikey={api_key}&category=technology&language=en&size=5"
+        url = f"https://newsdata.io/api/1/latest?apikey={api_key}&category=technology&language=en&size=10"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         try:
             resp = urllib.request.urlopen(req, timeout=15, context=ssl_ctx)
             data = json.loads(resp.read().decode())
             articles = []
-            for item in data.get("results", [])[:3]:
+            for item in data.get("results", [])[:6]:
                 title = item.get("title", "")
                 desc = item.get("description", "") or ""
                 if title:
@@ -79,7 +79,7 @@ def fetch_news():
         titles = re.findall(r"<title><!\[CDATA\[(.*?)\]\]></title>", content)
         descs = re.findall(r"<description><!\[CDATA\[(.*?)\]\]></description>", content)
         articles = []
-        for i in range(min(3, len(titles))):
+        for i in range(min(6, len(titles))):
             desc = re.sub(r"<[^>]+>", "", descs[i]) if i < len(descs) else ""
             articles.append({"title": titles[i], "content": desc[:300]})
         return articles
