@@ -3,7 +3,9 @@
   "articles": [
     {
       "title": "AI continues to reshape the technology landscape",
-      "content": "Major tech companies are investing heavily in artificial intelligence infrastructure, with semiconductor demand reaching new highs as data centers expand globally."
+      "content": "Major tech companies are investing heavily in artificial intelligence infrastructure, with semiconductor demand reaching new highs as data centers expand globally.",
+      "titleZh": "人工智能不断重塑技术格局",
+      "contentZh": "大型科技公司正在大力投资人工智能基础设施，随着数据中心在全球范围内的扩张，半导体需求将达到新高。"
     }
   ],
   "vocab": [
