@@ -102,7 +102,7 @@ def fetch_news():
                 title = item.get("title", "")
                 desc = item.get("description", "") or ""
                 if title:
-                    articles.append({"title": title, "content": desc[:300]})
+                    articles.append({"title": title, "content": desc[:800]})
             return articles
         except Exception as e:
             print(f"NewsData API 失败: {e}")
@@ -136,7 +136,7 @@ def fetch_news():
                     d = ""
                     if desc:
                         d = re.sub(r"<!\[CDATA\[|\]\]>", "", desc.group(1))
-                        d = re.sub(r"<[^>]+>", "", d).strip()[:300]
+                        d = re.sub(r"<[^>]+>", "", d).strip()[:800]
                     if t and len(t) > 10:
                         articles.append({"title": t, "content": d})
                 if len(articles) >= 6:
@@ -163,7 +163,7 @@ def translate_text(text):
     if not text.strip():
         return ""
     try:
-        encoded = urllib.parse.quote(text[:500])
+        encoded = urllib.parse.quote(text[:800])
         url = f"https://api.mymemory.translated.net/get?q={encoded}&langpair=en|zh-CN"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         resp = urllib.request.urlopen(req, timeout=10, context=ssl_ctx)
