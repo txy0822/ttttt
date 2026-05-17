@@ -2,24 +2,46 @@
   "date": "2026-05-17",
   "articles": [
     {
-      "title": "AI continues to reshape the technology landscape",
-      "content": "Major tech companies are investing heavily in artificial intelligence infrastructure, with semiconductor demand reaching new highs as data centers expand globally.",
-      "titleZh": "人工智能不断重塑技术格局",
-      "contentZh": "大型科技公司正在大力投资人工智能基础设施，随着数据中心在全球范围内的扩张，半导体需求将达到新高。"
+      "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
+      "content": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
+      "titleZh": "零日漏洞完全击败默认的Windows 11 BitLocker保护",
+      "contentZh": "目前尚不完全清楚漏洞是如何运作的。微软表示正在进行调查。"
+    },
+    {
+      "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
+      "content": "Layoffs are \"not a savings-driven restructure,\" CFO says.",
+      "titleZh": "思科在同一天宣布创纪录的收入和4000次裁员",
+      "contentZh": "首席财务官表示，裁员“不是由储蓄驱动的重组”。"
+    },
+    {
+      "title": "Linux bitten by second severe vulnerability in as many weeks",
+      "content": "Production-version patches are coming online and should be installed pronto.",
+      "titleZh": "Linux在多周内被第二次严重漏洞咬伤",
+      "contentZh": "生产版补丁即将上线，应立即安装。"
+    },
+    {
+      "title": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals",
+      "content": "Across the country, schools and colleges postpone year-end tests.",
+      "titleZh": "随着网络攻击在决赛中扰乱学习平台Canvas ，混乱爆发",
+      "contentZh": "在全国范围内，学校和学院推迟了年终考试。"
+    },
+    {
+      "title": "Snap, YouTube, and TikTok settle suit over harm to students",
+      "content": "Snap, YouTube, and TikTok have settled the first lawsuit of its kind, alleging that social media addiction has cost public schools massive amounts of money, according to Bloomberg. The suit, filed by the Breathitt County School District in Kentucky, claims that social media has disrupted learning an",
+      "titleZh": "SNAP、YouTube和TikTok就对学生的伤害达成和解",
+      "contentZh": "据彭博社报道， Snap、YouTube和TikTok已经解决了第一起此类诉讼，指控社交媒体成瘾使公立学校花费了大量资金。该诉讼由肯塔基州布雷西特县学区提起，声称社交媒体扰乱了"
+    },
+    {
+      "title": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+      "content": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it wil",
+      "titleZh": "索尼试图解释其AI相机助手并不糟糕",
+      "contentZh": "在索尼在Xperia 1 XIII上展示其AI相机助手的帖子引起了一些不必要的注意之后，它正试图澄清该功能的工作原理。该公司表示不会编辑照片，但会根据光线、深度和主题提供建议。将相机对准某物，它会"
     }
   ],
   "vocab": [
     {
-      "word": "artificial intelligence",
-      "meaning": "人工智能"
-    },
-    {
-      "word": "infrastructure",
-      "meaning": "基础设施"
-    },
-    {
-      "word": "semiconductor",
-      "meaning": "半导体"
+      "word": "revenue",
+      "meaning": "营收"
     }
   ]
 }
