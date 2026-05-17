@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日英文阅读 - AI/科技</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f0f1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 1.6em; color: #7c9cff; margin-bottom: 6px; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 24px; font-size: 0.85em; }
+        .card {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a4a;
+        }
+        .card h2 { font-size: 1.05em; color: #7c9cff; margin-bottom: 12px; }
+        .article-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        .article-content {
+            font-size: 1em;
+            line-height: 1.9;
+            color: #ccc;
+        }
+        .vocab-section { margin-top: 20px; }
+        .vocab-item {
+            display: inline-block;
+            background: #12122a;
+            border: 1px solid #3a3a5a;
+            border-radius: 6px;
+            padding: 6px 12px;
+            margin: 4px;
+            font-size: 0.85em;
+        }
+        .vocab-item .en { color: #7c9cff; font-weight: bold; }
+        .vocab-item .zh { color: #aaa; margin-left: 6px; }
+        .tip {
+            background: #12122a;
+            border-left: 3px solid #4cdf8b;
+            padding: 12px 16px;
+            margin-top: 16px;
+            font-size: 0.85em;
+            color: #999;
+            line-height: 1.6;
+        }
+        .highlight { background: rgba(124,156,255,0.15); padding: 1px 3px; border-radius: 3px; }
+        .footer { text-align: center; color: #555; font-size: 0.75em; margin-top: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Daily English Reading</h1>
+    <p class="subtitle" id="date-info">AI / Tech News - Loading...</p>
+    <div id="articles"></div>
+    <!-- PLACEHOLDER -->
+    <div class="card" id="vocab-card" style="display:none;">
+        <h2>Key Vocabulary 今日词汇</h2>
+        <div id="vocab-list"></div>
+    </div>
+
+    <div class="card">
+        <div class="tip">
+            <b>学习建议：</b>先通读全文，不要逐词翻译。遇到不认识的词先猜意思，再看下方词汇表验证。每天坚持读一篇，一个月后你会明显感觉到进步。
+        </div>
+    </div>
+
+    <p class="footer">每个工作日自动更新 · 内容来源：科技新闻 RSS</p>
+</div>
+
+<script>
+async function loadContent() {
+    try {
+        const resp = await fetch('english.json');
+        if (!resp.ok) throw new Error('fetch failed');
+        const data = await resp.json();
+
+        document.getElementById('date-info').textContent = 'AI / Tech News - ' + data.date;
+
+        const container = document.getElementById('articles');
+        const vocabWords = data.vocab.map(v => v.word);
+
+        data.articles.forEach((article, i) => {
+            let content = article.content;
+            vocabWords.forEach(word => {
+                const regex = new RegExp('(' + word + ')', 'gi');
+                content = content.replace(regex, '<span class="highlight">$1</span>');
+            });
+
+            let titleHtml = article.title;
+            vocabWords.forEach(word => {
+                const regex = new RegExp('(' + word + ')', 'gi');
+                titleHtml = titleHtml.replace(regex, '<span class="highlight">$1</span>');
+            });
+
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="article-title">${titleHtml}</div>
+                <div class="article-content">${content}</div>
+            `;
+            container.appendChild(card);
+        });
+
+        if (data.vocab && data.vocab.length > 0) {
+            document.getElementById('vocab-card').style.display = 'block';
+            const vocabList = document.getElementById('vocab-list');
+            vocabList.innerHTML = data.vocab.map(v =>
+                `<span class="vocab-item"><span class="en">${v.word}</span><span class="zh">${v.meaning}</span></span>`
+            ).join('');
+        }
+    } catch (e) {
+        document.getElementById('date-info').textContent = '加载失败，请稍后刷新';
+    }
+}
+
+loadContent();
+</script>
+</body>
+</html>
