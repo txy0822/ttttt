@@ -98,6 +98,22 @@ def find_vocab(text):
     return found
 
 
+def translate_text(text):
+    """使用 MyMemory 免费 API 翻译英文到中文"""
+    if not text.strip():
+        return ""
+    try:
+        encoded = urllib.parse.quote(text[:500])
+        url = f"https://api.mymemory.translated.net/get?q={encoded}&langpair=en|zh-CN"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        resp = urllib.request.urlopen(req, timeout=10, context=ssl_ctx)
+        data = json.loads(resp.read().decode())
+        return data["responseData"]["translatedText"]
+    except Exception as e:
+        print(f"翻译失败: {e}")
+        return ""
+
+
 def generate_daily():
     articles = fetch_news()
     if not articles:
@@ -105,6 +121,11 @@ def generate_daily():
             "title": "AI continues to reshape the technology landscape",
             "content": "Major tech companies are investing heavily in artificial intelligence infrastructure, with semiconductor demand reaching new highs as data centers expand globally."
         }]
+
+    # 翻译每篇文章
+    for article in articles:
+        article["titleZh"] = translate_text(article["title"])
+        article["contentZh"] = translate_text(article["content"])
 
     # 提取词汇
     all_text = " ".join([a["title"] + " " + a["content"] for a in articles])

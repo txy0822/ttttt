@@ -59,6 +59,29 @@
         }
         .highlight { background: rgba(124,156,255,0.15); padding: 1px 3px; border-radius: 3px; }
         .footer { text-align: center; color: #555; font-size: 0.75em; margin-top: 20px; }
+        .translation {
+            display: none;
+            margin-top: 10px;
+            padding: 10px 14px;
+            background: #12122a;
+            border-left: 3px solid #e07cff;
+            border-radius: 4px;
+            color: #bbb;
+            font-size: 0.9em;
+            line-height: 1.7;
+        }
+        .translation.show { display: block; }
+        .btn-translate {
+            margin-top: 10px;
+            background: none;
+            border: 1px solid #3a3a5a;
+            color: #7c9cff;
+            padding: 4px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8em;
+        }
+        .btn-translate:hover { border-color: #7c9cff; }
 </style>
 </head>
 <body>
@@ -108,9 +131,14 @@ async function loadContent() {
 
             const card = document.createElement('div');
             card.className = 'card';
+            const transTitle = article.titleZh || '';
+            const transContent = article.contentZh || '';
+            const hasTranslation = transTitle || transContent;
             card.innerHTML = `
                 <div class="article-title">${titleHtml}</div>
                 <div class="article-content">${content}</div>
+                ${hasTranslation ? `<button class="btn-translate" onclick="toggleTrans(this)">显示翻译</button>
+                <div class="translation"><b>${transTitle}</b><br>${transContent}</div>` : ''}
             `;
             container.appendChild(card);
         });
@@ -128,6 +156,12 @@ async function loadContent() {
 }
 
 loadContent();
+
+function toggleTrans(btn) {
+    const trans = btn.nextElementSibling;
+    trans.classList.toggle('show');
+    btn.textContent = trans.classList.contains('show') ? '隐藏翻译' : '显示翻译';
+}
 </script>
 </body>
 </html>
