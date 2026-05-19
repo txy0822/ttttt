@@ -1,6 +1,7 @@
 {
   "date": "2026-05-19",
-  "time": "12:45",
+  "time": "12:46",
   "count": 0,
-  "candidates": []
+  "candidates": [],
+  "error": "Remote end closed connection without response"
 }
