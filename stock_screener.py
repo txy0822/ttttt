@@ -5,36 +5,37 @@ from datetime import datetime, timezone, timedelta
 
 def check_stock_detail(ak, code):
     """检查单只股票的成交量趋势和均线形态"""
-    df = ak.stock_zh_a_hist(symbol=code, period="daily", adjust="qfq")
-    if df is None or len(df) < 20:
+    try:
+        df = ak.stock_zh_a_hist(symbol=code, period="daily", adjust="qfq")
+        if df is None or len(df) < 20:
+            return None
+
+        df = df.tail(20)
+        closes = df["收盘"].tolist()
+        volumes = df["成交量"].tolist()
+
+        # 条件5：近5天成交量趋势向上
+        recent_vol = volumes[-5:]
+        if recent_vol[-1] <= recent_vol[0] * 1.2:
+            return None
+
+        # 成交量忽高忽低则排除
+        avg_vol = sum(recent_vol) / len(recent_vol)
+        vol_std = (sum((v - avg_vol)**2 for v in recent_vol) / len(recent_vol)) ** 0.5
+        if avg_vol > 0 and vol_std / avg_vol > 0.6:
+            return None
+
+        # 条件6：5日/10日/20日均线多头发散
+        ma5 = sum(closes[-5:]) / 5
+        ma10 = sum(closes[-10:]) / 10
+        ma20 = sum(closes[-20:]) / 20
+
+        if not (ma5 > ma10 > ma20):
+            return None
+
+        return f"MA5={ma5:.2f} > MA10={ma10:.2f} > MA20={ma20:.2f}"
+    except Exception as e:
         return None
-
-    df = df.tail(20)
-    closes = df["收盘"].tolist()
-    volumes = df["成交量"].tolist()
-
-    # 条件5：近5天成交量阶梯式放大
-    recent_vol = volumes[-5:]
-    increasing = all(recent_vol[i] <= recent_vol[i+1] * 1.3 for i in range(4))
-    vol_trend = recent_vol[-1] > recent_vol[0] * 1.2
-    if not vol_trend:
-        return None
-
-    # 检查成交量是否忽高忽低（标准差太大则排除）
-    avg_vol = sum(recent_vol) / len(recent_vol)
-    vol_std = (sum((v - avg_vol)**2 for v in recent_vol) / len(recent_vol)) ** 0.5
-    if vol_std / avg_vol > 0.6:
-        return None
-
-    # 条件6：5日/10日/20日均线多头发散
-    ma5 = sum(closes[-5:]) / 5
-    ma10 = sum(closes[-10:]) / 10
-    ma20 = sum(closes[-20:]) / 20
-
-    if not (ma5 > ma10 > ma20):
-        return None
-
-    return f"MA5={ma5:.2f} > MA10={ma10:.2f} > MA20={ma20:.2f}"
 
 
 def get_candidates():
@@ -42,17 +43,32 @@ def get_candidates():
 
     print("正在获取 A 股行情数据...")
     df = ak.stock_zh_a_spot_em()
+    print(f"获取到 {len(df)} 只股票")
+    print(f"列名: {list(df.columns)}")
 
-    df = df.rename(columns={
-        "代码": "code",
-        "名称": "name",
-        "涨跌幅": "change_pct",
-        "量比": "volume_ratio",
-        "换手率": "turnover_rate",
-        "流通市值": "float_cap",
-        "成交量": "volume",
-        "最新价": "price",
-    })
+    # 适配列名（akshare 不同版本列名可能不同）
+    col_map = {}
+    for col in df.columns:
+        if "代码" in col: col_map["code"] = col
+        elif "名称" in col: col_map["name"] = col
+        elif "涨跌幅" in col: col_map["change_pct"] = col
+        elif "量比" in col: col_map["volume_ratio"] = col
+        elif "换手率" in col: col_map["turnover_rate"] = col
+        elif "流通市值" in col: col_map["float_cap"] = col
+        elif "最新价" in col: col_map["price"] = col
+
+    required = ["code", "name", "change_pct", "volume_ratio", "turnover_rate", "float_cap", "price"]
+    for key in required:
+        if key not in col_map:
+            print(f"缺少必要列: {key}")
+            return []
+
+    df = df.rename(columns={v: k for k, v in col_map.items()})
+
+    # 转为数值类型
+    for col in ["change_pct", "volume_ratio", "turnover_rate", "float_cap", "price"]:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    df = df.dropna(subset=["change_pct", "volume_ratio", "turnover_rate", "float_cap"])
 
     # 条件1：涨幅 3-5%
     df = df[(df["change_pct"] >= 3) & (df["change_pct"] <= 5)]
@@ -74,31 +90,29 @@ def get_candidates():
         print("初步筛选后无符合条件的股票")
         return []
 
-    # 条件5+6：逐只检查成交量趋势和均线
+    # 条件5+6：逐只检查
     candidates = []
     for _, row in df.iterrows():
         code = row["code"]
-        try:
-            result = check_stock_detail(ak, code)
-            if result:
-                candidates.append({
-                    "code": code,
-                    "name": row["name"],
-                    "price": round(float(row["price"]), 2),
-                    "change_pct": round(float(row["change_pct"]), 2),
-                    "volume_ratio": round(float(row["volume_ratio"]), 2),
-                    "turnover_rate": round(float(row["turnover_rate"]), 2),
-                    "float_cap_yi": round(float(row["float_cap"]) / 1e8, 1),
-                    "ma_info": result
-                })
-        except Exception:
-            continue
+        result = check_stock_detail(ak, code)
+        if result:
+            candidates.append({
+                "code": code,
+                "name": row["name"],
+                "price": round(float(row["price"]), 2),
+                "change_pct": round(float(row["change_pct"]), 2),
+                "volume_ratio": round(float(row["volume_ratio"]), 2),
+                "turnover_rate": round(float(row["turnover_rate"]), 2),
+                "float_cap_yi": round(float(row["float_cap"]) / 1e8, 1),
+                "ma_info": result
+            })
 
     print(f"最终候选: {len(candidates)} 只")
     return candidates
 
 
 if __name__ == "__main__":
+    import pandas as pd
     bj = datetime.now(timezone(timedelta(hours=8)))
     candidates = get_candidates()
 

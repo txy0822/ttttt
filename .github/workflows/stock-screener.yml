@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install akshare
+        run: pip install akshare pandas
 
       - name: Run stock screener
         run: python stock_screener.py
