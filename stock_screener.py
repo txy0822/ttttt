@@ -113,16 +113,29 @@ def get_candidates():
 
 if __name__ == "__main__":
     import pandas as pd
+    import traceback
     bj = datetime.now(timezone(timedelta(hours=8)))
-    candidates = get_candidates()
 
-    output = {
-        "date": bj.strftime("%Y-%m-%d"),
-        "time": bj.strftime("%H:%M"),
-        "count": len(candidates),
-        "candidates": candidates
-    }
+    try:
+        candidates = get_candidates()
+        output = {
+            "date": bj.strftime("%Y-%m-%d"),
+            "time": bj.strftime("%H:%M"),
+            "count": len(candidates),
+            "candidates": candidates
+        }
+    except Exception as e:
+        error_msg = traceback.format_exc()
+        print(f"运行出错:\n{error_msg}")
+        output = {
+            "date": bj.strftime("%Y-%m-%d"),
+            "time": bj.strftime("%H:%M"),
+            "count": 0,
+            "candidates": [],
+            "error": str(e),
+            "traceback": error_msg
+        }
 
     with open("stocks.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-    print(f"stocks.json 已保存，{len(candidates)} 只候选股")
+    print(f"stocks.json 已保存")
