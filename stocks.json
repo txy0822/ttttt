@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
-  "time": "12:32",
+  "time": "12:42",
   "count": 0,
   "candidates": [],
-  "error": "No module named 'akshare'"
+  "error": "Remote end closed connection without response"
 }
