@@ -1,6 +1,12 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "articles": [
+    {
+      "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+      "content": "SSH keys, plaintext passwords, other sensitive data had been up since November 2025.",
+      "titleZh": "在公共GitHub存储库中发现令人惊叹的愚蠢秘密CISA凭据",
+      "contentZh": "SSH密钥、明文密码和其他敏感数据自2025年11月以来一直在上升。"
+    },
     {
       "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
       "content": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
@@ -20,32 +26,22 @@
       "contentZh": "生产版补丁即将上线，应立即安装。"
     },
     {
-      "title": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals",
-      "content": "Across the country, schools and colleges postpone year-end tests.",
-      "titleZh": "随着网络攻击在决赛中扰乱学习平台Canvas ，混乱爆发",
-      "contentZh": "在全国范围内，学校和学院推迟了年终考试。"
+      "title": "Android 17 is getting its own version of Apple&#8217;s Handoff",
+      "content": "Google is adding a new Android feature that resembles Apple's Handoff, allowing you to start a task on your Android phone and continue it right where you left off from a compatible tablet. \"Continue On\" is designed to eventually be bidirectional, but Google says that at launch it will only support tasks moving from a [&#8230;]",
+      "titleZh": "Android 17即将推出自己的苹果Handoff版本",
+      "contentZh": "Google正在添加一项类似于Apple Handoff的新Android功能，允许您在Android手机上启动任务，然后在兼容平板电脑上中断的地方继续执行任务。“继续”的设计最终是双向的，但谷歌表示，在发布时，它只支持从[…]移动的任务"
     },
     {
-      "title": "Marshall brings ANC back to its smaller on-ear wireless headphones",
-      "content": "Marshall's first headphones with active noise canceling were the Marshall Mid A.N.C. first launched in 2018. Its current lineup only offers noise canceling on its larger over-ear Monitor III A.N.C. headphones, but its new Milton A.N.C. bring the feature back to Marshall's smaller and lighter on-ear options. The wireless headphones are available today for $229.99 [&#8230;]",
-      "titleZh": "Marshall将ANC带回其较小的入耳式无线耳机",
-      "contentZh": "Marshall的第一款具有主动降噪功能的耳机是Marshall Mid A.N.C. ，于2018年首次推出。其目前的阵容仅在其较大的头戴式Monitor III A.N.C.耳机上提供降噪功能，但其新的Milton A.N.C.将该功能带回了Marshall更小更轻的头戴式耳机选项。无线耳机今天售价$ 229.99 […]"
-    },
-    {
-      "title": "These are the robot vacuum-mops I recommend for every type of home",
-      "content": "Inviting a robot vacuum-mop into your life is a big decision. An autonomous floor-cleaning machine roaming your home is equal parts glorious and intrusive. But if it does its job well, you may forgive it for eating your rug tassel, running over your Apple Watch, smearing strawberry jam across your carpet, or chattering to you [&#8230;]",
-      "titleZh": "这些是我为每种类型的房源推荐的机器人吸尘器",
-      "contentZh": "邀请机器人吸尘器进入您的生活是一个重大决定。无人驾驶地板清洁机在您的家中漫游，既美观又具有侵入性。但如果它做得很好，你可能会原谅它吃你的地毯流苏，跑过你的Apple Watch ，在地毯上涂抹草莓果酱，或者对你喋喋不休[…]"
+      "title": "Samsung workers set to strike at worst possible time",
+      "content": "More than 47,000 Samsung Electronics workers are gearing up for an 18-day strike after bonus payment negotiations between the company and its union collapsed. The strike is set to start on Thursday and will be limited to Samsung's domestic chipmaking plants, raising concerns around the already constrained production of memory chips amid the ongoing shortage. [&#8230;]",
+      "titleZh": "三星员工将在最糟糕的时间罢工",
+      "contentZh": "在三星电子与其工会之间的奖金支付谈判破裂后，超过47,000名三星电子员工正在准备为期18天的罢工。罢工定于周四开始，将仅限于三星的国内芯片制造工厂，这引发了人们对持续短缺的情况下已经受限的内存芯片生产的担忧。"
     }
   ],
   "vocab": [
     {
       "word": "revenue",
       "meaning": "营收"
-    },
-    {
-      "word": "autonomous",
-      "meaning": "自主的"
     },
     {
       "word": "vulnerability",
@@ -62,10 +58,6 @@
     {
       "word": "restructure",
       "meaning": "重组"
-    },
-    {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
     },
     {
       "word": "launch",
