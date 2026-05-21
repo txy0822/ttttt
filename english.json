@@ -1,6 +1,12 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "articles": [
+    {
+      "title": "Google publishes exploit code threatening millions of Chromium users",
+      "content": "Google publishes exploit code before patch, reported 29 months earlier, is fixed.",
+      "titleZh": "谷歌发布威胁数百万Chromium用户的漏洞代码",
+      "contentZh": "在修复29个月前报告的补丁之前， Google发布了漏洞利用代码。"
+    },
     {
       "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
       "content": "SSH keys, plaintext passwords, other sensitive data had been up since November 2025.",
@@ -20,32 +26,22 @@
       "contentZh": "首席财务官表示，裁员“不是由储蓄驱动的重组”。"
     },
     {
-      "title": "Linux bitten by second severe vulnerability in as many weeks",
-      "content": "Production-version patches are coming online and should be installed pronto.",
-      "titleZh": "Linux在多周内被第二次严重漏洞咬伤",
-      "contentZh": "生产版补丁即将上线，应立即安装。"
+      "title": "NYC Mayor Zohran Mamdani is launching a Twitch series",
+      "content": "New York City Mayor Zohran Mamdani is launching a streaming series on Twitch, in which he'll respond to questions the public have submitted via the chat, Polygon reports. The series is aptly titled \"Talk with the People,\" and kicks off later today at 4PM ET. \"With the launch of 'Talk with the People' we're bringing [&#8230;]",
+      "titleZh": "纽约市长Zohran Mamdani将推出Twitch系列",
+      "contentZh": "Polygon报道，纽约市市长Zohran Mamdani正在Twitch上推出一个流媒体系列，他将在其中回答公众通过聊天提交的问题。该系列节目恰如其分地命名为“与人交谈” ，今天晚些时候美国东部时间下午4点开始。“随着'与人交谈'的推出，我们将带来[…]"
     },
     {
-      "title": "Android 17 is getting its own version of Apple&#8217;s Handoff",
-      "content": "Google is adding a new Android feature that resembles Apple's Handoff, allowing you to start a task on your Android phone and continue it right where you left off from a compatible tablet. \"Continue On\" is designed to eventually be bidirectional, but Google says that at launch it will only support tasks moving from a [&#8230;]",
-      "titleZh": "Android 17即将推出自己的苹果Handoff版本",
-      "contentZh": "Google正在添加一项类似于Apple Handoff的新Android功能，允许您在Android手机上启动任务，然后在兼容平板电脑上中断的地方继续执行任务。“继续”的设计最终是双向的，但谷歌表示，在发布时，它只支持从[…]移动的任务"
-    },
-    {
-      "title": "Samsung workers set to strike at worst possible time",
-      "content": "More than 47,000 Samsung Electronics workers are gearing up for an 18-day strike after bonus payment negotiations between the company and its union collapsed. The strike is set to start on Thursday and will be limited to Samsung's domestic chipmaking plants, raising concerns around the already constrained production of memory chips amid the ongoing shortage. [&#8230;]",
-      "titleZh": "三星员工将在最糟糕的时间罢工",
-      "contentZh": "在三星电子与其工会之间的奖金支付谈判破裂后，超过47,000名三星电子员工正在准备为期18天的罢工。罢工定于周四开始，将仅限于三星的国内芯片制造工厂，这引发了人们对持续短缺的情况下已经受限的内存芯片生产的担忧。"
+      "title": "‘Fuck you, Bambu’: How one private message could change the face of 3D printing",
+      "content": "Bambu Lab makes the best, most accessible 3D printers yet, but that reputation is suddenly under siege. It all started when Pawe&#322; Jarczak received a private message from the company on Reddit asking him to delete his code. Now the 3D printing community is lining up behind Jarczak to fund a war against Bambu - [&#8230;]",
+      "titleZh": "“Fuck you, Bambu” ：一条私人消息如何改变3D打印的面貌",
+      "contentZh": "Bambu Lab制造了迄今为止最好、最容易使用的3D打印机，但这种声誉突然受到了围攻。这一切始于Paweł Jarczak在Reddit上收到该公司的私人消息，要求他删除代码。现在， 3D打印社区正在支持Jarczak ，以资助对Bambu的战争- […]"
     }
   ],
   "vocab": [
     {
       "word": "revenue",
       "meaning": "营收"
-    },
-    {
-      "word": "vulnerability",
-      "meaning": "漏洞"
     },
     {
       "word": "exploit",
@@ -62,10 +58,6 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     },
     {
       "word": "announce",
