@@ -1,11 +1,17 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "articles": [
     {
+      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+      "content": "Beneficiaries include startup backed by firm with links to the Trump family.",
+      "titleZh": "美国政府获得9家量子计算公司20亿美元股权",
+      "contentZh": "受益者包括与特朗普家族有联系的公司支持的创业公司。"
+    },
+    {
       "title": "Google publishes exploit code threatening millions of Chromium users",
-      "content": "Google publishes exploit code before patch, reported 29 months earlier, is fixed.",
+      "content": "Google publishes exploit code before patch, reported 42 months earlier, is fixed.",
       "titleZh": "谷歌发布威胁数百万Chromium用户的漏洞代码",
-      "contentZh": "在修复29个月前报告的补丁之前， Google发布了漏洞利用代码。"
+      "contentZh": "在修复42个月前报告的补丁之前， Google发布了漏洞利用代码。"
     },
     {
       "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
@@ -20,44 +26,30 @@
       "contentZh": "目前尚不完全清楚漏洞是如何运作的。微软表示正在进行调查。"
     },
     {
-      "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
-      "content": "Layoffs are \"not a savings-driven restructure,\" CFO says.",
-      "titleZh": "思科在同一天宣布创纪录的收入和4000次裁员",
-      "contentZh": "首席财务官表示，裁员“不是由储蓄驱动的重组”。"
+      "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
+      "content": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
+      "titleZh": "三星内存芯片员工今年协商34万美元奖金",
+      "contentZh": "三星和威胁要罢工的半导体员工之间达成的初步协议的细节已经浮出水面。据报道，这笔交易使一些工人有资格获得平均年度奖金$ 340,000。拟议的18天罢工取决于三星对半导体部门员工的奖金上限，随后可能的[…]大幅增加。"
     },
     {
-      "title": "NYC Mayor Zohran Mamdani is launching a Twitch series",
-      "content": "New York City Mayor Zohran Mamdani is launching a streaming series on Twitch, in which he'll respond to questions the public have submitted via the chat, Polygon reports. The series is aptly titled \"Talk with the People,\" and kicks off later today at 4PM ET. \"With the launch of 'Talk with the People' we're bringing [&#8230;]",
-      "titleZh": "纽约市长Zohran Mamdani将推出Twitch系列",
-      "contentZh": "Polygon报道，纽约市市长Zohran Mamdani正在Twitch上推出一个流媒体系列，他将在其中回答公众通过聊天提交的问题。该系列节目恰如其分地命名为“与人交谈” ，今天晚些时候美国东部时间下午4点开始。“随着'与人交谈'的推出，我们将带来[…]"
-    },
-    {
-      "title": "‘Fuck you, Bambu’: How one private message could change the face of 3D printing",
-      "content": "Bambu Lab makes the best, most accessible 3D printers yet, but that reputation is suddenly under siege. It all started when Pawe&#322; Jarczak received a private message from the company on Reddit asking him to delete his code. Now the 3D printing community is lining up behind Jarczak to fund a war against Bambu - [&#8230;]",
-      "titleZh": "“Fuck you, Bambu” ：一条私人消息如何改变3D打印的面貌",
-      "contentZh": "Bambu Lab制造了迄今为止最好、最容易使用的3D打印机，但这种声誉突然受到了围攻。这一切始于Paweł Jarczak在Reddit上收到该公司的私人消息，要求他删除代码。现在， 3D打印社区正在支持Jarczak ，以资助对Bambu的战争- […]"
+      "title": "Microsoft’s consumer marketing chief to leave next year",
+      "content": "Yusuf Mehdi, executive vice president and consumer chief marketing officer at Microsoft, is leaving the company after 35 years. Mehdi announced his departure in an internal memo on Thursday, noting that he will leave Microsoft next year. He will remain focused on marketing for Windows, Copilot for consumers and the Microsoft 365 consumer business until [&#8230;]",
+      "titleZh": "微软消费者营销主管明年离职",
+      "contentZh": "微软执行副总裁兼消费者首席营销官Yusuf Mehdi将在35年后离开公司。Mehdi周四在一份内部备忘录中宣布了他的离职，并指出他将于明年离开微软。他将继续专注于Windows、面向消费者的Copilot和Microsoft 365消费者业务的营销，直到[…]"
     }
   ],
   "vocab": [
     {
-      "word": "revenue",
-      "meaning": "营收"
+      "word": "semiconductor",
+      "meaning": "半导体"
+    },
+    {
+      "word": "equity",
+      "meaning": "股权/权益"
     },
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "layoff",
-      "meaning": "裁员"
-    },
-    {
-      "word": "restructure",
-      "meaning": "重组"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
     },
     {
       "word": "announce",
