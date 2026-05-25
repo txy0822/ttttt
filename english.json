@@ -1,6 +1,18 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-25",
   "articles": [
+    {
+      "title": "Texas AG sues Meta over claims that WhatsApp doesn&#039;t provide end-to-end encryption",
+      "content": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
+      "titleZh": "Texas AG起诉Meta ，指控WhatsApp不提供端到端加密",
+      "contentZh": "批评人士指出，美国参议院候选人提起的诉讼缺乏事实支持。"
+    },
+    {
+      "title": "A hacker group is poisoning open source code at an unprecedented scale",
+      "content": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
+      "titleZh": "一个黑客组织正在以前所未有的规模毒害开源代码",
+      "contentZh": "GitHub只是TeamPCP的最新受害者，该团伙实施了一系列软件供应链攻击。"
+    },
     {
       "title": "US government takes $2 billion equity stake in nine quantum computing firms",
       "content": "Beneficiaries include startup backed by firm with links to the Trump family.",
@@ -14,35 +26,19 @@
       "contentZh": "在修复42个月前报告的补丁之前， Google发布了漏洞利用代码。"
     },
     {
-      "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
-      "content": "SSH keys, plaintext passwords, other sensitive data had been up since November 2025.",
-      "titleZh": "在公共GitHub存储库中发现令人惊叹的愚蠢秘密CISA凭据",
-      "contentZh": "SSH密钥、明文密码和其他敏感数据自2025年11月以来一直在上升。"
+      "title": "The best Memorial Day sales you can shop this weekend",
+      "content": "Memorial Day is nearly here, meaning the seasonal sales are in full swing. If your weekend plans involve pool parties or barbecues, now is a great time to pick up a portable speaker or set of solar lights, as many of our favorite models are currently on sale. You can also find deals on everything [&#8230;]",
+      "titleZh": "本周末您可以购买的最佳阵亡将士纪念日促销活动",
+      "contentZh": "阵亡将士纪念日即将到来，这意味着季节性销售如火如荼。如果您的周末计划涉及泳池派对或烧烤，现在是购买便携式扬声器或一套太阳能灯的好时机，因为我们目前有许多最喜欢的型号正在出售。您还可以查找所有[…]的优惠"
     },
     {
-      "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
-      "content": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
-      "titleZh": "零日漏洞完全击败默认的Windows 11 BitLocker保护",
-      "contentZh": "目前尚不完全清楚漏洞是如何运作的。微软表示正在进行调查。"
-    },
-    {
-      "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
-      "content": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
-      "titleZh": "三星内存芯片员工今年协商34万美元奖金",
-      "contentZh": "三星和威胁要罢工的半导体员工之间达成的初步协议的细节已经浮出水面。据报道，这笔交易使一些工人有资格获得平均年度奖金$ 340,000。拟议的18天罢工取决于三星对半导体部门员工的奖金上限，随后可能的[…]大幅增加。"
-    },
-    {
-      "title": "Microsoft’s consumer marketing chief to leave next year",
-      "content": "Yusuf Mehdi, executive vice president and consumer chief marketing officer at Microsoft, is leaving the company after 35 years. Mehdi announced his departure in an internal memo on Thursday, noting that he will leave Microsoft next year. He will remain focused on marketing for Windows, Copilot for consumers and the Microsoft 365 consumer business until [&#8230;]",
-      "titleZh": "微软消费者营销主管明年离职",
-      "contentZh": "微软执行副总裁兼消费者首席营销官Yusuf Mehdi将在35年后离开公司。Mehdi周四在一份内部备忘录中宣布了他的离职，并指出他将于明年离开微软。他将继续专注于Windows、面向消费者的Copilot和Microsoft 365消费者业务的营销，直到[…]"
+      "title": "On Trails is a wandering tale that blends hiking, science, and history",
+      "content": "Hiking is one of life's great joys. Turning off the screens and stepping out into nature for an extended period of time, perhaps even several days, is rejuvenating. Unfortunately, as someone with two young kids and a bad back, I'm not really able to go backpacking anymore. So I often find myself trying to live [&#8230;]",
+      "titleZh": "On Trails是一个融合了徒步旅行、科学和历史的流浪故事",
+      "contentZh": "徒步旅行是人生最大的乐趣之一。关闭屏幕，长时间走进大自然，甚至可能几天，正在恢复活力。不幸的是，作为一个有两个小孩和背部不好的人，我真的不能再去背包旅行了。所以我经常发现自己在努力生活[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "semiconductor",
-      "meaning": "半导体"
-    },
     {
       "word": "equity",
       "meaning": "股权/权益"
@@ -52,8 +48,16 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "encryption",
+      "meaning": "加密"
+    },
+    {
+      "word": "lawsuit",
+      "meaning": "诉讼"
+    },
+    {
+      "word": "unprecedented",
+      "meaning": "前所未有的"
     }
   ]
 }
