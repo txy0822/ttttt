@@ -1,6 +1,24 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-28",
   "articles": [
+    {
+      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "content": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
+      "titleZh": "网站有一种监视访问者的新方法：分析他们的SSD活动",
+      "contentZh": "可以使用简单的JavaScript在浏览器中测量Telltale SSD活动。"
+    },
+    {
+      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "content": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
+      "titleZh": "数以百万计的人工智能代理受到开源软件包中严重漏洞的威胁",
+      "contentZh": "在Starlette中找到了“BadHost” ，这是一个每周下载3.25亿次的软件包。"
+    },
+    {
+      "title": "US&#039;s big bet on quantum computing may not be entirely legal",
+      "content": "Deal also launched the first quantum foundry company, but is there a need for it?",
+      "titleZh": "美国在量子计算上的大赌注可能不完全合法",
+      "contentZh": "Deal还推出了第一家量子代工公司，但有需要吗？"
+    },
     {
       "title": "Texas AG sues Meta over claims that WhatsApp doesn&#039;t provide end-to-end encryption",
       "content": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
@@ -8,44 +26,22 @@
       "contentZh": "批评人士指出，美国参议院候选人提起的诉讼缺乏事实支持。"
     },
     {
-      "title": "A hacker group is poisoning open source code at an unprecedented scale",
-      "content": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
-      "titleZh": "一个黑客组织正在以前所未有的规模毒害开源代码",
-      "contentZh": "GitHub只是TeamPCP的最新受害者，该团伙实施了一系列软件供应链攻击。"
+      "title": "They’ve finally made the Oura Ring smaller and lighter",
+      "content": "Wherever I go, whatever I do, people point at my finger and ask, \"Is that an Oura Ring?\" Lots of people find they like the design, and they tell me why they're thinking about switching to a smart ring from a smartwatch. But the people who scrunch up their noses? They usually say something along [&#8230;]",
+      "titleZh": "他们终于让大浦戒指变得更小更轻",
+      "contentZh": "无论我走到哪里，无论我做什么，人们都会指着我的手指问： “那是大浦戒指吗？“很多人发现他们喜欢这个设计，他们告诉我他们为什么要考虑从智能手表切换到智能戒指。但是那些挠鼻子的人呢？他们通常会说一些[…]"
     },
     {
-      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
-      "content": "Beneficiaries include startup backed by firm with links to the Trump family.",
-      "titleZh": "美国政府获得9家量子计算公司20亿美元股权",
-      "contentZh": "受益者包括与特朗普家族有联系的公司支持的创业公司。"
-    },
-    {
-      "title": "Google publishes exploit code threatening millions of Chromium users",
-      "content": "Google publishes exploit code before patch, reported 42 months earlier, is fixed.",
-      "titleZh": "谷歌发布威胁数百万Chromium用户的漏洞代码",
-      "contentZh": "在修复42个月前报告的补丁之前， Google发布了漏洞利用代码。"
-    },
-    {
-      "title": "The best Memorial Day sales you can shop this weekend",
-      "content": "Memorial Day is nearly here, meaning the seasonal sales are in full swing. If your weekend plans involve pool parties or barbecues, now is a great time to pick up a portable speaker or set of solar lights, as many of our favorite models are currently on sale. You can also find deals on everything [&#8230;]",
-      "titleZh": "本周末您可以购买的最佳阵亡将士纪念日促销活动",
-      "contentZh": "阵亡将士纪念日即将到来，这意味着季节性销售如火如荼。如果您的周末计划涉及泳池派对或烧烤，现在是购买便携式扬声器或一套太阳能灯的好时机，因为我们目前有许多最喜欢的型号正在出售。您还可以查找所有[…]的优惠"
-    },
-    {
-      "title": "On Trails is a wandering tale that blends hiking, science, and history",
-      "content": "Hiking is one of life's great joys. Turning off the screens and stepping out into nature for an extended period of time, perhaps even several days, is rejuvenating. Unfortunately, as someone with two young kids and a bad back, I'm not really able to go backpacking anymore. So I often find myself trying to live [&#8230;]",
-      "titleZh": "On Trails是一个融合了徒步旅行、科学和历史的流浪故事",
-      "contentZh": "徒步旅行是人生最大的乐趣之一。关闭屏幕，长时间走进大自然，甚至可能几天，正在恢复活力。不幸的是，作为一个有两个小孩和背部不好的人，我真的不能再去背包旅行了。所以我经常发现自己在努力生活[…]"
+      "title": "Kia’s flagship EV has a battery problem",
+      "content": "I first realized there was an issue with Kia's flagship EV9 when I tried to unlock my car last year. The hulking three-row SUV was sitting on my driveway completely dead. The key didn't work, the app connection to the car was gone, and I was already late to an appointment. Luckily, I had prepared [&#8230;]",
+      "titleZh": "起亚的旗舰电动汽车出现电池问题",
+      "contentZh": "去年，当我尝试解锁汽车时，我第一次意识到起亚的旗舰车型EV9存在问题。笨重的三排SUV坐在我的车道上完全死了。钥匙不起作用，与汽车的应用程序连接丢失，我已经迟到了预约。幸运的是，我已经准备好了[…]"
     }
   ],
   "vocab": [
     {
-      "word": "equity",
-      "meaning": "股权/权益"
-    },
-    {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "vulnerability",
+      "meaning": "漏洞"
     },
     {
       "word": "encryption",
@@ -56,8 +52,8 @@
       "meaning": "诉讼"
     },
     {
-      "word": "unprecedented",
-      "meaning": "前所未有的"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
