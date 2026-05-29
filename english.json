@@ -1,10 +1,16 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "articles": [
     {
-      "title": "Websites have a new way to spy on visitors: analyzing their SSD activity",
+      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
+      "content": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
+      "titleZh": "受够了vibe编码器，开发人员将数据核对提示注入到他们的代码中",
+      "contentZh": "Jqwik中未公开的添加指示AI编码代理删除应用输出。"
+    },
+    {
+      "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
       "content": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
-      "titleZh": "网站有一种监视访问者的新方法：分析他们的SSD活动",
+      "titleZh": "网站有一种监视访问者的新方法：分析其SSD活动",
       "contentZh": "可以使用简单的JavaScript在浏览器中测量Telltale SSD活动。"
     },
     {
@@ -20,22 +26,16 @@
       "contentZh": "Deal还推出了第一家量子代工公司，但有需要吗？"
     },
     {
-      "title": "Texas AG sues Meta over claims that WhatsApp doesn&#039;t provide end-to-end encryption",
-      "content": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
-      "titleZh": "Texas AG起诉Meta ，指控WhatsApp不提供端到端加密",
-      "contentZh": "批评人士指出，美国参议院候选人提起的诉讼缺乏事实支持。"
+      "title": "Trump Mobile’s website still says the T1 Phone is ‘American-made’",
+      "content": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. As the phone's supposed launch continues, we noticed its website may be violating FTC rules. When the Trump phone was first announced last June, it was proudly promised to be [&#8230;]",
+      "titleZh": "特朗普移动的网站仍然说T1手机是“美国制造的”",
+      "contentZh": "特朗普的电话在哪里？我们每周都会继续讨论这个问题。我们一如既往地与您联系，询问特朗普手机的下落。随着手机的推出，我们注意到其网站可能违反了联邦贸易委员会的规定。当特朗普手机于去年6月首次发布时，它自豪地承诺将成为[…]"
     },
     {
-      "title": "They’ve finally made the Oura Ring smaller and lighter",
-      "content": "Wherever I go, whatever I do, people point at my finger and ask, \"Is that an Oura Ring?\" Lots of people find they like the design, and they tell me why they're thinking about switching to a smart ring from a smartwatch. But the people who scrunch up their noses? They usually say something along [&#8230;]",
-      "titleZh": "他们终于让大浦戒指变得更小更轻",
-      "contentZh": "无论我走到哪里，无论我做什么，人们都会指着我的手指问： “那是大浦戒指吗？“很多人发现他们喜欢这个设计，他们告诉我他们为什么要考虑从智能手表切换到智能戒指。但是那些挠鼻子的人呢？他们通常会说一些[…]"
-    },
-    {
-      "title": "Kia’s flagship EV has a battery problem",
-      "content": "I first realized there was an issue with Kia's flagship EV9 when I tried to unlock my car last year. The hulking three-row SUV was sitting on my driveway completely dead. The key didn't work, the app connection to the car was gone, and I was already late to an appointment. Luckily, I had prepared [&#8230;]",
-      "titleZh": "起亚的旗舰电动汽车出现电池问题",
-      "contentZh": "去年，当我尝试解锁汽车时，我第一次意识到起亚的旗舰车型EV9存在问题。笨重的三排SUV坐在我的车道上完全死了。钥匙不起作用，与汽车的应用程序连接丢失，我已经迟到了预约。幸运的是，我已经准备好了[…]"
+      "title": "Jony Ive’s funky Ferrari",
+      "content": "Most people will never own, drive, or even sit inside a Ferrari Luce. (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surprising cars of the year. With a decidedly un-Ferrari look, and lots of new technology and designs courtesy of [&#8230;]",
+      "titleZh": "Jony Ive时髦的法拉利",
+      "contentZh": "大多数人永远不会拥有、驾驶甚至坐在法拉利Luce里面。（如果你可以，或者做……打我们。）毫无疑问，法拉利的第一辆电动汽车是今年最有趣、最令人惊讶的汽车之一。具有明显的非法拉利外观，以及许多由[…]提供的新技术和设计"
     }
   ],
   "vocab": [
@@ -44,16 +44,12 @@
       "meaning": "漏洞"
     },
     {
-      "word": "encryption",
-      "meaning": "加密"
-    },
-    {
-      "word": "lawsuit",
-      "meaning": "诉讼"
-    },
-    {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
