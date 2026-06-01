@@ -1,6 +1,12 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-06-02",
   "articles": [
+    {
+      "title": "Botnet of more than 17 million devices dismantled",
+      "content": "The botnet was reportedly tied to a Russia-based residential proxy network.",
+      "titleZh": "拆除了超过1700万台设备的僵尸网络",
+      "contentZh": "据报道，该僵尸网络与一家位于俄罗斯的住宅代理网络连接。"
+    },
     {
       "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
       "content": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
@@ -20,22 +26,16 @@
       "contentZh": "在Starlette中找到了“BadHost” ，这是一个每周下载3.25亿次的软件包。"
     },
     {
-      "title": "US&#039;s big bet on quantum computing may not be entirely legal",
-      "content": "Deal also launched the first quantum foundry company, but is there a need for it?",
-      "titleZh": "美国在量子计算上的大赌注可能不完全合法",
-      "contentZh": "Deal还推出了第一家量子代工公司，但有需要吗？"
+      "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
+      "content": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The issue, which Meta says has [&#8230;]",
+      "titleZh": "Meta自己的人工智能被用来劫持Instagram账号",
+      "contentZh": "正如404 Media早些时候报道的那样， Meta的人工智能支持聊天机器人帮助黑客劫持了Instagram帐户。在Telegram上分享的视频中，一名黑客展示了他们如何通过要求Meta的聊天机器人切换与其他人的个人资料相关联的电子邮件，然后重置密码来接管帐户。这个问题， Meta说有[…]"
     },
     {
-      "title": "Trump Mobile’s website still says the T1 Phone is ‘American-made’",
-      "content": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. As the phone's supposed launch continues, we noticed its website may be violating FTC rules. When the Trump phone was first announced last June, it was proudly promised to be [&#8230;]",
-      "titleZh": "特朗普移动的网站仍然说T1手机是“美国制造的”",
-      "contentZh": "特朗普的电话在哪里？我们每周都会继续讨论这个问题。我们一如既往地与您联系，询问特朗普手机的下落。随着手机的推出，我们注意到其网站可能违反了联邦贸易委员会的规定。当特朗普手机于去年6月首次发布时，它自豪地承诺将成为[…]"
-    },
-    {
-      "title": "Jony Ive’s funky Ferrari",
-      "content": "Most people will never own, drive, or even sit inside a Ferrari Luce. (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surprising cars of the year. With a decidedly un-Ferrari look, and lots of new technology and designs courtesy of [&#8230;]",
-      "titleZh": "Jony Ive时髦的法拉利",
-      "contentZh": "大多数人永远不会拥有、驾驶甚至坐在法拉利Luce里面。（如果你可以，或者做……打我们。）毫无疑问，法拉利的第一辆电动汽车是今年最有趣、最令人惊讶的汽车之一。具有明显的非法拉利外观，以及许多由[…]提供的新技术和设计"
+      "title": "Casey Neistat’s guide to posting every day",
+      "content": "Some news: The Vergecast is now a daily podcast! Starting today, we'll be posting every weekday, with even more gadgets and rankings and conversations and feelings and podcasts-within-podcasts. We're excited for all the ways this new schedule lets us tell new kinds of stories, experiment with new tech and new formats, and involve you even [&#8230;]",
+      "titleZh": "Casey Neistat的每日帖子指南",
+      "contentZh": "一些新闻： Vergecast现已成为每日播客！从今天开始，我们将在每个工作日发布更多小工具、排名、对话、感受和播客。我们很高兴看到这个新时间表让我们能够讲述新类型的故事，尝试新技术和新格式，甚至让您[…]参与进来。"
     }
   ],
   "vocab": [
@@ -44,12 +44,8 @@
       "meaning": "漏洞"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
     }
   ]
 }
