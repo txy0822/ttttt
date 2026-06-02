@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-02",
+  "date": "2026-06-03",
   "articles": [
+    {
+      "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
+      "content": "Anyone who has downloaded affected Red Hat packages should investigate immediately.",
+      "titleZh": "数十个红帽软件包通过其官方NPM渠道进行后门",
+      "contentZh": "下载受影响的红帽软件包的任何人都应立即进行调查。"
+    },
     {
       "title": "Botnet of more than 17 million devices dismantled",
       "content": "The botnet was reportedly tied to a Russia-based residential proxy network.",
@@ -20,32 +26,34 @@
       "contentZh": "可以使用简单的JavaScript在浏览器中测量Telltale SSD活动。"
     },
     {
-      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
-      "content": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
-      "titleZh": "数以百万计的人工智能代理受到开源软件包中严重漏洞的威胁",
-      "contentZh": "在Starlette中找到了“BadHost” ，这是一个每周下载3.25亿次的软件包。"
+      "title": "I tested a bunch of Switch 2 screen protectors, and these are the best",
+      "content": "A glass screen protector is one of a few essential accessories that I strongly recommend to every Switch 2 owner. In fact, it should be a priority to stick one onto the console’s screen as soon as possible to avoid accidental scratches.&#160; To test the candidates below, I installed and removed Switch 2 screen protectors [&#8230;]",
+      "titleZh": "我测试了一堆Switch 2屏幕保护膜，这些是最好的",
+      "contentZh": "玻璃屏幕保护膜是我强烈推荐给每个Switch 2用户的少数必备配件之一。事实上，应该优先考虑尽快将其粘在控制台的屏幕上，以避免意外的划痕。为了测试以下候选产品，我安装并卸下了Switch 2屏幕保护膜[…]"
     },
     {
-      "title": "Meta&#8217;s own AI was exploited to hijack Instagram accounts",
-      "content": "Meta's AI support chatbot helped hackers hijack Instagram accounts, as reported earlier by 404 Media. In a video shared on Telegram, a hacker shows how they could take over an account by asking Meta's chatbot to switch the email associated with someone else's profile and then reset the password. The issue, which Meta says has [&#8230;]",
-      "titleZh": "Meta自己的人工智能被用来劫持Instagram账号",
-      "contentZh": "正如404 Media早些时候报道的那样， Meta的人工智能支持聊天机器人帮助黑客劫持了Instagram帐户。在Telegram上分享的视频中，一名黑客展示了他们如何通过要求Meta的聊天机器人切换与其他人的个人资料相关联的电子邮件，然后重置密码来接管帐户。这个问题， Meta说有[…]"
-    },
-    {
-      "title": "Casey Neistat’s guide to posting every day",
-      "content": "Some news: The Vergecast is now a daily podcast! Starting today, we'll be posting every weekday, with even more gadgets and rankings and conversations and feelings and podcasts-within-podcasts. We're excited for all the ways this new schedule lets us tell new kinds of stories, experiment with new tech and new formats, and involve you even [&#8230;]",
-      "titleZh": "Casey Neistat的每日帖子指南",
-      "contentZh": "一些新闻： Vergecast现已成为每日播客！从今天开始，我们将在每个工作日发布更多小工具、排名、对话、感受和播客。我们很高兴看到这个新时间表让我们能够讲述新类型的故事，尝试新技术和新格式，甚至让您[…]参与进来。"
+      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
+      "content": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge [&#8230;]",
+      "titleZh": "微软的Project Solara是人工智能代理小工具的操作系统",
+      "contentZh": "微软刚刚在Build 2026上发布了“Project Solara” ，这是一款专为运行AI代理的小工具而设计的新操作系统。该公司称之为“一个从头开始构建的新平台，为代理驱动的体验提供动力。“它建立在Android上，而不是Windows上。微软今天在Build上展示了两个概念Project Solara设备：桌面概念和徽章[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
+      "word": "demonstrate",
+      "meaning": "展示/证明"
     },
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "investigate",
+      "meaning": "调查"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
