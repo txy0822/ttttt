@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-04",
   "articles": [
     {
       "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
@@ -26,34 +26,22 @@
       "contentZh": "可以使用简单的JavaScript在浏览器中测量Telltale SSD活动。"
     },
     {
-      "title": "I tested a bunch of Switch 2 screen protectors, and these are the best",
-      "content": "A glass screen protector is one of a few essential accessories that I strongly recommend to every Switch 2 owner. In fact, it should be a priority to stick one onto the console’s screen as soon as possible to avoid accidental scratches.&#160; To test the candidates below, I installed and removed Switch 2 screen protectors [&#8230;]",
-      "titleZh": "我测试了一堆Switch 2屏幕保护膜，这些是最好的",
-      "contentZh": "玻璃屏幕保护膜是我强烈推荐给每个Switch 2用户的少数必备配件之一。事实上，应该优先考虑尽快将其粘在控制台的屏幕上，以避免意外的划痕。为了测试以下候选产品，我安装并卸下了Switch 2屏幕保护膜[…]"
+      "title": "The best Qi2 batteries for iPhone and Pixel",
+      "content": "Compact power banks have gotten a lot faster in the past year — and it’s not just their USB-C charging speeds that have received a boost. The newest Qi2.2-certified models can wirelessly charge an iPhone 16 or later at up to 25W. Combine that with their ability to magnetically snap on via MagSafe, and you’ve [&#8230;]",
+      "titleZh": "适用于iPhone和Pixel的最佳Qi2电池",
+      "contentZh": "紧凑型移动电源在过去一年中变得更快—不仅仅是他们的USB-C充电速度得到了提升。最新的Qi2.2认证型号可以为iPhone 16或更高版本无线充电，功率高达25W。将其与通过MagSafe磁性卡扣的能力相结合，您已经[…]"
     },
     {
-      "title": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
-      "content": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge [&#8230;]",
-      "titleZh": "微软的Project Solara是人工智能代理小工具的操作系统",
-      "contentZh": "微软刚刚在Build 2026上发布了“Project Solara” ，这是一款专为运行AI代理的小工具而设计的新操作系统。该公司称之为“一个从头开始构建的新平台，为代理驱动的体验提供动力。“它建立在Android上，而不是Windows上。微软今天在Build上展示了两个概念Project Solara设备：桌面概念和徽章[…]"
+      "title": "As AI gets better, it reveals an empty promise",
+      "content": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly [&#8230;]",
+      "titleZh": "随着人工智能变得越来越好，它揭示了一个空洞的承诺",
+      "contentZh": "本周，我的同事大卫·皮尔斯（ David Pierce ）和杰伊·彼得斯（ Jay Peters ）与谷歌新推出的双子座人工智能代理商Spark携手合作。他们的收获是相似的：它非常有效，令人恐惧。斯帕克知道大卫的狗叫弗里达，也知道杰伊妻子的名字，尽管他们都没有明确[…]"
     }
   ],
   "vocab": [
     {
-      "word": "demonstrate",
-      "meaning": "展示/证明"
-    },
-    {
       "word": "investigate",
       "meaning": "调查"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
