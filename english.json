@@ -2,6 +2,12 @@
   "date": "2026-06-04",
   "articles": [
     {
+      "title": "Can&#039;t make sense of Dashlane&#039;s vault theft notification? You&#039;re not alone.",
+      "content": "Security advisory leaves out key details. Dashlane maintains complete silence.",
+      "titleZh": "无法理解Dashlane的保管库盗窃通知？你并不孤单。",
+      "contentZh": "安全警告漏掉了关键细节。Dashlane保持完全安静。"
+    },
+    {
       "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
       "content": "Anyone who has downloaded affected Red Hat packages should investigate immediately.",
       "titleZh": "数十个红帽软件包通过其官方NPM渠道进行后门",
@@ -20,22 +26,16 @@
       "contentZh": "Jqwik中未公开的添加指示AI编码代理删除应用输出。"
     },
     {
-      "title": "Websites have a new way to spy on visitors: Analyzing their SSD activity",
-      "content": "Telltale SSD activity can be measured in the browser using simple JavaScript.",
-      "titleZh": "网站有一种监视访问者的新方法：分析其SSD活动",
-      "contentZh": "可以使用简单的JavaScript在浏览器中测量Telltale SSD活动。"
+      "title": "AI leaders call for tougher protections against AI-aided bioweapons",
+      "content": "Some of the AI industry's biggest rivals have put their many, many grievances aside for a common cause: making it harder for people to use their technology to develop biological weapons. In an open letter to US lawmakers, tech leaders are pressing Congress to enact rules closing what they say is an alarming biosecurity gap [&#8230;]",
+      "titleZh": "人工智能领导人呼吁加强对人工智能辅助生物武器的保护",
+      "contentZh": "人工智能行业的一些最大竞争对手已经将他们的许多不满放在一边，因为一个共同的原因：让人们更难使用他们的技术来开发生物武器。在给美国立法者的一封公开信中，技术领导人正在敦促国会制定规则，弥补他们所说的令人担忧的生物安全差距[…]"
     },
     {
-      "title": "The best Qi2 batteries for iPhone and Pixel",
-      "content": "Compact power banks have gotten a lot faster in the past year — and it’s not just their USB-C charging speeds that have received a boost. The newest Qi2.2-certified models can wirelessly charge an iPhone 16 or later at up to 25W. Combine that with their ability to magnetically snap on via MagSafe, and you’ve [&#8230;]",
-      "titleZh": "适用于iPhone和Pixel的最佳Qi2电池",
-      "contentZh": "紧凑型移动电源在过去一年中变得更快—不仅仅是他们的USB-C充电速度得到了提升。最新的Qi2.2认证型号可以为iPhone 16或更高版本无线充电，功率高达25W。将其与通过MagSafe磁性卡扣的能力相结合，您已经[…]"
-    },
-    {
-      "title": "As AI gets better, it reveals an empty promise",
-      "content": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly [&#8230;]",
-      "titleZh": "随着人工智能变得越来越好，它揭示了一个空洞的承诺",
-      "contentZh": "本周，我的同事大卫·皮尔斯（ David Pierce ）和杰伊·彼得斯（ Jay Peters ）与谷歌新推出的双子座人工智能代理商Spark携手合作。他们的收获是相似的：它非常有效，令人恐惧。斯帕克知道大卫的狗叫弗里达，也知道杰伊妻子的名字，尽管他们都没有明确[…]"
+      "title": "Yes, the Oura Ring 5 is noticeably smaller",
+      "content": "This is not an Oura Ring 5 review. That's coming later, once I've had enough time to really test the new durability and battery life claims, plus the new software updates that start rolling out today. In the meantime, I did want to provide an answer to a burning question that I've seen asked in [&#8230;]",
+      "titleZh": "是的， Oura Ring 5明显更小",
+      "contentZh": "这不是Oura Ring 5的评价。稍后推出，一旦我有足够的时间真正测试新的耐用性和电池寿命声明，以及今天开始推出的新软件更新。与此同时，我确实想为我在[…]中看到的一个炙手可热的问题提供答案"
     }
   ],
   "vocab": [
