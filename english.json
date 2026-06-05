@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "articles": [
+    {
+      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
+      "content": "By targeting large numbers of users, attackers increased their chances of success.",
+      "titleZh": "Dashlane解释了攻击者如何设法下载加密密码保管库",
+      "contentZh": "通过瞄准大量用户，攻击者增加了他们成功的机会。"
+    },
     {
       "title": "Can&#039;t make sense of Dashlane&#039;s vault theft notification? You&#039;re not alone.",
       "content": "Security advisory leaves out key details. Dashlane maintains complete silence.",
@@ -20,22 +26,16 @@
       "contentZh": "据报道，该僵尸网络与一家位于俄罗斯的住宅代理网络连接。"
     },
     {
-      "title": "Fed up with vibe coders, dev sneaks data-nuking prompt injection into their code",
-      "content": "Undisclosed addition in jqwik instructed AI coding agents to delete app output.",
-      "titleZh": "受够了vibe编码器，开发人员将数据核对提示注入到他们的代码中",
-      "contentZh": "Jqwik中未公开的添加指示AI编码代理删除应用输出。"
+      "title": "I customized a MacBook Neo with colorful spare parts",
+      "content": "The MacBook Neo is Apple's cheapest laptop, its most colorful, and its easiest to repair in years. That means owners can buy replacement parts in all four of its available colors and swap them in on their own. So that got us thinking: What if we bought a Neo just to see how funky we [&#8230;]",
+      "titleZh": "我用五颜六色的备件定制了MacBook Neo",
+      "contentZh": "MacBook Neo是苹果最便宜的笔记本电脑，色彩最丰富，也是多年来最容易维修的笔记本电脑。这意味着车主可以购买所有四种颜色的替换零件，并自行更换。这让我们想到：如果我们买了一个NEO ，只是为了看看我们[…]"
     },
     {
-      "title": "AI leaders call for tougher protections against AI-aided bioweapons",
-      "content": "Some of the AI industry's biggest rivals have put their many, many grievances aside for a common cause: making it harder for people to use their technology to develop biological weapons. In an open letter to US lawmakers, tech leaders are pressing Congress to enact rules closing what they say is an alarming biosecurity gap [&#8230;]",
-      "titleZh": "人工智能领导人呼吁加强对人工智能辅助生物武器的保护",
-      "contentZh": "人工智能行业的一些最大竞争对手已经将他们的许多不满放在一边，因为一个共同的原因：让人们更难使用他们的技术来开发生物武器。在给美国立法者的一封公开信中，技术领导人正在敦促国会制定规则，弥补他们所说的令人担忧的生物安全差距[…]"
-    },
-    {
-      "title": "Yes, the Oura Ring 5 is noticeably smaller",
-      "content": "This is not an Oura Ring 5 review. That's coming later, once I've had enough time to really test the new durability and battery life claims, plus the new software updates that start rolling out today. In the meantime, I did want to provide an answer to a burning question that I've seen asked in [&#8230;]",
-      "titleZh": "是的， Oura Ring 5明显更小",
-      "contentZh": "这不是Oura Ring 5的评价。稍后推出，一旦我有足够的时间真正测试新的耐用性和电池寿命声明，以及今天开始推出的新软件更新。与此同时，我确实想为我在[…]中看到的一个炙手可热的问题提供答案"
+      "title": "Porsche’s Cayenne Coupe Turbo will even make 911 owners nervous",
+      "content": "Back in 2002, Porsche fans sputtered with rage as the Cayenne made its debut at the Paris Motor. More than 20 years later, Porsche now sells more SUVs than anything else in its lineup. Last year, the Macan and Cayenne accounted for 62 percent of all Porsche sales. Now, these SUVs are trolling traditionalists in [&#8230;]",
+      "titleZh": "保时捷的Cayenne Coupe Turbo甚至会让911车主感到紧张",
+      "contentZh": "早在2002年，当Cayenne在巴黎摩托车上首次亮相时，保时捷的粉丝们怒不可遏。20多年后，保时捷现在的SUV销量超过了其阵容中的任何车型。去年， Macan和Cayenne占保时捷总销量的62%。现在，这些SUV正在拖曳传统主义者[…]"
     }
   ],
   "vocab": [
