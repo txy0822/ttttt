@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-08",
   "articles": [
+    {
+      "title": "How a USB-connected speaker can infect a PC without ever being touched",
+      "content": "Seller of the Sound Blaster Katana V2X doesn't consider the behavior a vulnerability.",
+      "titleZh": "连接USB的扬声器如何在不被触摸的情况下感染PC",
+      "contentZh": "Sound Blaster Katana V2X的卖家不认为该行为是漏洞。"
+    },
     {
       "title": "Dashlane explains how attackers managed to download encrypted password vaults",
       "content": "By targeting large numbers of users, attackers increased their chances of success.",
@@ -20,25 +26,27 @@
       "contentZh": "下载受影响的红帽软件包的任何人都应立即进行调查。"
     },
     {
-      "title": "Botnet of more than 17 million devices dismantled",
-      "content": "The botnet was reportedly tied to a Russia-based residential proxy network.",
-      "titleZh": "拆除了超过1700万台设备的僵尸网络",
-      "contentZh": "据报道，该僵尸网络与一家位于俄罗斯的住宅代理网络连接。"
+      "title": "Hackers likely hijacked over 20,000 Instagram accounts with Meta’s AI chatbot",
+      "content": "Hackers likely took over 20,225 Instagram accounts using Meta's AI support chatbot, the company confirmed in a notice filed with the state of Maine. In the notice, spotted earlier by Bleeping Computer, Meta blames a \"bug\" for the exploit that allowed attackers to hijack accounts without two-factor authentication simply by asking the chatbot for a [&#8230;]",
+      "titleZh": "黑客可能通过Meta的AI聊天机器人劫持了超过20,000个Instagram帐户",
+      "contentZh": "该公司在向缅因州提交的一份通知中证实，黑客可能使用Meta的人工智能支持聊天机器人接管了20,225个Instagram帐户。在Bleeping Computer早些时候发现的通知中， Meta将这一漏洞归咎于一个“错误” ，该漏洞允许攻击者在没有双因素身份验证的情况下劫持帐户，只需向聊天机器人请求[…]"
     },
     {
-      "title": "I customized a MacBook Neo with colorful spare parts",
-      "content": "The MacBook Neo is Apple's cheapest laptop, its most colorful, and its easiest to repair in years. That means owners can buy replacement parts in all four of its available colors and swap them in on their own. So that got us thinking: What if we bought a Neo just to see how funky we [&#8230;]",
-      "titleZh": "我用五颜六色的备件定制了MacBook Neo",
-      "contentZh": "MacBook Neo是苹果最便宜的笔记本电脑，色彩最丰富，也是多年来最容易维修的笔记本电脑。这意味着车主可以购买所有四种颜色的替换零件，并自行更换。这让我们想到：如果我们买了一个NEO ，只是为了看看我们[…]"
-    },
-    {
-      "title": "Porsche’s Cayenne Coupe Turbo will even make 911 owners nervous",
-      "content": "Back in 2002, Porsche fans sputtered with rage as the Cayenne made its debut at the Paris Motor. More than 20 years later, Porsche now sells more SUVs than anything else in its lineup. Last year, the Macan and Cayenne accounted for 62 percent of all Porsche sales. Now, these SUVs are trolling traditionalists in [&#8230;]",
-      "titleZh": "保时捷的Cayenne Coupe Turbo甚至会让911车主感到紧张",
-      "contentZh": "早在2002年，当Cayenne在巴黎摩托车上首次亮相时，保时捷的粉丝们怒不可遏。20多年后，保时捷现在的SUV销量超过了其阵容中的任何车型。去年， Macan和Cayenne占保时捷总销量的62%。现在，这些SUV正在拖曳传统主义者[…]"
+      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+      "content": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training new [&#8230;]",
+      "titleZh": "微软人工智能主管表示，超级智能即将到来，但不会取代你的工作",
+      "contentZh": "今天我与微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）交谈。实际上，我将保持今天的介绍简短—正如您将在视频中看到的那样，我本周将在我妻子的家庭农场工作，但这也是一集的真实燃烧器。我们涵盖了从Mustafa的方法到培训新[…]的所有内容"
     }
   ],
   "vocab": [
+    {
+      "word": "vulnerability",
+      "meaning": "漏洞"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
+    },
     {
       "word": "investigate",
       "meaning": "调查"
