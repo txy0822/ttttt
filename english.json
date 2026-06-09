@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "articles": [
+    {
+      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
+      "content": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
+      "titleZh": "几周内第二次， Microsoft软件包带有凭据窃取程序",
+      "contentZh": "73个包裹在AI代理打开后立即运行自我复制窃取程序。"
+    },
     {
       "title": "How a USB-connected speaker can infect a PC without ever being touched",
       "content": "Seller of the Sound Blaster Katana V2X doesn't consider the behavior a vulnerability.",
@@ -20,22 +26,16 @@
       "contentZh": "安全警告漏掉了关键细节。Dashlane保持完全安静。"
     },
     {
-      "title": "Dozens of Red Hat packages backdoored through its official NPM channel",
-      "content": "Anyone who has downloaded affected Red Hat packages should investigate immediately.",
-      "titleZh": "数十个红帽软件包通过其官方NPM渠道进行后门",
-      "contentZh": "下载受影响的红帽软件包的任何人都应立即进行调查。"
+      "title": "Hue’s SpatialAware finally made me appreciate color-changing lights",
+      "content": "I've been a fan of Philips Hue smart lights since the early days. It's one of the few staples in my ever-changing smart home. However, when the Bridge Pro launched late last year, it wasn't immediately obvious why I should upgrade. The signature feature, MotionAware - which turns your lights into motion sensors - is [&#8230;]",
+      "titleZh": "Hue的SpatialAware终于让我欣赏到变色灯",
+      "contentZh": "从早期开始，我就一直是飞利浦Hue智能灯的粉丝。它是我千变万化的智能家居中为数不多的主食之一。但是，当Bridge Pro去年年底推出时，我为什么要升级并不是立即显而易见的。将灯光转化为运动传感器的标志性功能MotionAware是[…]"
     },
     {
-      "title": "Hackers likely hijacked over 20,000 Instagram accounts with Meta’s AI chatbot",
-      "content": "Hackers likely took over 20,225 Instagram accounts using Meta's AI support chatbot, the company confirmed in a notice filed with the state of Maine. In the notice, spotted earlier by Bleeping Computer, Meta blames a \"bug\" for the exploit that allowed attackers to hijack accounts without two-factor authentication simply by asking the chatbot for a [&#8230;]",
-      "titleZh": "黑客可能通过Meta的AI聊天机器人劫持了超过20,000个Instagram帐户",
-      "contentZh": "该公司在向缅因州提交的一份通知中证实，黑客可能使用Meta的人工智能支持聊天机器人接管了20,225个Instagram帐户。在Bleeping Computer早些时候发现的通知中， Meta将这一漏洞归咎于一个“错误” ，该漏洞允许攻击者在没有双因素身份验证的情况下劫持帐户，只需向聊天机器人请求[…]"
-    },
-    {
-      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
-      "content": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode. We covered everything from Mustafa’s approach to training new [&#8230;]",
-      "titleZh": "微软人工智能主管表示，超级智能即将到来，但不会取代你的工作",
-      "contentZh": "今天我与微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）交谈。实际上，我将保持今天的介绍简短—正如您将在视频中看到的那样，我本周将在我妻子的家庭农场工作，但这也是一集的真实燃烧器。我们涵盖了从Mustafa的方法到培训新[…]的所有内容"
+      "title": "Amazon employees ask Seattle to put the brakes on new data centers",
+      "content": "On Tuesday, the Seattle City Council will vote on whether to enact a one-year moratorium on new data centers - just two months after several companies proposed building five large-scale centers in the city. Among the moratorium's fiercest supporters are current employees from the city's biggest tech giant, Amazon, who joined others to testify in [&#8230;]",
+      "titleZh": "亚马逊员工要求西雅图遏制新数据中心",
+      "contentZh": "周二，西雅图市议会将就是否暂停新数据中心进行投票--就在几个公司提议在该市建造五个大型中心的两个月后。暂停令最强烈的支持者是该市最大的科技巨头亚马逊的现任员工，他们与其他人一起在[…]作证。"
     }
   ],
   "vocab": [
@@ -44,12 +44,12 @@
       "meaning": "漏洞"
     },
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
-      "word": "investigate",
-      "meaning": "调查"
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
