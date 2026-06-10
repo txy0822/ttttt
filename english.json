@@ -1,6 +1,18 @@
 {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "articles": [
+    {
+      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
+      "content": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
+      "titleZh": "微软与研究人员激烈竞争，修复了他们披露的0天",
+      "contentZh": "Nightmare Eclipse披露的另一个零日似乎也被修补了。"
+    },
+    {
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "content": "Use-after-free bug can be exploited to evade sandbox defenses.",
+      "titleZh": "Linux中由单个故障字符引起的高严重性漏洞",
+      "contentZh": "自由使用后的漏洞可以被利用来逃避沙盒防御。"
+    },
     {
       "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
       "content": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
@@ -14,28 +26,16 @@
       "contentZh": "Sound Blaster Katana V2X的卖家不认为该行为是漏洞。"
     },
     {
-      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
-      "content": "By targeting large numbers of users, attackers increased their chances of success.",
-      "titleZh": "Dashlane解释了攻击者如何设法下载加密密码保管库",
-      "contentZh": "通过瞄准大量用户，攻击者增加了他们成功的机会。"
+      "title": "The three sets of earbuds I reach for",
+      "content": "I have been an audio reviewer for 20 years. My time as a freelance headphones panelist at Wirecutter, and the multitude of reviews I’ve written for sites like Reviewed, Digital Trends, IGN, and now The Verge, have given me the chance to listen to hundreds of earbuds. Some were truly excellent, and some were pretty [&#8230;]",
+      "titleZh": "我拿到的三套耳机",
+      "contentZh": "我已经做音频审核员20年了。我在Wirecutter担任自由耳机小组成员的时间，以及我在Reviewed、Digital Trends、IGN和现在的The Verge等网站上撰写的众多评论，让我有机会聆听数百个耳机。有些是真正优秀的，有些是漂亮的[…]"
     },
     {
-      "title": "Can&#039;t make sense of Dashlane&#039;s vault theft notification? You&#039;re not alone.",
-      "content": "Security advisory leaves out key details. Dashlane maintains complete silence.",
-      "titleZh": "无法理解Dashlane的保管库盗窃通知？你并不孤单。",
-      "contentZh": "安全警告漏掉了关键细节。Dashlane保持完全安静。"
-    },
-    {
-      "title": "Hue’s SpatialAware finally made me appreciate color-changing lights",
-      "content": "I've been a fan of Philips Hue smart lights since the early days. It's one of the few staples in my ever-changing smart home. However, when the Bridge Pro launched late last year, it wasn't immediately obvious why I should upgrade. The signature feature, MotionAware - which turns your lights into motion sensors - is [&#8230;]",
-      "titleZh": "Hue的SpatialAware终于让我欣赏到变色灯",
-      "contentZh": "从早期开始，我就一直是飞利浦Hue智能灯的粉丝。它是我千变万化的智能家居中为数不多的主食之一。但是，当Bridge Pro去年年底推出时，我为什么要升级并不是立即显而易见的。将灯光转化为运动传感器的标志性功能MotionAware是[…]"
-    },
-    {
-      "title": "Amazon employees ask Seattle to put the brakes on new data centers",
-      "content": "On Tuesday, the Seattle City Council will vote on whether to enact a one-year moratorium on new data centers - just two months after several companies proposed building five large-scale centers in the city. Among the moratorium's fiercest supporters are current employees from the city's biggest tech giant, Amazon, who joined others to testify in [&#8230;]",
-      "titleZh": "亚马逊员工要求西雅图遏制新数据中心",
-      "contentZh": "周二，西雅图市议会将就是否暂停新数据中心进行投票--就在几个公司提议在该市建造五个大型中心的两个月后。暂停令最强烈的支持者是该市最大的科技巨头亚马逊的现任员工，他们与其他人一起在[…]作证。"
+      "title": "BYD to install thousands of 5-minute EV chargers across Europe",
+      "content": "Chinese EV colossus BYD has announced plans to speed up its conquest of the European auto market with the rollout of superfast Flash Chargers across the continent. BYD has already installed the first new chargers in Germany and the UK, and plans to roll out 3,000 across Europe by the end of next year. At [&#8230;]",
+      "titleZh": "比亚迪将在欧洲安装数千个5分钟电动汽车充电桩",
+      "contentZh": "中国电动汽车巨头比亚迪宣布计划通过在非洲大陆推出超快闪充来加速其对欧洲汽车市场的征服。比亚迪已经在德国和英国安装了第一批新充电器，并计划在明年年底前在欧洲推出3000台。在[…]"
     }
   ],
   "vocab": [
@@ -44,12 +44,12 @@
       "meaning": "漏洞"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
