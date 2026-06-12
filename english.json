@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-11",
+  "date": "2026-06-12",
   "articles": [
     {
       "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
@@ -26,16 +26,16 @@
       "contentZh": "Sound Blaster Katana V2X的卖家不认为该行为是漏洞。"
     },
     {
-      "title": "With the World Cup looming, there’s still no clear replacement for sports Twitter",
-      "content": "Three years ago, when the women's World Cup kicked off in Australia and New Zealand, my social feeds were in a strange place. Twitter had just transformed into X, newcomer Threads was seemingly ascendant, and places like Bluesky had yet to garner much momentum. It left me with an odd, and admittedly silly, dilemma: I [&#8230;]",
-      "titleZh": "随着世界杯的临近，体育Twitter仍然没有明确的替代品",
-      "contentZh": "三年前，当女足世界杯在澳大利亚和新西兰拉开帷幕时，我的社交饲料在一个陌生的地方。Twitter刚刚转型为X ，新人Threads似乎占据了上风，而像Bluesky这样的地方还没有获得多少动力。这给我留下了一个奇怪的、诚然是愚蠢的困境：我[…]"
+      "title": "So you want to buy a gaming handheld PC",
+      "content": "Gaming handhelds are amazing. They make it so much easier to fit all kinds of games into my day. Sadly, they’re less affordable than they’ve ever been — due to an unprecedented, AI-fueled shortage of memory chips, an unforced oil crisis, rampant inflation, fallout from tariffs, and more. But that’s not going to stop you. [&#8230;]",
+      "titleZh": "所以你想买一台游戏手持电脑",
+      "contentZh": "游戏手持设备令人惊叹。它们使我更轻松地将各种游戏融入我的日常生活。可悲的是，由于前所未有的人工智能驱动的内存芯片短缺、非受迫性的石油危机、猖獗的通货膨胀、关税的影响等等，它们比以往任何时候都更便宜。但这并不能阻止你。[…]"
     },
     {
-      "title": "Cash App’s launching a phone service",
-      "content": "Cash App's AT&#38;T-based MVNO will offer an unlimited 5G data plan for $40 per month including taxes and fees. The new mobile service is powered by Gigs, the same firm behind the Klarna mobile service that launched last year with the same pricing and is \"rolling out to select users, with broader availability planned in [&#8230;]",
-      "titleZh": "Cash App正在推出电话服务",
-      "contentZh": "Cash App的基于AT&T的MVNO将提供无限制的5G数据计划，每月40 $ ，包括税费和费用。新的移动服务由Gigs提供支持， Gigs是去年推出的Klarna移动服务背后的同一家公司，定价相同，并且“正在向特定用户推出，计划在[…]提供更广泛的可用性”。"
+      "title": "The Nintendo DS is still the best gaming handheld for travel",
+      "content": "Even with the looming specter of rising prices, there's never been a better time for portable gaming. The Steam Deck has ushered in a new era of handheld PCs, the Analogue Pocket and other Game Boy-style remakes are making retro games more approachable than ever, the Playdate has led to an alternate universe of weirdo [&#8230;]",
+      "titleZh": "任天堂DS仍然是最适合旅行的游戏手持设备",
+      "contentZh": "即使价格上涨的幽灵迫在眉睫，便携式游戏也从未有过更好的时机。Steam Deck迎来了手持电脑的新时代， Analogue Pocket和其他Game Boy风格的翻拍使复古游戏比以往任何时候都更加平易近人， Playdate带来了另一个怪诞世界[…]"
     }
   ],
   "vocab": [
@@ -48,8 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "unprecedented",
+      "meaning": "前所未有的"
     }
   ]
 }
