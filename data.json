@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-06-16 02:18",
+  "updateTime": "2026-06-16 14:27",
   "pe": 33.2,
-  "fearGreed": 86,
-  "maDeviation": 18.7,
-  "rsi": 54.7,
-  "drawdown": -0.37,
+  "fearGreed": 83,
+  "maDeviation": NaN,
+  "rsi": NaN,
+  "drawdown": NaN,
   "scores": {
     "pe": 29,
-    "fg": 8,
+    "fg": 10,
     "ma": 0,
-    "rsi": 38,
-    "dd": 21
+    "rsi": 0,
+    "dd": 5
   },
-  "total": 18,
+  "total": 12,
   "multiplier": "暂停",
   "peHistory": [
     {
@@ -175,7 +175,7 @@
     },
     {
       "date": "2026-06-16",
-      "val": 86
+      "val": 83
     }
   ]
 }

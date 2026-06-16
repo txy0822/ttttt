@@ -2,6 +2,12 @@
   "date": "2026-06-16",
   "articles": [
     {
+      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
+      "content": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
+      "titleZh": "AMD从其消费者CPU中剥离内存加密后，用户哭泣犯规",
+      "contentZh": "AMD从消费者CPU中剥离TSME似乎是一个蓄意的、秘密的举动。"
+    },
+    {
       "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
       "content": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
       "titleZh": "PeopleSoft 0-day影响数百个组织窃取数千兆字节的数据",
@@ -20,22 +26,16 @@
       "contentZh": "自由使用后的漏洞可以被利用来逃避沙盒防御。"
     },
     {
-      "title": "For the 2nd time in weeks, Microsoft packages laced with credential stealer",
-      "content": "73 packages run self-replicating stealer as soon as they're opened by an AI agent.",
-      "titleZh": "几周内第二次， Microsoft软件包带有凭据窃取程序",
-      "contentZh": "73个包裹在AI代理打开后立即运行自我复制窃取程序。"
+      "title": "Inside the fight over Claude Mythos 5",
+      "content": "As the rest of the country celebrated the USA's first World Cup win and the New York Knicks championship, Anthropic spent its weekend fighting the Trump administration over its latest model release. At 5:21 PM on Friday, the company received a US export control directive to suspend access to its Mythos 5 and Fable 5 [&#8230;]",
+      "titleZh": "克劳德神话之战5",
+      "contentZh": "随着美国其他地区庆祝美国首次赢得世界杯冠军和纽约尼克斯锦标赛， Anthropic在周末与特朗普政府就其最新车型发布进行了斗争。周五下午5:21 ，该公司收到美国出口管制指令，暂停访问其神话5和寓言5 […]"
     },
     {
-      "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
-      "content": "At Washington's request, Anthropic suddenly took its newest and most powerful AI models offline over the weekend. The American company said it had little choice after the White House demanded it block access for all foreign nationals, including its own employees. Abroad, the incident offered a sobering reminder that the US not only dominates frontier [&#8230;]",
-      "titleZh": "特朗普的人类关闭刚刚为非美国人工智能提供了理由",
-      "contentZh": "在华盛顿的要求下， Anthropic突然在周末将其最新、最强大的人工智能模型下线。这家美国公司表示，在白宫要求阻止包括其员工在内的所有外国公民进入之后，它别无选择。在国外，这一事件令人清醒地意识到，美国不仅在边境地区占据主导地位[…]"
-    },
-    {
-      "title": "Google Chrome is closing the loopholes that let old ad blockers keep working",
-      "content": "Google Chrome version 150 and 151, expected in late June and July, respectively, will cut off support for the last remaining workarounds for running older ad blockers, 9to5Google reports. Google phased out support for ad-blocking extensions built for Manifest V2, like uBlock Origin, in 2024. At that point, most Chrome users either switched to newer [&#8230;]",
-      "titleZh": "谷歌浏览器正在堵塞让旧广告拦截器继续工作的漏洞",
-      "contentZh": "谷歌Chrome浏览器版本150和151预计分别于6月底和7月发布， 9to5Google报告称，它们将切断对运行旧版广告拦截器的最后剩余解决方案的支持。谷歌在2024年逐步淘汰了对为Manifest V2构建的广告拦截扩展的支持，例如uBlock Origin。此时，大多数Chrome用户要么切换到较新的[…]"
+      "title": "Facebook’s new AI Mode search gets its info from public posts",
+      "content": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto [&#8230;]",
+      "titleZh": "Facebook的新AI模式搜索从公开帖子中获取信息",
+      "contentZh": "您的公开Facebook帖子可以帮助在Meta的新AI模式中为AI生成的结果提供信息。当您在Facebook上搜索时， “AI模式”选项将与“人员”和“市场”等常见搜索模式一起显示。“这是Meta从今天开始推出的几项新AI功能之一，包括将运动衫换成[…]的照片预设。"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
