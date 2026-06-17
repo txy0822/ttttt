@@ -1,6 +1,18 @@
 {
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "articles": [
+    {
+      "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
+      "content": "Partner tells Ars that HPE should be giving out more free VM Essentials licenses.",
+      "titleZh": "免费HPE软件年份是VMware竞争中“朝着正确方向迈出的一步”",
+      "contentZh": "合作伙伴告诉ARS ， HPE应该发放更多免费的VM Essentials许可证。"
+    },
+    {
+      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
+      "content": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
+      "titleZh": "严重的Copilot漏洞允许黑客窃取用户的2FA代码",
+      "contentZh": "SearchLeak漏洞说明了为什么行业的LLM安全方法一遍又一遍地失败。"
+    },
     {
       "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
       "content": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
@@ -14,28 +26,16 @@
       "contentZh": "Oracle拥有的PeopleSoft软件中的漏洞与它们一样严重。"
     },
     {
-      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-      "content": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
-      "titleZh": "微软与研究人员激烈竞争，修复了他们披露的0天",
-      "contentZh": "Nightmare Eclipse披露的另一个零日似乎也被修补了。"
+      "title": "The Complete Calvin and Hobbes is a great last-minute Father’s Day gift",
+      "content": "Father’s Day is nearly here. Hopefully, you already got a gift for dads you care about, but if not, here’s a quick, easy recommendation for anyone who enjoys a good comic strip. The Complete Calvin and Hobbes contains every one of Bill Watterson’s beloved strips made during the comic’s ten-year run from 1985 through 1995, [&#8230;]",
+      "titleZh": "完整的《加尔文与霍布斯》是父亲节最后一刻的绝佳礼物",
+      "contentZh": "父亲节快到了。希望您已经为您关心的爸爸准备了礼物，但如果没有，这里有一个快速，简单的推荐给任何喜欢漫画的人。完整的加尔文和霍布斯包含了比尔·沃特森在漫画从1985年到1995年的十年间制作的每一个心爱的条带， […]"
     },
     {
-      "title": "High-severity vulnerability in Linux caused by a single faulty character",
-      "content": "Use-after-free bug can be exploited to evade sandbox defenses.",
-      "titleZh": "Linux中由单个故障字符引起的高严重性漏洞",
-      "contentZh": "自由使用后的漏洞可以被利用来逃避沙盒防御。"
-    },
-    {
-      "title": "Inside the fight over Claude Mythos 5",
-      "content": "As the rest of the country celebrated the USA's first World Cup win and the New York Knicks championship, Anthropic spent its weekend fighting the Trump administration over its latest model release. At 5:21 PM on Friday, the company received a US export control directive to suspend access to its Mythos 5 and Fable 5 [&#8230;]",
-      "titleZh": "克劳德神话之战5",
-      "contentZh": "随着美国其他地区庆祝美国首次赢得世界杯冠军和纽约尼克斯锦标赛， Anthropic在周末与特朗普政府就其最新车型发布进行了斗争。周五下午5:21 ，该公司收到美国出口管制指令，暂停访问其神话5和寓言5 […]"
-    },
-    {
-      "title": "Facebook’s new AI Mode search gets its info from public posts",
-      "content": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto [&#8230;]",
-      "titleZh": "Facebook的新AI模式搜索从公开帖子中获取信息",
-      "contentZh": "您的公开Facebook帖子可以帮助在Meta的新AI模式中为AI生成的结果提供信息。当您在Facebook上搜索时， “AI模式”选项将与“人员”和“市场”等常见搜索模式一起显示。“这是Meta从今天开始推出的几项新AI功能之一，包括将运动衫换成[…]的照片预设。"
+      "title": "All the latest news on Android 17, Wear OS 7, and Android XR",
+      "content": "Google’s Android 17 update includes highlights like new floating “Bubble” app windows for easier multitasking, a Screen Reaction recording mode, and a 50/50 split gaming mode for foldable phones. Meanwhile, Wear OS 7 brings Live Updates and better battery life for smart watches, and it prepares connections for new Android XR smart glasses that will [&#8230;]",
+      "titleZh": "Android 17、Wear OS 7和Android XR的所有最新消息",
+      "contentZh": "谷歌的Android 17更新包括新的浮动“气泡”应用窗口、屏幕反应录制模式和可折叠手机的50/50分割游戏模式等亮点。与此同时， Wear OS 7为智能手表带来了实时更新和更长的电池寿命，并为新的Android XR智能眼镜准备连接，这将[…]"
     }
   ],
   "vocab": [
@@ -46,10 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
