@@ -1,51 +1,51 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "articles": [
     {
-      "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
-      "content": "Partner tells Ars that HPE should be giving out more free VM Essentials licenses.",
-      "titleZh": "免费HPE软件年份是VMware竞争中“朝着正确方向迈出的一步”",
-      "contentZh": "合作伙伴告诉ARS ， HPE应该发放更多免费的VM Essentials许可证。"
+      "title": "Massive breach spills credentials for thousands of sensitive networks",
+      "content": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
+      "titleZh": "大规模泄露泄露了数千个敏感网络的凭据",
+      "contentZh": "受影响的公司包括甲骨文、联想、北约承包商FedEx和Fortinet。"
     },
     {
-      "title": "Critical Copilot vulnerability allowed hackers to steal 2FA code from users",
-      "content": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
-      "titleZh": "严重的Copilot漏洞允许黑客窃取用户的2FA代码",
-      "contentZh": "SearchLeak漏洞说明了为什么行业的LLM安全方法一遍又一遍地失败。"
+      "title": "Tesco moving 40,000 server workloads off VMware amid Broadcom&#039;s “abusive conduct”",
+      "content": "Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings.",
+      "titleZh": "在Broadcom的“滥用行为”中， Tesco将40,000个服务器工作负载从VMware中移除",
+      "contentZh": "Tesco声称， Broadcom在英国法院文件中将其VMware价格提高了约175%。"
     },
     {
-      "title": "Users cry foul after AMD stripped memory crypto from its consumer CPUs",
-      "content": "AMD's stripping of TSME from consumer CPUs appears to be a deliberate, covert move.",
-      "titleZh": "AMD从其消费者CPU中剥离内存加密后，用户哭泣犯规",
-      "contentZh": "AMD从消费者CPU中剥离TSME似乎是一个蓄意的、秘密的举动。"
+      "title": "&quot;Dangerous&quot; AI models are coming no matter what",
+      "content": "AI models with advanced hacking capabilities will soon be the norm.",
+      "titleZh": "“危险”的人工智能模型无论如何都会出现",
+      "contentZh": "具有先进黑客能力的人工智能模型将很快成为常态。"
     },
     {
-      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
-      "content": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
-      "titleZh": "PeopleSoft 0-day影响数百个组织窃取数千兆字节的数据",
-      "contentZh": "Oracle拥有的PeopleSoft软件中的漏洞与它们一样严重。"
+      "title": "Windows and Linux users: The deadline to update Secure Boot keys is near",
+      "content": "What you need to know about the expiration of keys securing your machine's boot sequence.",
+      "titleZh": "Windows和Linux用户：更新安全启动密钥的截止日期即将到来",
+      "contentZh": "您需要了解的有关保护机器启动顺序的密钥过期的信息。"
     },
     {
-      "title": "The Complete Calvin and Hobbes is a great last-minute Father’s Day gift",
-      "content": "Father’s Day is nearly here. Hopefully, you already got a gift for dads you care about, but if not, here’s a quick, easy recommendation for anyone who enjoys a good comic strip. The Complete Calvin and Hobbes contains every one of Bill Watterson’s beloved strips made during the comic’s ten-year run from 1985 through 1995, [&#8230;]",
-      "titleZh": "完整的《加尔文与霍布斯》是父亲节最后一刻的绝佳礼物",
-      "contentZh": "父亲节快到了。希望您已经为您关心的爸爸准备了礼物，但如果没有，这里有一个快速，简单的推荐给任何喜欢漫画的人。完整的加尔文和霍布斯包含了比尔·沃特森在漫画从1985年到1995年的十年间制作的每一个心爱的条带， […]"
+      "title": "Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans",
+      "content": "Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed The Midjourney Scanner, it's an ultrasound-based full-body scanner that uses a ring of sensors to capture vertical [&#8230;]",
+      "titleZh": "Midjourney Medical从生成“CAT图像”到全身超声扫描",
+      "contentZh": "Midjourney首席执行官David Holz刚刚展示了该公司的第一个硬件产品，并计划建造一个旧金山水疗中心，他承认这与其AI图像生成器生成的“猫图片”有点不同。被称为Midjourney扫描仪，它是一种基于超声波的全身扫描仪，使用一圈传感器来捕捉垂直[…]"
     },
     {
-      "title": "All the latest news on Android 17, Wear OS 7, and Android XR",
-      "content": "Google’s Android 17 update includes highlights like new floating “Bubble” app windows for easier multitasking, a Screen Reaction recording mode, and a 50/50 split gaming mode for foldable phones. Meanwhile, Wear OS 7 brings Live Updates and better battery life for smart watches, and it prepares connections for new Android XR smart glasses that will [&#8230;]",
-      "titleZh": "Android 17、Wear OS 7和Android XR的所有最新消息",
-      "contentZh": "谷歌的Android 17更新包括新的浮动“气泡”应用窗口、屏幕反应录制模式和可折叠手机的50/50分割游戏模式等亮点。与此同时， Wear OS 7为智能手表带来了实时更新和更长的电池寿命，并为新的Android XR智能眼镜准备连接，这将[…]"
+      "title": "Tim Cook says RAM expenses are &#8216;unsustainable&#8217; and Apple is going to raise prices",
+      "content": "Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says \"price increases are unavoidable:\" We're doing our best to mitigate the huge increases that are being passed to us, and we've been trying to shield our customers from the [&#8230;]",
+      "titleZh": "蒂姆·库克（ Tim Cook ）表示， RAM费用“不可持续” ，苹果将提高价格",
+      "contentZh": "苹果计划提高价格，以应对持续的内存短缺。苹果首席执行官蒂姆·库克（ Tim Cook ）在接受《华尔街日报》采访时表示： “价格上涨是不可避免的：”我们正在尽最大努力缓解传递给我们的大幅上涨，我们一直在努力保护我们的客户免受[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
+      "word": "sustainable",
+      "meaning": "可持续的"
     },
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "breach",
+      "meaning": "泄露/入侵"
     }
   ]
 }
