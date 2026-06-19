@@ -1,6 +1,24 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "articles": [
+    {
+      "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
+      "content": "Crypto Clipper spreads over USB and communicates over Tor.",
+      "titleZh": "微软发现窃取加密货币的新型轻量级后门",
+      "contentZh": "Crypto Clipper通过USB进行传播，并通过Tor进行通信。"
+    },
+    {
+      "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
+      "content": "The vulnerability, disclosed 12 months ago, affects multiple manufacturers.",
+      "titleZh": "Apple修补了Beats Studio Buds中的高严重性窃听漏洞",
+      "contentZh": "该漏洞于12个月前披露，影响多个制造商。"
+    },
+    {
+      "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+      "content": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
+      "titleZh": "SpaceX IPO前，中国投资者秘密收购股权",
+      "contentZh": "一位此前未被报道的SpaceX投资者与中国军事承包商有联系。"
+    },
     {
       "title": "Massive breach spills credentials for thousands of sensitive networks",
       "content": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
@@ -8,40 +26,22 @@
       "contentZh": "受影响的公司包括甲骨文、联想、北约承包商FedEx和Fortinet。"
     },
     {
-      "title": "Tesco moving 40,000 server workloads off VMware amid Broadcom&#039;s “abusive conduct”",
-      "content": "Tesco claimed Broadcom hiked its VMware prices by about 175 percent in UK court filings.",
-      "titleZh": "在Broadcom的“滥用行为”中， Tesco将40,000个服务器工作负载从VMware中移除",
-      "contentZh": "Tesco声称， Broadcom在英国法院文件中将其VMware价格提高了约175%。"
+      "title": "Barret Zoph is out at OpenAI again after just five months",
+      "content": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as co-founder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati. Shortly after Zoph returned [&#8230;]",
+      "titleZh": "Barret Zoph在短短五个月后再次离开OpenAI",
+      "contentZh": "The Verge了解到，在重返OpenAI五个月后，该公司的企业人工智能销售主管Barret Zoph已经离职。Zoph在担任Thinking Machines Lab的联合创始人兼首席技术官一段时间后，于1月中旬重返OpenAI ， Thinking Machines Lab是由前OpenAI首席技术官Mira Murati创立的竞争AI公司。Zoph回来后不久[…]"
     },
     {
-      "title": "&quot;Dangerous&quot; AI models are coming no matter what",
-      "content": "AI models with advanced hacking capabilities will soon be the norm.",
-      "titleZh": "“危险”的人工智能模型无论如何都会出现",
-      "contentZh": "具有先进黑客能力的人工智能模型将很快成为常态。"
-    },
-    {
-      "title": "Windows and Linux users: The deadline to update Secure Boot keys is near",
-      "content": "What you need to know about the expiration of keys securing your machine's boot sequence.",
-      "titleZh": "Windows和Linux用户：更新安全启动密钥的截止日期即将到来",
-      "contentZh": "您需要了解的有关保护机器启动顺序的密钥过期的信息。"
-    },
-    {
-      "title": "Midjourney Medical goes from generating ‘cat images’ to full-body ultrasound scans",
-      "content": "Midjourney CEO David Holz just showed off the company's first hardware product and plans to build a San Francisco spa, which he admitted is a bit different from the \"cat pictures\" produced by its AI image generator. Dubbed The Midjourney Scanner, it's an ultrasound-based full-body scanner that uses a ring of sensors to capture vertical [&#8230;]",
-      "titleZh": "Midjourney Medical从生成“CAT图像”到全身超声扫描",
-      "contentZh": "Midjourney首席执行官David Holz刚刚展示了该公司的第一个硬件产品，并计划建造一个旧金山水疗中心，他承认这与其AI图像生成器生成的“猫图片”有点不同。被称为Midjourney扫描仪，它是一种基于超声波的全身扫描仪，使用一圈传感器来捕捉垂直[…]"
-    },
-    {
-      "title": "Tim Cook says RAM expenses are &#8216;unsustainable&#8217; and Apple is going to raise prices",
-      "content": "Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says \"price increases are unavoidable:\" We're doing our best to mitigate the huge increases that are being passed to us, and we've been trying to shield our customers from the [&#8230;]",
-      "titleZh": "蒂姆·库克（ Tim Cook ）表示， RAM费用“不可持续” ，苹果将提高价格",
-      "contentZh": "苹果计划提高价格，以应对持续的内存短缺。苹果首席执行官蒂姆·库克（ Tim Cook ）在接受《华尔街日报》采访时表示： “价格上涨是不可避免的：”我们正在尽最大努力缓解传递给我们的大幅上涨，我们一直在努力保护我们的客户免受[…]"
+      "title": "Valve is so behind on Steam Controller orders that some won&#8217;t ship until 2027",
+      "content": "Valve has some good news and bad news about Steam Controllers. The good news: If you make a reservation for a Steam Controller, the company will now show you one of three estimates of when you'll be able to actually order your gamepad: by September 2026, by December 2026, or sometime in 2027. The bad [&#8230;]",
+      "titleZh": "Valve在Steam控制器订单上如此落后，以至于有些订单要到2027年才能发货",
+      "contentZh": "关于蒸汽控制器， Valve有一些好消息和坏消息。好消息：如果您预订了Steam手柄，该公司现在将向您展示三种预估的游戏手柄实际订购时间之一： 2026年9月、2026年12月或2027年某个时候。坏的[…]"
     }
   ],
   "vocab": [
     {
-      "word": "sustainable",
-      "meaning": "可持续的"
+      "word": "vulnerability",
+      "meaning": "漏洞"
     },
     {
       "word": "breach",
