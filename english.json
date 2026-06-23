@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "articles": [
+    {
+      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+      "content": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
+      "titleZh": "在用户强烈抗议后， AMD在消费者CPU中恢复内存加密",
+      "contentZh": "批评人士认为，此举是将他们引向更昂贵的芯片的卑鄙方式。"
+    },
     {
       "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
       "content": "Crypto Clipper spreads over USB and communicates over Tor.",
@@ -20,22 +26,16 @@
       "contentZh": "一位此前未被报道的SpaceX投资者与中国军事承包商有联系。"
     },
     {
-      "title": "Massive breach spills credentials for thousands of sensitive networks",
-      "content": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
-      "titleZh": "大规模泄露泄露了数千个敏感网络的凭据",
-      "contentZh": "受影响的公司包括甲骨文、联想、北约承包商FedEx和Fortinet。"
+      "title": "Nvidia says its AI data center design runs hotter to use a lot less water",
+      "content": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation reference design for a fully liquid-cooled data center has \"eliminated massive amounts of power usage and pretty much all water usage.\" Still, it doesn't address all of the concerns around AI data [&#8230;]",
+      "titleZh": "英伟达表示，其人工智能数据中心设计运行更热，耗水量更少",
+      "contentZh": "公众对数据中心的抵制强调了它们的水和能源消耗，现在英伟达正在强调其声称，全液冷数据中心的Rubin发电参考设计“消除了大量的电力消耗和几乎所有的用水量。“尽管如此，它并没有解决围绕人工智能数据的所有问题[…]"
     },
     {
-      "title": "Bose thinks it can be a media company for some reason",
-      "content": "The history books are littered with the corpses of corporate record labels started by companies that had no business being in the music industry. Bose thinks it can be the exception to the rule. It thinks it can be Red Bull. And, while Bose has more of a right to dip its toes into the [&#8230;]",
-      "titleZh": "由于某种原因， Bose认为它可以成为一家媒体公司",
-      "contentZh": "历史书中布满了公司唱片公司的尸体，这些唱片公司是由在音乐行业没有业务的公司创立的。Bose认为这可能是规则的例外。它认为它可能是红牛。而且，虽然Bose有更多的权利将其脚趾浸入[…]"
-    },
-    {
-      "title": "Cold Court’s debut EP is an infectious, glitchy genre mashup",
-      "content": "Cold Court is a brother-sister duo from Philly that seems to love nothing more than shoving all of their influences together in a messy soup that at least superficially resembles the hyperpop you've come to expect from acts like 100 Gecs. But, where songs like \"Dumbest Girl Alive\" goofily wink at pop punk and emo, [&#8230;]",
-      "titleZh": "Cold Court的首张EP是一个具有传染性、毛骨悚然的流派混搭",
-      "contentZh": "Cold Court是一个来自费城的兄弟姐妹二人组，似乎只喜欢将他们所有的影响推到一个凌乱的汤中，至少表面上类似于你从100 Gecs这样的行为中期望的超级流行音乐。但是，像“Dumbest Girl Alive”这样的歌曲在流行朋克和情绪上傻傻地眨眼， […]"
+      "title": "Valve describes just how brutal RAM negotiations are in 2026",
+      "content": "Valve's Steam Machine finally has a price: a whopping $1,049 for the 512GB configuration or $1,349 for the 2TB version. And those are without bundled controllers, which drive up the cost more. The prices are so high in part because Valve isn't subsidizing the hardware, and the company has already indicated that the component crisis [&#8230;]",
+      "titleZh": "Valve描述了2026年RAM谈判的残酷程度",
+      "contentZh": "Valve的蒸汽机终于有了一个价格： 512GB配置高达1,049美元， 2TB版本高达1,349美元。这些没有捆绑的控制器，这增加了成本。价格如此之高，部分原因是Valve没有补贴硬件，该公司已经表示组件危机[…]"
     }
   ],
   "vocab": [
@@ -44,8 +44,8 @@
       "meaning": "漏洞"
     },
     {
-      "word": "breach",
-      "meaning": "泄露/入侵"
+      "word": "encryption",
+      "meaning": "加密"
     }
   ]
 }
