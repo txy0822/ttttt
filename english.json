@@ -1,6 +1,18 @@
 {
-  "date": "2026-06-23",
+  "date": "2026-06-24",
   "articles": [
+    {
+      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
+      "content": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
+      "titleZh": "白宫大幅缩短放弃易受量子攻击的加密货币的截止日期",
+      "contentZh": "如果未及时采用后量子加密技术，命令将警告国家安全风险。"
+    },
+    {
+      "title": "Oracle’s 21,000 layoffs help drive its debt-fueled AI investments",
+      "content": "Oracle is spending billions on data center infrastructure to support AI.",
+      "titleZh": "甲骨文的21,000次裁员有助于推动其以债务为动力的人工智能投资",
+      "contentZh": "甲骨文正在花费数十亿美元用于数据中心基础设施，以支持人工智能。"
+    },
     {
       "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
       "content": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
@@ -14,38 +26,30 @@
       "contentZh": "Crypto Clipper通过USB进行传播，并通过Tor进行通信。"
     },
     {
-      "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
-      "content": "The vulnerability, disclosed 12 months ago, affects multiple manufacturers.",
-      "titleZh": "Apple修补了Beats Studio Buds中的高严重性窃听漏洞",
-      "contentZh": "该漏洞于12个月前披露，影响多个制造商。"
+      "title": "The best robot vacuum deals available during Prime Day",
+      "content": "If you&#8217;ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day has kicked off, though more than just Amazon is offering deals on several models we&#8217;ve tested from brands like [&#8230;]",
+      "titleZh": "Prime Day期间可用的最佳机器人吸尘器优惠",
+      "contentZh": "如果您一直想购买机器人吸尘器，但却被购买一台好吸尘器的成本所拖延，那么现在不是开始寻找的好时机。Prime Day已经开始了，尽管不仅仅是亚马逊为我们已经测试过的几款车型提供优惠，例如[…]"
     },
     {
-      "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-      "content": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
-      "titleZh": "SpaceX IPO前，中国投资者秘密收购股权",
-      "contentZh": "一位此前未被报道的SpaceX投资者与中国军事承包商有联系。"
-    },
-    {
-      "title": "Nvidia says its AI data center design runs hotter to use a lot less water",
-      "content": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation reference design for a fully liquid-cooled data center has \"eliminated massive amounts of power usage and pretty much all water usage.\" Still, it doesn't address all of the concerns around AI data [&#8230;]",
-      "titleZh": "英伟达表示，其人工智能数据中心设计运行更热，耗水量更少",
-      "contentZh": "公众对数据中心的抵制强调了它们的水和能源消耗，现在英伟达正在强调其声称，全液冷数据中心的Rubin发电参考设计“消除了大量的电力消耗和几乎所有的用水量。“尽管如此，它并没有解决围绕人工智能数据的所有问题[…]"
-    },
-    {
-      "title": "Valve describes just how brutal RAM negotiations are in 2026",
-      "content": "Valve's Steam Machine finally has a price: a whopping $1,049 for the 512GB configuration or $1,349 for the 2TB version. And those are without bundled controllers, which drive up the cost more. The prices are so high in part because Valve isn't subsidizing the hardware, and the company has already indicated that the component crisis [&#8230;]",
-      "titleZh": "Valve描述了2026年RAM谈判的残酷程度",
-      "contentZh": "Valve的蒸汽机终于有了一个价格： 512GB配置高达1,049美元， 2TB版本高达1,349美元。这些没有捆绑的控制器，这增加了成本。价格如此之高，部分原因是Valve没有补贴硬件，该公司已经表示组件危机[…]"
+      "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
+      "content": "Amazon&#8217;s Prime Day sale is here, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 recently hit a record-low $169 at Walmart. That particular [&#8230;]",
+      "titleZh": "今年苹果产品的Prime Day优惠是我见过的最好的",
+      "contentZh": "亚马逊的Prime Day促销已经到来，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3最近在沃尔玛创下了169 $的历史新低。那个特别的[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
+      "word": "infrastructure",
+      "meaning": "基础设施"
     },
     {
       "word": "encryption",
       "meaning": "加密"
+    },
+    {
+      "word": "layoff",
+      "meaning": "裁员"
     }
   ]
 }
