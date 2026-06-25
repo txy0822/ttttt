@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "articles": [
+    {
+      "title": "One-two punch delivered in global operation disrupts cybercrime &quot;assembly line&quot;",
+      "content": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
+      "titleZh": "在全球运营中交付的两拳颠覆了网络犯罪“装配线”",
+      "contentZh": "“结局行动”同时扰乱了两种广泛使用的犯罪工具。"
+    },
     {
       "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
       "content": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
@@ -20,22 +26,16 @@
       "contentZh": "批评人士认为，此举是将他们引向更昂贵的芯片的卑鄙方式。"
     },
     {
-      "title": "Microsoft discovers new lightweight backdoor that steals cryptocurrency",
-      "content": "Crypto Clipper spreads over USB and communicates over Tor.",
-      "titleZh": "微软发现窃取加密货币的新型轻量级后门",
-      "contentZh": "Crypto Clipper通过USB进行传播，并通过Tor进行通信。"
-    },
-    {
-      "title": "The best robot vacuum deals available during Prime Day",
-      "content": "If you&#8217;ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. Prime Day has kicked off, though more than just Amazon is offering deals on several models we&#8217;ve tested from brands like [&#8230;]",
-      "titleZh": "Prime Day期间可用的最佳机器人吸尘器优惠",
-      "contentZh": "如果您一直想购买机器人吸尘器，但却被购买一台好吸尘器的成本所拖延，那么现在不是开始寻找的好时机。Prime Day已经开始了，尽管不仅仅是亚马逊为我们已经测试过的几款车型提供优惠，例如[…]"
+      "title": "The top tech Prime Day deals to shop on day two",
+      "content": "Welcome to day two of Amazon&#8217;s four-day Prime Day event, which, if we&#8217;re being honest, looks a lot like day one. That&#8217;s actually good news, though, because many of the best deals are still around, and some new ones have joined them. If you&#8217;ve got a Prime subscription, whether through a free trial or a [&#8230;]",
+      "titleZh": "在第二天购物的顶级科技Prime Day优惠",
+      "contentZh": "欢迎来到亚马逊为期四天的Prime Day活动的第二天，如果我们说实话，这看起来很像第一天。不过，这实际上是个好消息，因为许多最好的交易仍然存在，一些新的交易已经加入其中。如果您有Prime订阅，无论是通过免费试用还是[…]"
     },
     {
       "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
-      "content": "Amazon&#8217;s Prime Day sale is here, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 recently hit a record-low $169 at Walmart. That particular [&#8230;]",
+      "content": "Amazon&#8217;s Prime Day is now in its second day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Tim [&#8230;]",
       "titleZh": "今年苹果产品的Prime Day优惠是我见过的最好的",
-      "contentZh": "亚马逊的Prime Day促销已经到来，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3最近在沃尔玛创下了169 $的历史新低。那个特别的[…]"
+      "contentZh": "亚马逊的Prime Day现已进入第二天，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3的折扣为$ 179。与Tim […]"
     }
   ],
   "vocab": [
@@ -50,6 +50,14 @@
     {
       "word": "layoff",
       "meaning": "裁员"
+    },
+    {
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "subscription",
+      "meaning": "订阅"
     }
   ]
 }
