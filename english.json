@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "articles": [
+    {
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "content": "Notion is \"going all in on using agents to run your inbox.\"",
+      "titleZh": "杀死受Skiff影响的电子邮件应用程序的概念，因为大多数用户使用人工智能代理",
+      "contentZh": "概念是“全力以赴使用代理来运行您的收件箱。”"
+    },
     {
       "title": "One-two punch delivered in global operation disrupts cybercrime &quot;assembly line&quot;",
       "content": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
@@ -20,32 +26,22 @@
       "contentZh": "甲骨文正在花费数十亿美元用于数据中心基础设施，以支持人工智能。"
     },
     {
-      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
-      "content": "Critics saw the move as an underhanded way to steer them toward more costly chips.",
-      "titleZh": "在用户强烈抗议后， AMD在消费者CPU中恢复内存加密",
-      "contentZh": "批评人士认为，此举是将他们引向更昂贵的芯片的卑鄙方式。"
-    },
-    {
-      "title": "The top tech Prime Day deals to shop on day two",
-      "content": "Welcome to day two of Amazon&#8217;s four-day Prime Day event, which, if we&#8217;re being honest, looks a lot like day one. That&#8217;s actually good news, though, because many of the best deals are still around, and some new ones have joined them. If you&#8217;ve got a Prime subscription, whether through a free trial or a [&#8230;]",
-      "titleZh": "在第二天购物的顶级科技Prime Day优惠",
-      "contentZh": "欢迎来到亚马逊为期四天的Prime Day活动的第二天，如果我们说实话，这看起来很像第一天。不过，这实际上是个好消息，因为许多最好的交易仍然存在，一些新的交易已经加入其中。如果您有Prime订阅，无论是通过免费试用还是[…]"
-    },
-    {
       "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
-      "content": "Amazon&#8217;s Prime Day is now in its second day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Tim [&#8230;]",
+      "content": "Amazon&#8217;s Prime Day is now in its third day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Apple [&#8230;]",
       "titleZh": "今年苹果产品的Prime Day优惠是我见过的最好的",
-      "contentZh": "亚马逊的Prime Day现已进入第二天，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3的折扣为$ 179。与Tim […]"
+      "contentZh": "亚马逊的Prime Day现已进入第三天，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3的折扣为$ 179。使用Apple […]"
+    },
+    {
+      "title": "Android 17&#8217;s new foldable gaming mode could make flippy phones more fun",
+      "content": "Android 17 is getting a dedicated gaming mode for foldables that will put a virtual gamepad with touch controls on half of your screen to theoretically make it easier to play games. With foldable gaming mode, which is set to launch in the coming months, the virtual controller emulates physical button presses at a system [&#8230;]",
+      "titleZh": "Android 17的全新可折叠游戏模式可以让轻便手机更有趣",
+      "contentZh": "Android 17正在获得专用的可折叠游戏模式，该模式将在一半的屏幕上放置带有触摸控制的虚拟游戏手柄，理论上可以更轻松地玩游戏。在可折叠游戏模式下，虚拟控制器将在未来几个月内推出，模拟系统上的物理按钮按下[…]"
     }
   ],
   "vocab": [
     {
       "word": "infrastructure",
       "meaning": "基础设施"
-    },
-    {
-      "word": "encryption",
-      "meaning": "加密"
     },
     {
       "word": "layoff",
@@ -56,8 +52,8 @@
       "meaning": "扰乱/颠覆"
     },
     {
-      "word": "subscription",
-      "meaning": "订阅"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
