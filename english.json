@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-29",
   "articles": [
     {
       "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
@@ -26,22 +26,26 @@
       "contentZh": "甲骨文正在花费数十亿美元用于数据中心基础设施，以支持人工智能。"
     },
     {
-      "title": "This year’s Prime Day deals on Apple products are the best I’ve seen",
-      "content": "Amazon&#8217;s Prime Day is now in its third day, and whether you&#8217;re looking for a new pair of wireless earbuds or a smartwatch, there’s a good chance you’ll find a discount. The Apple Watch Series 11 has already dropped to a new low price, while the AirPods Pro 3 are discounted to $179. With Apple [&#8230;]",
-      "titleZh": "今年苹果产品的Prime Day优惠是我见过的最好的",
-      "contentZh": "亚马逊的Prime Day现已进入第三天，无论您是在寻找一副新的无线耳机还是智能手表，您都很有可能会找到折扣。Apple Watch Series 11已经降至新的低价，而AirPods Pro 3的折扣为$ 179。使用Apple […]"
+      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "content": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the gap in the capabilities between its models and those of [&#8230;]",
+      "titleZh": "中国的Z.ai声称它可以在网络安全方面与神话相匹配",
+      "contentZh": "中国的Zhipu AI （ Z.ai ）发布了其开放式权重GLM-5.2 ，一些研究人员声称它在某些错误发现和网络安全场景中与Mythos相匹配。虽然GLM在其他更一般的任务上落后于Anthropic和OpenAI的模型，但中国似乎已经大大缩小了其模型与[…]模型之间的能力差距。"
     },
     {
-      "title": "Android 17&#8217;s new foldable gaming mode could make flippy phones more fun",
-      "content": "Android 17 is getting a dedicated gaming mode for foldables that will put a virtual gamepad with touch controls on half of your screen to theoretically make it easier to play games. With foldable gaming mode, which is set to launch in the coming months, the virtual controller emulates physical button presses at a system [&#8230;]",
-      "titleZh": "Android 17的全新可折叠游戏模式可以让轻便手机更有趣",
-      "contentZh": "Android 17正在获得专用的可折叠游戏模式，该模式将在一半的屏幕上放置带有触摸控制的虚拟游戏手柄，理论上可以更轻松地玩游戏。在可折叠游戏模式下，虚拟控制器将在未来几个月内推出，模拟系统上的物理按钮按下[…]"
+      "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "content": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or [&#8230;]",
+      "titleZh": "Suno推出Spark孵化器计划，为独立艺术家提供人工智能机器",
+      "contentZh": "Suno的野心不仅仅是成为一个玩具来制造人工智能，它还希望成为一个流媒体目的地，并打破新的艺术家。Spark是他们面向独立艺术家的新孵化器计划，提供资助、指导和营销支持。要申请，艺术家必须是未签名的歌手、词曲作者或[…]"
     }
   ],
   "vocab": [
     {
       "word": "infrastructure",
       "meaning": "基础设施"
+    },
+    {
+      "word": "cybersecurity",
+      "meaning": "网络安全"
     },
     {
       "word": "layoff",
