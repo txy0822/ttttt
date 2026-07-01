@@ -1,6 +1,12 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "articles": [
+    {
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "content": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
+      "titleZh": "新攻击为人工智能浏览器是一个坏主意提供了另一个原因",
+      "contentZh": "告诉LLM 2 + 2 = 5足以使其遵循禁止的指示。"
+    },
     {
       "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
       "content": "Operation by two Russia-state groups has been ongoing since at least March.",
@@ -20,22 +26,16 @@
       "contentZh": "“结局行动”同时扰乱了两种广泛使用的犯罪工具。"
     },
     {
-      "title": "White House drastically shortens deadline for dropping quantum-vulnerable crypto",
-      "content": "Order warns of national security risks if post-quantum cryptography isn't adopted in time.",
-      "titleZh": "白宫大幅缩短放弃易受量子攻击的加密货币的截止日期",
-      "contentZh": "如果未及时采用后量子加密技术，命令将警告国家安全风险。"
+      "title": "Meta is adding ridiculous &#8216;rate limits&#8217; and a soft paywall to its smart glasses",
+      "content": "Would you pay $20 a month for access to AI hardware you already own? That appears to be one of Meta's next bets. This week, it quietly announced that your glasses' Conversation Focus feature will soon be limited to three hours of use per month, unless you pay for a $19.99 Meta One Premium subscription. [&#8230;]",
+      "titleZh": "Meta为其智能眼镜添加了荒谬的“速率限制”和柔软的付费墙",
+      "contentZh": "您是否会每月支付$ 20来访问您已经拥有的人工智能硬件？这似乎是Meta的下一个赌注之一。本周，它悄然宣布，您的眼镜的“对话焦点”功能将很快被限制为每月三个小时的使用时间，除非您支付$ 19.99 Meta One Premium订阅费用。[…]"
     },
     {
-      "title": "T-Mobile is booting customers from its oldest plans",
-      "content": "Earlier today, T-Mobile started notifying customers that it will be retiring many legacy plans and moving subscribers onto one of its current rate plans. This move includes plans that date back to the 3G era, and it's going about as well as you'd expect. Affected customers began sharing screenshots of the text on reddit and [&#8230;]",
-      "titleZh": "T-Mobile正在从其最古老的计划中引导客户",
-      "contentZh": "今天早些时候， T-Mobile开始通知客户，它将淘汰许多旧版套餐，并将用户转移到其当前的价格计划之一。此举包括可追溯到3G时代的计划，而且进展顺利。受影响的客户开始在reddit和[…]上分享文本的屏幕截图"
-    },
-    {
-      "title": "After a great start, DC’s new cinematic universe is already slowing down",
-      "content": "While Kara Zor-El's appearance at the end of James Gunn's Superman was a very pleasant surprise, Warner Bros. Discovery's plan to fast-track a standalone Supergirl feature always felt a little dubious. It seemed odd that, after Superman, the studio wanted to flesh out its new cinematic universe with films about another Kryptonian and one of [&#8230;]",
-      "titleZh": "在经历了一个良好的开端之后， DC的新电影世界已经开始放缓",
-      "contentZh": "虽然Kara Zor-El在詹姆斯·冈恩的《超人》结尾的出现是一个非常令人愉快的惊喜，但华纳兄弟发现计划快速追踪一个独立的超级女郎角色的计划总是让人感到有点怀疑。奇怪的是，在《超人》之后，该工作室想用另一部氪星电影和一部[…]电影充实其新的电影宇宙。"
+      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
+      "content": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [&#8230;]",
+      "titleZh": "Anthropic长篇旁白的寓言5即将回归",
+      "contentZh": "经过与特朗普政府数周的谈判， Anthropic终于能够将Claude Fable 5重新上线。Anthropic在X上的一篇文章中表示，它计划于周三开始恢复Claude平台上全球用户的访问权限，该公司将重新启用AWS、Google Cloud和Microsoft […]上的访问权限。"
     }
   ],
   "vocab": [
@@ -46,6 +46,18 @@
     {
       "word": "feature",
       "meaning": "功能/特性"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
+    },
+    {
+      "word": "subscription",
+      "meaning": "订阅"
     }
   ]
 }
