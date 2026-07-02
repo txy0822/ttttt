@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "articles": [
+    {
+      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
+      "content": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
+      "titleZh": "T-Mobile在诉讼中将数万台虚拟机从VMware中移除",
+      "contentZh": "T-Mobile希望Broadcom继续支持其VMware永久许可证。"
+    },
     {
       "title": "New attack provides one more reason why AI browsers are a bad idea",
       "content": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
@@ -20,44 +26,30 @@
       "contentZh": "概念是“全力以赴使用代理来运行您的收件箱。”"
     },
     {
-      "title": "One-two punch delivered in global operation disrupts cybercrime &quot;assembly line&quot;",
-      "content": "\"Operation Endgame\" simultaneously disrupts two widely used crime tools.",
-      "titleZh": "在全球运营中交付的两拳颠覆了网络犯罪“装配线”",
-      "contentZh": "“结局行动”同时扰乱了两种广泛使用的犯罪工具。"
+      "title": "Apple’s entry-level MacBook Pro could be up for a redesign",
+      "content": "Apple is working on a \"revamped\" version of its entry-level MacBook Pro that it could launch as soon as the first half of 2027, Bloomberg reports. The company is also testing four new iPad Pros that are set to launch in the spring with a focus on \"internal improvements.\" The updated MacBook Pro, which will [&#8230;]",
+      "titleZh": "苹果的入门级MacBook Pro可能会重新设计",
+      "contentZh": "据彭博社报道，苹果正在开发其入门级MacBook Pro的“改版”版本，最快可能在2027年上半年推出。该公司还在测试四款新的iPad Pro ，它们将于春季推出，重点是“内部改进”。“更新的MacBook Pro ，它将[…]"
     },
     {
-      "title": "Meta is adding ridiculous &#8216;rate limits&#8217; and a soft paywall to its smart glasses",
-      "content": "Would you pay $20 a month for access to AI hardware you already own? That appears to be one of Meta's next bets. This week, it quietly announced that your glasses' Conversation Focus feature will soon be limited to three hours of use per month, unless you pay for a $19.99 Meta One Premium subscription. [&#8230;]",
-      "titleZh": "Meta为其智能眼镜添加了荒谬的“速率限制”和柔软的付费墙",
-      "contentZh": "您是否会每月支付$ 20来访问您已经拥有的人工智能硬件？这似乎是Meta的下一个赌注之一。本周，它悄然宣布，您的眼镜的“对话焦点”功能将很快被限制为每月三个小时的使用时间，除非您支付$ 19.99 Meta One Premium订阅费用。[…]"
-    },
-    {
-      "title": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
-      "content": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [&#8230;]",
-      "titleZh": "Anthropic长篇旁白的寓言5即将回归",
-      "contentZh": "经过与特朗普政府数周的谈判， Anthropic终于能够将Claude Fable 5重新上线。Anthropic在X上的一篇文章中表示，它计划于周三开始恢复Claude平台上全球用户的访问权限，该公司将重新启用AWS、Google Cloud和Microsoft […]上的访问权限。"
+      "title": "The funeral for PlayStation discs has begun",
+      "content": "Cody Spencer, the co-owner of the small games retail chain Pink Gorilla Games, put it well when I asked about the impact of Sony's recent announcement that it will stop making discs for new games starting January 2028. \"It's sad to see. This decision is only a negative for gamers. We're losing the ability to [&#8230;]",
+      "titleZh": "PlayStation光盘的葬礼已经开始",
+      "contentZh": "当我问及索尼最近宣布将从2028年1月开始停止为新游戏制作光盘的影响时，小型游戏零售连锁店Pink Gorilla Games的共同所有者Cody Spencer说得很好。“很难过。这个决定只对游戏玩家不利。我们正在失去[…]的能力"
     }
   ],
   "vocab": [
     {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
+      "word": "lawsuit",
+      "meaning": "诉讼"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
       "word": "announce",
       "meaning": "宣布"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
-    },
-    {
-      "word": "subscription",
-      "meaning": "订阅"
     }
   ]
 }
