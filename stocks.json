@@ -1,17 +1,6 @@
 {
-  "date": "2026-07-01",
-  "time": "18:54",
-  "count": 1,
-  "candidates": [
-    {
-      "code": "002182",
-      "name": "宝武镁业",
-      "price": 15.88,
-      "change_pct": 3.79,
-      "volume_ratio": 1.42,
-      "turnover_rate": 7.28,
-      "float_cap_yi": 137.4,
-      "ma_info": "MA5=14.32 > MA10=13.93 > MA20=13.73"
-    }
-  ]
+  "date": "2026-07-02",
+  "time": "15:30",
+  "count": 0,
+  "candidates": []
 }
