@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "articles": [
+    {
+      "title": "Newly discovered PamStealer isn&#039;t your typical macOS malware",
+      "content": "The discovery underscores the increased effort being poured into Mac infostealers.",
+      "titleZh": "新发现的PamStealer不是典型的macOS恶意软件",
+      "contentZh": "这一发现凸显了加大对Mac信息窃取者的投入。"
+    },
     {
       "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
       "content": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
@@ -20,36 +26,22 @@
       "contentZh": "至少自3月以来，两个俄罗斯国家集团的行动一直在进行。"
     },
     {
-      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
-      "content": "Notion is \"going all in on using agents to run your inbox.\"",
-      "titleZh": "杀死受Skiff影响的电子邮件应用程序的概念，因为大多数用户使用人工智能代理",
-      "contentZh": "概念是“全力以赴使用代理来运行您的收件箱。”"
+      "title": "Sony’s PlayStation disc factory is already being repurposed",
+      "content": "The video game disc is dead, and Sony's been planning to kill it for some time, according to a report out of Austria. The man who leads Sony's discmaking operations, Sony DADC president Dietmar Tanzer, told ORF Salzburg that the company's Thalgau plant produces 600,000 discs every day, half of which are for PlayStation. But [&#8230;]",
+      "titleZh": "索尼的PlayStation光盘工厂已经被重新利用",
+      "contentZh": "根据奥地利的一份报告，视频游戏光盘已经死了，索尼计划杀死它已经有一段时间了。索尼DADC总裁Dietmar Tanzer告诉ORF萨尔茨堡，该公司的Thalgau工厂每天生产60万张光盘，其中一半用于PlayStation。但是[…]"
     },
     {
-      "title": "Apple’s entry-level MacBook Pro could be up for a redesign",
-      "content": "Apple is working on a \"revamped\" version of its entry-level MacBook Pro that it could launch as soon as the first half of 2027, Bloomberg reports. The company is also testing four new iPad Pros that are set to launch in the spring with a focus on \"internal improvements.\" The updated MacBook Pro, which will [&#8230;]",
-      "titleZh": "苹果的入门级MacBook Pro可能会重新设计",
-      "contentZh": "据彭博社报道，苹果正在开发其入门级MacBook Pro的“改版”版本，最快可能在2027年上半年推出。该公司还在测试四款新的iPad Pro ，它们将于春季推出，重点是“内部改进”。“更新的MacBook Pro ，它将[…]"
-    },
-    {
-      "title": "The funeral for PlayStation discs has begun",
-      "content": "Cody Spencer, the co-owner of the small games retail chain Pink Gorilla Games, put it well when I asked about the impact of Sony's recent announcement that it will stop making discs for new games starting January 2028. \"It's sad to see. This decision is only a negative for gamers. We're losing the ability to [&#8230;]",
-      "titleZh": "PlayStation光盘的葬礼已经开始",
-      "contentZh": "当我问及索尼最近宣布将从2028年1月开始停止为新游戏制作光盘的影响时，小型游戏零售连锁店Pink Gorilla Games的共同所有者Cody Spencer说得很好。“很难过。这个决定只对游戏玩家不利。我们正在失去[…]的能力"
+      "title": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
+      "content": "The man whose Tesla struck and killed a woman inside her Texas home last month is now facing manslaughter charges, as reported earlier by The Wall Street Journal and local news outlet KHOU 11. 44-year-old Michael Butler was arrested on Wednesday and claimed to have been driving his Model 3 using Tesla's Full-Self Driving (FSD) [&#8230;]",
+      "titleZh": "特斯拉司机因德克萨斯州撞车事故而面临过失杀人指控，该事故导致一名妇女在家中丧生",
+      "contentZh": "正如《华尔街日报》和当地新闻媒体KHOU 11早些时候报道的那样，上个月特斯拉在德克萨斯州家中撞击并杀死一名女子的男子现在面临过失杀人罪指控。44岁的迈克尔·巴特勒（ Michael Butler ）周三被捕，并声称使用特斯拉的全自动驾驶（ FSD ）驾驶他的Model 3 […]"
     }
   ],
   "vocab": [
     {
       "word": "lawsuit",
       "meaning": "诉讼"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
     }
   ]
 }
