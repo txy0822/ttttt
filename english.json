@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-06",
   "articles": [
     {
       "title": "Newly discovered PamStealer isn&#039;t your typical macOS malware",
@@ -26,22 +26,26 @@
       "contentZh": "至少自3月以来，两个俄罗斯国家集团的行动一直在进行。"
     },
     {
-      "title": "Sony’s PlayStation disc factory is already being repurposed",
-      "content": "The video game disc is dead, and Sony's been planning to kill it for some time, according to a report out of Austria. The man who leads Sony's discmaking operations, Sony DADC president Dietmar Tanzer, told ORF Salzburg that the company's Thalgau plant produces 600,000 discs every day, half of which are for PlayStation. But [&#8230;]",
-      "titleZh": "索尼的PlayStation光盘工厂已经被重新利用",
-      "contentZh": "根据奥地利的一份报告，视频游戏光盘已经死了，索尼计划杀死它已经有一段时间了。索尼DADC总裁Dietmar Tanzer告诉ORF萨尔茨堡，该公司的Thalgau工厂每天生产60万张光盘，其中一半用于PlayStation。但是[…]"
+      "title": "Some of the nation’s rich are letting AI teach their kids",
+      "content": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha [&#8230;]",
+      "titleZh": "这个国家的一些富人正在让人工智能教他们的孩子",
+      "contentZh": "大多数美国人不信任人工智能。事实证明，它不知道比萨饼的安全配料是什么。人们甚至不想听人工智能音乐。但对于一些美国富人来说，这一切都不重要，他们正在转向人工智能来教育他们的孩子，而不是传统的学校。Forge Prep和Alpha […]等公司"
     },
     {
-      "title": "Tesla driver faces manslaughter charges over Texas crash that killed a woman inside her home",
-      "content": "The man whose Tesla struck and killed a woman inside her Texas home last month is now facing manslaughter charges, as reported earlier by The Wall Street Journal and local news outlet KHOU 11. 44-year-old Michael Butler was arrested on Wednesday and claimed to have been driving his Model 3 using Tesla's Full-Self Driving (FSD) [&#8230;]",
-      "titleZh": "特斯拉司机因德克萨斯州撞车事故而面临过失杀人指控，该事故导致一名妇女在家中丧生",
-      "contentZh": "正如《华尔街日报》和当地新闻媒体KHOU 11早些时候报道的那样，上个月特斯拉在德克萨斯州家中撞击并杀死一名女子的男子现在面临过失杀人罪指控。44岁的迈克尔·巴特勒（ Michael Butler ）周三被捕，并声称使用特斯拉的全自动驾驶（ FSD ）驾驶他的Model 3 […]"
+      "title": "Mr. Lif’s Emergency Rations EP is post-9/11 hip hop at its most daring",
+      "content": "There was a period in the early aughts when Definitive Jux (nee: Def Jux) seemed like it was going to be the future of hip hop. While the label featured plenty of experimental, boundary-pushing, and politically minded acts, Lif stood out as the most \"conscious rapper\" in the traditional sense. It was clear though, that [&#8230;]",
+      "titleZh": "Lif先生的紧急口粮EP是9/11嘻哈之后最大胆的",
+      "contentZh": "在早期， Definitive Jux （ NEE ： Def Jux ）似乎将成为嘻哈的未来。虽然该品牌拥有大量的实验性，突破界限和具有政治头脑的行为，但Lif在传统意义上脱颖而出，成为最“有意识的说唱歌手”。但很明显， […]"
     }
   ],
   "vocab": [
     {
       "word": "lawsuit",
       "meaning": "诉讼"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
