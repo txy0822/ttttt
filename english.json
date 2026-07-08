@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "articles": [
     {
       "title": "Newly discovered PamStealer isn&#039;t your typical macOS malware",
@@ -26,22 +26,34 @@
       "contentZh": "至少自3月以来，两个俄罗斯国家集团的行动一直在进行。"
     },
     {
-      "title": "Hoto&#8217;s PixelDrive screwdriver is down to $60, matching its best price",
-      "content": "If your Prime Day purchases included a new desk, TV stand, bookshelf, or other furniture you still haven&#8217;t assembled, Hoto&#8217;s PixelDrive cordless screwdriver can help speed up the process. It&#8217;s currently on sale for $59.99 ($20 off) at Amazon, matching its best price to date.&#160; From tightening loose screws on furniture to repairing electronics, the [&#8230;]",
-      "titleZh": "Hoto的PixelDrive螺丝刀降至60 $ ，与其最优惠的价格相匹配",
-      "contentZh": "如果您的Prime Day购物包括新书桌、电视架、书架或其他您尚未组装的家具， Hoto的PixelDrive无绳螺丝刀可以帮助加快这一过程。它目前在亚马逊以59.99 $ （折扣20 $ ）的价格出售，与迄今为止的最佳价格相匹配。从拧紧家具上的松动螺钉到维修电子产品， […]"
+      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
+      "content": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light. The update is meant to address modders who have taken actions such as physically drilling [&#8230;]",
+      "titleZh": "如果您篡改隐私灯， Meta的眼镜将关闭摄像头",
+      "contentZh": "在公众对其智能眼镜的强烈反对中， Meta宣布将更新其眼镜的一项新功能，该功能将在检测到有人篡改或破坏了眼镜的隐私LED灯时禁用摄像头。此次更新旨在解决已采取物理钻孔[…]等行动的改装商"
     },
     {
-      "title": "America’s greatest idea is still under threat",
-      "content": "The United States of America recently turned 250 years old. What a spectacle! The fireworks were amazing, and millions of proud people celebrated across the nation - even around the world. France lit up the Eiffel Tower; Japan had fireworks. French fighter jets flew above New York City with trails of red, white, and blue [&#8230;]",
-      "titleZh": "美国最伟大的思想仍然受到威胁",
-      "contentZh": "美利坚合众国最近已经250岁了。真是一场奇观！烟花令人惊叹，数百万自豪的人在全国各地庆祝，甚至是世界各地。法国点亮了埃菲尔铁塔；日本有烟花。法国战斗机在纽约市上空飞行，有红色、白色和蓝色的痕迹[…]"
+      "title": "Of course viewers are giving up on Netflix shows",
+      "content": "Even though Netflix is the world's most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer's anthology about people locked in feuds - lost 70 percent of its viewership when it returned earlier this year. There seems to be some confusion [&#8230;]",
+      "titleZh": "当然，观众正在放弃Netflix节目",
+      "contentZh": "尽管Netflix是世界上最受欢迎的付费流媒体服务，但该公司在第一季之后一直在努力让观众观看其系列节目。牛肉-主播关于人们陷入不和的选集-在今年早些时候回归时失去了70 ％的收视率。似乎有一些混淆[…]"
     }
   ],
   "vocab": [
     {
       "word": "lawsuit",
       "meaning": "诉讼"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "privacy",
+      "meaning": "隐私"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
