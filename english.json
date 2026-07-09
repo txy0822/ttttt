@@ -1,55 +1,51 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "articles": [
     {
-      "title": "Newly discovered PamStealer isn&#039;t your typical macOS malware",
-      "content": "The discovery underscores the increased effort being poured into Mac infostealers.",
-      "titleZh": "新发现的PamStealer不是典型的macOS恶意软件",
-      "contentZh": "这一发现凸显了加大对Mac信息窃取者的投入。"
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "content": "Both vulnerabilities allow untrusted users to gain root privileges.",
+      "titleZh": "谷歌为Linux漏洞支付$ 250K ，允许访客虚拟机逃逸",
+      "contentZh": "这两个漏洞都允许不受信任的用户获得root权限。"
     },
     {
-      "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
-      "content": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
-      "titleZh": "T-Mobile在诉讼中将数万台虚拟机从VMware中移除",
-      "contentZh": "T-Mobile希望Broadcom继续支持其VMware永久许可证。"
+      "title": "Aussie gov&#039;t tells volunteers to throw out thousands of functioning test routers",
+      "content": "But the devices could \"easily be reflashed.\"",
+      "titleZh": "澳大利亚政府要求志愿者扔掉数千台功能正常的测试路由器",
+      "contentZh": "但这些设备可以“轻松刷新”。"
     },
     {
-      "title": "New attack provides one more reason why AI browsers are a bad idea",
-      "content": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
-      "titleZh": "新攻击为人工智能浏览器是一个坏主意提供了另一个原因",
-      "contentZh": "告诉LLM 2 + 2 = 5足以使其遵循禁止的指示。"
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "content": "Miners backed by Trump admin sell to Japan, South Korea despite push to develop domestic supply chain.",
+      "titleZh": "由于国内需求增长缓慢，美国稀土流入亚洲",
+      "contentZh": "尽管推动发展国内供应链，但特朗普政府支持的矿工仍向日本和韩国销售。"
     },
     {
-      "title": "US offers $10 million for info on group behind Signal and WhatsApp hacking spree",
-      "content": "Operation by two Russia-state groups has been ongoing since at least March.",
-      "titleZh": "美国提供1000万美元用于获取Signal和WhatsApp黑客狂欢背后的团队信息",
-      "contentZh": "至少自3月以来，两个俄罗斯国家集团的行动一直在进行。"
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "content": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "titleZh": "黑客可以使用9种最流行的人工智能工具来组装大规模僵尸网络",
+      "contentZh": "“HalluSquatting”将LLM无法说“我不知道”作为武器。"
     },
     {
-      "title": "Meta’s glasses will turn off the camera if you tamper with the privacy light",
-      "content": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light. The update is meant to address modders who have taken actions such as physically drilling [&#8230;]",
-      "titleZh": "如果您篡改隐私灯， Meta的眼镜将关闭摄像头",
-      "contentZh": "在公众对其智能眼镜的强烈反对中， Meta宣布将更新其眼镜的一项新功能，该功能将在检测到有人篡改或破坏了眼镜的隐私LED灯时禁用摄像头。此次更新旨在解决已采取物理钻孔[…]等行动的改装商"
+      "title": "Meta is reportedly working on smart glasses that would be recording all the time",
+      "content": "Meta might be the next company to make an always-on AI wearable. The company is working on prototype \"super sensing\" always-aware smart glasses that could continuously record audio and snap photos \"every few seconds,\" according to the Financial Times. The wearer could then ask Meta AI about the captured audio and images. However, the images [&#8230;]",
+      "titleZh": "据报道， Meta正在开发可以一直录制的智能眼镜",
+      "contentZh": "Meta可能是下一家制造始终在线的人工智能可穿戴设备的公司。据英国《金融时报》报道，该公司正在开发“超感应”智能眼镜原型，该眼镜可以“每隔几秒钟”连续录制音频并拍摄照片。然后，佩戴者可以向Meta AI询问捕获的音频和图像。然而，图片[…]"
     },
     {
-      "title": "Of course viewers are giving up on Netflix shows",
-      "content": "Even though Netflix is the world's most popular paid streaming service, the company has been struggling to keep viewers watching its series after their first seasons. Beef - the streamer's anthology about people locked in feuds - lost 70 percent of its viewership when it returned earlier this year. There seems to be some confusion [&#8230;]",
-      "titleZh": "当然，观众正在放弃Netflix节目",
-      "contentZh": "尽管Netflix是世界上最受欢迎的付费流媒体服务，但该公司在第一季之后一直在努力让观众观看其系列节目。牛肉-主播关于人们陷入不和的选集-在今年早些时候回归时失去了70 ％的收视率。似乎有一些混淆[…]"
+      "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+      "content": "Even though they haven’t been officially announced yet, Samsung is giving you a chance to save some cash when you preorder what we’re expecting to be the brand’s updated Galaxy Z Fold phones. The next Galaxy Unpacked event will take place on July 22nd, 2026, and features the tagline “A new shape unfolds.” In addition [&#8230;]",
+      "titleZh": "预订三星即将推出的Galaxy手机，即可获得$ 30的消费金",
+      "contentZh": "尽管三星尚未正式宣布，但当您预订我们期望该品牌更新的Galaxy Z Fold手机时，三星将为您提供一些节省现金的机会。下一次Galaxy Unpacked活动将于2026年7月22日举行，其标语为“A new shape unfolds.“此外[…]"
     }
   ],
   "vocab": [
     {
-      "word": "lawsuit",
-      "meaning": "诉讼"
+      "word": "vulnerability",
+      "meaning": "漏洞"
     },
     {
       "word": "feature",
       "meaning": "功能/特性"
-    },
-    {
-      "word": "privacy",
-      "meaning": "隐私"
     },
     {
       "word": "announce",
