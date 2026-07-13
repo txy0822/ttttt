@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-13",
   "articles": [
     {
       "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
@@ -26,26 +26,26 @@
       "contentZh": "但这些设备可以“轻松刷新”。"
     },
     {
-      "title": "Microsoft’s carbon emissions went up 25 percent last year",
-      "content": "Microsoft may once again be struggling to keep up with its own climate goals, according to its 2026 sustainability report. As reported by GeekWire, the report states that Microsoft's carbon emissions increased 25 percent in 2025, totalling 34 million metric tons \"without select interventions.\" Microsoft says this was \"driven primarily by the expansion of our [&#8230;]",
-      "titleZh": "微软的碳排放量去年增长了25%",
-      "contentZh": "根据其2026年可持续发展报告，微软可能再次难以跟上自己的气候目标。正如GeekWire报道的那样，该报告指出，微软的碳排放量在2025年增加了25% ，总计3400万公吨“没有选择性的干预措施”。“微软表示，这主要是由于我们[…]的扩张"
+      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+      "content": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. [&#8230;]",
+      "titleZh": "Lorde说Ray-Ban Meta AI眼镜“不性感”",
+      "contentZh": "Lorde周四在马德里的Real Cool音乐节上表演，并在演出期间花了一些时间反对人工智能眼镜。虽然她没有具体说明任何品牌，但她很可能是在与电影节赞助商雷朋（ Ray-Ban ）合作，后者与Meta合作开发了一副人工智能智能眼镜。[…]"
     },
     {
-      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
-      "content": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\" she said on X. The news follows Simo's original announcement in April that she would take a few weeks of medical leave due to a neuroimmune condition, shortly after she had taken on the [&#8230;]",
-      "titleZh": "Fidji Simo因病辞去OpenAI的AGI领导职务",
-      "contentZh": "OpenAI的菲吉·西莫（ Fidji Simo ）在X上说，她将辞去公司AGI首席执行官的全职职务，并转为“兼职顾问”。这一消息是在西莫4月份最初宣布，由于神经免疫疾病，她将在就职后不久休几周的病假[…]"
+      "title": "Shall We Go On Sinning So That Grace May Increase? is hypnotic, healing, and hopeful",
+      "content": "Matmos are an incredibly accomplished duo between their own solo records like the masterpiece A Chance to Cut Is a Chance to Cure and production classic Bjork records like Vespertine. But Drew Daniel, one half of Matmos, is fiendishly prolific. When he's not literally dreaming up new viral music genres, he's also putting out records [&#8230;]",
+      "titleZh": "我们应该继续犯罪，以便恩典可以增加吗？是催眠，治愈和充满希望的",
+      "contentZh": "Matmos是他们自己的独奏唱片（如杰作《A Chance to Cut Is a Chance to Cure》）和制作经典Bjork唱片（如《Vespertine》）之间令人难以置信的成就二人组合。但马特莫斯的一半德鲁·丹尼尔（ Drew Daniel ）非常多产。当他不是在梦想新的病毒式音乐流派时，他也在推出唱片[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
+      "word": "rally",
+      "meaning": "反弹/上涨"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "vulnerability",
+      "meaning": "漏洞"
     }
   ]
 }
