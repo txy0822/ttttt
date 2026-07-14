@@ -1,6 +1,18 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "articles": [
+    {
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "content": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "titleZh": "美国政府警告称，俄罗斯国家黑客正在追捕您的路由器",
+      "contentZh": "由于住宅代理风靡一时， CISA敦促路由器用户保持警惕。"
+    },
+    {
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "content": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+      "titleZh": "现在，捍卫者也在接受即时注射",
+      "contentZh": "“情境轰炸”伎俩让代理在造成伤害之前关闭。"
+    },
     {
       "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
       "content": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
@@ -14,38 +26,22 @@
       "contentZh": "Broadcom指责Allstate逃避VMware审计。"
     },
     {
-      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
-      "content": "Both vulnerabilities allow untrusted users to gain root privileges.",
-      "titleZh": "谷歌为Linux漏洞支付$ 250K ，允许访客虚拟机逃逸",
-      "contentZh": "这两个漏洞都允许不受信任的用户获得root权限。"
+      "title": "Microsoft tests Windows Search without all the ads and fluff",
+      "content": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling out the decluttered Search Box to Windows Insiders in the Experimental channel as the company looks to regain trust with users and fix Windows. [&#8230;]",
+      "titleZh": "微软测试Windows搜索没有所有的广告和绒毛",
+      "contentZh": "微软正在测试更简洁版本的Windows 11搜索菜单，该菜单删除了推荐的内容和广告。在周一的一篇博客文章中，微软宣布将在实验频道中向Windows Insiders推出经过整理的搜索框，因为该公司希望重新获得用户的信任并修复Windows。[…]"
     },
     {
-      "title": "Aussie gov&#039;t tells volunteers to throw out thousands of functioning test routers",
-      "content": "But the devices could \"easily be reflashed.\"",
-      "titleZh": "澳大利亚政府要求志愿者扔掉数千台功能正常的测试路由器",
-      "contentZh": "但这些设备可以“轻松刷新”。"
-    },
-    {
-      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-      "content": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. [&#8230;]",
-      "titleZh": "Lorde说Ray-Ban Meta AI眼镜“不性感”",
-      "contentZh": "Lorde周四在马德里的Real Cool音乐节上表演，并在演出期间花了一些时间反对人工智能眼镜。虽然她没有具体说明任何品牌，但她很可能是在与电影节赞助商雷朋（ Ray-Ban ）合作，后者与Meta合作开发了一副人工智能智能眼镜。[…]"
-    },
-    {
-      "title": "Shall We Go On Sinning So That Grace May Increase? is hypnotic, healing, and hopeful",
-      "content": "Matmos are an incredibly accomplished duo between their own solo records like the masterpiece A Chance to Cut Is a Chance to Cure and production classic Bjork records like Vespertine. But Drew Daniel, one half of Matmos, is fiendishly prolific. When he's not literally dreaming up new viral music genres, he's also putting out records [&#8230;]",
-      "titleZh": "我们应该继续犯罪，以便恩典可以增加吗？是催眠，治愈和充满希望的",
-      "contentZh": "Matmos是他们自己的独奏唱片（如杰作《A Chance to Cut Is a Chance to Cure》）和制作经典Bjork唱片（如《Vespertine》）之间令人难以置信的成就二人组合。但马特莫斯的一半德鲁·丹尼尔（ Drew Daniel ）非常多产。当他不是在梦想新的病毒式音乐流派时，他也在推出唱片[…]"
+      "title": "OnePlus is reportedly bailing on the US",
+      "content": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report. Should the exit actually happen, it will mark a conclusion to months of rumors about the future of OnePlus. Android Headlines said [&#8230;]",
+      "titleZh": "据报道， OnePlus正在抛弃美国",
+      "contentZh": "根据WinFuture报告的机器翻译， OnePlus及其母公司Oppo计划在未来几天宣布OnePlus品牌将离开美国和欧洲市场。如果退出真的发生，它将标志着几个月来关于一加未来的谣言的结束。Android Headlines表示[…]"
     }
   ],
   "vocab": [
     {
-      "word": "rally",
-      "meaning": "反弹/上涨"
-    },
-    {
-      "word": "vulnerability",
-      "meaning": "漏洞"
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
