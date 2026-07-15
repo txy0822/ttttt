@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "articles": [
+    {
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "content": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "titleZh": "微软的安全引导已经中断了十年，直到现在还没有人注意到",
+      "contentZh": "Microsoft未能撤销的旧的和被遗忘的“垫片”使得绕过安全启动变得简单。"
+    },
     {
       "title": "The US government warns that Russia state hackers are coming after your router",
       "content": "With residential proxies all the rage, CISA urges router users to be vigilant.",
@@ -20,28 +26,22 @@
       "contentZh": "NightmareEclipse和微软之间的争执没有很快解决的迹象。"
     },
     {
-      "title": "Allstate accuses Broadcom of auditing it because it quit VMware, CA",
-      "content": "Broadcom accuses Allstate of dodging VMware audits.",
-      "titleZh": "Allstate指责Broadcom对其进行审计，因为它退出了加利福尼亚州的VMware",
-      "contentZh": "Broadcom指责Allstate逃避VMware审计。"
+      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
+      "content": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that means Google will be forced to carry rival app stores inside of its own. In fact, Google tells the court, it's ready to begin carrying third-party [&#8230;]",
+      "titleZh": "谷歌和Epic放弃战斗—第三方Android应用商店将于下周推出",
+      "contentZh": "Epic Games和谷歌刚刚联合撤回了追溯和解该诉讼的尝试，该诉讼正在改变Android应用商店在美国的运作方式，这意味着谷歌将被迫在自己的内部运营竞争对手的应用商店。事实上，谷歌告诉法庭，它已经准备好开始携带第三方[…]"
     },
     {
-      "title": "Microsoft tests Windows Search without all the ads and fluff",
-      "content": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling out the decluttered Search Box to Windows Insiders in the Experimental channel as the company looks to regain trust with users and fix Windows. [&#8230;]",
-      "titleZh": "微软测试Windows搜索没有所有的广告和绒毛",
-      "contentZh": "微软正在测试更简洁版本的Windows 11搜索菜单，该菜单删除了推荐的内容和广告。在周一的一篇博客文章中，微软宣布将在实验频道中向Windows Insiders推出经过整理的搜索框，因为该公司希望重新获得用户的信任并修复Windows。[…]"
-    },
-    {
-      "title": "OnePlus is reportedly bailing on the US",
-      "content": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report. Should the exit actually happen, it will mark a conclusion to months of rumors about the future of OnePlus. Android Headlines said [&#8230;]",
-      "titleZh": "据报道， OnePlus正在抛弃美国",
-      "contentZh": "根据WinFuture报告的机器翻译， OnePlus及其母公司Oppo计划在未来几天宣布OnePlus品牌将离开美国和欧洲市场。如果退出真的发生，它将标志着几个月来关于一加未来的谣言的结束。Android Headlines表示[…]"
+      "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
+      "content": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (the price fluctuates between $79 and $99). Some notable [&#8230;]",
+      "titleZh": "没有什么好看的Watch 3 Pro智能手表只需$ 69",
+      "contentZh": "虽然大多数健身追踪器为了保持低价而失去了屏幕，但CMF by Nothing Watch 3 Pro有点不同。这款经济实惠的智能手表配备1.43英寸OLED显示屏，在亚马逊甚至比平时便宜，每种颜色的价格为69美元（价格在79美元至99美元之间波动）。一些值得注意的[…]"
     }
   ],
   "vocab": [
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "lawsuit",
+      "meaning": "诉讼"
     }
   ]
 }
