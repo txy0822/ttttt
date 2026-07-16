@@ -1,6 +1,18 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "articles": [
+    {
+      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
+      "content": "The convenience store chain will use StorMagic instead.",
+      "titleZh": "Sheetz将退出VMware ，迁移11,000台虚拟机",
+      "contentZh": "便利店连锁店将改用StorMagic。"
+    },
+    {
+      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
+      "content": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
+      "titleZh": "Windows 0-day在微软发布创纪录的补丁数量的同一天下降",
+      "contentZh": "HiveLegacy是一个“强大的原始人” ，可能有能力采取其他邪恶行动。"
+    },
     {
       "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
       "content": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
@@ -14,34 +26,22 @@
       "contentZh": "由于住宅代理风靡一时， CISA敦促路由器用户保持警惕。"
     },
     {
-      "title": "Now, defenders are embracing the prompt injection, too",
-      "content": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
-      "titleZh": "现在，捍卫者也在接受即时注射",
-      "contentZh": "“情境轰炸”伎俩让代理在造成伤害之前关闭。"
+      "title": "Skullcandy’s bass-boosting Crusher headphones now come with Bose’s ANC",
+      "content": "Skullcandy announced a new version of its Crusher wireless headphones today featuring a few of Bose's audio technologies including its QuietControl ANC and head-tracking spatial audio. The Crusher headphone line differentiates itself from the competition through the use of both full-range and dedicated bass drivers in each ear cup to boost deeper frequencies. Skullcandy admits [&#8230;]",
+      "titleZh": "Skullcandy的低音增强Crusher耳机现在配备了Bose的ANC",
+      "contentZh": "Skullcandy今天宣布推出新版Crusher无线耳机，采用Bose的一些音频技术，包括QuietControl ANC和头部跟踪空间音频。Crusher耳机系列通过在每个耳杯中使用全范围和专用低音驱动器来提高更深的频率，从而与竞争对手区分开来。Skullcandy承认[…]"
     },
     {
-      "title": "Patch for Windows Defender 0-day could allow attackers to fill hard disk",
-      "content": "The feud between NightmareEclipse and Microsoft shows no signs of resolving soon.",
-      "titleZh": "Windows Defender 0-day修补程序可能允许攻击者填充硬盘",
-      "contentZh": "NightmareEclipse和微软之间的争执没有很快解决的迹象。"
-    },
-    {
-      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
-      "content": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that means Google will be forced to carry rival app stores inside of its own. In fact, Google tells the court, it's ready to begin carrying third-party [&#8230;]",
-      "titleZh": "谷歌和Epic放弃战斗—第三方Android应用商店将于下周推出",
-      "contentZh": "Epic Games和谷歌刚刚联合撤回了追溯和解该诉讼的尝试，该诉讼正在改变Android应用商店在美国的运作方式，这意味着谷歌将被迫在自己的内部运营竞争对手的应用商店。事实上，谷歌告诉法庭，它已经准备好开始携带第三方[…]"
-    },
-    {
-      "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
-      "content": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (the price fluctuates between $79 and $99). Some notable [&#8230;]",
-      "titleZh": "没有什么好看的Watch 3 Pro智能手表只需$ 69",
-      "contentZh": "虽然大多数健身追踪器为了保持低价而失去了屏幕，但CMF by Nothing Watch 3 Pro有点不同。这款经济实惠的智能手表配备1.43英寸OLED显示屏，在亚马逊甚至比平时便宜，每种颜色的价格为69美元（价格在79美元至99美元之间波动）。一些值得注意的[…]"
+      "title": "HP&#8217;s OLED-equipped 2-in-1 laptop is a solid back-to-school deal",
+      "content": "With storage and memory prices still at an all-time high, we’re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ultra CPU, 16GB [&#8230;]",
+      "titleZh": "惠普配备OLED的二合一笔记本电脑是稳固的返校协议",
+      "contentZh": "由于存储和内存价格仍处于历史最高水平，当我们找到一台不错的笔记本电脑时，我们很乐意告诉您一笔实惠的交易，尽管它们很罕见。百思买正在出售HP OmniBook X Flip 2 in 1 ，售价$ 999.99 （通常为$ 1,649.99 ） ，配备英特尔酷睿7超级CPU ， 16GB […]"
     }
   ],
   "vocab": [
     {
-      "word": "lawsuit",
-      "meaning": "诉讼"
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
