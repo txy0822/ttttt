@@ -1,6 +1,24 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "articles": [
+    {
+      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
+      "content": "Resellers threatened to ditch HP printing supplies for counterfeits.",
+      "titleZh": "惠普因墨盒、碳粉、个人电脑的“卡特尔化”被罚款14亿卢比",
+      "contentZh": "经销商威胁要放弃惠普打印用品的假冒产品。"
+    },
+    {
+      "title": "Now, even Russia&#039;s most elite hackers are using Clickfix to infect devices",
+      "content": "The social-engineering technique has primarily been a tool of financially motivated criminals.",
+      "titleZh": "现在，即使是俄罗斯最精英的黑客也在使用Clickfix来感染设备",
+      "contentZh": "社交工程技术主要是出于经济动机的犯罪分子的工具。"
+    },
+    {
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "content": "Companies coming to market are raising money at fastest pace this century.",
+      "titleZh": "随着投资者寻找发挥人工智能热潮的方式，能源IPO激增",
+      "contentZh": "本世纪进入市场的公司正在以最快的速度筹集资金。"
+    },
     {
       "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
       "content": "The convenience store chain will use StorMagic instead.",
@@ -8,40 +26,26 @@
       "contentZh": "便利店连锁店将改用StorMagic。"
     },
     {
-      "title": "Windows 0-day drops the same day Microsoft releases record number of patches",
-      "content": "HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
-      "titleZh": "Windows 0-day在微软发布创纪录的补丁数量的同一天下降",
-      "contentZh": "HiveLegacy是一个“强大的原始人” ，可能有能力采取其他邪恶行动。"
+      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
+      "content": "Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and ahead of that launch, it's created 36 characters with \"consistent voices and personas\" that creators can use as NPCs. The characters include Fortnite staples like Agent [&#8230;]",
+      "titleZh": "Fortnite正在获得一堆人工智能驱动的“角色”",
+      "contentZh": "准备好迎接《堡垒之夜》中的更多AI角色吧。从7月30日开始，开发商Epic Games将允许《堡垒之夜》创作者发布使用人工智能声音的角色体验，在发布之前，它已经创建了36个具有“一致声音和角色”的角色，创作者可以将其用作NPC。角色包括Fortnite主食，如Agent […]"
     },
     {
-      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
-      "content": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
-      "titleZh": "微软的安全引导已经中断了十年，直到现在还没有人注意到",
-      "contentZh": "Microsoft未能撤销的旧的和被遗忘的“垫片”使得绕过安全启动变得简单。"
-    },
-    {
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "content": "With residential proxies all the rage, CISA urges router users to be vigilant.",
-      "titleZh": "美国政府警告称，俄罗斯国家黑客正在追捕您的路由器",
-      "contentZh": "由于住宅代理风靡一时， CISA敦促路由器用户保持警惕。"
-    },
-    {
-      "title": "Skullcandy’s bass-boosting Crusher headphones now come with Bose’s ANC",
-      "content": "Skullcandy announced a new version of its Crusher wireless headphones today featuring a few of Bose's audio technologies including its QuietControl ANC and head-tracking spatial audio. The Crusher headphone line differentiates itself from the competition through the use of both full-range and dedicated bass drivers in each ear cup to boost deeper frequencies. Skullcandy admits [&#8230;]",
-      "titleZh": "Skullcandy的低音增强Crusher耳机现在配备了Bose的ANC",
-      "contentZh": "Skullcandy今天宣布推出新版Crusher无线耳机，采用Bose的一些音频技术，包括QuietControl ANC和头部跟踪空间音频。Crusher耳机系列通过在每个耳杯中使用全范围和专用低音驱动器来提高更深的频率，从而与竞争对手区分开来。Skullcandy承认[…]"
-    },
-    {
-      "title": "HP&#8217;s OLED-equipped 2-in-1 laptop is a solid back-to-school deal",
-      "content": "With storage and memory prices still at an all-time high, we’re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ultra CPU, 16GB [&#8230;]",
-      "titleZh": "惠普配备OLED的二合一笔记本电脑是稳固的返校协议",
-      "contentZh": "由于存储和内存价格仍处于历史最高水平，当我们找到一台不错的笔记本电脑时，我们很乐意告诉您一笔实惠的交易，尽管它们很罕见。百思买正在出售HP OmniBook X Flip 2 in 1 ，售价$ 999.99 （通常为$ 1,649.99 ） ，配备英特尔酷睿7超级CPU ， 16GB […]"
+      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
+      "content": "Samsung’s Frame is different from your average 4K TV. Its biggest selling point involves what it does when you aren’t actively using it. It can display art, turning your living room into a gallery. The Frame has bezels that make it look like — you guessed it — framed art, and its matte finish can [&#8230;]",
+      "titleZh": "三星55英寸框架艺术电视比平时便宜200 $",
+      "contentZh": "三星的Frame与普通的4K电视不同。它最大的卖点在于当您没有积极使用它时它会做什么。它可以展示艺术品，将您的客厅变成画廊。框架的边框使它看起来像—你猜对了—框架艺术，其哑光饰面可以[…]"
     }
   ],
   "vocab": [
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "surge",
+      "meaning": "激增"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
