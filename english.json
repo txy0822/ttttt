@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-20",
   "articles": [
     {
       "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
@@ -26,26 +26,22 @@
       "contentZh": "便利店连锁店将改用StorMagic。"
     },
     {
-      "title": "Fortnite is getting a bunch of AI-powered ‘personas’",
-      "content": "Get ready for more AI characters in Fortnite. Developer Epic Games is going to let Fortnite creators publish experiences featuring characters with AI-powered voices starting on July 30th, and ahead of that launch, it's created 36 characters with \"consistent voices and personas\" that creators can use as NPCs. The characters include Fortnite staples like Agent [&#8230;]",
-      "titleZh": "Fortnite正在获得一堆人工智能驱动的“角色”",
-      "contentZh": "准备好迎接《堡垒之夜》中的更多AI角色吧。从7月30日开始，开发商Epic Games将允许《堡垒之夜》创作者发布使用人工智能声音的角色体验，在发布之前，它已经创建了36个具有“一致声音和角色”的角色，创作者可以将其用作NPC。角色包括Fortnite主食，如Agent […]"
+      "title": "This unpronounceable series of glyphs is an incredible side project from Kieran Hebden (aka Four Tet)",
+      "content": "Just why? &#645;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;&#865;(&#824;&#802;&#795;&#828;&#798;&#813;&#843;&#837;)&#824;&#858;&#816;&#859;&#788;&#830;&#768;&#831;&#850;&#834;:&#820;&#851;&#798;&#785;&#780;&#770;&#774;&#778;&#843;&#768;:&#824;&#846;&#799;&#815;&#770;&#787;&#780;&#12288;&#1161;&#12288;&#12288;&#12288;&#12288;&#12288;&#865;&#12288;&#862;&#12288;&#862;&#12288;&#862;&#12288;&#1161;&#9679;&#8195;&#4032;&#8195;&#9679;&#8195;&#8195;&#4032;&#8195;&#8195;&#9679;&#12288;&#12288;&#12288;&#1161;&#8413; &#12288;&#12288;&#12288;&#8413;&#866; &#862;&#12288;&#12288;&#12288;&#856;&#12288;&#862;&#8413;&#789; &#866;&#12288;&#12288;&#12288;&#12288;&#795;&#12288;&#8413; &#12288;&#12288;&#12288;&#824;&#12288;&#801;&#12288;&#12288;&#866;&#8413;&#807; &#12288;&#865;&#12288;&#865;",
+      "titleZh": "这一系列无法发音的字形是Kieran Hebden （又名Four Tet ）的一个令人难以置信的副项目",
+      "contentZh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
     },
     {
-      "title": "Samsung’s 55-inch Frame art TV is $200 cheaper than usual",
-      "content": "Samsung’s Frame is different from your average 4K TV. Its biggest selling point involves what it does when you aren’t actively using it. It can display art, turning your living room into a gallery. The Frame has bezels that make it look like — you guessed it — framed art, and its matte finish can [&#8230;]",
-      "titleZh": "三星55英寸框架艺术电视比平时便宜200 $",
-      "contentZh": "三星的Frame与普通的4K电视不同。它最大的卖点在于当您没有积极使用它时它会做什么。它可以展示艺术品，将您的客厅变成画廊。框架的边框使它看起来像—你猜对了—框架艺术，其哑光饰面可以[…]"
+      "title": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
+      "content": "Following the success of its $99 Kodak-branded Snapic A1, Reto Project is releasing the Kodak EC35, an even more affordable 35mm film camera for just $34.99. The EC35 certainly isn't fancy. Its 25mm acrylic lens with a fixed f/10 aperture and 1/100 shutter speed basically put it on par with a drugstore disposable. The fact [&#8230;]",
+      "titleZh": "柯达EC35是一款价格低廉的傻瓜胶片相机",
+      "contentZh": "继其$ 99柯达品牌Snapic A1的成功之后， Reto Project将发布Kodak EC35 ，这是一款价格更实惠的35毫米胶片相机，售价仅为$ 34.99。EC35当然不是花哨的。它的25毫米亚克力镜头具有固定的f/10光圈和1/100的快门速度，基本上与药店的一次性相媲美。事实[…]"
     }
   ],
   "vocab": [
     {
       "word": "surge",
       "meaning": "激增"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
     }
   ]
 }
