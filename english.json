@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "articles": [
+    {
+      "title": "TreeSize won&#039;t renew perpetual-license support unless users subscribe",
+      "content": "\"Current economic conditions\" have shifted TreeSize's business model.",
+      "titleZh": "除非用户订阅，否则TreeSize不会续订永久许可证支持",
+      "contentZh": "“当前经济状况”改变了TreeSize的商业模式。"
+    },
     {
       "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
       "content": "Resellers threatened to ditch HP printing supplies for counterfeits.",
@@ -20,32 +26,30 @@
       "contentZh": "本世纪进入市场的公司正在以最快的速度筹集资金。"
     },
     {
-      "title": "Sheetz is quitting VMware, migrating 11,000 virtual machines",
-      "content": "The convenience store chain will use StorMagic instead.",
-      "titleZh": "Sheetz将退出VMware ，迁移11,000台虚拟机",
-      "contentZh": "便利店连锁店将改用StorMagic。"
+      "title": "Samsung Galaxy Unpacked July 2026: How to watch",
+      "content": "Samsung's next Galaxy Unpacked event is just around the corner, and the company is expected to take the wraps off a bunch of new devices. Based on the rumors and leaks we've seen so far, Samsung's next generation of foldables will likely be the stars of the show. Samsung is expected to show off a [&#8230;]",
+      "titleZh": "三星Galaxy 2026年7月解包：如何观看",
+      "contentZh": "三星的下一届Galaxy Unpacked活动即将到来，预计该公司将推出一系列新设备。根据我们迄今为止看到的谣言和泄露，三星的下一代可折叠式手机可能会成为该节目的明星。三星预计将展示[…]"
     },
     {
-      "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
-      "content": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyonc&#233;'s Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this [&#8230;]",
-      "titleZh": "以下是索尼起诉Udio的AI音乐生成器的3万首歌曲",
-      "contentZh": "索尼音乐娱乐公司（ Sony Music Entertainment ）对Udio提起了另一起诉讼，指控这家AI音乐制作公司侵犯了其3万多首歌曲的版权，这些歌曲包括猫王（ Elvis Presley ）的《猎犬》（ Hound Dog ）、碧昂丝（ Beyoncé ）的《说出我的名字》（ Say My Name ）和哈里·斯泰尔斯（ Harry Styles ）的《这起诉讼于周一在纽约法院提起，声称这[…]"
-    },
-    {
-      "title": "The FCC is planning to retroactively ban disguised DJI gadgets",
-      "content": "Last October, we told you how the FCC had given itself the power to retroactively ban gadgets that have already received its approval to be imported and sold in the United States. Now, the FCC's getting ready to wield that power for the first time, by cracking down on the \"DJI front companies\" suspected of [&#8230;]",
-      "titleZh": "美国联邦通信委员会计划追溯禁止伪装的大疆小工具",
-      "contentZh": "去年10月，我们向您介绍了FCC是如何授权追溯禁止已获准在美国进口和销售的小工具的。现在，美国联邦通信委员会准备首次行使这一权力，打击涉嫌[…]的“大疆幌子公司”。"
+      "title": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+      "content": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But [&#8230;]",
+      "titleZh": "尼尔·布洛姆坎普（ Neill Blomkamp ）的新僵尸人工智能“电影”刚刚热身",
+      "contentZh": "周一，第九区和《Gran Turismo》导演尼尔·布洛姆坎普（ Neill Blomkamp ）公布了他的最新项目：一部13分钟的科幻短片，名为《Nightborne》，松散地改编自彼得·瓦茨（ Peter Watts ） 2014年的小说《Echopraxia》。这部短片来自Blomkamp的新人工智能创业/制作公司Barley Studios ，其角色的声音和面孔模仿了人类演员。但是[…]"
     }
   ],
   "vocab": [
     {
-      "word": "lawsuit",
-      "meaning": "诉讼"
-    },
-    {
       "word": "surge",
       "meaning": "激增"
+    },
+    {
+      "word": "unveil",
+      "meaning": "发布/揭幕"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
