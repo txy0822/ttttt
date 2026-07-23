@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "articles": [
     {
       "title": "TreeSize won&#039;t renew perpetual-license support unless users subscribe",
@@ -26,16 +26,16 @@
       "contentZh": "本世纪进入市场的公司正在以最快的速度筹集资金。"
     },
     {
-      "title": "Samsung Galaxy Unpacked July 2026: How to watch",
-      "content": "Samsung's next Galaxy Unpacked event is just around the corner, and the company is expected to take the wraps off a bunch of new devices. Based on the rumors and leaks we've seen so far, Samsung's next generation of foldables will likely be the stars of the show. Samsung is expected to show off a [&#8230;]",
-      "titleZh": "三星Galaxy 2026年7月解包：如何观看",
-      "contentZh": "三星的下一届Galaxy Unpacked活动即将到来，预计该公司将推出一系列新设备。根据我们迄今为止看到的谣言和泄露，三星的下一代可折叠式手机可能会成为该节目的明星。三星预计将展示[…]"
+      "title": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
+      "content": "Carl Merriam has designed some of my favorite nostalgia-inducing Lego sets, including the Lego Nintendo Game Boy and Piranha Plant. He's assisted on the incredible Lion Knights' Castle, Galaxy Explorer, and Pirates of Barracuda Bay. Now, he's helped the company create a $200 Donkey Kong arcade machine set that managed to win even Mario creator [&#8230;]",
+      "titleZh": "乐高的Donkey Kong街机让马里奥跳过无尽的桶—据报道，宫本很高兴",
+      "contentZh": "Carl Merriam设计了一些我最喜欢的怀旧乐高套装，包括乐高任天堂Game Boy和Piranha Plant。他协助建造了令人难以置信的狮子骑士城堡、银河探险家和梭鱼湾海盗。现在，他帮助公司创建了一套价值200 $的Donkey Kong街机套装，甚至赢得了马里奥创作者的青睐[…]"
     },
     {
-      "title": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
-      "content": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But [&#8230;]",
-      "titleZh": "尼尔·布洛姆坎普（ Neill Blomkamp ）的新僵尸人工智能“电影”刚刚热身",
-      "contentZh": "周一，第九区和《Gran Turismo》导演尼尔·布洛姆坎普（ Neill Blomkamp ）公布了他的最新项目：一部13分钟的科幻短片，名为《Nightborne》，松散地改编自彼得·瓦茨（ Peter Watts ） 2014年的小说《Echopraxia》。这部短片来自Blomkamp的新人工智能创业/制作公司Barley Studios ，其角色的声音和面孔模仿了人类演员。但是[…]"
+      "title": "Meta won’t have to face the next planned social media addiction trial",
+      "content": "Less than a week before Meta's lawyers were set to return to a Los Angeles courtroom, the plaintiff accusing the platform of inflicting harm dropped the case. Brought by 15-year-old Florida plaintiff going by initials R.K.C., the case was set to be the second in a set of bellwether trials meant to test legal arguments [&#8230;]",
+      "titleZh": "Meta将不必面对下一次计划中的社交媒体成瘾试验",
+      "contentZh": "在Meta的律师返回洛杉矶法庭前不到一周，指控平台造成伤害的原告放弃了此案。这起案件由15岁的佛罗里达州原告以首字母R.K.C.提起，将成为一系列旨在测试法律论据的领头羊审判中的第二起[…]"
     }
   ],
   "vocab": [
@@ -44,12 +44,12 @@
       "meaning": "激增"
     },
     {
-      "word": "unveil",
-      "meaning": "发布/揭幕"
+      "word": "platform",
+      "meaning": "平台"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "addiction",
+      "meaning": "成瘾"
     }
   ]
 }
