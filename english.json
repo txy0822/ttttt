@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "articles": [
     {
       "title": "TreeSize won&#039;t renew perpetual-license support unless users subscribe",
@@ -26,16 +26,16 @@
       "contentZh": "本世纪进入市场的公司正在以最快的速度筹集资金。"
     },
     {
-      "title": "Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy",
-      "content": "Carl Merriam has designed some of my favorite nostalgia-inducing Lego sets, including the Lego Nintendo Game Boy and Piranha Plant. He's assisted on the incredible Lion Knights' Castle, Galaxy Explorer, and Pirates of Barracuda Bay. Now, he's helped the company create a $200 Donkey Kong arcade machine set that managed to win even Mario creator [&#8230;]",
-      "titleZh": "乐高的Donkey Kong街机让马里奥跳过无尽的桶—据报道，宫本很高兴",
-      "contentZh": "Carl Merriam设计了一些我最喜欢的怀旧乐高套装，包括乐高任天堂Game Boy和Piranha Plant。他协助建造了令人难以置信的狮子骑士城堡、银河探险家和梭鱼湾海盗。现在，他帮助公司创建了一套价值200 $的Donkey Kong街机套装，甚至赢得了马里奥创作者的青睐[…]"
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "content": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [&#8230;]",
+      "titleZh": "Alexa Plus正在进行人工智能更新，以处理更复杂的指令",
+      "contentZh": "亚马逊正在推出其Alexa Plus助手的更新，使其能够以新的方式连接到智能家居设备。通过目前正在预览的更新， Alexa Plus可以与Bosch、Delta、Ecovacs、iRobot、Yale Home、Whirlpool、Tapo、Eufy等公司的技术人员联系起来，同时自动将请求路由到[…]"
     },
     {
-      "title": "Meta won’t have to face the next planned social media addiction trial",
-      "content": "Less than a week before Meta's lawyers were set to return to a Los Angeles courtroom, the plaintiff accusing the platform of inflicting harm dropped the case. Brought by 15-year-old Florida plaintiff going by initials R.K.C., the case was set to be the second in a set of bellwether trials meant to test legal arguments [&#8230;]",
-      "titleZh": "Meta将不必面对下一次计划中的社交媒体成瘾试验",
-      "contentZh": "在Meta的律师返回洛杉矶法庭前不到一周，指控平台造成伤害的原告放弃了此案。这起案件由15岁的佛罗里达州原告以首字母R.K.C.提起，将成为一系列旨在测试法律论据的领头羊审判中的第二起[…]"
+      "title": "The Echo Show 21 is a great smart home hub that’s $80 off",
+      "content": "Split between buying a smart calendar, a kitchen TV, a smart home hub, and a smart display? Amazon’s Echo Show 21 is all of those things in one, with a huge 21-inch screen. You can use it to control your smart lights, glance at recipes, watch TV shows, and more. Currently, Best Buy and Home [&#8230;]",
+      "titleZh": "Echo Show 21是一个很棒的智能家居中心，折扣$ 80",
+      "contentZh": "要购买智能日历、厨房电视、智能家居中心和智能显示器吗？亚马逊的Echo Show 21集所有这些功能于一身，配备巨大的21英寸屏幕。您可以使用它来控制智能灯、浏览食谱、观看电视节目等。目前，百思买和Home […]"
     }
   ],
   "vocab": [
@@ -44,12 +44,8 @@
       "meaning": "激增"
     },
     {
-      "word": "platform",
-      "meaning": "平台"
-    },
-    {
-      "word": "addiction",
-      "meaning": "成瘾"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
