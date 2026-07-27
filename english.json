@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-27",
   "articles": [
     {
       "title": "TreeSize won&#039;t renew perpetual-license support unless users subscribe",
@@ -26,16 +26,16 @@
       "contentZh": "本世纪进入市场的公司正在以最快的速度筹集资金。"
     },
     {
-      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "content": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [&#8230;]",
-      "titleZh": "Alexa Plus正在进行人工智能更新，以处理更复杂的指令",
-      "contentZh": "亚马逊正在推出其Alexa Plus助手的更新，使其能够以新的方式连接到智能家居设备。通过目前正在预览的更新， Alexa Plus可以与Bosch、Delta、Ecovacs、iRobot、Yale Home、Whirlpool、Tapo、Eufy等公司的技术人员联系起来，同时自动将请求路由到[…]"
+      "title": "Champagne and Bullets belongs on the Mount Rushmore of bad movies",
+      "content": "There's something about a movie like The Room, Troll 2, or Fateful Findings that I find irresistible. These sorts of \"so bad they're good\" films are marvelous curiosities where ambition far outstrips resources, ability, and self-awareness to become something much greater than the sum of their parts. Champagne and Bullets (also released as GetEven and [&#8230;]",
+      "titleZh": "香槟和子弹属于糟糕的电影拉什莫尔山",
+      "contentZh": "《房间》（ The Room ）、《巨魔2》（ Troll 2 ）或《命运的结局》（ Fateful Findings ）等电影中有些东西是我无法抗拒的。这些“非常糟糕，他们很好”的电影是奇妙的好奇心，其中野心远远超过资源，能力和自我意识，成为远远超过其部分之和的东西。香槟和子弹（也以GetEven和[…]发行）"
     },
     {
-      "title": "The Echo Show 21 is a great smart home hub that’s $80 off",
-      "content": "Split between buying a smart calendar, a kitchen TV, a smart home hub, and a smart display? Amazon’s Echo Show 21 is all of those things in one, with a huge 21-inch screen. You can use it to control your smart lights, glance at recipes, watch TV shows, and more. Currently, Best Buy and Home [&#8230;]",
-      "titleZh": "Echo Show 21是一个很棒的智能家居中心，折扣$ 80",
-      "contentZh": "要购买智能日历、厨房电视、智能家居中心和智能显示器吗？亚马逊的Echo Show 21集所有这些功能于一身，配备巨大的21英寸屏幕。您可以使用它来控制智能灯、浏览食谱、观看电视节目等。目前，百思买和Home […]"
+      "title": "Apple is banking on privacy to set its smart glasses apart",
+      "content": "According to Mark Gurman, Apple is planning to reveal its first smart glasses at WWDC next June, with an expectation that they'll launch by the end of 2027. Part of the hold-up may be around the company's efforts to get its privacy features and messaging in order. Smart glasses in general, and Meta's in particular, [&#8230;]",
+      "titleZh": "苹果依靠隐私来打造与众不同的智能眼镜",
+      "contentZh": "据马克·古尔曼（ Mark Gurman ）称，苹果计划于明年6月在WWDC上推出其首款智能眼镜，预计将于2027年底推出。搁置的部分原因可能是公司努力使其隐私功能和消息传递井然有序。一般而言，智能眼镜，特别是Meta眼镜， […]"
     }
   ],
   "vocab": [
@@ -46,6 +46,14 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "privacy",
+      "meaning": "隐私"
     }
   ]
 }
