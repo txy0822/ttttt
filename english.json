@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "articles": [
+    {
+      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+      "content": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "titleZh": "我们现在可以更好地了解OpenAI如何入侵Hugging Face",
+      "contentZh": "从利用JFrog Artifactory的OpenAI模型0天到发布补丁，已经过去了10天。"
+    },
     {
       "title": "Microsoft unveils AI security tools it says outperform competing platforms",
       "content": "Microsoft says tools cost less than competing ones and outperform them, too.",
@@ -20,36 +26,38 @@
       "contentZh": "经销商威胁要放弃惠普打印用品的假冒产品。"
     },
     {
-      "title": "Now, even Russia&#039;s most elite hackers are using Clickfix to infect devices",
-      "content": "The social-engineering technique has primarily been a tool of financially motivated criminals.",
-      "titleZh": "现在，即使是俄罗斯最精英的黑客也在使用Clickfix来感染设备",
-      "contentZh": "社交工程技术主要是出于经济动机的犯罪分子的工具。"
+      "title": "The US is banning foreign robots",
+      "content": "The US government is targeting China with a new import ban on \"advanced robotic devices\" and power inverters made in foreign countries, as reported earlier by Reuters. In an announcement on Tuesday, the Federal Communications Commission says the ban will include \"mobile\" robots, such as humanoid and quadruped models - but it is not limited [&#8230;]",
+      "titleZh": "美国正在禁止外国机器人",
+      "contentZh": "据路透社早些时候报道，美国政府正在针对中国实施新的“先进机器人设备”和外国制造的功率逆变器进口禁令。在周二的一份声明中，联邦通信委员会表示，禁令将包括“移动”机器人，如人形和四足动物模型-但它不限于[…]"
     },
     {
-      "title": "X Money is launching in the US starting today",
-      "content": "X Money, a core part of Elon Musk's mission to turn X into an \"everything app,\" is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer payments similar to Venmo, along with a metal Visa card users can emblazon with their X username. Other perks include Apple Wallet support [&#8230;]",
-      "titleZh": "X Money将于今天开始在美国推出",
-      "contentZh": "据9to5Mac报道， X Money是埃隆·马斯克（ Elon Musk ）将X转变为“一切应用程序”的核心使命之一，将于今天开始推出。该支付平台提供类似于Venmo的数字钱包和点对点支付，以及用户可以使用X用户名标记的Visa金属卡。其他福利包括Apple Wallet支持[…]"
-    },
-    {
-      "title": "Razer’s analog Huntsman V3 Pro is over 20 percent off",
-      "content": "Gaming keyboards have evolved over the years to add RGB LEDs, extra knobs, and buttons with screens, but one feature has remained fairly consistent: the mechanical switch. That’s slowly changing, with brands introducing adjustable optical switches that are more customizable and have a faster response time. Razer’s Huntsman V3 Pro TKL is a compact, wired [&#8230;]",
-      "titleZh": "雷蛇的模拟Huntsman V3 Pro折扣超过20%",
-      "contentZh": "多年来，游戏键盘不断发展，增加了RGB LED、额外的旋钮和带屏幕的按钮，但有一个功能仍然相当一致：机械开关。随着品牌推出更具可定制性和响应时间更快的可调光开关，这种情况正在慢慢改变。雷蛇的Huntsman V3 Pro TKL是一款紧凑型有线[…]"
+      "title": "Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years",
+      "content": "Ariana Grande filed a lawsuit on Monday in the Los Angeles County Superior Court against the currently unidentified hackers who allegedly stole and leaked private content. It aims to \"uncover the identities of these currently unknown and unscrupulous individuals,\" referred to as \"John Doe 1 and John Does 2 through 100.\" The lawsuit also says [&#8230;]",
+      "titleZh": "Ariana Grande正在起诉多年来一直泄露她的歌曲和视频的黑客",
+      "contentZh": "阿丽亚娜·格兰德（ Ariana Grande ）周一在洛杉矶县高级法院对目前身份不明的黑客提起诉讼，这些黑客涉嫌窃取和泄露私人内容。它旨在“揭露这些目前未知和不道德的个人的身份” ，被称为“John Doe 1和John Does 2至100”。“该诉讼还称[…]"
     }
   ],
   "vocab": [
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "lawsuit",
+      "meaning": "诉讼"
+    },
+    {
+      "word": "allegedly",
+      "meaning": "据称"
+    },
     {
       "word": "unveil",
       "meaning": "发布/揭幕"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "announce",
+      "meaning": "宣布"
     },
     {
       "word": "platform",
