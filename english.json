@@ -1,6 +1,12 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "articles": [
+    {
+      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+      "content": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
+      "titleZh": "对第三轮PQC算法候选的神话攻击使其失效",
+      "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
+    },
     {
       "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
       "content": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
@@ -20,44 +26,34 @@
       "contentZh": "“当前经济状况”改变了TreeSize的商业模式。"
     },
     {
-      "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
-      "content": "Resellers threatened to ditch HP printing supplies for counterfeits.",
-      "titleZh": "惠普因墨盒、碳粉、个人电脑的“卡特尔化”被罚款14亿卢比",
-      "contentZh": "经销商威胁要放弃惠普打印用品的假冒产品。"
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "content": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [&#8230;]",
+      "titleZh": "微软确认Copilot “超级应用”将于今年推出",
+      "contentZh": "微软正在开发一款结合了Copilot聊天、编码和代理功能的人工智能“超级应用”。在周三的财报电话会议上，微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）表示，该应用程序将在今年推出时涵盖“消费者和商业体验”。“Copilot正在从聊天到Cowork再到Autopilots快速发展，” Nadella说。“本季度， […]"
     },
     {
-      "title": "The US is banning foreign robots",
-      "content": "The US government is targeting China with a new import ban on \"advanced robotic devices\" and power inverters made in foreign countries, as reported earlier by Reuters. In an announcement on Tuesday, the Federal Communications Commission says the ban will include \"mobile\" robots, such as humanoid and quadruped models - but it is not limited [&#8230;]",
-      "titleZh": "美国正在禁止外国机器人",
-      "contentZh": "据路透社早些时候报道，美国政府正在针对中国实施新的“先进机器人设备”和外国制造的功率逆变器进口禁令。在周二的一份声明中，联邦通信委员会表示，禁令将包括“移动”机器人，如人形和四足动物模型-但它不限于[…]"
-    },
-    {
-      "title": "Ariana Grande is suing the hackers who&#8217;ve been leaking her songs and videos for years",
-      "content": "Ariana Grande filed a lawsuit on Monday in the Los Angeles County Superior Court against the currently unidentified hackers who allegedly stole and leaked private content. It aims to \"uncover the identities of these currently unknown and unscrupulous individuals,\" referred to as \"John Doe 1 and John Does 2 through 100.\" The lawsuit also says [&#8230;]",
-      "titleZh": "Ariana Grande正在起诉多年来一直泄露她的歌曲和视频的黑客",
-      "contentZh": "阿丽亚娜·格兰德（ Ariana Grande ）周一在洛杉矶县高级法院对目前身份不明的黑客提起诉讼，这些黑客涉嫌窃取和泄露私人内容。它旨在“揭露这些目前未知和不道德的个人的身份” ，被称为“John Doe 1和John Does 2至100”。“该诉讼还称[…]"
+      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
+      "content": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [&#8230;]",
+      "titleZh": "马克·扎克伯格（ Mark Zuckerberg ）正计划大举进军个人人工智能",
+      "contentZh": "Meta全力以赴开发人工智能，不久的将来，该公司将大举进军可以代表您做事的个人人工智能代理。在周三的2026年第二季度财报电话会议上，首席执行官马克·扎克伯格（ Mark Zuckerberg ）预览了公司对个人代理的高层次愿景，以及它将如何[…]"
     }
   ],
   "vocab": [
     {
+      "word": "algorithm",
+      "meaning": "算法"
+    },
+    {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "lawsuit",
-      "meaning": "诉讼"
-    },
-    {
-      "word": "allegedly",
-      "meaning": "据称"
     },
     {
       "word": "unveil",
       "meaning": "发布/揭幕"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
       "word": "platform",
