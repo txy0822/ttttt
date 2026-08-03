@@ -1,6 +1,18 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-03",
   "articles": [
+    {
+      "title": "Claude published malicious code to the Internet and attacked 3 real companies",
+      "content": "Had the hacks used conventional methods, someone would likely go to prison.",
+      "titleZh": "克劳德向互联网发布恶意代码，攻击3家真实公司",
+      "contentZh": "如果黑客使用传统方法，可能会有人入狱。"
+    },
+    {
+      "title": "Max-severity Exchange server flaw under active exploitation by Kremlin hackers",
+      "content": "Exploits can give persistent server access that survives credential rotation and disk re-imaging.",
+      "titleZh": "克里姆林宫黑客主动利用的Max-severity Exchange服务器漏洞",
+      "contentZh": "漏洞利用可以提供在凭据循环和磁盘重新映像后仍然存在的持久服务器访问权限。"
+    },
     {
       "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
       "content": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
@@ -14,28 +26,16 @@
       "contentZh": "从利用JFrog Artifactory的OpenAI模型0天到发布补丁，已经过去了10天。"
     },
     {
-      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
-      "content": "Microsoft says tools cost less than competing ones and outperform them, too.",
-      "titleZh": "微软推出人工智能安全工具，称其表现优于竞争对手的平台",
-      "contentZh": "微软表示，工具的成本低于竞争对手，其性能也优于竞争对手。"
+      "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
+      "content": "Two minutes and thirty seconds into the title track of Rachika Nayar's Heaven Come Crashing, an absolutely massive drum and bass beat drops. As a fan of Nayar's debut record Our Hands Against The Dusk, it caught me off guard. That album has no percussion on it at all. Heaven Comes Crashing is almost entirely [&#8230;]",
+      "titleZh": "Rachika Nayar的Heaven Come Crashing是绝望渴望的工具史诗",
+      "contentZh": "拉奇卡·纳亚尔（ Rachika Nayar ）的《天堂来临》（ Heaven Come Crashing ）的主打曲目进入了两分三十秒，这是一个绝对巨大的鼓和低音节拍。作为Nayar首张唱片《Our Hands Against The Dusk》的粉丝，这让我措手不及。这张专辑根本没有打击乐。天堂来临崩溃几乎完全是[…]"
     },
     {
-      "title": "TreeSize won&#039;t renew perpetual-license support unless users subscribe",
-      "content": "\"Current economic conditions\" have shifted TreeSize's business model.",
-      "titleZh": "除非用户订阅，否则TreeSize不会续订永久许可证支持",
-      "contentZh": "“当前经济状况”改变了TreeSize的商业模式。"
-    },
-    {
-      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
-      "content": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [&#8230;]",
-      "titleZh": "蒂姆·库克（ Tim Cook ）暗示iCloud Plus会员等级适用于AI高级用户",
-      "contentZh": "Apple可能会允许用户付费以增加其AI使用限制。在周四的财报电话会议上，苹果首席执行官蒂姆·库克（ Tim Cook ）表示，他相信人们会“非常希望使用Apple Intelligence和即将推出的Siri AI” ，并补充说“我们将在iCloud Plus上提供某种升级可能性，让人们[…]"
-    },
-    {
-      "title": "Xbox CEO lays out priorities in memo after major &#8216;reset&#8217;",
-      "content": "After a massive Xbox \"reset\" that laid off thousands of employees and spun off four studios, Xbox CEO Asha Sharma wants to get Xbox back to growth. In a memo obtained by The Verge, Sharma told staff by the end of fiscal year 2027 (which runs through next June), \"we will return XBOX to player [&#8230;]",
-      "titleZh": "Xbox首席执行官在重大“重置”后在备忘录中列出优先事项",
-      "contentZh": "在一次大规模的Xbox “重置”解雇了数千名员工并剥离了四个工作室之后， Xbox首席执行官Asha Sharma希望让Xbox恢复增长。在The Verge获得的一份备忘录中， Sharma在2027财年末（截止到明年6月）告诉员工， “我们将把XBOX还给玩家[…]"
+      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "content": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [&#8230;]",
+      "titleZh": "Fender的首席执行官似乎认为你的乐队成员只是模拟AI",
+      "contentZh": "Fender首席执行官爱德华· “巴德” ·科尔（ Edward “Bud” Cole ）在5月份接受了T3的采访，庆祝Telecaster成立75周年，并对最初在雷达下飞行的人工智能和音乐发表了评论。但它最近已经开始四处奔波，在公司生气之后，已经肆虐的糟糕的公关火上浇注了更多的燃料[…]"
     }
   ],
   "vocab": [
@@ -46,14 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "unveil",
-      "meaning": "发布/揭幕"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
