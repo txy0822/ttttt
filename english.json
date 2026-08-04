@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "articles": [
     {
       "title": "Claude published malicious code to the Internet and attacked 3 real companies",
@@ -26,16 +26,16 @@
       "contentZh": "从利用JFrog Artifactory的OpenAI模型0天到发布补丁，已经过去了10天。"
     },
     {
-      "title": "Rachika Nayar’s Heaven Come Crashing is an instrumental epic of desperate longing",
-      "content": "Two minutes and thirty seconds into the title track of Rachika Nayar's Heaven Come Crashing, an absolutely massive drum and bass beat drops. As a fan of Nayar's debut record Our Hands Against The Dusk, it caught me off guard. That album has no percussion on it at all. Heaven Comes Crashing is almost entirely [&#8230;]",
-      "titleZh": "Rachika Nayar的Heaven Come Crashing是绝望渴望的工具史诗",
-      "contentZh": "拉奇卡·纳亚尔（ Rachika Nayar ）的《天堂来临》（ Heaven Come Crashing ）的主打曲目进入了两分三十秒，这是一个绝对巨大的鼓和低音节拍。作为Nayar首张唱片《Our Hands Against The Dusk》的粉丝，这让我措手不及。这张专辑根本没有打击乐。天堂来临崩溃几乎完全是[…]"
+      "title": "The studio behind Pokémon struggles to find its voice in Beast of Reincarnation",
+      "content": "You have to imagine that the team at Game Freak is bursting with ideas. The studio puts out new mainline Pok&#233;mon adventures with a machinelike precision. But every so often it launches a curious experiment, whether it's an action title about a militarized elephant or turning horse races into a card game, showing that it's [&#8230;]",
+      "titleZh": "神奇宝贝背后的工作室在《转世之兽》中努力寻找自己的声音",
+      "contentZh": "你必须想象Game Freak的团队充满了想法。该工作室以机械般的精确度推出了新的主线精灵宝可梦冒险。但每隔一段时间，它就会发起一个奇怪的实验，无论是关于军事化大象的动作标题，还是将赛马变成纸牌游戏，都表明它是[…]"
     },
     {
-      "title": "Fender’s CEO seems to think your bandmates are just analog AI",
-      "content": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [&#8230;]",
-      "titleZh": "Fender的首席执行官似乎认为你的乐队成员只是模拟AI",
-      "contentZh": "Fender首席执行官爱德华· “巴德” ·科尔（ Edward “Bud” Cole ）在5月份接受了T3的采访，庆祝Telecaster成立75周年，并对最初在雷达下飞行的人工智能和音乐发表了评论。但它最近已经开始四处奔波，在公司生气之后，已经肆虐的糟糕的公关火上浇注了更多的燃料[…]"
+      "title": "Your Fitbit data can now connect directly to Apple Health",
+      "content": "Google is rolling out an update that will finally allow you to connect your Fitbit workouts, steps, vitals, and other data to Apple Health, as reported earlier by 9to5Mac. With Google Health's 5.05 update, you can now tap your profile icon, select \"Partner apps,\" and choose Apple Health to link your data directly. Previously, you [&#8230;]",
+      "titleZh": "您的Fitbit数据现在可以直接连接到Apple Health",
+      "contentZh": "正如9to5Mac早些时候报道的那样， Google正在推出一项更新，最终将允许您将Fitbit锻炼、步骤、生命体征和其他数据连接到Apple Health。借助Google Health 5.05更新，您现在可以轻触个人资料图标，选择“合作车主端” ，然后选择“Apple Health”直接关联您的数据。此前，您[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
