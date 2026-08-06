@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "articles": [
+    {
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "content": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "titleZh": "数以千计的服务器可以通过利用故障主板控制器进行后门",
+      "contentZh": "来自全球最大制造商的踢脚线管理控制器是一个安全问题。"
+    },
     {
       "title": "Claude published malicious code to the Internet and attacked 3 real companies",
       "content": "Had the hacks used conventional methods, someone would likely go to prison.",
@@ -20,22 +26,16 @@
       "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
     },
     {
-      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-      "content": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
-      "titleZh": "我们现在可以更好地了解OpenAI如何入侵Hugging Face",
-      "contentZh": "从利用JFrog Artifactory的OpenAI模型0天到发布补丁，已经过去了10天。"
+      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "content": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in [&#8230;]",
+      "titleZh": "埃隆·马斯克（ Elon Musk ）对人工智能维基百科的尝试已经有几个月没有更新了",
+      "contentZh": "根据Lawfare的一份报告， xAI的Grokipedia是一本在线百科全书，其中包含人工智能生成的文章， Elon Musk曾承诺这将是对维基百科的“巨大改进” ，显然自4月24日以来一直没有更新。“据我们所知，三个多月来没有任何参赛作品发生变化，” Lawfare说。Grokipedia在v0.1中于[…]推出"
     },
     {
-      "title": "Don’t screw this up, Marvel",
-      "content": "In less than a week, Spider-Man: Brand New Day raked in $1 billion worldwide and had the biggest box office opening weekend in Hollywood history. The feature has been a reminder of why Sony is probably never going to give up the Spider-Man film rights, and highlighted how Marvel Studios was smart to strike a [&#8230;]",
-      "titleZh": "别搞砸了，漫威",
-      "contentZh": "在不到一周的时间里，《蜘蛛侠：崭新的一天》在全球获得了10亿美元的收入，并拥有好莱坞历史上最大的票房开盘周末。该功能提醒人们为什么索尼可能永远不会放弃蜘蛛侠电影版权，并强调了漫威工作室如何聪明地[…]"
-    },
-    {
-      "title": "Now you can securely link multiple phones to one Signal account",
-      "content": "You can link more devices with one phone number on Signal now, including an Android phone or iPhone. Signal already supported linking PCs and iPads, but not additional phones. When you link a device on Signal, you can check and respond to new messages across all of your linked devices. You can also choose whether [&#8230;]",
-      "titleZh": "现在，您可以安全地将多个手机链接到一个Signal帐户",
-      "contentZh": "您现在可以在Signal上使用一个电话号码连接更多设备，包括Android手机或iPhone。Signal已支持连接PC和iPad ，但不支持其他手机。当您在Signal上链接设备时，您可以在所有链接的设备上检查和回复新消息。您还可以选择是否[…]"
+      "title": "X product chief Nikita Bier is leaving after one year",
+      "content": "X head of product Nikita Bier is stepping down and says he will move into a role as an advisor, writing that \"it's time to pass the torch and demote myself to my natural state: a poster.\" He shared the update just over a month after celebrating his one-year anniversary on the job, and just [&#8230;]",
+      "titleZh": "X产品主管Nikita Bier将在一年后离职",
+      "contentZh": "产品X负责人尼基塔·比尔（ Nikita Bier ）即将辞职，并表示他将担任顾问一职，他写道： “现在是时候传递火炬，将自己降级到我的自然状态：一张海报。“他在庆祝工作一周年仅一个多月后分享了这个更新，只是[…]"
     }
   ],
   "vocab": [
@@ -48,8 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
