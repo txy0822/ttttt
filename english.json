@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "articles": [
     {
       "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
@@ -26,16 +26,16 @@
       "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
     },
     {
-      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
-      "content": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in [&#8230;]",
-      "titleZh": "埃隆·马斯克（ Elon Musk ）对人工智能维基百科的尝试已经有几个月没有更新了",
-      "contentZh": "根据Lawfare的一份报告， xAI的Grokipedia是一本在线百科全书，其中包含人工智能生成的文章， Elon Musk曾承诺这将是对维基百科的“巨大改进” ，显然自4月24日以来一直没有更新。“据我们所知，三个多月来没有任何参赛作品发生变化，” Lawfare说。Grokipedia在v0.1中于[…]推出"
+      "title": "Trevor Noah is hosting Google’s Pixel 11 launch event",
+      "content": "Google is set to host its next live Made by Google hardware launch event on August 12th, and the company says in a new video that comedian Trevor Noah will be hosting the show. The video indicates that the event will feature other celebrities and influencers as well, including Call Her Daddy host Alex Cooper [&#8230;]",
+      "titleZh": "特雷弗·诺亚（ Trevor Noah ）将主持谷歌的Pixel 11发布活动",
+      "contentZh": "谷歌将于8月12日举办下一次现场直播Made by Google硬件发布会，该公司在一段新视频中表示，喜剧演员特雷弗·诺亚（ Trevor Noah ）将主持该节目。该视频表明，该活动还将邀请其他名人和有影响力的人参加，包括Call Her Daddy主持人Alex Cooper […]"
     },
     {
-      "title": "X product chief Nikita Bier is leaving after one year",
-      "content": "X head of product Nikita Bier is stepping down and says he will move into a role as an advisor, writing that \"it's time to pass the torch and demote myself to my natural state: a poster.\" He shared the update just over a month after celebrating his one-year anniversary on the job, and just [&#8230;]",
-      "titleZh": "X产品主管Nikita Bier将在一年后离职",
-      "contentZh": "产品X负责人尼基塔·比尔（ Nikita Bier ）即将辞职，并表示他将担任顾问一职，他写道： “现在是时候传递火炬，将自己降级到我的自然状态：一张海报。“他在庆祝工作一周年仅一个多月后分享了这个更新，只是[…]"
+      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "content": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, [&#8230;]",
+      "titleZh": "据报道， Jony Ive的第一个OpenAI小工具是一款曲棍球大小的智能音箱",
+      "contentZh": "彭博社记者马克·古尔曼（ Mark Gurman ）表示， OpenAI正在与前苹果设计师乔尼·艾维（ Jony Ive ）合作开发的人工智能设备“本质上是一款没有显示器的智能扬声器” ，它由电池供电，呈甜甜圈形，大小与曲棍球冰球差不多。据报道，该设备预计将于2027年推出，价格超过300 $ ， “将具有独特的外观， […]"
     }
   ],
   "vocab": [
@@ -50,6 +50,10 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
