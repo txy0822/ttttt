@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-10",
   "articles": [
     {
       "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
@@ -26,16 +26,16 @@
       "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
     },
     {
-      "title": "Trevor Noah is hosting Google’s Pixel 11 launch event",
-      "content": "Google is set to host its next live Made by Google hardware launch event on August 12th, and the company says in a new video that comedian Trevor Noah will be hosting the show. The video indicates that the event will feature other celebrities and influencers as well, including Call Her Daddy host Alex Cooper [&#8230;]",
-      "titleZh": "特雷弗·诺亚（ Trevor Noah ）将主持谷歌的Pixel 11发布活动",
-      "contentZh": "谷歌将于8月12日举办下一次现场直播Made by Google硬件发布会，该公司在一段新视频中表示，喜剧演员特雷弗·诺亚（ Trevor Noah ）将主持该节目。该视频表明，该活动还将邀请其他名人和有影响力的人参加，包括Call Her Daddy主持人Alex Cooper […]"
+      "title": "No Dogs in Space is a music history podcast for true obsessives",
+      "content": "Sadly, there hasn't been a new episode of No Dogs in Space since July of 2024. Part four of the podcast's series on Can wrapped up an abbreviated season three, which focused on experimental rock. Don't get me wrong, I loved seasons one and two, but the show seemed to be gearing up for a [&#8230;]",
+      "titleZh": "《No Dogs in Space》是一个音乐历史播客，适合真正的痴迷者",
+      "contentZh": "可悲的是，自2024年7月以来，还没有新一集的《禁止在太空养狗》。播客“Can”系列的第四部分结束了简略的第三季，重点是实验摇滚。不要误会我的意思，我喜欢第一季和第二季，但节目似乎正在为[…]做准备"
     },
     {
-      "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-      "content": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, [&#8230;]",
-      "titleZh": "据报道， Jony Ive的第一个OpenAI小工具是一款曲棍球大小的智能音箱",
-      "contentZh": "彭博社记者马克·古尔曼（ Mark Gurman ）表示， OpenAI正在与前苹果设计师乔尼·艾维（ Jony Ive ）合作开发的人工智能设备“本质上是一款没有显示器的智能扬声器” ，它由电池供电，呈甜甜圈形，大小与曲棍球冰球差不多。据报道，该设备预计将于2027年推出，价格超过300 $ ， “将具有独特的外观， […]"
+      "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
+      "content": "Earlier this week, the Alaskan cruise ship Wilderness Legacy rescued a small skiff stranded near Farragut Bay after running out of fuel. But, according to tracking data reviewed by the Alaska Beacon and Halifax Shipping News, the closest vessel was actually Mark Zuckerberg's super yacht, Launchpad. Michael Love, a passenger on the Wilderness Legacy, posted [&#8230;]",
+      "titleZh": "扎克伯格的游艇更近了，但有人救了一艘搁浅的船",
+      "contentZh": "本周早些时候，阿拉斯加游轮Wilderness Legacy号在燃料耗尽后救出了一艘滞留在法拉格特湾附近的小船。但是，根据Alaska Beacon和Halifax Shipping News审查的跟踪数据，最近的船实际上是Mark Zuckerberg的超级游艇Launchpad。荒野遗产号（ Wilderness Legacy ）的乘客迈克尔·洛夫（ Michael Love ）发布了[…]"
     }
   ],
   "vocab": [
@@ -50,10 +50,6 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
