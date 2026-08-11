@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "articles": [
     {
       "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
@@ -26,16 +26,16 @@
       "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
     },
     {
-      "title": "No Dogs in Space is a music history podcast for true obsessives",
-      "content": "Sadly, there hasn't been a new episode of No Dogs in Space since July of 2024. Part four of the podcast's series on Can wrapped up an abbreviated season three, which focused on experimental rock. Don't get me wrong, I loved seasons one and two, but the show seemed to be gearing up for a [&#8230;]",
-      "titleZh": "《No Dogs in Space》是一个音乐历史播客，适合真正的痴迷者",
-      "contentZh": "可悲的是，自2024年7月以来，还没有新一集的《禁止在太空养狗》。播客“Can”系列的第四部分结束了简略的第三季，重点是实验摇滚。不要误会我的意思，我喜欢第一季和第二季，但节目似乎正在为[…]做准备"
+      "title": "Mark Zuckerberg doesn’t understand how to live",
+      "content": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What [&#8230;]",
+      "titleZh": "马克·扎克伯格不懂得如何生活",
+      "contentZh": "最近，一位和我一起攀岩的男士告诉我，他如何利用人工智能为自己制作了一张励志海报，挂在卧室的墙上：一只熊，在峡谷上行走，手里拿着一个标语，上面写着： “做很酷的事情。“我做了我希望是礼貌的噪音。什么[…]"
     },
     {
-      "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
-      "content": "Earlier this week, the Alaskan cruise ship Wilderness Legacy rescued a small skiff stranded near Farragut Bay after running out of fuel. But, according to tracking data reviewed by the Alaska Beacon and Halifax Shipping News, the closest vessel was actually Mark Zuckerberg's super yacht, Launchpad. Michael Love, a passenger on the Wilderness Legacy, posted [&#8230;]",
-      "titleZh": "扎克伯格的游艇更近了，但有人救了一艘搁浅的船",
-      "contentZh": "本周早些时候，阿拉斯加游轮Wilderness Legacy号在燃料耗尽后救出了一艘滞留在法拉格特湾附近的小船。但是，根据Alaska Beacon和Halifax Shipping News审查的跟踪数据，最近的船实际上是Mark Zuckerberg的超级游艇Launchpad。荒野遗产号（ Wilderness Legacy ）的乘客迈克尔·洛夫（ Michael Love ）发布了[…]"
+      "title": "Anker&#8217;s travel charger works in almost any country and is down to $20",
+      "content": "If you’ve got international travel coming up, an adapter is essential for keeping your phone, earbuds, power banks, and other gadgets charged. Anker’s Nano Travel Adapter is one of our picks from our guide to the best gadgets for summer travel because it can charge up to five devices at once, yet it’s small enough [&#8230;]",
+      "titleZh": "Anker的旅行充电器适用于几乎所有国家/地区，价格降至20 $",
+      "contentZh": "如果您的国际旅行即将到来，适配器对于为手机、耳机、充电宝和其他小工具充电至关重要。Anker的Nano旅行适配器是我们夏季旅行最佳小工具指南中的精选之一，因为它可以同时为多达五台设备充电，但它足够小[…]"
     }
   ],
   "vocab": [
@@ -46,10 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
     }
   ]
 }
