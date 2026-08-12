@@ -1,6 +1,24 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "articles": [
+    {
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "content": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
+      "titleZh": "DEF CON人群涉嫌对达美航空航班进行假热点攻击",
+      "contentZh": "亚特兰大联邦调查局确认正在调查此事件，但没有逮捕任何人。"
+    },
+    {
+      "title": "Chrome adopts what may be the best protection yet against account takeovers",
+      "content": "Device-bound session credentials thwart an increasingly common form of account takeover.",
+      "titleZh": "Chrome浏览器采用了迄今为止防止账号被盗用的最佳保护措施",
+      "contentZh": "设备绑定会话凭据阻止了一种越来越常见的帐户接管形式。"
+    },
+    {
+      "title": "New Pass-ta-key attack reveals all the things we didn&#039;t know about passkeys",
+      "content": "Why passkey apps treat Windows differently than other operating systems.",
+      "titleZh": "新的Pass-ta-key攻击揭示了我们不知道的关于密钥的所有事情",
+      "contentZh": "为什么密钥应用程序对待Windows的方式不同于其他操作系统。"
+    },
     {
       "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
       "content": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
@@ -8,44 +26,26 @@
       "contentZh": "来自全球最大制造商的踢脚线管理控制器是一个安全问题。"
     },
     {
-      "title": "Claude published malicious code to the Internet and attacked 3 real companies",
-      "content": "Had the hacks used conventional methods, someone would likely go to prison.",
-      "titleZh": "克劳德向互联网发布恶意代码，攻击3家真实公司",
-      "contentZh": "如果黑客使用传统方法，可能会有人入狱。"
+      "title": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
+      "content": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! [&#8230;]",
+      "titleZh": "Saber否认用ChatGPT取代Rideshare Stimulator的作者",
+      "contentZh": "一位前首席作家声称Saber “用ChatGPT取代了我” ，首席执行官Matthew Karch现在声称， “Saber和Unigine都没有用AI取代任何作家” ，这是Unigine上个月宣布的Rideshare “刺激器”游戏。然而，作家斯特拉·萨科（ Stella Sacco ）却有不同的说法，她在《蓝天》（ Bluesky ）上发帖说： “我是这个节目的首席作家！ […]"
     },
     {
-      "title": "Max-severity Exchange server flaw under active exploitation by Kremlin hackers",
-      "content": "Exploits can give persistent server access that survives credential rotation and disk re-imaging.",
-      "titleZh": "克里姆林宫黑客主动利用的Max-severity Exchange服务器漏洞",
-      "contentZh": "漏洞利用可以提供在凭据循环和磁盘重新映像后仍然存在的持久服务器访问权限。"
-    },
-    {
-      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-      "content": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
-      "titleZh": "对第三轮PQC算法候选的神话攻击使其失效",
-      "contentZh": "霍克经受住了多年的考验，这些考验尚未发现通过神话发现的致命弱点。"
-    },
-    {
-      "title": "Mark Zuckerberg doesn’t understand how to live",
-      "content": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What [&#8230;]",
-      "titleZh": "马克·扎克伯格不懂得如何生活",
-      "contentZh": "最近，一位和我一起攀岩的男士告诉我，他如何利用人工智能为自己制作了一张励志海报，挂在卧室的墙上：一只熊，在峡谷上行走，手里拿着一个标语，上面写着： “做很酷的事情。“我做了我希望是礼貌的噪音。什么[…]"
-    },
-    {
-      "title": "Anker&#8217;s travel charger works in almost any country and is down to $20",
-      "content": "If you’ve got international travel coming up, an adapter is essential for keeping your phone, earbuds, power banks, and other gadgets charged. Anker’s Nano Travel Adapter is one of our picks from our guide to the best gadgets for summer travel because it can charge up to five devices at once, yet it’s small enough [&#8230;]",
-      "titleZh": "Anker的旅行充电器适用于几乎所有国家/地区，价格降至20 $",
-      "contentZh": "如果您的国际旅行即将到来，适配器对于为手机、耳机、充电宝和其他小工具充电至关重要。Anker的Nano旅行适配器是我们夏季旅行最佳小工具指南中的精选之一，因为它可以同时为多达五台设备充电，但它足够小[…]"
+      "title": "Xbox Elite 3 prototype pad leaks with tiny built-in screen",
+      "content": "Did a prototype Microsoft gamepad fall off the back of a truck? We can't say, but a Redditor has legit-looking photos of a prototype Xbox controller that's almost certainly the Xbox Elite Series 3. Incredibly, they claim they bought the pad for $200 on OfferUp. In May, a Brazilian regulator's leaked images revealed that Xbox [&#8230;]",
+      "titleZh": "Xbox Elite 3原型电极片泄漏，内置小屏幕",
+      "contentZh": "微软游戏手柄原型从卡车后面掉下来了吗？我们不能说，但Redditor有看起来合法的Xbox手柄原型照片，几乎可以肯定是Xbox Elite Series 3。令人难以置信的是，他们声称他们在OfferUp上以200 $的价格购买了电极片。今年5月，巴西监管机构泄露的图像显示， Xbox […]"
     }
   ],
   "vocab": [
     {
-      "word": "algorithm",
-      "meaning": "算法"
-    },
-    {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
