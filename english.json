@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "articles": [
+    {
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "content": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
+      "titleZh": "在大规模供应链攻击中泄露了数TB的凭据",
+      "contentZh": "这些数据是从受感染的人工智能软件包的2500名用户那里刮取和窃取的。"
+    },
     {
       "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
       "content": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
@@ -20,29 +26,19 @@
       "contentZh": "为什么密钥应用程序对待Windows的方式不同于其他操作系统。"
     },
     {
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "content": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
-      "titleZh": "数以千计的服务器可以通过利用故障主板控制器进行后门",
-      "contentZh": "来自全球最大制造商的踢脚线管理控制器是一个安全问题。"
+      "title": "Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones",
+      "content": "It's almost time for the Made by Google keynote, where the company will show off the brand-new Pixel hardware it announced today. Like last year, it'll be a celebrity-packed live show, though Trevor Noah is hosting instead of Jimmy Fallon. If the 2025 show was any indication, today's broadcast might be something of a cringefest. [&#8230;]",
+      "titleZh": "Pixel 11活动直播博客：观看Trevor Noah介绍谷歌新手机",
+      "contentZh": "现在几乎是Google制造主题演讲的时候了，该公司将展示今天宣布的全新Pixel硬件。和去年一样，虽然特雷弗·诺亚（ Trevor Noah ）将代替吉米·法伦（ Jimmy Fallon ）主持现场表演，但这将是一场名人盛宴。如果2025年的节目有任何迹象，今天的广播可能是一场畏缩。[…]"
     },
     {
-      "title": "Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT",
-      "content": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! [&#8230;]",
-      "titleZh": "Saber否认用ChatGPT取代Rideshare Stimulator的作者",
-      "contentZh": "一位前首席作家声称Saber “用ChatGPT取代了我” ，首席执行官Matthew Karch现在声称， “Saber和Unigine都没有用AI取代任何作家” ，这是Unigine上个月宣布的Rideshare “刺激器”游戏。然而，作家斯特拉·萨科（ Stella Sacco ）却有不同的说法，她在《蓝天》（ Bluesky ）上发帖说： “我是这个节目的首席作家！ […]"
-    },
-    {
-      "title": "Xbox Elite 3 prototype pad leaks with tiny built-in screen",
-      "content": "Did a prototype Microsoft gamepad fall off the back of a truck? We can't say, but a Redditor has legit-looking photos of a prototype Xbox controller that's almost certainly the Xbox Elite Series 3. Incredibly, they claim they bought the pad for $200 on OfferUp. In May, a Brazilian regulator's leaked images revealed that Xbox [&#8230;]",
-      "titleZh": "Xbox Elite 3原型电极片泄漏，内置小屏幕",
-      "contentZh": "微软游戏手柄原型从卡车后面掉下来了吗？我们不能说，但Redditor有看起来合法的Xbox手柄原型照片，几乎可以肯定是Xbox Elite Series 3。令人难以置信的是，他们声称他们在OfferUp上以200 $的价格购买了电极片。今年5月，巴西监管机构泄露的图像显示， Xbox […]"
+      "title": "This 8BitDo mechanical keyboard has an extra keypad and is 30 percent off",
+      "content": "If you’re looking for a mechanical keyboard that can give your desk a touch of retro flair, Amazon has 8BitDo’s Retro Mechanical Keyboard with Dual Super Buttons on sale for $69.99, one of the lowest prices we’ve seen for the bundle. The styling on this keyboard is thorough, with blocky retro legends on the rounded [&#8230;]",
+      "titleZh": "这款8BitDo机械键盘具有额外的键盘，可享受30%的折扣",
+      "contentZh": "如果您正在寻找可以为您的办公桌增添复古气息的机械键盘，亚马逊的8BitDo复古机械键盘配有双超级按钮，售价为$ 69.99 ，是我们看到的最低价格之一。这款键盘的造型细致入微，圆形键盘上有块状的复古图案[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
-    },
     {
       "word": "announce",
       "meaning": "宣布"
