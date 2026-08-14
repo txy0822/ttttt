@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "articles": [
+    {
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "content": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
+      "titleZh": "私营安全公司很快将被允许入侵海外网络犯罪分子",
+      "contentZh": "特朗普备忘录是政府首次没有授权私营部门进行网络攻击。"
+    },
     {
       "title": "Terabytes of credentials leaked in massive supply-chain attack",
       "content": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
@@ -20,28 +26,17 @@
       "contentZh": "设备绑定会话凭据阻止了一种越来越常见的帐户接管形式。"
     },
     {
-      "title": "New Pass-ta-key attack reveals all the things we didn&#039;t know about passkeys",
-      "content": "Why passkey apps treat Windows differently than other operating systems.",
-      "titleZh": "新的Pass-ta-key攻击揭示了我们不知道的关于密钥的所有事情",
-      "contentZh": "为什么密钥应用程序对待Windows的方式不同于其他操作系统。"
+      "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
+      "content": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, [&#8230;]",
+      "titleZh": "特朗普宣布对许多无人机和所有飞机零部件征收100 ％的关税",
+      "contentZh": "美国已经禁止未来的外国无人机进入美国，除非他们的公司亲吻戒指-以及路由器，机器人和Roombas。现在，唐纳德·特朗普总统也在瞄准现有的无人机进口和零部件。他会试图让他们花更多的钱。在总统行动中， […]"
     },
     {
-      "title": "Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones",
-      "content": "It's almost time for the Made by Google keynote, where the company will show off the brand-new Pixel hardware it announced today. Like last year, it'll be a celebrity-packed live show, though Trevor Noah is hosting instead of Jimmy Fallon. If the 2025 show was any indication, today's broadcast might be something of a cringefest. [&#8230;]",
-      "titleZh": "Pixel 11活动直播博客：观看Trevor Noah介绍谷歌新手机",
-      "contentZh": "现在几乎是Google制造主题演讲的时候了，该公司将展示今天宣布的全新Pixel硬件。和去年一样，虽然特雷弗·诺亚（ Trevor Noah ）将代替吉米·法伦（ Jimmy Fallon ）主持现场表演，但这将是一场名人盛宴。如果2025年的节目有任何迹象，今天的广播可能是一场畏缩。[…]"
-    },
-    {
-      "title": "This 8BitDo mechanical keyboard has an extra keypad and is 30 percent off",
-      "content": "If you’re looking for a mechanical keyboard that can give your desk a touch of retro flair, Amazon has 8BitDo’s Retro Mechanical Keyboard with Dual Super Buttons on sale for $69.99, one of the lowest prices we’ve seen for the bundle. The styling on this keyboard is thorough, with blocky retro legends on the rounded [&#8230;]",
-      "titleZh": "这款8BitDo机械键盘具有额外的键盘，可享受30%的折扣",
-      "contentZh": "如果您正在寻找可以为您的办公桌增添复古气息的机械键盘，亚马逊的8BitDo复古机械键盘配有双超级按钮，售价为$ 69.99 ，是我们看到的最低价格之一。这款键盘的造型细致入微，圆形键盘上有块状的复古图案[…]"
+      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
+      "content": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outside of the bounds\" of the [&#8230;]",
+      "titleZh": "苹果和Epic争论苹果应该从App Store以外的购买中获得多少收益",
+      "contentZh": "在与Epic Games长期存在的法律纠纷中，苹果提出了一种结构，允许它通过不使用公司应用内购买系统的外部链接收取数字购买费用。Epic已经作出回应，称苹果的要求“远远超出了” […]"
     }
   ],
-  "vocab": [
-    {
-      "word": "announce",
-      "meaning": "宣布"
-    }
-  ]
+  "vocab": []
 }
