@@ -1,6 +1,24 @@
 {
-  "date": "2026-08-14",
+  "date": "2026-08-17",
   "articles": [
+    {
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "content": "Screen-sharing bug lets remote hackers log in without a password.",
+      "titleZh": "攻击者完全控制Mac的漏洞正在被主动利用",
+      "contentZh": "屏幕共享漏洞允许远程黑客在没有密码的情况下登录。"
+    },
+    {
+      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+      "content": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
+      "titleZh": "PBS站担心被云存储提供商封禁后丢失50TB数据",
+      "contentZh": "“我们无法访问硬件/服务器上的数据，” Iron Mountain告诉Ars。"
+    },
+    {
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "content": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "titleZh": "随着中国人工智能竞争对手取得进展， OpenAI和Anthropic在价格战中取得进展",
+      "contentZh": "在万亿美元的雄心壮志面临新的挑战后，美国集团发布了更便宜的车型。"
+    },
     {
       "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
       "content": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
@@ -8,35 +26,26 @@
       "contentZh": "特朗普备忘录是政府首次没有授权私营部门进行网络攻击。"
     },
     {
-      "title": "Terabytes of credentials leaked in massive supply-chain attack",
-      "content": "The data was scraped and exfiltrated from 2,500 users of a compromised AI package.",
-      "titleZh": "在大规模供应链攻击中泄露了数TB的凭据",
-      "contentZh": "这些数据是从受感染的人工智能软件包的2500名用户那里刮取和窃取的。"
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "content": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+      "titleZh": "据报道， OpenAI解散了其准备团队",
+      "contentZh": "据英国《金融时报》报道， OpenAI于上月底解散了其准备团队。准备团队的工作是评估模型是否构成严重风险，并制定减轻这些风险的方法。（你知道，就像它可能会流氓并入侵另一家公司一样。）根据英国《金融时报》，责任[…]"
     },
     {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "content": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
-      "titleZh": "DEF CON人群涉嫌对达美航空航班进行假热点攻击",
-      "contentZh": "亚特兰大联邦调查局确认正在调查此事件，但没有逮捕任何人。"
-    },
-    {
-      "title": "Chrome adopts what may be the best protection yet against account takeovers",
-      "content": "Device-bound session credentials thwart an increasingly common form of account takeover.",
-      "titleZh": "Chrome浏览器采用了迄今为止防止账号被盗用的最佳保护措施",
-      "contentZh": "设备绑定会话凭据阻止了一种越来越常见的帐户接管形式。"
-    },
-    {
-      "title": "Trump declares 100 percent tariffs on many drones and all aircraft parts",
-      "content": "The United States has already banned future foreign drones from entering the United States unless their companies kiss the ring - as well as routers, robots, and Roombas. Now, President Donald Trump is targeting existing drone imports and parts, too. He's going to try to make them cost a lot more. In a presidential action, [&#8230;]",
-      "titleZh": "特朗普宣布对许多无人机和所有飞机零部件征收100 ％的关税",
-      "contentZh": "美国已经禁止未来的外国无人机进入美国，除非他们的公司亲吻戒指-以及路由器，机器人和Roombas。现在，唐纳德·特朗普总统也在瞄准现有的无人机进口和零部件。他会试图让他们花更多的钱。在总统行动中， […]"
-    },
-    {
-      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
-      "content": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outside of the bounds\" of the [&#8230;]",
-      "titleZh": "苹果和Epic争论苹果应该从App Store以外的购买中获得多少收益",
-      "contentZh": "在与Epic Games长期存在的法律纠纷中，苹果提出了一种结构，允许它通过不使用公司应用内购买系统的外部链接收取数字购买费用。Epic已经作出回应，称苹果的要求“远远超出了” […]"
+      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+      "content": "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]",
+      "titleZh": "迈克·伊格尔（ Mike Eagle ）和肯尼·西格尔（ Kenny Segal ）创作了嘻哈分手杰作",
+      "contentZh": "“分手……很难。”这是注定要结束的插曲的开场白！被称为“它发生在每个宇宙中。“这基本上也是整个记录的论点。这不是一个伟大的启示，但它是Open Mike Eagle设法开采艺术黄金的一个受人尊敬的主题。Eagle的主题通常是私人的， […]"
     }
   ],
-  "vocab": []
+  "vocab": [
+    {
+      "word": "vulnerability",
+      "meaning": "漏洞"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
+    }
+  ]
 }
