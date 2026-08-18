@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "articles": [
+    {
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "content": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
+      "titleZh": "英伟达披露持有SpaceX $ 210亿股权",
+      "contentZh": "在提交申请之前，埃隆·马斯克（ Elon Musk ）宣布独家安排其数据中心。"
+    },
     {
       "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
       "content": "Screen-sharing bug lets remote hackers log in without a password.",
@@ -20,22 +26,16 @@
       "contentZh": "在万亿美元的雄心壮志面临新的挑战后，美国集团发布了更便宜的车型。"
     },
     {
-      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-      "content": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
-      "titleZh": "私营安全公司很快将被允许入侵海外网络犯罪分子",
-      "contentZh": "特朗普备忘录是政府首次没有授权私营部门进行网络攻击。"
+      "title": "Reddit’s AI is turning posts into podcasts and short videos",
+      "content": "Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that use AI voices to read the text of the main post and some comments. The video highlights the [&#8230;]",
+      "titleZh": "Reddit的人工智能正在将帖子转化为播客和短视频",
+      "contentZh": "Reddit正在尝试一种让人们在Reddit上获取内容的新方式：将文本帖子转换为音频/视频内容。作为实验的一部分，一些帖子正在被改编成视频，这些视频使用人工智能语音来阅读主帖子的文本和一些评论。视频重点介绍了[…]"
     },
     {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "content": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
-      "titleZh": "据报道， OpenAI解散了其准备团队",
-      "contentZh": "据英国《金融时报》报道， OpenAI于上月底解散了其准备团队。准备团队的工作是评估模型是否构成严重风险，并制定减轻这些风险的方法。（你知道，就像它可能会流氓并入侵另一家公司一样。）根据英国《金融时报》，责任[…]"
-    },
-    {
-      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
-      "content": "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]",
-      "titleZh": "迈克·伊格尔（ Mike Eagle ）和肯尼·西格尔（ Kenny Segal ）创作了嘻哈分手杰作",
-      "contentZh": "“分手……很难。”这是注定要结束的插曲的开场白！被称为“它发生在每个宇宙中。“这基本上也是整个记录的论点。这不是一个伟大的启示，但它是Open Mike Eagle设法开采艺术黄金的一个受人尊敬的主题。Eagle的主题通常是私人的， […]"
+      "title": "ABC&#8217;s livestreamed news show is powered by trending topics",
+      "content": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [&#8230;]",
+      "titleZh": "ABC的直播新闻节目由热门话题提供支持",
+      "contentZh": "正如《综艺》杂志早些时候报道的那样， ABC新闻已正式推出Searched ，这是一个直播节目，重点介绍人们在社交媒体上讨论和网上搜索的故事。虽然该网络现在刚刚宣布了这个节目，但Searched于4月份开始在ABC新闻直播频道播出，该频道同时出现在迪士尼Plus和[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
