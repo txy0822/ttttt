@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "articles": [
+    {
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "content": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
+      "titleZh": "Microsoft Copilot揭示了允许其被黑客攻击的秘密输入",
+      "contentZh": "秘密参数允许黑客在目标点击链接时窃取密码。"
+    },
     {
       "title": "Nvidia discloses $21B stake in SpaceX",
       "content": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
@@ -20,22 +26,16 @@
       "contentZh": "“我们无法访问硬件/服务器上的数据，” Iron Mountain告诉Ars。"
     },
     {
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "content": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
-      "titleZh": "随着中国人工智能竞争对手取得进展， OpenAI和Anthropic在价格战中取得进展",
-      "contentZh": "在万亿美元的雄心壮志面临新的挑战后，美国集团发布了更便宜的车型。"
+      "title": "SteelSeries’ comfy wireless gaming headset is nearly half off",
+      "content": "While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The SteelSeries Arctis Nova 3P in cyan is on sale for $59.99, a 45 percent discount from their usual $109.99 price. This [&#8230;]",
+      "titleZh": "SteelSeries舒适的无线游戏耳机近乎半价",
+      "contentZh": "虽然许多游戏耳机都带有额外的功能，但权衡的是它们通常不舒服且沉重。Woot提供了一种轻巧、经济实惠的替代方案，可以连接到一系列平台。青色的SteelSeries Arctis Nova 3P以$ 59.99的价格出售，比通常的$ 109.99价格低45 ％。这个[…]"
     },
     {
-      "title": "Reddit’s AI is turning posts into podcasts and short videos",
-      "content": "Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that use AI voices to read the text of the main post and some comments. The video highlights the [&#8230;]",
-      "titleZh": "Reddit的人工智能正在将帖子转化为播客和短视频",
-      "contentZh": "Reddit正在尝试一种让人们在Reddit上获取内容的新方式：将文本帖子转换为音频/视频内容。作为实验的一部分，一些帖子正在被改编成视频，这些视频使用人工智能语音来阅读主帖子的文本和一些评论。视频重点介绍了[…]"
-    },
-    {
-      "title": "ABC&#8217;s livestreamed news show is powered by trending topics",
-      "content": "ABC News has officially introduced Searched, a livestreamed show that highlights stories people are discussing on social media and searching on the web, as reported earlier by Variety. Though the network just announced the show now, Searched began airing on the ABC News Live streaming channel in April, which appears on both Disney Plus and [&#8230;]",
-      "titleZh": "ABC的直播新闻节目由热门话题提供支持",
-      "contentZh": "正如《综艺》杂志早些时候报道的那样， ABC新闻已正式推出Searched ，这是一个直播节目，重点介绍人们在社交媒体上讨论和网上搜索的故事。虽然该网络现在刚刚宣布了这个节目，但Searched于4月份开始在ABC新闻直播频道播出，该频道同时出现在迪士尼Plus和[…]"
+      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "content": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the [&#8230;]",
+      "titleZh": "罗宾·威廉姆斯的Instagram账号回归打击“人工智能滥用”",
+      "contentZh": "正如The Wrap早些时候报道的那样，罗宾·威廉姆斯（ Robin Williams ）的女儿在反对使用他的人工智能肖像后接管了他们父亲的Instagram帐户。在周二的一篇帖子中， Zak、Zelda和Cody Williams写道，他们希望这位已故演员的Instagram个人资料是一个“安全、值得信赖的地方， […]"
     }
   ],
   "vocab": [
@@ -48,8 +48,16 @@
       "meaning": "利用/漏洞利用"
     },
     {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
       "word": "announce",
       "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
