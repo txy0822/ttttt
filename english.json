@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "articles": [
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -26,16 +26,16 @@
       "contentZh": "“我们无法访问硬件/服务器上的数据，” Iron Mountain告诉Ars。"
     },
     {
-      "title": "SteelSeries’ comfy wireless gaming headset is nearly half off",
-      "content": "While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The SteelSeries Arctis Nova 3P in cyan is on sale for $59.99, a 45 percent discount from their usual $109.99 price. This [&#8230;]",
-      "titleZh": "SteelSeries舒适的无线游戏耳机近乎半价",
-      "contentZh": "虽然许多游戏耳机都带有额外的功能，但权衡的是它们通常不舒服且沉重。Woot提供了一种轻巧、经济实惠的替代方案，可以连接到一系列平台。青色的SteelSeries Arctis Nova 3P以$ 59.99的价格出售，比通常的$ 109.99价格低45 ％。这个[…]"
+      "title": "Does giving a camera wings dodge the FCC’s drone ban?",
+      "content": "HoverAir drones always have intriguing gimmicks. This one folds flat to fit in your pocket. This one can land on water. Another can charge inside its carrying case. But the brand's latest trick might be its riskiest: it's attempting to sneak a drone past the FCC. In December 2025, the US government banned future foreign [&#8230;]",
+      "titleZh": "给一个相机翅膀是否会躲避联邦通信委员会的无人机禁令？",
+      "contentZh": "HoverAir无人机总是有趣的噱头。这个可以折叠平放，放在口袋里。这个可以在水上着陆。另一个可以在手提箱内充电。但该品牌的最新伎俩可能是最危险的：它试图将无人机偷偷带过联邦通信委员会。2025年12月，美国政府禁止未来的外国[…]"
     },
     {
-      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
-      "content": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the [&#8230;]",
-      "titleZh": "罗宾·威廉姆斯的Instagram账号回归打击“人工智能滥用”",
-      "contentZh": "正如The Wrap早些时候报道的那样，罗宾·威廉姆斯（ Robin Williams ）的女儿在反对使用他的人工智能肖像后接管了他们父亲的Instagram帐户。在周二的一篇帖子中， Zak、Zelda和Cody Williams写道，他们希望这位已故演员的Instagram个人资料是一个“安全、值得信赖的地方， […]"
+      "title": "Nielsen is leaning more on wearables to hear what people are watching",
+      "content": "In order to beef up its ability to accurately measure viewership data in the streaming era, Nielsen is moving forward with a plan to use more information gathered from its partners' wearable devices. Today, Nielsen announced \"a number of key enhancements\" that are being added to its data capturing process ahead of the upcoming fall [&#8230;]",
+      "titleZh": "尼尔森更多地依靠可穿戴设备，以了解人们正在观看的内容",
+      "contentZh": "为了加强其在流媒体时代准确测量观众数据的能力，尼尔森正在推进一项计划，使用从合作伙伴的可穿戴设备收集的更多信息。今天，尼尔森宣布了“一系列关键改进” ，这些改进将在即将到来的秋季[…]之前添加到其数据捕获过程中。"
     }
   ],
   "vocab": [
@@ -48,16 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
-    },
-    {
       "word": "announce",
       "meaning": "宣布"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
