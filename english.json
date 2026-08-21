@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "articles": [
+    {
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "content": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "titleZh": "当恶意指令被加密时， Grok会泄露用户数据",
+      "contentZh": "加密上下文注入只是打破LLM安全护栏的最新方法。"
+    },
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
       "content": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
@@ -20,22 +26,16 @@
       "contentZh": "屏幕共享漏洞允许远程黑客在没有密码的情况下登录。"
     },
     {
-      "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
-      "content": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
-      "titleZh": "PBS站担心被云存储提供商封禁后丢失50TB数据",
-      "contentZh": "“我们无法访问硬件/服务器上的数据，” Iron Mountain告诉Ars。"
+      "title": "Genki’s new customizable controller has a big screen and adjustable buttons",
+      "content": "After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed from the ground up today. With an unorthodox design that positions its thumbsticks and buttons above a large 2.9-inch LCD screen, the Manta looks a lot chunkier than competing controllers. But what really sets it apart is [&#8230;]",
+      "titleZh": "Genki的新款可定制控制器具有大屏幕和可调节按钮",
+      "contentZh": "在两年前与8BitDo合作开发游戏手柄后， Genki今天推出了该公司从头开始设计的第一个控制器。Manta采用非正统的设计，将拇指杆和按钮放在2.9英寸的大型液晶屏幕上方，看起来比竞争对手的控制器要笨重得多。但真正让它与众不同的是[…]"
     },
     {
-      "title": "Does giving a camera wings dodge the FCC’s drone ban?",
-      "content": "HoverAir drones always have intriguing gimmicks. This one folds flat to fit in your pocket. This one can land on water. Another can charge inside its carrying case. But the brand's latest trick might be its riskiest: it's attempting to sneak a drone past the FCC. In December 2025, the US government banned future foreign [&#8230;]",
-      "titleZh": "给一个相机翅膀是否会躲避联邦通信委员会的无人机禁令？",
-      "contentZh": "HoverAir无人机总是有趣的噱头。这个可以折叠平放，放在口袋里。这个可以在水上着陆。另一个可以在手提箱内充电。但该品牌的最新伎俩可能是最危险的：它试图将无人机偷偷带过联邦通信委员会。2025年12月，美国政府禁止未来的外国[…]"
-    },
-    {
-      "title": "Nielsen is leaning more on wearables to hear what people are watching",
-      "content": "In order to beef up its ability to accurately measure viewership data in the streaming era, Nielsen is moving forward with a plan to use more information gathered from its partners' wearable devices. Today, Nielsen announced \"a number of key enhancements\" that are being added to its data capturing process ahead of the upcoming fall [&#8230;]",
-      "titleZh": "尼尔森更多地依靠可穿戴设备，以了解人们正在观看的内容",
-      "contentZh": "为了加强其在流媒体时代准确测量观众数据的能力，尼尔森正在推进一项计划，使用从合作伙伴的可穿戴设备收集的更多信息。今天，尼尔森宣布了“一系列关键改进” ，这些改进将在即将到来的秋季[…]之前添加到其数据捕获过程中。"
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "content": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
+      "titleZh": "Google Discover正在获取AI聊天机器人调整后的Feed",
+      "contentZh": "谷歌将很快允许您通过描述您想要看到的内容来自定义您的Discover Feed。这项新功能将在“未来几天”在Google应用中推出，它将使用人工智能自动调整您的Feed ，并“记住”您对未来访问的偏好。您可以在[…]的三点菜单中找到该选项"
     }
   ],
   "vocab": [
@@ -46,6 +46,14 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     },
     {
       "word": "announce",
