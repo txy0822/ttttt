@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "articles": [
+    {
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "content": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
+      "titleZh": "在与优步的机器人出租车之战中， Waymo的游说支出翻了一番",
+      "contentZh": "Alphabet旗下的公司正在寻求说服美国监管机构为全自动出租车服务扫清道路。"
+    },
     {
       "title": "Grok exfiltrates user data when malicious instructions are encrypted",
       "content": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
@@ -20,40 +26,22 @@
       "contentZh": "在提交申请之前，埃隆·马斯克（ Elon Musk ）宣布独家安排其数据中心。"
     },
     {
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "content": "Screen-sharing bug lets remote hackers log in without a password.",
-      "titleZh": "攻击者完全控制Mac的漏洞正在被主动利用",
-      "contentZh": "屏幕共享漏洞允许远程黑客在没有密码的情况下登录。"
+      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+      "content": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]",
+      "titleZh": "《侠盗猎车手VI》：关于Rockstar下一部《侠盗猎车手》系列作品的所有新闻",
+      "contentZh": "自《GTA V》推出以来，已经有十多年和两代游戏机，其续集仍在制作中。GTA VI面临多次延迟，开发商Rockstar Games将其预测的发布日期推迟了两次，第一次推迟到2026年5月26日，然后再次推迟到2026年11月19日，即[…]"
     },
     {
-      "title": "Genki’s new customizable controller has a big screen and adjustable buttons",
-      "content": "After collaborating with 8BitDo on a gamepad two years ago, Genki launched the first controller the company designed from the ground up today. With an unorthodox design that positions its thumbsticks and buttons above a large 2.9-inch LCD screen, the Manta looks a lot chunkier than competing controllers. But what really sets it apart is [&#8230;]",
-      "titleZh": "Genki的新款可定制控制器具有大屏幕和可调节按钮",
-      "contentZh": "在两年前与8BitDo合作开发游戏手柄后， Genki今天推出了该公司从头开始设计的第一个控制器。Manta采用非正统的设计，将拇指杆和按钮放在2.9英寸的大型液晶屏幕上方，看起来比竞争对手的控制器要笨重得多。但真正让它与众不同的是[…]"
-    },
-    {
-      "title": "Google Discover is getting an AI chatbot-tuned feed",
-      "content": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your [&#8230;]",
-      "titleZh": "Google Discover正在获取AI聊天机器人调整后的Feed",
-      "contentZh": "谷歌将很快允许您通过描述您想要看到的内容来自定义您的Discover Feed。这项新功能将在“未来几天”在Google应用中推出，它将使用人工智能自动调整您的Feed ，并“记住”您对未来访问的偏好。您可以在[…]的三点菜单中找到该选项"
+      "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
+      "content": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it seems like the perfect time to revisit their first film, We're All Going to the World's Fair. I fell in love with this film when I first saw it at Sundance in 2021. We [&#8230;]",
+      "titleZh": "《We 're All Going to the World's Fair》是一部亲密的成年恐怖电影",
+      "contentZh": "Jane Schoenbrun的最新电影《Teenage Sex and Death at Camp Miasma》目前正在影院上映。因此，现在似乎是重温他们的第一部电影《我们都要去世界博览会》的绝佳时机。2021年，当我在圣丹斯第一次看到这部电影时，我爱上了这部电影。我们[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
-    },
-    {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "autonomous",
+      "meaning": "自主的"
     },
     {
       "word": "announce",
