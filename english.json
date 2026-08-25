@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "articles": [
+    {
+      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
+      "content": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
+      "titleZh": "用于指纹浏览器的听不见的声音抓住了AliExpress的红手",
+      "contentZh": "该技术是否已过时？是的，它仍然令人毛骨悚然吗？也是。"
+    },
     {
       "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
       "content": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
@@ -20,32 +26,22 @@
       "contentZh": "秘密参数允许黑客在目标点击链接时窃取密码。"
     },
     {
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "content": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
-      "titleZh": "英伟达披露持有SpaceX $ 210亿股权",
-      "contentZh": "在提交申请之前，埃隆·马斯克（ Elon Musk ）宣布独家安排其数据中心。"
+      "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
+      "content": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it's not clear that computing giant Lenovo will go that far. Three weeks after a Redditor presented a nearly $300 repair bill for their handheld gaming PC - among other [&#8230;]",
+      "titleZh": "在游戏玩家报告砖块设备后，联想确认了Legion Go问题",
+      "contentZh": "当公司的软件更新将您的计算机变成无用的砖块时，修复应该是免费的吗？模块化计算机初创公司Framework显然是这么认为的。但目前还不清楚电脑巨头联想是否会走得那么远。三周后，一位Redditor为其手持游戏PC提交了近300 $的维修账单-其中包括[…]"
     },
     {
-      "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
-      "content": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, first to May 26th, 2026, then again to November 19th, 2026, a full year after [&#8230;]",
-      "titleZh": "《侠盗猎车手VI》：关于Rockstar下一部《侠盗猎车手》系列作品的所有新闻",
-      "contentZh": "自《GTA V》推出以来，已经有十多年和两代游戏机，其续集仍在制作中。GTA VI面临多次延迟，开发商Rockstar Games将其预测的发布日期推迟了两次，第一次推迟到2026年5月26日，然后再次推迟到2026年11月19日，即[…]"
-    },
-    {
-      "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
-      "content": "Jane Schoenbrun's latest film, Teenage Sex and Death at Camp Miasma, is making a splash in theaters right now. So it seems like the perfect time to revisit their first film, We're All Going to the World's Fair. I fell in love with this film when I first saw it at Sundance in 2021. We [&#8230;]",
-      "titleZh": "《We 're All Going to the World's Fair》是一部亲密的成年恐怖电影",
-      "contentZh": "Jane Schoenbrun的最新电影《Teenage Sex and Death at Camp Miasma》目前正在影院上映。因此，现在似乎是重温他们的第一部电影《我们都要去世界博览会》的绝佳时机。2021年，当我在圣丹斯第一次看到这部电影时，我爱上了这部电影。我们[…]"
+      "title": "The cat-and-mouse game over 3D-printed guns has begun",
+      "content": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle between regulators trying to stem the tide of ghost guns and individuals trying to create workarounds. Cody [&#8230;]",
+      "titleZh": "3D打印枪支的猫捉老鼠游戏已经开始",
+      "contentZh": "世界上第一支3D打印枪的创造者声称，他已经开发出一种方法来阻止政府强制要求的软件，该软件旨在阻止3D打印机制造枪支。这是监管机构试图遏制幽灵枪的浪潮和试图创造解决方案的个人之间不断发展的斗争的开始。Cody […]"
     }
   ],
   "vocab": [
     {
       "word": "autonomous",
       "meaning": "自主的"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
     }
   ]
 }
