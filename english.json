@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "articles": [
     {
       "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
@@ -26,22 +26,30 @@
       "contentZh": "秘密参数允许黑客在目标点击链接时窃取密码。"
     },
     {
-      "title": "Lenovo confirms Legion Go issues after gamers report bricked devices",
-      "content": "When a company's software update turns your computer into a useless brick, should fixes be free? Framework, the modular computer startup, apparently thinks so. But it's not clear that computing giant Lenovo will go that far. Three weeks after a Redditor presented a nearly $300 repair bill for their handheld gaming PC - among other [&#8230;]",
-      "titleZh": "在游戏玩家报告砖块设备后，联想确认了Legion Go问题",
-      "contentZh": "当公司的软件更新将您的计算机变成无用的砖块时，修复应该是免费的吗？模块化计算机初创公司Framework显然是这么认为的。但目前还不清楚电脑巨头联想是否会走得那么远。三周后，一位Redditor为其手持游戏PC提交了近300 $的维修账单-其中包括[…]"
+      "title": "Garmin’s new Fenix 9 adds brighter screens and smoother map panning",
+      "content": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its predecessor. Starting at $999.99 for the 43mm case option, the Fenix 9 has 50 percent more RAM and [&#8230;]",
+      "titleZh": "佳明全新Fenix 9增加了更明亮的屏幕和更流畅的地图平移",
+      "contentZh": "Garmin刚刚推出了坚固耐用的Fenix 9智能手表新系列，其基本型号采用了亮度高达3,000尼特的OLED显示屏，使其亮度是其前身的两倍。43毫米表壳选项的起价为$ 999.99 ， Fenix 9的RAM增加了50 ％ ， […]"
     },
     {
-      "title": "The cat-and-mouse game over 3D-printed guns has begun",
-      "content": "The creator of the world's first 3D-printed gun claims he's developed a way to thwart government-mandated software meant to block 3D printers from making firearms. It's an opening volley in what's shaping up to be an evolving battle between regulators trying to stem the tide of ghost guns and individuals trying to create workarounds. Cody [&#8230;]",
-      "titleZh": "3D打印枪支的猫捉老鼠游戏已经开始",
-      "contentZh": "世界上第一支3D打印枪的创造者声称，他已经开发出一种方法来阻止政府强制要求的软件，该软件旨在阻止3D打印机制造枪支。这是监管机构试图遏制幽灵枪的浪潮和试图创造解决方案的个人之间不断发展的斗争的开始。Cody […]"
+      "title": "Trump is upping the price of Big Tech’s favorite visa",
+      "content": "In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department plans on revoking the visas of up to 200,000 asylum seekers - which, according to The Associated Press, would be [&#8230;]",
+      "titleZh": "特朗普正在提高科技巨头最喜欢的签证的价格",
+      "contentZh": "在周一的几个小时内，国土安全部宣布将对H-1B签证收取超过103,000美元的费用，并且有消息称国务院计划撤销多达200,000名寻求庇护者的签证-据美联社报道，这将是[…]"
     }
   ],
   "vocab": [
     {
       "word": "autonomous",
       "meaning": "自主的"
+    },
+    {
+      "word": "implement",
+      "meaning": "实施"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
