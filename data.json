@@ -1,15 +1,15 @@
 {
-  "updateTime": "2026-08-26 10:21",
+  "updateTime": "2026-08-27 18:48",
   "pe": 30.4,
-  "fearGreed": 88,
-  "maDeviation": 8.74,
-  "rsi": 44.8,
-  "drawdown": -4.73,
+  "fearGreed": 89,
+  "maDeviation": 8.71,
+  "rsi": 47.1,
+  "drawdown": -4.68,
   "scores": {
     "pe": 43,
     "fg": 6,
     "ma": 19,
-    "rsi": 55,
+    "rsi": 51,
     "dd": 39
   },
   "total": 30,
@@ -298,6 +298,10 @@
     {
       "date": "2026-08-26",
       "pe": 30.4
+    },
+    {
+      "date": "2026-08-27",
+      "pe": 30.4
     }
   ],
   "fgHistory": [
@@ -584,6 +588,10 @@
     {
       "date": "2026-08-26",
       "val": 88
+    },
+    {
+      "date": "2026-08-27",
+      "val": 89
     }
   ]
 }

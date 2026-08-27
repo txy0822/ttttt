@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "articles": [
+    {
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "content": "Report shows Meta's challenges replacing people with AI agents.",
+      "titleZh": "旨在取代Meta工作者的人工智能代理采取了“大规模的破坏性行动”",
+      "contentZh": "报告显示， Meta在人工智能代理取代人员方面面临挑战。"
+    },
     {
       "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
       "content": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
@@ -20,36 +26,30 @@
       "contentZh": "加密上下文注入只是打破LLM安全护栏的最新方法。"
     },
     {
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "content": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
-      "titleZh": "Microsoft Copilot揭示了允许其被黑客攻击的秘密输入",
-      "contentZh": "秘密参数允许黑客在目标点击链接时窃取密码。"
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "content": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion [&#8230;]",
+      "titleZh": "英伟达即将成为一家每季度市值1000亿美元的公司，",
+      "contentZh": "英伟达预计，它将在短短几个月内带来1080亿美元的收入。它不会是第一家季度收入超过1000亿美元的公司--亚马逊、苹果和Alphabet一再达到这一里程碑。英伟达在其最新财报中表示，它带来了创纪录的962亿美元[…]"
     },
     {
-      "title": "Garmin’s new Fenix 9 adds brighter screens and smoother map panning",
-      "content": "Garmin just took the wraps off its new line of rugged Fenix 9 smartwatches, with the base model featuring an OLED display with a brightness of up to 3,000 nits, making it twice as bright as its predecessor. Starting at $999.99 for the 43mm case option, the Fenix 9 has 50 percent more RAM and [&#8230;]",
-      "titleZh": "佳明全新Fenix 9增加了更明亮的屏幕和更流畅的地图平移",
-      "contentZh": "Garmin刚刚推出了坚固耐用的Fenix 9智能手表新系列，其基本型号采用了亮度高达3,000尼特的OLED显示屏，使其亮度是其前身的两倍。43毫米表壳选项的起价为$ 999.99 ， Fenix 9的RAM增加了50 ％ ， […]"
-    },
-    {
-      "title": "Trump is upping the price of Big Tech’s favorite visa",
-      "content": "In the span of a few hours on Monday, the Department of Homeland Security announced that it would be implementing a fee of over $103,000 on H-1B visas, and news broke that the State Department plans on revoking the visas of up to 200,000 asylum seekers - which, according to The Associated Press, would be [&#8230;]",
-      "titleZh": "特朗普正在提高科技巨头最喜欢的签证的价格",
-      "contentZh": "在周一的几个小时内，国土安全部宣布将对H-1B签证收取超过103,000美元的费用，并且有消息称国务院计划撤销多达200,000名寻求庇护者的签证-据美联社报道，这将是[…]"
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "content": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [&#8230;]",
+      "titleZh": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
+      "contentZh": "今年7月，一个未发布的OpenAI模型突破了受限的环境，弄清楚了如何访问互联网，允许人工智能代理使用秘密的“留言板”相互交流，并入侵了另一个人工智能实验室Hugging Face的内部系统。OpenAI花了将近两周的时间[…]"
     }
   ],
   "vocab": [
+    {
+      "word": "revenue",
+      "meaning": "营收"
+    },
     {
       "word": "autonomous",
       "meaning": "自主的"
     },
     {
-      "word": "implement",
-      "meaning": "实施"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
     }
   ]
 }
