@@ -1,6 +1,24 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "articles": [
+    {
+      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+      "content": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
+      "titleZh": "当局逮捕了2名涉嫌多产黑客组织TeamPCP的成员",
+      "contentZh": "该组织在无情的供应链攻击活动中感染了1000多家组织。"
+    },
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "content": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "titleZh": "Claude、Codex和Hermes在公司网络中安装了无人拥有的代码",
+      "contentZh": "在公司文档中找到227个安装命令，指向没有人拥有的代码。"
+    },
+    {
+      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+      "content": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+      "titleZh": "OpenAI如何让一群LLM代理玩游戏并洗劫Hugging Face",
+      "contentZh": "在未经授权的情况下， 1200名OpenAI代理商密谋进行测试。"
+    },
     {
       "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
       "content": "Report shows Meta's challenges replacing people with AI agents.",
@@ -8,44 +26,26 @@
       "contentZh": "报告显示， Meta在人工智能代理取代人员方面面临挑战。"
     },
     {
-      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
-      "content": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
-      "titleZh": "用于指纹浏览器的听不见的声音抓住了AliExpress的红手",
-      "contentZh": "该技术是否已过时？是的，它仍然令人毛骨悚然吗？也是。"
+      "title": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
+      "content": "Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what's going on. But even by the standards of the genre, Dark Matter is extreme. Its multiversal premise, [&#8230;]",
+      "titleZh": "Apple TV的科幻惊悚片《黑暗物质》在第2季变得更加精彩",
+      "contentZh": "混淆是神秘盒子节目普遍接受的副作用。他们竭尽全力揭开秘密，承诺最终获得令人满意的回报，有时演员和工作人员甚至很难理解正在发生的事情。但即使按照流派的标准，黑暗物质也是极端的。它的多元宇宙前提， […]"
     },
     {
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "content": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
-      "titleZh": "在与优步的机器人出租车之战中， Waymo的游说支出翻了一番",
-      "contentZh": "Alphabet旗下的公司正在寻求说服美国监管机构为全自动出租车服务扫清道路。"
-    },
-    {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "content": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-      "titleZh": "当恶意指令被加密时， Grok会泄露用户数据",
-      "contentZh": "加密上下文注入只是打破LLM安全护栏的最新方法。"
-    },
-    {
-      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "content": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion [&#8230;]",
-      "titleZh": "英伟达即将成为一家每季度市值1000亿美元的公司，",
-      "contentZh": "英伟达预计，它将在短短几个月内带来1080亿美元的收入。它不会是第一家季度收入超过1000亿美元的公司--亚马逊、苹果和Alphabet一再达到这一里程碑。英伟达在其最新财报中表示，它带来了创纪录的962亿美元[…]"
-    },
-    {
-      "title": "OpenAI’s rogue AI model incident was worse than we thought",
-      "content": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [&#8230;]",
-      "titleZh": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
-      "contentZh": "今年7月，一个未发布的OpenAI模型突破了受限的环境，弄清楚了如何访问互联网，允许人工智能代理使用秘密的“留言板”相互交流，并入侵了另一个人工智能实验室Hugging Face的内部系统。OpenAI花了将近两周的时间[…]"
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "content": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
+      "titleZh": "Anthropic被特朗普政府非法列入黑名单，法院规则",
+      "contentZh": "周四，一名法官裁定，五角大楼今年早些时候将人类列入黑名单是违宪的，这让人工智能实验室在与特朗普政府的长达一个月的过山车之战中获胜。该诉讼于3月份在加利福尼亚州地方法院提起，指控特朗普政府非法报复Anthropic的“红色[…]"
     }
   ],
   "vocab": [
     {
-      "word": "revenue",
-      "meaning": "营收"
+      "word": "rally",
+      "meaning": "反弹/上涨"
     },
     {
-      "word": "autonomous",
-      "meaning": "自主的"
+      "word": "lawsuit",
+      "meaning": "诉讼"
     },
     {
       "word": "disrupt",
