@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "articles": [
+    {
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "content": "The company is testing robots on tasks that can performed by technicians.",
+      "titleZh": "Meta推动机器人在数据中心工作",
+      "contentZh": "该公司正在测试机器人可以由技术人员执行的任务。"
+    },
     {
       "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
       "content": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
@@ -20,36 +26,17 @@
       "contentZh": "在未经授权的情况下， 1200名OpenAI代理商密谋进行测试。"
     },
     {
-      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-      "content": "Report shows Meta's challenges replacing people with AI agents.",
-      "titleZh": "旨在取代Meta工作者的人工智能代理采取了“大规模的破坏性行动”",
-      "contentZh": "报告显示， Meta在人工智能代理取代人员方面面临挑战。"
+      "title": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
+      "content": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you [&#8230;]",
+      "titleZh": "谋杀教授乘坐地铁是被遗忘的舞蹈朋克完美片段",
+      "contentZh": "我最近挖出了我的CD ，并开始重新撕开它们。我在那里找到了一些被遗忘的宝石，但对我来说，很少有比精美简洁的《谋杀教授乘坐地铁》EP更难的了。在纽约的中年时期，似乎每个独立乐队都想要你[…]"
     },
     {
-      "title": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
-      "content": "Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what's going on. But even by the standards of the genre, Dark Matter is extreme. Its multiversal premise, [&#8230;]",
-      "titleZh": "Apple TV的科幻惊悚片《黑暗物质》在第2季变得更加精彩",
-      "contentZh": "混淆是神秘盒子节目普遍接受的副作用。他们竭尽全力揭开秘密，承诺最终获得令人满意的回报，有时演员和工作人员甚至很难理解正在发生的事情。但即使按照流派的标准，黑暗物质也是极端的。它的多元宇宙前提， […]"
-    },
-    {
-      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "content": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
-      "titleZh": "Anthropic被特朗普政府非法列入黑名单，法院规则",
-      "contentZh": "周四，一名法官裁定，五角大楼今年早些时候将人类列入黑名单是违宪的，这让人工智能实验室在与特朗普政府的长达一个月的过山车之战中获胜。该诉讼于3月份在加利福尼亚州地方法院提起，指控特朗普政府非法报复Anthropic的“红色[…]"
+      "title": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
+      "content": "Over 12 terabytes of data, containing builds of every game uploaded to Steam between 2003 and 2013, has been leaked. We don't know everything in the archives yet because of its massive size. But people have already dug up assets related to the canceled Half-Life 2: Episode 3, content cut from Portal 2, and a [&#8230;]",
+      "titleZh": "巨大的12TB蒸汽泄漏包括废弃的Half-Life 2: Episode 3资产",
+      "contentZh": "超过12TB的数据已被泄露，其中包含2003年至2013年间上传到Steam的每个游戏的版本。由于其庞大的规模，我们还不知道档案中的所有内容。但人们已经挖掘了与已取消的《半条命2 ：第3集》相关的资产，从《传送门2》剪辑的内容，以及[…]"
     }
   ],
-  "vocab": [
-    {
-      "word": "rally",
-      "meaning": "反弹/上涨"
-    },
-    {
-      "word": "lawsuit",
-      "meaning": "诉讼"
-    },
-    {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
-    }
-  ]
+  "vocab": []
 }
