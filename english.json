@@ -1,6 +1,12 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "articles": [
+    {
+      "title": "Think twice before installing this device promising free movies",
+      "content": "In exchange for free stuff, devices make home connections part of a proxy network.",
+      "titleZh": "在安装此设备之前，请三思而后行，有望获得免费电影",
+      "contentZh": "为了换取免费的东西，设备将家庭连接作为代理网络的一部分。"
+    },
     {
       "title": "Inside Meta’s push to put robots to work in data centers",
       "content": "The company is testing robots on tasks that can performed by technicians.",
@@ -20,23 +26,22 @@
       "contentZh": "在公司文档中找到227个安装命令，指向没有人拥有的代码。"
     },
     {
-      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-      "content": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
-      "titleZh": "OpenAI如何让一群LLM代理玩游戏并洗劫Hugging Face",
-      "contentZh": "在未经授权的情况下， 1200名OpenAI代理商密谋进行测试。"
+      "title": "The Google TV Streamer now costs $50 more",
+      "content": "Google raised the price of its 4K streaming box to $149, up $50 from its original $99 price. The new price is currently live at the Google Store and Best Buy, but Amazon appears to still be offering the original price. The price hike comes just a couple of weeks after Google launched its new [&#8230;]",
+      "titleZh": "Google TV Streamer现在要多花$ 50",
+      "contentZh": "谷歌将其4K流媒体盒的价格提高到$ 149 ，从原来的$ 99价格上涨了$ 50。新价格目前在谷歌商店和百思买上线，但亚马逊似乎仍在提供原价。价格上涨发生在谷歌推出新[…]的几周后。"
     },
     {
-      "title": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
-      "content": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you [&#8230;]",
-      "titleZh": "谋杀教授乘坐地铁是被遗忘的舞蹈朋克完美片段",
-      "contentZh": "我最近挖出了我的CD ，并开始重新撕开它们。我在那里找到了一些被遗忘的宝石，但对我来说，很少有比精美简洁的《谋杀教授乘坐地铁》EP更难的了。在纽约的中年时期，似乎每个独立乐队都想要你[…]"
-    },
-    {
-      "title": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
-      "content": "Over 12 terabytes of data, containing builds of every game uploaded to Steam between 2003 and 2013, has been leaked. We don't know everything in the archives yet because of its massive size. But people have already dug up assets related to the canceled Half-Life 2: Episode 3, content cut from Portal 2, and a [&#8230;]",
-      "titleZh": "巨大的12TB蒸汽泄漏包括废弃的Half-Life 2: Episode 3资产",
-      "contentZh": "超过12TB的数据已被泄露，其中包含2003年至2013年间上传到Steam的每个游戏的版本。由于其庞大的规模，我们还不知道档案中的所有内容。但人们已经挖掘了与已取消的《半条命2 ：第3集》相关的资产，从《传送门2》剪辑的内容，以及[…]"
+      "title": "JMGO’s very bright all-in-one projector looks ideal for gamers and sports",
+      "content": "JMGO's 4K 120Hz Iris Ultra Max all-in-one Google TV projector is now available outside China. It gets its name from a new dual-iris system that lets it produce an impressive 10,000:1 native contrast, according to JMGO. It boosts the contrast - always an issue with projectors - by placing two separate physical apertures (irises) along [&#8230;]",
+      "titleZh": "JMGO非常明亮的多合一投影仪看起来非常适合游戏玩家和运动",
+      "contentZh": "JMGO的4K 120Hz Iris Ultra Max多功能一体Google TV投影仪现已在中国境外上市。根据JMGO的说法，它的名字来自一个新的双IRIS系统，它可以产生令人印象深刻的10,000 ： 1的原生对比度。它通过沿[…]放置两个独立的物理孔径（虹膜）来增强对比度（投影仪始终存在问题）。"
     }
   ],
-  "vocab": []
+  "vocab": [
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
+    }
+  ]
 }
