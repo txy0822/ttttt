@@ -1,47 +1,59 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "articles": [
+    {
+      "title": "I rented a car, and within hours, my driver&#039;s license was for sale",
+      "content": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
+      "titleZh": "",
+      "contentZh": ""
+    },
+    {
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "content": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
+      "titleZh": "",
+      "contentZh": ""
+    },
     {
       "title": "Think twice before installing this device promising free movies",
       "content": "In exchange for free stuff, devices make home connections part of a proxy network.",
-      "titleZh": "在安装此设备之前，请三思而后行，有望获得免费电影",
-      "contentZh": "为了换取免费的东西，设备将家庭连接作为代理网络的一部分。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "Inside Meta’s push to put robots to work in data centers",
       "content": "The company is testing robots on tasks that can performed by technicians.",
-      "titleZh": "Meta推动机器人在数据中心工作",
-      "contentZh": "该公司正在测试机器人可以由技术人员执行的任务。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
-      "content": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
-      "titleZh": "当局逮捕了2名涉嫌多产黑客组织TeamPCP的成员",
-      "contentZh": "该组织在无情的供应链攻击活动中感染了1000多家组织。"
+      "title": "Uber beats Waymo as first to launch robotaxis in London",
+      "content": "Uber beat out Waymo in launching a commercial robotaxi service in London, the city's first. The vehicles use autonomous driving tech developed by Wayve, a UK-based startup, and will initially feature safety drivers behind the wheel. The launch is a milestone for Uber, which has been plotting a UK launch with Wayve for several years. [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "content": "227 install commands were found in corporate docs pointing at code nobody owns.",
-      "titleZh": "Claude、Codex和Hermes在公司网络中安装了无人拥有的代码",
-      "contentZh": "在公司文档中找到227个安装命令，指向没有人拥有的代码。"
-    },
-    {
-      "title": "Google needs Hollywood more than the studios need AI",
-      "content": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would also [&#8230;]",
-      "titleZh": "谷歌对好莱坞的需求超过工作室对人工智能的需求",
-      "contentZh": "据报道，谷歌一直在与好莱坞一些最大的工作室联系，希望达成许可协议，允许它在受版权保护的材料上训练其人工智能模型，以换取大量现金。从理论上讲，这些交易将是双赢的：对工作室来说是一个巨大的财政福音，也将[…]"
-    },
-    {
-      "title": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "content": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing [&#8230;]",
-      "titleZh": "Anthropic推出了Claude Fable 5.1 ，并表示代理工作的成本降低了45 ％",
-      "contentZh": "Anthropic表示，其最新的人工智能模型Fable 5.1和Mythos 5.1解决了客户对价格、数据保留和过度保护的批评。该公司声称Claude Fable 5.1的性能优于Fable 5 ，但由于价格降低，通常成本降低约25 ％ ，复杂代理任务的成本降低高达45 ％ […]"
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "content": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     }
   ],
   "vocab": [
     {
+      "word": "autonomous",
+      "meaning": "自主的"
+    },
+    {
+      "word": "breach",
+      "meaning": "泄露/入侵"
+    },
+    {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
