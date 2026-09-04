@@ -1,6 +1,18 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "articles": [
+    {
+      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
+      "content": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
+      "titleZh": "",
+      "contentZh": ""
+    },
+    {
+      "title": "VMware migration reduces Tottenham Hotspur&#039;s licensing fees by 85 percent",
+      "content": "Pro soccer team's CTO points to \"issues with the Broadcom takeover.\"",
+      "titleZh": "",
+      "contentZh": ""
+    },
     {
       "title": "I rented a car, and within hours, my driver&#039;s license was for sale",
       "content": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
@@ -14,26 +26,14 @@
       "contentZh": ""
     },
     {
-      "title": "Think twice before installing this device promising free movies",
-      "content": "In exchange for free stuff, devices make home connections part of a proxy network.",
+      "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
+      "content": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only on Nvidia's latest RTX 50 GPUs, and with developers in full control of their artistic vision. But unofficially, modders have already ported a leaked version of DLSS 5 to run on just about anything while cranking [&#8230;]",
       "titleZh": "",
       "contentZh": ""
     },
     {
-      "title": "Inside Meta’s push to put robots to work in data centers",
-      "content": "The company is testing robots on tasks that can performed by technicians.",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "Uber beats Waymo as first to launch robotaxis in London",
-      "content": "Uber beat out Waymo in launching a commercial robotaxi service in London, the city's first. The vehicles use autonomous driving tech developed by Wayve, a UK-based startup, and will initially feature safety drivers behind the wheel. The launch is a milestone for Uber, which has been plotting a UK launch with Wayve for several years. [&#8230;]",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
-      "content": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million [&#8230;]",
+      "title": "The unusually muted Tesla Cybercab launch",
+      "content": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [&#8230;]",
       "titleZh": "",
       "contentZh": ""
     }
@@ -50,10 +50,6 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
