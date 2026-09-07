@@ -1,55 +1,55 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-07",
   "articles": [
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "content": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "titleZh": "OpenAI代理讨论了在公共wiki上逃离沙箱的方法",
+      "contentZh": "总共有3,700名内部代理发布了18,000条消息，讨论在测试中作弊的问题。"
+    },
+    {
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "content": "Broadcom admits it put “too big a focus on VCF.”",
+      "titleZh": "“真正的赤字是信任，而不是功能” ： VMware试图安抚中小企业",
+      "contentZh": "Broadcom承认它“过于关注VCF”。"
+    },
+    {
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "content": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "titleZh": "一旦流行攻击人工智能， ASCII走私就被垃圾邮件发送者所接受",
+      "contentZh": "一度被忽视的人类看不见的Unicode块正在获得越来越广泛的使用。"
+    },
     {
       "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
       "content": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
-      "titleZh": "",
-      "contentZh": ""
+      "titleZh": "美国参议员对哪个VPN是正确的感到困惑，向国家安全局寻求指导",
+      "contentZh": "开源、商业、单跳、多跳、mixnet ？一系列选项令人眼花缭乱。"
     },
     {
-      "title": "VMware migration reduces Tottenham Hotspur&#039;s licensing fees by 85 percent",
-      "content": "Pro soccer team's CTO points to \"issues with the Broadcom takeover.\"",
-      "titleZh": "",
-      "contentZh": ""
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "content": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
+      "titleZh": "《西雅图时报》和《新闻日报》起诉OpenAI和微软侵权",
+      "contentZh": "《西雅图时报》和《新闻日报》只是将OpenAI告上法庭的最新原告，指控其侵犯版权。这两家媒体表示，该公司未经许可就将其新闻报道用作其人工智能模型的训练数据，并经常复制其报道中的段落以回应用户的查询。这与[…]提起的诉讼类似。"
     },
     {
-      "title": "I rented a car, and within hours, my driver&#039;s license was for sale",
-      "content": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
-      "content": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "Nvidia will officially bring DLSS 5 to older GPUs — but won’t give gamers full control",
-      "content": "Officially, Nvidia's controversial DLSS 5 AI rendering was supposed to launch this evening with only a single game, only on Nvidia's latest RTX 50 GPUs, and with developers in full control of their artistic vision. But unofficially, modders have already ported a leaked version of DLSS 5 to run on just about anything while cranking [&#8230;]",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "The unusually muted Tesla Cybercab launch",
-      "content": "At a private, closed-door event in Austin, Texas today, Tesla officially launched its gilded car of the future: the Cybercab. It's a huge milestone for Elon Musk, who has been hyping the imminent arrival of driverless cars for years and has bet the future of his company on AI, autonomous vehicles, and humanoid robots. It [&#8230;]",
-      "titleZh": "",
-      "contentZh": ""
+      "title": "An Amazon cargo plane crashed at Miami International Airport",
+      "content": "A plane bearing an Amazon logo overran the runway at Miami International Airport on Sunday during landing, crashing into vehicles and resulting in multiple injuries. The extent of the damage or the seriousness of the injuries was not clear at the time of publication. In the aftermath of the incident, the FAA released a statement [&#8230;]",
+      "titleZh": "一架亚马逊货机在迈阿密国际机场坠毁",
+      "contentZh": "周日，一架带有亚马逊标志的飞机在迈阿密国际机场的跑道上降落，撞上车辆，导致多人受伤。在发布时，损害的程度或伤害的严重程度尚不清楚。事件发生后，美国联邦航空局发布了一份声明[…]"
     }
   ],
   "vocab": [
     {
-      "word": "autonomous",
-      "meaning": "自主的"
+      "word": "deficit",
+      "meaning": "赤字"
     },
     {
-      "word": "breach",
-      "meaning": "泄露/入侵"
+      "word": "lawsuit",
+      "meaning": "诉讼"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
