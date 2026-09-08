@@ -1,41 +1,41 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "articles": [
     {
       "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
       "content": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-      "titleZh": "OpenAI代理讨论了在公共wiki上逃离沙箱的方法",
-      "contentZh": "总共有3,700名内部代理发布了18,000条消息，讨论在测试中作弊的问题。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
       "content": "Broadcom admits it put “too big a focus on VCF.”",
-      "titleZh": "“真正的赤字是信任，而不是功能” ： VMware试图安抚中小企业",
-      "contentZh": "Broadcom承认它“过于关注VCF”。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
       "content": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
-      "titleZh": "一旦流行攻击人工智能， ASCII走私就被垃圾邮件发送者所接受",
-      "contentZh": "一度被忽视的人类看不见的Unicode块正在获得越来越广泛的使用。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
       "content": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
-      "titleZh": "美国参议员对哪个VPN是正确的感到困惑，向国家安全局寻求指导",
-      "contentZh": "开源、商业、单跳、多跳、mixnet ？一系列选项令人眼花缭乱。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "content": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
-      "titleZh": "《西雅图时报》和《新闻日报》起诉OpenAI和微软侵权",
-      "contentZh": "《西雅图时报》和《新闻日报》只是将OpenAI告上法庭的最新原告，指控其侵犯版权。这两家媒体表示，该公司未经许可就将其新闻报道用作其人工智能模型的训练数据，并经常复制其报道中的段落以回应用户的查询。这与[…]提起的诉讼类似。"
+      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
+      "content": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What's so special about that? After five years of development, Arm now has [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "An Amazon cargo plane crashed at Miami International Airport",
-      "content": "A plane bearing an Amazon logo overran the runway at Miami International Airport on Sunday during landing, crashing into vehicles and resulting in multiple injuries. The extent of the damage or the seriousness of the injuries was not clear at the time of publication. In the aftermath of the incident, the FAA released a statement [&#8230;]",
-      "titleZh": "一架亚马逊货机在迈阿密国际机场坠毁",
-      "contentZh": "周日，一架带有亚马逊标志的飞机在迈阿密国际机场的跑道上降落，撞上车辆，导致多人受伤。在发布时，损害的程度或伤害的严重程度尚不清楚。事件发生后，美国联邦航空局发布了一份声明[…]"
+      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+      "content": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     }
   ],
   "vocab": [
@@ -44,8 +44,8 @@
       "meaning": "赤字"
     },
     {
-      "word": "lawsuit",
-      "meaning": "诉讼"
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
       "word": "feature",
