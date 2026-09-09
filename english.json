@@ -1,41 +1,41 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "articles": [
+    {
+      "title": "Why this month&#039;s Microsoft patch release is a doozy",
+      "content": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+      "titleZh": "为什么本月的微软补丁发布是一个愚蠢的",
+      "contentZh": "在预期的人工智能辅助攻击猛攻之前，安全侏儒正在推出补丁。"
+    },
     {
       "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
       "content": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-      "titleZh": "",
-      "contentZh": ""
+      "titleZh": "OpenAI代理讨论了在公共wiki上逃离沙箱的方法",
+      "contentZh": "总共有3,700名内部代理发布了18,000条消息，讨论在测试中作弊的问题。"
     },
     {
       "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
       "content": "Broadcom admits it put “too big a focus on VCF.”",
-      "titleZh": "",
-      "contentZh": ""
+      "titleZh": "“真正的赤字是信任，而不是功能” ： VMware试图安抚中小企业",
+      "contentZh": "Broadcom承认它“过于关注VCF”。"
     },
     {
       "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
       "content": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
-      "titleZh": "",
-      "contentZh": ""
+      "titleZh": "一旦流行攻击人工智能， ASCII走私就被垃圾邮件发送者所接受",
+      "contentZh": "一度被忽视的人类看不见的Unicode块正在获得越来越广泛的使用。"
     },
     {
-      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
-      "content": "Open source, commercial, single-hop, multi-hop, mixnet? The array of options is dizzying.",
-      "titleZh": "",
-      "contentZh": ""
+      "title": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
+      "content": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company's long-rumored folding phone is the iPhone Duo. The midnight report suggests it will have a price starting at $2,000 for a model with [&#8230;]",
+      "titleZh": "据报道，苹果的可折叠“iPhone Duo”起价为2000 $",
+      "contentZh": "彭博社记者马克·古尔曼（ Mark Gurman ）表示，距离约翰·特纳斯（ John Ternus ）接任苹果首席执行官以来的第一次iPhone发布会只有几个小时的时间了，该公司传闻已久的折叠手机的名字是iPhone Duo。午夜报告显示， […]的模特的价格将从2000 $起"
     },
     {
-      "title": "First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost",
-      "content": "China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What's so special about that? After five years of development, Arm now has [&#8230;]",
-      "titleZh": "",
-      "contentZh": ""
-    },
-    {
-      "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
-      "content": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes [&#8230;]",
-      "titleZh": "",
-      "contentZh": ""
+      "title": "Sony isn’t phasing out discs quite as quickly as we thought",
+      "content": "Sony isn't backing away from its decision to kill the video game disc in January 2028. But Sony isn't shutting down production as quickly as we thought, either. Two months after reports that Sony's last discmaking plant was already being repurposed, the company's discmaking division now says that one widely reported detail was wrong. Originally, [&#8230;]",
+      "titleZh": "索尼并没有像我们想象的那样迅速淘汰光盘",
+      "contentZh": "索尼并没有放弃在2028年1月关闭视频游戏光盘的决定。但索尼也没有像我们想象的那样迅速关闭生产。在报道索尼最后一家光盘制造工厂已经被重新利用两个月后，该公司的光盘制造部门现在表示，一个被广泛报道的细节是错误的。最初， […]"
     }
   ],
   "vocab": [
