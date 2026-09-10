@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "articles": [
+    {
+      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "content": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
+      "titleZh": "4组使用相同的Chrome和Windows漏洞利用工具包",
+      "contentZh": "补丁缺口和基于人工智能的漏洞发现步伐加快可能是促成因素。"
+    },
     {
       "title": "Why this month&#039;s Microsoft patch release is a doozy",
       "content": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
@@ -20,22 +26,16 @@
       "contentZh": "Broadcom承认它“过于关注VCF”。"
     },
     {
-      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-      "content": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
-      "titleZh": "一旦流行攻击人工智能， ASCII走私就被垃圾邮件发送者所接受",
-      "contentZh": "一度被忽视的人类看不见的Unicode块正在获得越来越广泛的使用。"
+      "title": "There aren’t AirPods with cameras yet and I hope it stays that way",
+      "content": "September Apple events are always a swirl of information and new, exciting products, and today's was no different. Apple announced its first foldable, the iPhone Duo, alongside the iPhone 18 Pro and Pro Max; active noise cancellation (ANC) is now on the cheapest AirPods model, the AirPods 5; and a Siri Recap feature comes to [&#8230;]",
+      "titleZh": "还没有带摄像头的AirPods ，我希望它能保持这种状态",
+      "contentZh": "9月份的Apple活动始终是一系列信息以及令人兴奋的新产品，今天也不例外。苹果公司宣布推出第一款可折叠的iPhone Duo ，以及iPhone 18 Pro和Pro Max ；主动降噪（ ANC ）现在适用于最便宜的AirPods型号AirPods 5 ； Siri Recap功能[…]"
     },
     {
-      "title": "Apple’s foldable ‘iPhone Duo’ will reportedly start at $2,000",
-      "content": "With only a few hours left until the first iPhone launch event since John Ternus took over as the CEO of Apple, Bloomberg reporter Mark Gurman says the name of the company's long-rumored folding phone is the iPhone Duo. The midnight report suggests it will have a price starting at $2,000 for a model with [&#8230;]",
-      "titleZh": "据报道，苹果的可折叠“iPhone Duo”起价为2000 $",
-      "contentZh": "彭博社记者马克·古尔曼（ Mark Gurman ）表示，距离约翰·特纳斯（ John Ternus ）接任苹果首席执行官以来的第一次iPhone发布会只有几个小时的时间了，该公司传闻已久的折叠手机的名字是iPhone Duo。午夜报告显示， […]的模特的价格将从2000 $起"
-    },
-    {
-      "title": "Sony isn’t phasing out discs quite as quickly as we thought",
-      "content": "Sony isn't backing away from its decision to kill the video game disc in January 2028. But Sony isn't shutting down production as quickly as we thought, either. Two months after reports that Sony's last discmaking plant was already being repurposed, the company's discmaking division now says that one widely reported detail was wrong. Originally, [&#8230;]",
-      "titleZh": "索尼并没有像我们想象的那样迅速淘汰光盘",
-      "contentZh": "索尼并没有放弃在2028年1月关闭视频游戏光盘的决定。但索尼也没有像我们想象的那样迅速关闭生产。在报道索尼最后一家光盘制造工厂已经被重新利用两个月后，该公司的光盘制造部门现在表示，一个被广泛报道的细节是错误的。最初， […]"
+      "title": "The black iPhone Pro returns",
+      "content": "Apple has seen reason: It has a black model in the iPhone Pro lineup again. Last year, Apple went bold with its colors for the iPhone 17 Pro, offering a flashy orange, a shiny silver, and a dark blue. Don't get me wrong, they looked nice. But there was no black (or dark gray) for [&#8230;]",
+      "titleZh": "黑色iPhone Pro回归",
+      "contentZh": "苹果已经看到了原因：它在iPhone Pro阵容中再次采用了黑色机型。去年，苹果大胆推出了iPhone 17 Pro的颜色，提供华丽的橙色、闪亮的银色和深蓝色。别误会，它们看起来不错。但[…]没有黑色（或深灰色）"
     }
   ],
   "vocab": [
@@ -44,12 +44,20 @@
       "meaning": "赤字"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "vulnerability",
+      "meaning": "漏洞"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
     },
     {
       "word": "feature",
       "meaning": "功能/特性"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
