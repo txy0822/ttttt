@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "articles": [
     {
-      "title": "4 groups caught using the same Chrome and Windows exploit kit",
+      "title": "Four groups caught using the same Chrome and Windows exploit kit",
       "content": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
-      "titleZh": "4组使用相同的Chrome和Windows漏洞利用工具包",
+      "titleZh": "使用同一个Chrome和Windows漏洞利用工具包的四个组",
       "contentZh": "补丁缺口和基于人工智能的漏洞发现步伐加快可能是促成因素。"
     },
     {
@@ -26,16 +26,16 @@
       "contentZh": "Broadcom承认它“过于关注VCF”。"
     },
     {
-      "title": "There aren’t AirPods with cameras yet and I hope it stays that way",
-      "content": "September Apple events are always a swirl of information and new, exciting products, and today's was no different. Apple announced its first foldable, the iPhone Duo, alongside the iPhone 18 Pro and Pro Max; active noise cancellation (ANC) is now on the cheapest AirPods model, the AirPods 5; and a Siri Recap feature comes to [&#8230;]",
-      "titleZh": "还没有带摄像头的AirPods ，我希望它能保持这种状态",
-      "contentZh": "9月份的Apple活动始终是一系列信息以及令人兴奋的新产品，今天也不例外。苹果公司宣布推出第一款可折叠的iPhone Duo ，以及iPhone 18 Pro和Pro Max ；主动降噪（ ANC ）现在适用于最便宜的AirPods型号AirPods 5 ； Siri Recap功能[…]"
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "content": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to [&#8230;]",
+      "titleZh": "Slack现在可以在聊天中对交互式图表和报告进行vibe编码",
+      "contentZh": "Slack即将推出的新功能将允许您直接在聊天中构建交互式报告、投票、仪表板、演示文稿、微型网站和其他工具。使用Slackforce Surfaces ，您可以向Slackbot描述您的需求，它将使用人工智能从相关对话和连接的应用程序（如Google Drive或Salesforce ）中收集信息，以[…]"
     },
     {
-      "title": "The black iPhone Pro returns",
-      "content": "Apple has seen reason: It has a black model in the iPhone Pro lineup again. Last year, Apple went bold with its colors for the iPhone 17 Pro, offering a flashy orange, a shiny silver, and a dark blue. Don't get me wrong, they looked nice. But there was no black (or dark gray) for [&#8230;]",
-      "titleZh": "黑色iPhone Pro回归",
-      "contentZh": "苹果已经看到了原因：它在iPhone Pro阵容中再次采用了黑色机型。去年，苹果大胆推出了iPhone 17 Pro的颜色，提供华丽的橙色、闪亮的银色和深蓝色。别误会，它们看起来不错。但[…]没有黑色（或深灰色）"
+      "title": "Schools are catching on to Big Tech’s playbook",
+      "content": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on [&#8230;]",
+      "titleZh": "学校正在关注大型科技公司的剧本",
+      "contentZh": "这是科技领域的热门新事物，也是所有工作的地方。没有学会使用它的学生落后了。为了帮助他们及时赶上，其创作者慷慨地提供学习它的资源和课程，通常是无偿的。这就是人工智能公司在[…]上向学校推销的故事。"
     }
   ],
   "vocab": [
@@ -54,10 +54,6 @@
     {
       "word": "feature",
       "meaning": "功能/特性"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
     }
   ]
 }

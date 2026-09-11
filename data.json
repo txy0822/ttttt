@@ -1,18 +1,18 @@
 {
-  "updateTime": "2026-09-10 13:28",
-  "pe": 29.2,
-  "fearGreed": 85,
-  "maDeviation": 8.65,
-  "rsi": 49.9,
-  "drawdown": -4.04,
+  "updateTime": "2026-09-11 13:30",
+  "pe": 28.9,
+  "fearGreed": 82,
+  "maDeviation": 7.38,
+  "rsi": 47.8,
+  "drawdown": -5.08,
   "scores": {
-    "pe": 49,
-    "fg": 8,
-    "ma": 19,
-    "rsi": 45,
-    "dd": 36
+    "pe": 51,
+    "fg": 10,
+    "ma": 23,
+    "rsi": 49,
+    "dd": 40
   },
-  "total": 31,
+  "total": 34,
   "multiplier": "0.5x",
   "peHistory": [
     {
@@ -342,6 +342,10 @@
     {
       "date": "2026-09-10",
       "pe": 29.2
+    },
+    {
+      "date": "2026-09-11",
+      "pe": 28.9
     }
   ],
   "fgHistory": [
@@ -672,6 +676,10 @@
     {
       "date": "2026-09-10",
       "val": 85
+    },
+    {
+      "date": "2026-09-11",
+      "val": 82
     }
   ]
 }
