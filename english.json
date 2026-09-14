@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-14",
   "articles": [
+    {
+      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "content": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
+      "titleZh": "感染PC和Mac的ClickFix攻击正在病毒式传播",
+      "contentZh": "简单-结合完成工作的难度-使ClickFix成为理想选择。"
+    },
     {
       "title": "Four groups caught using the same Chrome and Windows exploit kit",
       "content": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
@@ -20,29 +26,19 @@
       "contentZh": "总共有3,700名内部代理发布了18,000条消息，讨论在测试中作弊的问题。"
     },
     {
-      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-      "content": "Broadcom admits it put “too big a focus on VCF.”",
-      "titleZh": "“真正的赤字是信任，而不是功能” ： VMware试图安抚中小企业",
-      "contentZh": "Broadcom承认它“过于关注VCF”。"
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "content": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]",
+      "titleZh": "特朗普和迈克·约翰逊认为人工智能行业反应过度",
+      "contentZh": "昨天， Anthropic首席执行官Dario Amodei发表了一封冗长的公开信，称是时候“加快前沿步伐”并减缓人工智能的发展。OpenAI的Sam Altman和Elon Musk都同意，公开表示支持X。即使是Alphabet的Demis Hassabis也对Amodei的提议表示暂时支持。然而，唐纳德·特朗普和众议院议长迈克·约翰逊[…]"
     },
     {
-      "title": "Slack can now vibe-code interactive charts and reports inside chats",
-      "content": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps, like Google Drive or Salesforce, to [&#8230;]",
-      "titleZh": "Slack现在可以在聊天中对交互式图表和报告进行vibe编码",
-      "contentZh": "Slack即将推出的新功能将允许您直接在聊天中构建交互式报告、投票、仪表板、演示文稿、微型网站和其他工具。使用Slackforce Surfaces ，您可以向Slackbot描述您的需求，它将使用人工智能从相关对话和连接的应用程序（如Google Drive或Salesforce ）中收集信息，以[…]"
-    },
-    {
-      "title": "Schools are catching on to Big Tech’s playbook",
-      "content": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schools on [&#8230;]",
-      "titleZh": "学校正在关注大型科技公司的剧本",
-      "contentZh": "这是科技领域的热门新事物，也是所有工作的地方。没有学会使用它的学生落后了。为了帮助他们及时赶上，其创作者慷慨地提供学习它的资源和课程，通常是无偿的。这就是人工智能公司在[…]上向学校推销的故事。"
+      "title": "Apple is reportedly working on iPhone game controllers",
+      "content": "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game controller business have circulated for some time. But last week, MacRumors reported finding two references in macOS 26.7's code to two game controllers identified as first-party [&#8230;]",
+      "titleZh": "据报道，苹果正在开发iPhone游戏控制器",
+      "contentZh": "彭博社的马克·古尔曼（ Mark Gurman ）表示，苹果正在为iPhone开发两款游戏控制器，并可能以Beats品牌销售。苹果可能进入游戏控制器业务的谣言已经流传了一段时间。但上周， MacRumors报告称，在macOS 26.7的代码中发现了两个引用，指向两个被确定为第一方[…]的游戏控制器"
     }
   ],
   "vocab": [
-    {
-      "word": "deficit",
-      "meaning": "赤字"
-    },
     {
       "word": "vulnerability",
       "meaning": "漏洞"
@@ -50,10 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
