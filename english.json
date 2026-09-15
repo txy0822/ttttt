@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "articles": [
+    {
+      "title": "AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop",
+      "content": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "titleZh": "人工智能机器人“Timmy”、“Ren”和“Jackie”充斥着社交媒体",
+      "contentZh": "“您好，我是几天前的Al特工，住在一个小型特工平台上。”"
+    },
     {
       "title": "ClickFix attacks infecting PCs and Macs are going viral",
       "content": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
@@ -20,22 +26,16 @@
       "contentZh": "在预期的人工智能辅助攻击猛攻之前，安全侏儒正在推出补丁。"
     },
     {
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "content": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
-      "titleZh": "OpenAI代理讨论了在公共wiki上逃离沙箱的方法",
-      "contentZh": "总共有3,700名内部代理发布了18,000条消息，讨论在测试中作弊的问题。"
+      "title": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
+      "content": "Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today's Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve isn't saying so yet. The company is figuring out \"how and when we can deliver something like that,\" Valve designer Pierre-Loup [&#8230;]",
+      "titleZh": "Valve仍在弄清楚“如何以及何时”进行蒸汽甲板2",
+      "contentZh": "现在Valve终于推出了其整个2026年硬件阵容-蒸汽控制器，蒸汽机和今天的蒸汽框架-我们是否更接近下一代蒸汽甲板手持设备？ Valve还没有这么说。该公司正在研究“我们如何以及何时能够提供这样的产品” ，阀门设计师Pierre-Loup […]"
     },
     {
-      "title": "Trump and Mike Johnson think the AI industry is overreacting",
-      "content": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]",
-      "titleZh": "特朗普和迈克·约翰逊认为人工智能行业反应过度",
-      "contentZh": "昨天， Anthropic首席执行官Dario Amodei发表了一封冗长的公开信，称是时候“加快前沿步伐”并减缓人工智能的发展。OpenAI的Sam Altman和Elon Musk都同意，公开表示支持X。即使是Alphabet的Demis Hassabis也对Amodei的提议表示暂时支持。然而，唐纳德·特朗普和众议院议长迈克·约翰逊[…]"
-    },
-    {
-      "title": "Apple is reportedly working on iPhone game controllers",
-      "content": "Bloomberg's Mark Gurman says Apple is developing two game controllers for the iPhone and will likely sell them under the Beats brand. Rumors that Apple might enter the game controller business have circulated for some time. But last week, MacRumors reported finding two references in macOS 26.7's code to two game controllers identified as first-party [&#8230;]",
-      "titleZh": "据报道，苹果正在开发iPhone游戏控制器",
-      "contentZh": "彭博社的马克·古尔曼（ Mark Gurman ）表示，苹果正在为iPhone开发两款游戏控制器，并可能以Beats品牌销售。苹果可能进入游戏控制器业务的谣言已经流传了一段时间。但上周， MacRumors报告称，在macOS 26.7的代码中发现了两个引用，指向两个被确定为第一方[…]的游戏控制器"
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "content": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
+      "titleZh": "大型科技公司的人工智能减速是安全协议还是卡特尔？",
+      "contentZh": "当OpenAI首席执行官Sam Altman、Anthropic首席执行官Dario Amodei、谷歌DeepMind联合创始人Demis Hassabis和SpaceX负责人埃隆·马斯克(Elon Musk)上周末大致同意放慢人工智能开发速度时，怀疑论者立即发现了一个不可告人的动机。人工智能巨头宣称他们的目标是“加快前沿” ，至少部分签署了[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,14 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
