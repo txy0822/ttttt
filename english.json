@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "articles": [
     {
       "title": "AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop",
@@ -26,16 +26,16 @@
       "contentZh": "在预期的人工智能辅助攻击猛攻之前，安全侏儒正在推出补丁。"
     },
     {
-      "title": "Valve is still figuring out ‘how and when’ to do Steam Deck 2",
-      "content": "Now that Valve has finally launched its entire 2026 hardware lineup - the Steam Controller, the Steam Machine, and today's Steam Frame - are we any closer to a next-gen Steam Deck handheld? Valve isn't saying so yet. The company is figuring out \"how and when we can deliver something like that,\" Valve designer Pierre-Loup [&#8230;]",
-      "titleZh": "Valve仍在弄清楚“如何以及何时”进行蒸汽甲板2",
-      "contentZh": "现在Valve终于推出了其整个2026年硬件阵容-蒸汽控制器，蒸汽机和今天的蒸汽框架-我们是否更接近下一代蒸汽甲板手持设备？ Valve还没有这么说。该公司正在研究“我们如何以及何时能够提供这样的产品” ，阀门设计师Pierre-Loup […]"
+      "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
+      "content": "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small updates that may justify its significant price bump depending on how you plan to use it. While the Palma 2 launched in 2024 for $279.99, [&#8230;]",
+      "titleZh": "Boox Palma 3获得了触控笔支持和时尚的重新设计",
+      "contentZh": "在Boox智能手机大小的黑白电子阅读器上次更新近两年后，该公司宣布推出Palma 3 ，它具有时尚的重新设计、新功能和一些其他小的更新，这些更新可能证明其显著的价格上涨是合理的，具体取决于您计划如何使用它。Palma 2于2024年推出，售价$ 279.99 ， […]"
     },
     {
-      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-      "content": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
-      "titleZh": "大型科技公司的人工智能减速是安全协议还是卡特尔？",
-      "contentZh": "当OpenAI首席执行官Sam Altman、Anthropic首席执行官Dario Amodei、谷歌DeepMind联合创始人Demis Hassabis和SpaceX负责人埃隆·马斯克(Elon Musk)上周末大致同意放慢人工智能开发速度时，怀疑论者立即发现了一个不可告人的动机。人工智能巨头宣称他们的目标是“加快前沿” ，至少部分签署了[…]"
+      "title": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
+      "content": "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the original R8 that launched in 2023 as a smaller, cheaper, and more accessible alternative to the Canon R6 Mark II for photographers wanting a larger [&#8230;]",
+      "titleZh": "EOS R8 Mark II是佳能最轻的带稳定功能的全画幅相机",
+      "contentZh": "佳能宣布推出第二代EOS R8 ，采用全新的复古风格重新设计，并增加了车身稳定功能。该功能是2023年推出的原版R8中最值得注意的遗漏之一，它是佳能R6 Mark II的一个更小、更便宜、更易于使用的替代品，适合想要更大[…]的摄影师"
     }
   ],
   "vocab": [
@@ -48,8 +48,20 @@
       "meaning": "利用/漏洞利用"
     },
     {
+      "word": "significant",
+      "meaning": "重大的"
+    },
+    {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     },
     {
       "word": "platform",
