@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "articles": [
+    {
+      "title": "Nonprofit that tracks meteors taken down by &quot;critical blow&quot; from a cyberattack",
+      "content": "Group plans to be largely out of commission for several weeks.",
+      "titleZh": "追踪因网络攻击而遭受“严重打击”的流星的非营利组织",
+      "contentZh": "集团计划在几周内基本停止运营。"
+    },
     {
       "title": "AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop",
       "content": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
@@ -20,22 +26,16 @@
       "contentZh": "补丁缺口和基于人工智能的漏洞发现步伐加快可能是促成因素。"
     },
     {
-      "title": "Why this month&#039;s Microsoft patch release is a doozy",
-      "content": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
-      "titleZh": "为什么本月的微软补丁发布是一个愚蠢的",
-      "contentZh": "在预期的人工智能辅助攻击猛攻之前，安全侏儒正在推出补丁。"
+      "title": "The streamers are fighting over Halloween",
+      "content": "The Toronto International Film Festival is a place to go to see the future of film, but this year it also provided a glimpse at what is coming very soon in the realm of streaming. Four different streamers - Peacock, Netflix, Amazon, and AMC - all premiered early looks at upcoming horror-adjacent series that are [&#8230;]",
+      "titleZh": "主播们正在争夺万圣节",
+      "contentZh": "多伦多国际电影节是一个观看电影未来的地方，但今年它也提供了对流媒体领域即将到来的一瞥。四种不同的主播-孔雀， Netflix ，亚马逊和AMC -都首映了即将到来的恐怖相邻系列， […]"
     },
     {
-      "title": "The Boox Palma 3 gets stylus support and a sleek redesign",
-      "content": "Nearly two years after the last update to Boox's smartphone-sized black-and-white e-reader, the company announced the Palma 3 with a sleek redesign, new functionality, and a handful of other small updates that may justify its significant price bump depending on how you plan to use it. While the Palma 2 launched in 2024 for $279.99, [&#8230;]",
-      "titleZh": "Boox Palma 3获得了触控笔支持和时尚的重新设计",
-      "contentZh": "在Boox智能手机大小的黑白电子阅读器上次更新近两年后，该公司宣布推出Palma 3 ，它具有时尚的重新设计、新功能和一些其他小的更新，这些更新可能证明其显著的价格上涨是合理的，具体取决于您计划如何使用它。Palma 2于2024年推出，售价$ 279.99 ， […]"
-    },
-    {
-      "title": "The EOS R8 Mark II is Canon’s lightest full-frame camera with stabilization",
-      "content": "Canon announced the second-generation of its EOS R8 with a new retro-inspired redesign and the addition of in-body stabilization. That feature was one of the most notable omissions from the original R8 that launched in 2023 as a smaller, cheaper, and more accessible alternative to the Canon R6 Mark II for photographers wanting a larger [&#8230;]",
-      "titleZh": "EOS R8 Mark II是佳能最轻的带稳定功能的全画幅相机",
-      "contentZh": "佳能宣布推出第二代EOS R8 ，采用全新的复古风格重新设计，并增加了车身稳定功能。该功能是2023年推出的原版R8中最值得注意的遗漏之一，它是佳能R6 Mark II的一个更小、更便宜、更易于使用的替代品，适合想要更大[…]的摄影师"
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "content": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you [&#8230;]",
+      "titleZh": "Snap正在推出一款新的Specs AI工具，即将在iOS和Mac上推出",
+      "contentZh": "Snap推出了“Specs Intelligence” ，这是一种新的人工智能助手，可以连接其他数字帐户，帮助您完成工作任务和跟踪差旅信息等。这似乎类似于像Meta的Muse和Gemini的Spark这样的人工智能助手，尽管Snap正在将Specs Intelligence作为一种“预期的人工智能服务” ， “帮助您[…]"
     }
   ],
   "vocab": [
@@ -48,20 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "significant",
-      "meaning": "重大的"
-    },
-    {
       "word": "launch",
       "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
     },
     {
       "word": "platform",
