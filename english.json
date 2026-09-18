@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "articles": [
+    {
+      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "content": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+      "titleZh": "使用AI水印时， LLM对有害提示的反应不同",
+      "contentZh": "SynthID可能会导致模型遵循否则会拒绝的有害指令。"
+    },
     {
       "title": "Nonprofit that tracks meteors taken down by &quot;critical blow&quot; from a cyberattack",
       "content": "Group plans to be largely out of commission for several weeks.",
@@ -20,32 +26,22 @@
       "contentZh": "简单-结合完成工作的难度-使ClickFix成为理想选择。"
     },
     {
-      "title": "Four groups caught using the same Chrome and Windows exploit kit",
-      "content": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
-      "titleZh": "使用同一个Chrome和Windows漏洞利用工具包的四个组",
-      "contentZh": "补丁缺口和基于人工智能的漏洞发现步伐加快可能是促成因素。"
+      "title": "Waymo says Singapore will be its next international robotaxi city",
+      "content": "Waymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues to eye overseas markets for expansion. Waymo's vehicles will begin arriving in Singapore in \"the coming months,\" the company says, in preparation of mapping and autonomous testing with human safety drivers behind the wheel in 2027. Waymo says [&#8230;]",
+      "titleZh": "Waymo表示，新加坡将成为其下一个国际机器人出租车城市",
+      "contentZh": "Waymo表示，它将于2028年在新加坡推出机器人出租车服务，因为Alphabet旗下的公司将继续关注海外市场的扩张。Waymo表示， Waymo的车辆将在“未来几个月”内开始抵达新加坡，为2027年人类安全驾驶员驾驶的地图绘制和自动测试做准备。Waymo表示[…]"
     },
     {
-      "title": "The streamers are fighting over Halloween",
-      "content": "The Toronto International Film Festival is a place to go to see the future of film, but this year it also provided a glimpse at what is coming very soon in the realm of streaming. Four different streamers - Peacock, Netflix, Amazon, and AMC - all premiered early looks at upcoming horror-adjacent series that are [&#8230;]",
-      "titleZh": "主播们正在争夺万圣节",
-      "contentZh": "多伦多国际电影节是一个观看电影未来的地方，但今年它也提供了对流媒体领域即将到来的一瞥。四种不同的主播-孔雀， Netflix ，亚马逊和AMC -都首映了即将到来的恐怖相邻系列， […]"
-    },
-    {
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-      "content": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you [&#8230;]",
-      "titleZh": "Snap正在推出一款新的Specs AI工具，即将在iOS和Mac上推出",
-      "contentZh": "Snap推出了“Specs Intelligence” ，这是一种新的人工智能助手，可以连接其他数字帐户，帮助您完成工作任务和跟踪差旅信息等。这似乎类似于像Meta的Muse和Gemini的Spark这样的人工智能助手，尽管Snap正在将Specs Intelligence作为一种“预期的人工智能服务” ， “帮助您[…]"
+      "title": "The AI Superintelligence Slowdown",
+      "content": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time [&#8230;]",
+      "titleZh": "人工智能超级智能减速",
+      "contentZh": "还记得技术领导者告诉员工“快速行动，打破常规”的时候吗？看来，这也是人工智能的方式。但在一个流氓人工智能代理成为现实的夏天之后，研究人员警告说，人工智能可能会杀死我们所有人，一些美国领先的人工智能公司公开表示，是时候[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
-    },
-    {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "autonomous",
+      "meaning": "自主的"
     },
     {
       "word": "launch",
