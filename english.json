@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "articles": [
+    {
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "content": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+      "titleZh": "一名卧底谷歌分析师渗透了一个臭名昭著的供应链黑客团伙",
+      "contentZh": "谷歌的威胁情报小组表示，它在TeamPCP的内部圈子里有一名间谍。"
+    },
     {
       "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
       "content": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
@@ -20,32 +26,22 @@
       "contentZh": "“您好，我是几天前的Al特工，住在一个小型特工平台上。”"
     },
     {
-      "title": "ClickFix attacks infecting PCs and Macs are going viral",
-      "content": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
-      "titleZh": "感染PC和Mac的ClickFix攻击正在病毒式传播",
-      "contentZh": "简单-结合完成工作的难度-使ClickFix成为理想选择。"
+      "title": "No Dogs in Space is back to feed your need for obsessive music history",
+      "content": "In August, I wrote about my love of the music history podcast No Dogs in Space, but mourned the fact that there hadn't been a new episode in over two years. Little did I know that hosts Carolina Hidalgo and Marcus Parks were gearing up to announce the show's return with season four, Punk 2.0. [&#8230;]",
+      "titleZh": "太空中没有狗回来满足您对迷恋音乐历史的需求",
+      "contentZh": "8月，我写了一篇关于我对音乐历史播客《No Dogs in Space》的热爱，但哀悼两年多来没有新剧集的事实。我不知道体验达人Carolina Hidalgo和Marcus Parks正准备宣布该节目将在第四季《朋克2.0》中回归。[…]"
     },
     {
-      "title": "Waymo says Singapore will be its next international robotaxi city",
-      "content": "Waymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues to eye overseas markets for expansion. Waymo's vehicles will begin arriving in Singapore in \"the coming months,\" the company says, in preparation of mapping and autonomous testing with human safety drivers behind the wheel in 2027. Waymo says [&#8230;]",
-      "titleZh": "Waymo表示，新加坡将成为其下一个国际机器人出租车城市",
-      "contentZh": "Waymo表示，它将于2028年在新加坡推出机器人出租车服务，因为Alphabet旗下的公司将继续关注海外市场的扩张。Waymo表示， Waymo的车辆将在“未来几个月”内开始抵达新加坡，为2027年人类安全驾驶员驾驶的地图绘制和自动测试做准备。Waymo表示[…]"
-    },
-    {
-      "title": "The AI Superintelligence Slowdown",
-      "content": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time [&#8230;]",
-      "titleZh": "人工智能超级智能减速",
-      "contentZh": "还记得技术领导者告诉员工“快速行动，打破常规”的时候吗？看来，这也是人工智能的方式。但在一个流氓人工智能代理成为现实的夏天之后，研究人员警告说，人工智能可能会杀死我们所有人，一些美国领先的人工智能公司公开表示，是时候[…]"
+      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "content": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the [&#8230;]",
+      "titleZh": "Nvidia的Jensen Huang认为人工智能的恐惧被夸大了，这并不令人惊讶。",
+      "contentZh": "可能从人工智能热潮中赚到最多钱的人似乎认为他比其他任何人都更了解，包括几十年来研究人工智能的研究人员。在接受哥伦比亚广播公司周日早晨的采访时，他声称人工智能有“0 ％的可能性”是[…]的结束"
     }
   ],
   "vocab": [
     {
-      "word": "autonomous",
-      "meaning": "自主的"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "announce",
+      "meaning": "宣布"
     },
     {
       "word": "platform",
