@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "articles": [
+    {
+      "title": "Muse, Meta&#039;s extraordinarily privileged AI assistant, has a serious 0-day",
+      "content": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+      "titleZh": "Muse ， Meta的超级特权AI助手，有一个严肃的0天",
+      "contentZh": "简单的ClickFix攻击只是完全劫持新代理的一种方法。"
+    },
     {
       "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
       "content": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
@@ -10,7 +16,7 @@
     {
       "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
       "content": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
-      "titleZh": "使用AI水印时， LLM对有害提示的反应不同",
+      "titleZh": "",
       "contentZh": "SynthID可能会导致模型遵循否则会拒绝的有害指令。"
     },
     {
@@ -20,32 +26,26 @@
       "contentZh": "集团计划在几周内基本停止运营。"
     },
     {
-      "title": "AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop",
-      "content": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
-      "titleZh": "人工智能机器人“Timmy”、“Ren”和“Jackie”充斥着社交媒体",
-      "contentZh": "“您好，我是几天前的Al特工，住在一个小型特工平台上。”"
+      "title": "A cut cable disrupted hundreds of flights across the US",
+      "content": "Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizon fiber cable used for air traffic control. FAA Administrator Bryan Bedford said that a circuit failure led to the discovery of the severed fiber cable, ABC News reports. The outage hammered airports across the Northeast, causing [&#8230;]",
+      "titleZh": "切断的电缆扰乱了美国各地的数百个航班",
+      "contentZh": "周一，在新泽西州的建筑工人意外切断用于空中交通管制的Verizon光纤电缆后，数百个航班被取消或延误。据美国广播公司新闻报道，美国联邦航空局局长布莱恩·贝德福德（ Bryan Bedford ）表示，电路故障导致切断的光纤电缆被发现。停电袭击了整个东北地区的机场，导致[…]"
     },
     {
-      "title": "No Dogs in Space is back to feed your need for obsessive music history",
-      "content": "In August, I wrote about my love of the music history podcast No Dogs in Space, but mourned the fact that there hadn't been a new episode in over two years. Little did I know that hosts Carolina Hidalgo and Marcus Parks were gearing up to announce the show's return with season four, Punk 2.0. [&#8230;]",
-      "titleZh": "太空中没有狗回来满足您对迷恋音乐历史的需求",
-      "contentZh": "8月，我写了一篇关于我对音乐历史播客《No Dogs in Space》的热爱，但哀悼两年多来没有新剧集的事实。我不知道体验达人Carolina Hidalgo和Marcus Parks正准备宣布该节目将在第四季《朋克2.0》中回归。[…]"
-    },
-    {
-      "title": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
-      "content": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the [&#8230;]",
-      "titleZh": "Nvidia的Jensen Huang认为人工智能的恐惧被夸大了，这并不令人惊讶。",
-      "contentZh": "可能从人工智能热潮中赚到最多钱的人似乎认为他比其他任何人都更了解，包括几十年来研究人工智能的研究人员。在接受哥伦比亚广播公司周日早晨的采访时，他声称人工智能有“0 ％的可能性”是[…]的结束"
+      "title": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses",
+      "content": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. The initiative comes as Amazon and other tech companies face mounting scrutiny over how much water their data centers use. Amazon has a goal of becoming water [&#8230;]",
+      "titleZh": "亚马逊希望帮助科罗拉多河，但我们仍然不知道该公司使用了多少水",
+      "contentZh": "亚马逊计划在科罗拉多河沿岸的节水项目上花费2000万$ ，这是美国西部4000万人口的一个重要但不断减少的供水。这一举措出台之际，亚马逊和其他科技公司正面临着对其数据中心用水量的日益严格的审查。亚马逊的目标是成为水[…]"
     }
   ],
   "vocab": [
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "scrutiny",
+      "meaning": "审查"
     },
     {
-      "word": "platform",
-      "meaning": "平台"
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
     }
   ]
 }
