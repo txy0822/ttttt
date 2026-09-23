@@ -1,6 +1,18 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "articles": [
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "content": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "titleZh": "微软颠覆了人工智能辅助平台，该平台入侵了12,000个账户",
+      "contentZh": "EvilTokens提供了一个端到端的平台，使大规模妥协更快、更容易。"
+    },
+    {
+      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+      "content": "The English hospitals recovered patient care data only.",
+      "titleZh": "IT错误抹去了11年的医院产科记录查看历史记录",
+      "contentZh": "英国医院仅恢复患者护理数据。"
+    },
     {
       "title": "Muse, Meta&#039;s extraordinarily privileged AI assistant, has a serious 0-day",
       "content": "A simple ClickFix attack is only one way to completely hijack the new agent.",
@@ -14,38 +26,34 @@
       "contentZh": "谷歌的威胁情报小组表示，它在TeamPCP的内部圈子里有一名间谍。"
     },
     {
-      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "content": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
-      "titleZh": "",
-      "contentZh": "SynthID可能会导致模型遵循否则会拒绝的有害指令。"
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "content": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
+      "titleZh": "OpenAI希望咨询精英数学家，了解如何不再摸索",
+      "contentZh": "在将一系列引人注目的数学结果转化为声誉危机之后， OpenAI正在咨询人类数学家，以帮助其找到一条不那么灾难性的前进道路。周一，该公司宣布了一个新的独立数学家小组，其任务是就其与数学研究和更广泛的人工智能公司的互动向其和其他人工智能公司提供建议。"
     },
     {
-      "title": "Nonprofit that tracks meteors taken down by &quot;critical blow&quot; from a cyberattack",
-      "content": "Group plans to be largely out of commission for several weeks.",
-      "titleZh": "追踪因网络攻击而遭受“严重打击”的流星的非营利组织",
-      "contentZh": "集团计划在几周内基本停止运营。"
-    },
-    {
-      "title": "A cut cable disrupted hundreds of flights across the US",
-      "content": "Hundreds of flights were cancelled or delayed on Monday after construction crews in New Jersey accidentally cut a Verizon fiber cable used for air traffic control. FAA Administrator Bryan Bedford said that a circuit failure led to the discovery of the severed fiber cable, ABC News reports. The outage hammered airports across the Northeast, causing [&#8230;]",
-      "titleZh": "切断的电缆扰乱了美国各地的数百个航班",
-      "contentZh": "周一，在新泽西州的建筑工人意外切断用于空中交通管制的Verizon光纤电缆后，数百个航班被取消或延误。据美国广播公司新闻报道，美国联邦航空局局长布莱恩·贝德福德（ Bryan Bedford ）表示，电路故障导致切断的光纤电缆被发现。停电袭击了整个东北地区的机场，导致[…]"
-    },
-    {
-      "title": "Amazon wants to help the Colorado River, but we still don’t know how much water the company uses",
-      "content": "Amazon plans to spend $20 million on water conservation projects along the Colorado River, a crucial but dwindling water supply for 40 million people in the Western US. The initiative comes as Amazon and other tech companies face mounting scrutiny over how much water their data centers use. Amazon has a goal of becoming water [&#8230;]",
-      "titleZh": "亚马逊希望帮助科罗拉多河，但我们仍然不知道该公司使用了多少水",
-      "contentZh": "亚马逊计划在科罗拉多河沿岸的节水项目上花费2000万$ ，这是美国西部4000万人口的一个重要但不断减少的供水。这一举措出台之际，亚马逊和其他科技公司正面临着对其数据中心用水量的日益严格的审查。亚马逊的目标是成为水[…]"
+      "title": "Paramount will need to release way more movies to make this merger work",
+      "content": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in [&#8230;]",
+      "titleZh": "派拉蒙需要发布更多电影才能使此次合并成功",
+      "contentZh": "现在派拉蒙已经与12个州达成和解，这些州正在起诉阻止其与华纳兄弟发现（ WBD ）以1100亿美元的价格合并，该工作室甚至更接近成为世界上最大的制作公司之一。除了在[…]制作的电影和电视节目上花费至少3亿美元之外"
     }
   ],
   "vocab": [
     {
-      "word": "scrutiny",
-      "meaning": "审查"
+      "word": "settlement",
+      "meaning": "和解"
     },
     {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
