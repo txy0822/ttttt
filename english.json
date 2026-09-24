@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "articles": [
     {
       "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
@@ -26,23 +26,19 @@
       "contentZh": "谷歌的威胁情报小组表示，它在TeamPCP的内部圈子里有一名间谍。"
     },
     {
-      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-      "content": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
-      "titleZh": "OpenAI希望咨询精英数学家，了解如何不再摸索",
-      "contentZh": "在将一系列引人注目的数学结果转化为声誉危机之后， OpenAI正在咨询人类数学家，以帮助其找到一条不那么灾难性的前进道路。周一，该公司宣布了一个新的独立数学家小组，其任务是就其与数学研究和更广泛的人工智能公司的互动向其和其他人工智能公司提供建议。"
+      "title": "Meta is making a standalone Muse AI gadget",
+      "content": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little lanyard for [&#8230;]",
+      "titleZh": "Meta正在制作一个独立的Muse AI小工具",
+      "contentZh": "Meta正在为其新的Muse AI代理构建专用硬件设备。Meta首席执行官马克·扎克伯格（ Mark Zuckerberg ）在今晚的Meta Connect演示结束时简要展示了这款名为Muse Charm的产品。它看起来几乎像一个没有表带的大块头智能手表-只是一个大屏幕，加上一个小挂绳[…]"
     },
     {
-      "title": "Paramount will need to release way more movies to make this merger work",
-      "content": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in [&#8230;]",
-      "titleZh": "派拉蒙需要发布更多电影才能使此次合并成功",
-      "contentZh": "现在派拉蒙已经与12个州达成和解，这些州正在起诉阻止其与华纳兄弟发现（ WBD ）以1100亿美元的价格合并，该工作室甚至更接近成为世界上最大的制作公司之一。除了在[…]制作的电影和电视节目上花费至少3亿美元之外"
+      "title": "Meta Connect 2026: The 7 biggest announcements",
+      "content": "Meta announced a slate of new wearables during its annual Meta Connect showcase on Wednesday. The star of the event was the new Meta VR Glasses, which pack virtual reality tech into a lightweight smart glasses-style frame with a tethered puck. Meta also announced new pairs of screen-free smart glasses, along with some new AI [&#8230;]",
+      "titleZh": "Meta Connect 2026 ： 7大公告",
+      "contentZh": "Meta周三在其年度Meta Connect展示会上宣布了一系列新的可穿戴设备。该活动的明星是新的Meta VR眼镜，它将虚拟现实技术集成到一个轻巧的智能眼镜样式框架中，并带有一个系绳冰球。Meta还宣布了一对新的无屏智能眼镜，以及一些新的人工智能[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "settlement",
-      "meaning": "和解"
-    },
     {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
