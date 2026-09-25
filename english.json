@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "articles": [
+    {
+      "title": "There&#039;s a new way to break RSA that&#039;s faster than anything we&#039;ve seen before",
+      "content": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
+      "titleZh": "有一种打破RSA的新方法，比我们以前见过的任何方法都要快",
+      "contentZh": "到目前为止，密码学家认为保理是破坏RSA的唯一方法。现在不是了。"
+    },
     {
       "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
       "content": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
@@ -20,32 +26,26 @@
       "contentZh": "简单的ClickFix攻击只是完全劫持新代理的一种方法。"
     },
     {
-      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-      "content": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
-      "titleZh": "一名卧底谷歌分析师渗透了一个臭名昭著的供应链黑客团伙",
-      "contentZh": "谷歌的威胁情报小组表示，它在TeamPCP的内部圈子里有一名间谍。"
+      "title": "Here’s the Tesla Semi… again",
+      "content": "Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its initial introduction. On Thursday evening, the company held yet another event for the Semi to demonstrate to customers and investors that the long wait was [&#8230;]",
+      "titleZh": "这是特斯拉半挂车……又来了",
+      "contentZh": "还记得特斯拉Semi吗？这款于2017年首次以概念形式推出的长途重型卡车最终于2026年4月量产，比首次推出晚了近十年。周四晚上，该公司为Semi举办了另一场活动，向客户和投资者展示了漫长的等待[…]"
     },
     {
-      "title": "Meta is making a standalone Muse AI gadget",
-      "content": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little lanyard for [&#8230;]",
-      "titleZh": "Meta正在制作一个独立的Muse AI小工具",
-      "contentZh": "Meta正在为其新的Muse AI代理构建专用硬件设备。Meta首席执行官马克·扎克伯格（ Mark Zuckerberg ）在今晚的Meta Connect演示结束时简要展示了这款名为Muse Charm的产品。它看起来几乎像一个没有表带的大块头智能手表-只是一个大屏幕，加上一个小挂绳[…]"
-    },
-    {
-      "title": "Meta Connect 2026: The 7 biggest announcements",
-      "content": "Meta announced a slate of new wearables during its annual Meta Connect showcase on Wednesday. The star of the event was the new Meta VR Glasses, which pack virtual reality tech into a lightweight smart glasses-style frame with a tethered puck. Meta also announced new pairs of screen-free smart glasses, along with some new AI [&#8230;]",
-      "titleZh": "Meta Connect 2026 ： 7大公告",
-      "contentZh": "Meta周三在其年度Meta Connect展示会上宣布了一系列新的可穿戴设备。该活动的明星是新的Meta VR眼镜，它将虚拟现实技术集成到一个轻巧的智能眼镜样式框架中，并带有一个系绳冰球。Meta还宣布了一对新的无屏智能眼镜，以及一些新的人工智能[…]"
+      "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "content": "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central's Zac Bowden reports [&#8230;]",
+      "titleZh": "微软正在淘汰“Copilot Plus PC”品牌",
+      "contentZh": "还记得微软希望每个人都知道“Copilot Plus PC”是可以获得的，因为这些PC具有足够的内置AI功能来完成任务？两年半后，微软和高通似乎承认该品牌已经死亡。Windows Central的Zac Bowden报告[…]"
     }
   ],
   "vocab": [
     {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
+      "word": "demonstrate",
+      "meaning": "展示/证明"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
     },
     {
       "word": "platform",
