@@ -1,6 +1,12 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "articles": [
+    {
+      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+      "content": "Ads appearing all over the Internet are trying to scam people.",
+      "titleZh": "你叔叔的冰冻Mac说它在观看谷歌广告后感染了。现在怎么办？",
+      "contentZh": "互联网上出现的广告试图欺骗人们。"
+    },
     {
       "title": "There&#039;s a new way to break RSA that&#039;s faster than anything we&#039;ve seen before",
       "content": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
@@ -20,32 +26,26 @@
       "contentZh": "英国医院仅恢复患者护理数据。"
     },
     {
-      "title": "Muse, Meta&#039;s extraordinarily privileged AI assistant, has a serious 0-day",
-      "content": "A simple ClickFix attack is only one way to completely hijack the new agent.",
-      "titleZh": "Muse ， Meta的超级特权AI助手，有一个严肃的0天",
-      "contentZh": "简单的ClickFix攻击只是完全劫持新代理的一种方法。"
+      "title": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
+      "content": "If you were to ask me what game or game series I've sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according to Steam, playing various editions of the game. OOTP isn't like MLB The Show or Super Mega Baseball. It's not [&#8230;]",
+      "titleZh": "公园外棒球让我享受棒球，即使大都会队很糟糕",
+      "contentZh": "如果你问我最常玩哪种游戏或游戏系列，答案很简单：公园外棒球（ OOTP ）。根据Steam的说法，我花了大约2300个小时玩各种版本的游戏。OOTP不像MLB The Show或Super Mega Baseball。这不是[…]"
     },
     {
-      "title": "Here’s the Tesla Semi… again",
-      "content": "Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its initial introduction. On Thursday evening, the company held yet another event for the Semi to demonstrate to customers and investors that the long wait was [&#8230;]",
-      "titleZh": "这是特斯拉半挂车……又来了",
-      "contentZh": "还记得特斯拉Semi吗？这款于2017年首次以概念形式推出的长途重型卡车最终于2026年4月量产，比首次推出晚了近十年。周四晚上，该公司为Semi举办了另一场活动，向客户和投资者展示了漫长的等待[…]"
-    },
-    {
-      "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-      "content": "Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Central's Zac Bowden reports [&#8230;]",
-      "titleZh": "微软正在淘汰“Copilot Plus PC”品牌",
-      "contentZh": "还记得微软希望每个人都知道“Copilot Plus PC”是可以获得的，因为这些PC具有足够的内置AI功能来完成任务？两年半后，微软和高通似乎承认该品牌已经死亡。Windows Central的Zac Bowden报告[…]"
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "content": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 [&#8230;]",
+      "titleZh": "Engram是一个将破碎的人工智能幻觉转化为音乐的采样器",
+      "contentZh": "音乐创业公司Thoughtful Things刚刚推出了其首款乐器Engram的Kickstarter活动。它是一个采样器和Groovebox ，使用AI来破坏传入的音频，甚至使全新的声音产生幻觉。不过，这不是盒子里的苏诺。这不是一个“按钮，让歌声响起”的设备，旨在创造一些听起来已经准备好进入40强的设备[…]"
     }
   ],
   "vocab": [
     {
-      "word": "demonstrate",
-      "meaning": "展示/证明"
-    },
-    {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
       "word": "platform",
