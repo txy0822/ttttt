@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "articles": [
     {
       "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
@@ -26,16 +26,16 @@
       "contentZh": "英国医院仅恢复患者护理数据。"
     },
     {
-      "title": "Out of the Park Baseball lets me enjoy baseball even when the Mets suck",
-      "content": "If you were to ask me what game or game series I've sunk the most time into, the answer would be easy: Out of the Park Baseball (OOTP). I have spent roughly 2,300 hours, according to Steam, playing various editions of the game. OOTP isn't like MLB The Show or Super Mega Baseball. It's not [&#8230;]",
-      "titleZh": "公园外棒球让我享受棒球，即使大都会队很糟糕",
-      "contentZh": "如果你问我最常玩哪种游戏或游戏系列，答案很简单：公园外棒球（ OOTP ）。根据Steam的说法，我花了大约2300个小时玩各种版本的游戏。OOTP不像MLB The Show或Super Mega Baseball。这不是[…]"
+      "title": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
+      "content": "Nothing has been on a bit of an audio tear this year, releasing the solid Headphone A and the surprisingly good Ear 3A earbuds. The Headphone A released at $199, while the earbuds are under $100, leaving room for something fancier. That something is the Nothing Headphone 1 Pro, the company's new $399 flagship over-ears [&#8230;]",
+      "titleZh": "没有什么新的旗舰耳机1专业版让您进入工作室",
+      "contentZh": "今年没有任何音频损坏，发布了坚固的耳机A和令人惊讶的好耳朵3A耳塞。耳机A的发布价格为$ 199 ，而耳机价格低于$ 100 ，为更豪华的东西留出了空间。那东西就是Nothing Headphone 1 Pro ，该公司新推出的$ 399的旗舰头戴式耳机[…]"
     },
     {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "content": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 [&#8230;]",
-      "titleZh": "Engram是一个将破碎的人工智能幻觉转化为音乐的采样器",
-      "contentZh": "音乐创业公司Thoughtful Things刚刚推出了其首款乐器Engram的Kickstarter活动。它是一个采样器和Groovebox ，使用AI来破坏传入的音频，甚至使全新的声音产生幻觉。不过，这不是盒子里的苏诺。这不是一个“按钮，让歌声响起”的设备，旨在创造一些听起来已经准备好进入40强的设备[…]"
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "content": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
+      "titleZh": "AMD将以超过80亿美元的价格收购人工智能公司World Labs",
+      "contentZh": "AMD今天宣布，它将以约82亿美元的全股票交易收购由着名研究员李飞飞博士共同创立的人工智能研究实验室World Labs。World Labs成立于2024年，在短短几个月内估值达到10亿美元。这家初创公司推出了第一款商业产品，即世界一代模型[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     },
     {
       "word": "platform",
