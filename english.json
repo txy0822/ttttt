@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "articles": [
     {
       "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
@@ -26,30 +26,30 @@
       "contentZh": "英国医院仅恢复患者护理数据。"
     },
     {
-      "title": "Nothing’s new flagship Headphone 1 Pro put you in the studio",
-      "content": "Nothing has been on a bit of an audio tear this year, releasing the solid Headphone A and the surprisingly good Ear 3A earbuds. The Headphone A released at $199, while the earbuds are under $100, leaving room for something fancier. That something is the Nothing Headphone 1 Pro, the company's new $399 flagship over-ears [&#8230;]",
-      "titleZh": "没有什么新的旗舰耳机1专业版让您进入工作室",
-      "contentZh": "今年没有任何音频损坏，发布了坚固的耳机A和令人惊讶的好耳朵3A耳塞。耳机A的发布价格为$ 199 ，而耳机价格低于$ 100 ，为更豪华的东西留出了空间。那东西就是Nothing Headphone 1 Pro ，该公司新推出的$ 399的旗舰头戴式耳机[…]"
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "content": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight. \"We intend to continue with AI progress … but as the models have had this surge forward in capability, and we see [&#8230;]",
+      "titleZh": "Sam Altman表示，在其模型安全之前， OpenAI不会上市",
+      "contentZh": "几个月来，人们一直在想OpenAI什么时候上市。首席执行官萨姆·奥尔特曼（ Sam Altman ）表示，除非公司能够对模型安全性做出更好的承诺，并且没有明确的时间表，否则这种情况不会发生。“我们打算继续推进人工智能的发展……但随着模型的能力激增，我们看到[…]"
     },
     {
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "content": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commercial product, a world generation model [&#8230;]",
-      "titleZh": "AMD将以超过80亿美元的价格收购人工智能公司World Labs",
-      "contentZh": "AMD今天宣布，它将以约82亿美元的全股票交易收购由着名研究员李飞飞博士共同创立的人工智能研究实验室World Labs。World Labs成立于2024年，在短短几个月内估值达到10亿美元。这家初创公司推出了第一款商业产品，即世界一代模型[…]"
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "content": "The US executive branch is no longer acknowledging the existence of \"artificial intelligence.\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. \"The word super is the best word of all, and it's the simplest,\" Trump said [&#8230;]",
+      "titleZh": "特朗普命令美国政府将人工智能称为“超级智能”",
+      "contentZh": "美国行政部门不再承认“人工智能”的存在。“未来，由于唐纳德·特朗普总统签署了一项新的行政命令，官方政策网站、政策文件和新闻稿将仅提及“超级情报”。“超级这个词是最好的词，也是最简单的， ”特朗普说[…]"
     }
   ],
   "vocab": [
+    {
+      "word": "artificial intelligence",
+      "meaning": "人工智能"
+    },
     {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "surge",
+      "meaning": "激增"
     },
     {
       "word": "platform",
