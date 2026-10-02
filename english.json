@@ -1,6 +1,18 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "articles": [
+    {
+      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+      "content": "It has been a bad month for federal government cybersecurity.",
+      "titleZh": "一个月内2个联邦机构的黑客攻击泄露了大量敏感数据",
+      "contentZh": "对于联邦政府的网络安全来说，这是一个糟糕的月份。"
+    },
+    {
+      "title": "Memory executives expect RAM shortage to continue through 2028",
+      "content": "Prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
+      "titleZh": "内存高管预计RAM短缺将持续到2028年",
+      "contentZh": "2027年售出的内存价格“远高于2026年的价格。”"
+    },
     {
       "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
       "content": "A simple email gives the attackers the ability to remotely inject OS commands.",
@@ -14,28 +26,16 @@
       "contentZh": "此举将是对网站身份验证生态系统进行重大改革的一部分。"
     },
     {
-      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
-      "content": "Ads appearing all over the Internet are trying to scam people.",
-      "titleZh": "你叔叔的冰冻Mac说它在观看谷歌广告后感染了。现在怎么办？",
-      "contentZh": "互联网上出现的广告试图欺骗人们。"
+      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+      "content": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of \"a new Apple smart home ecosystem,\" alongside Apple's rumored smart home [&#8230;]",
+      "titleZh": "据报道，苹果正在开发一种不录制视频的智能家居摄像头",
+      "contentZh": "苹果公司对智能家居技术的传闻可能包括智能家居安全摄像头，该摄像头仅为用户提供文本事件描述，而不是视频片段。马克·古尔曼（ Mark Gurman ）在Power On播客的第一集中表示，该摄像头将与传闻中的苹果智能家居[…]一起成为“新的苹果智能家居生态系统”的一部分。"
     },
     {
-      "title": "There&#039;s a new way to break RSA that&#039;s faster than anything we&#039;ve seen before",
-      "content": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
-      "titleZh": "有一种打破RSA的新方法，比我们以前见过的任何方法都要快",
-      "contentZh": "到目前为止，密码学家认为保理是破坏RSA的唯一方法。现在不是了。"
-    },
-    {
-      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
-      "content": "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable. Now that it's ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo's previous foldables, and most other [&#8230;]",
-      "titleZh": "Vivo的X Fold 6无意中感觉像是倒退",
-      "contentZh": "这是发布日历的一个怪癖，当vivo的X Fold 6今年6月在中国推出时，它只是另一个可折叠的。现在它已经准备好在全球范围内发布，尺寸和宽高比让人觉得奇怪的老式。X Fold 6的尺寸与vivo之前的可折叠产品大致相同，其他大多数[…]"
-    },
-    {
-      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
-      "content": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much [&#8230;]",
-      "titleZh": "伊隆·马斯克（ Elon Musk ）的《格罗基百科全书》（ Grokipedia ）采用“",
-      "contentZh": "SpaceXAI的人工智能驱动的维基百科竞争对手Grokipedia最近再次开始合并编辑，今天，作为v0.3更新的一部分，它进行了一些设计调整，包括新徽标以及对其主页和实时编辑页面的刷新。SpaceXAI设计主管本吉·泰勒（ Benji Taylor ）称其为“新刷新的Grokipedia。“ Grokipedia的旧主页差不多[…]"
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "content": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+      "titleZh": "谷歌的新引导视觉功能可以帮助您阅读",
+      "contentZh": "Guided Vision今天在兼容的Android设备上推出Gemini Live ，使用人工智能为您对准手机摄像头的任何内容提供实时音频描述。通过在Gemini Live中共享相机，您可以让Google的人工智能帮助您阅读小文本、描述周围环境、查找或识别[…]周围的物体"
     }
   ],
   "vocab": [
@@ -48,8 +48,16 @@
       "meaning": "利用/漏洞利用"
     },
     {
+      "word": "cybersecurity",
+      "meaning": "网络安全"
+    },
+    {
       "word": "launch",
       "meaning": "推出/发射"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
