@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-05",
   "articles": [
+    {
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "content": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+      "titleZh": "Apple更改全磁盘访问权限，以遏制AI代理的滥用",
+      "contentZh": "Meta说， FDA不足以让Muse阅读信息。苹果恕我直言。"
+    },
     {
       "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
       "content": "It has been a bad month for federal government cybersecurity.",
@@ -20,29 +26,19 @@
       "contentZh": "一个简单的电子邮件使攻击者能够远程注入操作系统命令。"
     },
     {
-      "title": "Cloudflare plans to issue quantum-safe TLS certificates",
-      "content": "The move will be part of a major overhaul of the ecosystem for website authentication.",
-      "titleZh": "Cloudflare计划颁发量子安全TLS证书",
-      "contentZh": "此举将是对网站身份验证生态系统进行重大改革的一部分。"
+      "title": "The new Fitbit Edge leaks",
+      "content": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and [&#8230;]",
+      "titleZh": "全新Fitbit Edge泄漏",
+      "contentZh": "我们对Fitbit Edge一无所知，但它似乎是中档充电系列的继任者。它之前已经泄露了，但我们可以在Android Headlines发布的这些图片中清楚地看到，你可以看到谷歌传闻中的健身追踪器将Pixel Watch和[…]"
     },
     {
-      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
-      "content": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of \"a new Apple smart home ecosystem,\" alongside Apple's rumored smart home [&#8230;]",
-      "titleZh": "据报道，苹果正在开发一种不录制视频的智能家居摄像头",
-      "contentZh": "苹果公司对智能家居技术的传闻可能包括智能家居安全摄像头，该摄像头仅为用户提供文本事件描述，而不是视频片段。马克·古尔曼（ Mark Gurman ）在Power On播客的第一集中表示，该摄像头将与传闻中的苹果智能家居[…]一起成为“新的苹果智能家居生态系统”的一部分。"
-    },
-    {
-      "title": "Google’s new Guided Vision feature can help you read the fine print",
-      "content": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
-      "titleZh": "谷歌的新引导视觉功能可以帮助您阅读",
-      "contentZh": "Guided Vision今天在兼容的Android设备上推出Gemini Live ，使用人工智能为您对准手机摄像头的任何内容提供实时音频描述。通过在Gemini Live中共享相机，您可以让Google的人工智能帮助您阅读小文本、描述周围环境、查找或识别[…]周围的物体"
+      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
+      "content": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints [&#8230;]",
+      "titleZh": "Prick的戏剧工业朋克非常适合诡异的季节",
+      "contentZh": "在The Downward Spiral的录制过程中， Trent Reznor将他的一些制作天赋借给了新浪潮乐队Lucky Pierre （ Reznor曾短暂加入）的老朋友Kevin McMahon。虽然Reznor只被认为是Prick同名首张专辑四首曲目的制片人，但他的指纹[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "ecosystem",
-      "meaning": "生态系统"
-    },
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
@@ -50,14 +46,6 @@
     {
       "word": "cybersecurity",
       "meaning": "网络安全"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
