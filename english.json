@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "articles": [
+    {
+      "title": "MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of",
+      "content": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "titleZh": "客服代表与客服代表沟通的MCP可能是您从未听说过的风险最高的协议",
+      "contentZh": "新协议中的信任缺口将恶意提示从一个代理传播到另一个代理。"
+    },
     {
       "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
       "content": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
@@ -20,32 +26,30 @@
       "contentZh": "2027年售出的内存价格“远高于2026年的价格。”"
     },
     {
-      "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
-      "content": "A simple email gives the attackers the ability to remotely inject OS commands.",
-      "titleZh": "攻击者一直在利用Zimbra的关键漏洞窃取电子邮件",
-      "contentZh": "一个简单的电子邮件使攻击者能够远程注入操作系统命令。"
+      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
+      "content": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call [&#8230;]",
+      "titleZh": "双子座给我打电话可能会告诉你妈妈你迟到了",
+      "contentZh": "Google可能会将其“Call for Me”人工智能功能扩展到商务电话之外，以便您可以使用它向亲朋好友发送消息。Android Authority报告称，在APK拆解中发现了一个“Gemini Calling”介绍屏幕，其示例包括“给妈妈打电话，告诉她我会迟到15分钟”和“给[…]打电话”"
     },
     {
-      "title": "The new Fitbit Edge leaks",
-      "content": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and [&#8230;]",
-      "titleZh": "全新Fitbit Edge泄漏",
-      "contentZh": "我们对Fitbit Edge一无所知，但它似乎是中档充电系列的继任者。它之前已经泄露了，但我们可以在Android Headlines发布的这些图片中清楚地看到，你可以看到谷歌传闻中的健身追踪器将Pixel Watch和[…]"
-    },
-    {
-      "title": "Prick’s theatrical industrial punk is perfect for spooky season",
-      "content": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints [&#8230;]",
-      "titleZh": "Prick的戏剧工业朋克非常适合诡异的季节",
-      "contentZh": "在The Downward Spiral的录制过程中， Trent Reznor将他的一些制作天赋借给了新浪潮乐队Lucky Pierre （ Reznor曾短暂加入）的老朋友Kevin McMahon。虽然Reznor只被认为是Prick同名首张专辑四首曲目的制片人，但他的指纹[…]"
+      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "content": "It&#8217;s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding in Call of Duty? Or playing the original Halo right [&#8230;]",
+      "titleZh": "逆向工程游戏：关于视频游戏分解、重构、VR、网络和3D端口的所有新闻",
+      "contentZh": "现在是复古游戏的狂野时刻。由于经典游戏的反编译和重新编译，这些游戏正在从其专有代码和原始硬件中解放出来，以移植到新设备或以完全改变原始游戏的方式进行更新。有没有想过在《使命召唤》中玩滑板？或者直接播放原版《光环》[…]"
     }
   ],
   "vocab": [
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "proprietary",
+      "meaning": "专有的"
     },
     {
       "word": "cybersecurity",
       "meaning": "网络安全"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
