@@ -1,6 +1,24 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "articles": [
+    {
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "content": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
+      "titleZh": "黑客获取谷歌和其他大型服务的伪造TLS证书",
+      "contentZh": "3个域名注册中心的入侵使黑客能够获得未经授权的证书。"
+    },
+    {
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "content": "The reports of OpenAI agents harming third-party sites keep coming.",
+      "titleZh": "OpenAI特工试图入侵维基百科工具并充斥流量",
+      "contentZh": "不断有报告称OpenAI代理商损害第三方网站。"
+    },
+    {
+      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+      "content": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
+      "titleZh": "许可成本促使90%的VMware用户探索选项：调查",
+      "contentZh": "用户希望在进行更改时“降低风险并避免不必要的干扰”。"
+    },
     {
       "title": "MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of",
       "content": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
@@ -8,48 +26,30 @@
       "contentZh": "新协议中的信任缺口将恶意提示从一个代理传播到另一个代理。"
     },
     {
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "content": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-      "titleZh": "Apple更改全磁盘访问权限，以遏制AI代理的滥用",
-      "contentZh": "Meta说， FDA不足以让Muse阅读信息。苹果恕我直言。"
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "content": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and [&#8230;]",
+      "titleZh": "OpenAI又推出了一批数学突破",
+      "contentZh": "OpenAI在一批722份手稿中揭示了一些由未发布的前沿模型产生的长期数学问题的解决方案，涵盖了372个将相关论文分组的结果家族。它扩展了一系列突破，这些突破给数学界留下了深刻的印象，同时也给数学界带来了不安，同时提出了有关研究伦理和[…]"
     },
     {
-      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-      "content": "It has been a bad month for federal government cybersecurity.",
-      "titleZh": "一个月内2个联邦机构的黑客攻击泄露了大量敏感数据",
-      "contentZh": "对于联邦政府的网络安全来说，这是一个糟糕的月份。"
-    },
-    {
-      "title": "Memory executives expect RAM shortage to continue through 2028",
-      "content": "Prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
-      "titleZh": "内存高管预计RAM短缺将持续到2028年",
-      "contentZh": "2027年售出的内存价格“远高于2026年的价格。”"
-    },
-    {
-      "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
-      "content": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call [&#8230;]",
-      "titleZh": "双子座给我打电话可能会告诉你妈妈你迟到了",
-      "contentZh": "Google可能会将其“Call for Me”人工智能功能扩展到商务电话之外，以便您可以使用它向亲朋好友发送消息。Android Authority报告称，在APK拆解中发现了一个“Gemini Calling”介绍屏幕，其示例包括“给妈妈打电话，告诉她我会迟到15分钟”和“给[…]打电话”"
-    },
-    {
-      "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-      "content": "It&#8217;s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding in Call of Duty? Or playing the original Halo right [&#8230;]",
-      "titleZh": "逆向工程游戏：关于视频游戏分解、重构、VR、网络和3D端口的所有新闻",
-      "contentZh": "现在是复古游戏的狂野时刻。由于经典游戏的反编译和重新编译，这些游戏正在从其专有代码和原始硬件中解放出来，以移植到新设备或以完全改变原始游戏的方式进行更新。有没有想过在《使命召唤》中玩滑板？或者直接播放原版《光环》[…]"
+      "title": "Xbox has secured GTA 6 streaming rights",
+      "content": "Xbox CEO Asha Sharma told employees that Microsoft is getting ready to do something around Grand Theft Auto VI that \"no other platform holder is doing\" during an employee all-hands this morning. According to sources familiar with Microsoft's plans, Sharma's brief teaser was actually about Xbox managing to land a deal for game streaming rights [&#8230;]",
+      "titleZh": "Xbox已获得GTA 6流媒体版权",
+      "contentZh": "Xbox首席执行官阿莎·夏尔马（ Asha Sharma ）今天早上告诉员工，微软正准备在“侠盗猎车手VI”周围做一些事情，这是“没有其他平台持有者正在做的事情”。据熟悉微软计划的消息人士透露，夏尔马的简短预告片实际上是关于Xbox设法达成游戏流媒体版权的交易[…]"
     }
   ],
   "vocab": [
     {
-      "word": "proprietary",
-      "meaning": "专有的"
+      "word": "disruption",
+      "meaning": "颠覆"
     },
     {
-      "word": "cybersecurity",
-      "meaning": "网络安全"
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
