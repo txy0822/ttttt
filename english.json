@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "articles": [
     {
       "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
@@ -26,16 +26,16 @@
       "contentZh": "新协议中的信任缺口将恶意提示从一个代理传播到另一个代理。"
     },
     {
-      "title": "OpenAI drops another batch of mathematical breakthroughs",
-      "content": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and [&#8230;]",
-      "titleZh": "OpenAI又推出了一批数学突破",
-      "contentZh": "OpenAI在一批722份手稿中揭示了一些由未发布的前沿模型产生的长期数学问题的解决方案，涵盖了372个将相关论文分组的结果家族。它扩展了一系列突破，这些突破给数学界留下了深刻的印象，同时也给数学界带来了不安，同时提出了有关研究伦理和[…]"
+      "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+      "content": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is [&#8230;]",
+      "titleZh": "宝马iX4 SUV是针对中国电动汽车收购的428英里防御武器",
+      "contentZh": "在中国吞噬所有客户的同时，汽车世界的大部分人都目瞪口呆，但宝马继续推出极其精心设计、技术先进的电动汽车，在驾驶质量和价格上都令人印象深刻。最新款是宝马iX4 ，这是一款轿跑车形状的SUV ，为汽车制造商的iX3带来了更具运动感的旋转。iX4是[…]"
     },
     {
-      "title": "Xbox has secured GTA 6 streaming rights",
-      "content": "Xbox CEO Asha Sharma told employees that Microsoft is getting ready to do something around Grand Theft Auto VI that \"no other platform holder is doing\" during an employee all-hands this morning. According to sources familiar with Microsoft's plans, Sharma's brief teaser was actually about Xbox managing to land a deal for game streaming rights [&#8230;]",
-      "titleZh": "Xbox已获得GTA 6流媒体版权",
-      "contentZh": "Xbox首席执行官阿莎·夏尔马（ Asha Sharma ）今天早上告诉员工，微软正准备在“侠盗猎车手VI”周围做一些事情，这是“没有其他平台持有者正在做的事情”。据熟悉微软计划的消息人士透露，夏尔马的简短预告片实际上是关于Xbox设法达成游戏流媒体版权的交易[…]"
+      "title": "Teenage Engineering’s CEO says it’ll stop making synths",
+      "content": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything [&#8230;]",
+      "titleZh": "Teenage Engineering的首席执行官表示将停止制作合成器",
+      "contentZh": "Teenage Engineering创始人兼首席执行官Jesper Kouthoofd告诉Highsnobiety ，它计划停止制作合成器。是的，这包括标志性的OP-1 ，它将公司置于地图上。TE不仅是一家音乐装备制造商，也是一家备受追捧的设计公司。它与宜家、Nothing和Playdate等公司合作。但几乎所有[…]"
     }
   ],
   "vocab": [
@@ -46,10 +46,6 @@
     {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
