@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "articles": [
     {
       "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
@@ -26,16 +26,16 @@
       "contentZh": "新协议中的信任缺口将恶意提示从一个代理传播到另一个代理。"
     },
     {
-      "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
-      "content": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is [&#8230;]",
-      "titleZh": "宝马iX4 SUV是针对中国电动汽车收购的428英里防御武器",
-      "contentZh": "在中国吞噬所有客户的同时，汽车世界的大部分人都目瞪口呆，但宝马继续推出极其精心设计、技术先进的电动汽车，在驾驶质量和价格上都令人印象深刻。最新款是宝马iX4 ，这是一款轿跑车形状的SUV ，为汽车制造商的iX3带来了更具运动感的旋转。iX4是[…]"
+      "title": "US plans livestream of execution by firing squad",
+      "content": "The United States' execution of the Fort Hood shooter will be livestreamed, anonymous officials from the Defense Department told the BBC and Associated Press. The planned execution of Nidal Hasan, the former US Army major convicted of killing 13 people at the Texas military base, was announced this week. He is scheduled to be executed [&#8230;]",
+      "titleZh": "美国计划通过行刑队进行处决直播",
+      "contentZh": "美国国防部匿名官员告诉英国广播公司和美联社，美国对胡德堡射手的处决将进行直播。本周宣布计划处决尼达尔·哈桑（ Nidal Hasan ） ，这名前美国陆军少校因在德克萨斯州军事基地杀害13人而被定罪。他计划被处决[…]"
     },
     {
-      "title": "Teenage Engineering’s CEO says it’ll stop making synths",
-      "content": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything [&#8230;]",
-      "titleZh": "Teenage Engineering的首席执行官表示将停止制作合成器",
-      "contentZh": "Teenage Engineering创始人兼首席执行官Jesper Kouthoofd告诉Highsnobiety ，它计划停止制作合成器。是的，这包括标志性的OP-1 ，它将公司置于地图上。TE不仅是一家音乐装备制造商，也是一家备受追捧的设计公司。它与宜家、Nothing和Playdate等公司合作。但几乎所有[…]"
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "content": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
+      "titleZh": "Anthropic为开源项目推出免费的人工智能安全扫描",
+      "contentZh": "Anthropic提供名为OSS Scanner的新服务，帮助开源项目跟踪安全漏洞。它表示，选择加入的开源项目将“由我们最强大的模型免费进行全面、定期的安全扫描。“这可能意味着开源项目会更快地收到有关可能的安全问题的警报，但权衡的是OSS Scanner的[…]"
     }
   ],
   "vocab": [
@@ -44,8 +44,20 @@
       "meaning": "颠覆"
     },
     {
+      "word": "open-source",
+      "meaning": "开源"
+    },
+    {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
