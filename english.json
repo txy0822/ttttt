@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "articles": [
+    {
+      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+      "content": "\"The current decline may be just the beginning of a new downward cycle.\"",
+      "titleZh": "PC出货量下降20.1% ，为2023年第一季度以来“最大降幅”",
+      "contentZh": "“目前的下跌可能只是一个新的下行周期的开始。”"
+    },
     {
       "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
       "content": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
@@ -20,40 +26,34 @@
       "contentZh": "用户希望在进行更改时“降低风险并避免不必要的干扰”。"
     },
     {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of",
-      "content": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "titleZh": "客服代表与客服代表沟通的MCP可能是您从未听说过的风险最高的协议",
-      "contentZh": "新协议中的信任缺口将恶意提示从一个代理传播到另一个代理。"
+      "title": "A college in Illinois tried to cancel its Flock contact and it refused",
+      "content": "In April of 2025, Elgin Community College had six Flock safety cameras installed to \"enhance the safety and security of students.\" But by September of that year, the school's administration grew concerned that Flock was sharing data with Customs and Border Patrol, that camera feeds were not properly secured, and that both law enforcement and [&#8230;]",
+      "titleZh": "伊利诺伊州的一所大学试图取消与Flock的联系，但它拒绝了",
+      "contentZh": "2025年4月，埃尔金社区学院安装了六个Flock安全摄像头，以“加强学生的安全保障。“但到当年9月，学校管理部门越来越担心Flock与海关和边境巡逻队共享数据，摄像头饲料没有得到妥善保护，执法部门和[…]"
     },
     {
-      "title": "US plans livestream of execution by firing squad",
-      "content": "The United States' execution of the Fort Hood shooter will be livestreamed, anonymous officials from the Defense Department told the BBC and Associated Press. The planned execution of Nidal Hasan, the former US Army major convicted of killing 13 people at the Texas military base, was announced this week. He is scheduled to be executed [&#8230;]",
-      "titleZh": "美国计划通过行刑队进行处决直播",
-      "contentZh": "美国国防部匿名官员告诉英国广播公司和美联社，美国对胡德堡射手的处决将进行直播。本周宣布计划处决尼达尔·哈桑（ Nidal Hasan ） ，这名前美国陆军少校因在德克萨斯州军事基地杀害13人而被定罪。他计划被处决[…]"
-    },
-    {
-      "title": "Anthropic launches free AI security scans for open-source projects",
-      "content": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
-      "titleZh": "Anthropic为开源项目推出免费的人工智能安全扫描",
-      "contentZh": "Anthropic提供名为OSS Scanner的新服务，帮助开源项目跟踪安全漏洞。它表示，选择加入的开源项目将“由我们最强大的模型免费进行全面、定期的安全扫描。“这可能意味着开源项目会更快地收到有关可能的安全问题的警报，但权衡的是OSS Scanner的[…]"
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "content": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he [&#8230;]",
+      "titleZh": "硅谷正在与特朗普重命名AI的尝试保持一致",
+      "contentZh": "当唐纳德·特朗普总统宣布他计划将人工智能重新命名为“超级智能”时，你会原谅对它会流行的怀疑。虽然大多数人坚持使用人工智能，但硅谷一些最强大的人正在排队，并试图给特朗普带来伟大的人工智能品牌重塑，他[…]"
     }
   ],
   "vocab": [
     {
-      "word": "disruption",
-      "meaning": "颠覆"
+      "word": "artificial intelligence",
+      "meaning": "人工智能"
     },
     {
-      "word": "open-source",
-      "meaning": "开源"
+      "word": "disruption",
+      "meaning": "颠覆"
     },
     {
       "word": "disrupt",
       "meaning": "扰乱/颠覆"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "decline",
+      "meaning": "下降"
     },
     {
       "word": "announce",
