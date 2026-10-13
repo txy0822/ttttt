@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "articles": [
     {
       "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
@@ -26,23 +26,19 @@
       "contentZh": "用户希望在进行更改时“降低风险并避免不必要的干扰”。"
     },
     {
-      "title": "A college in Illinois tried to cancel its Flock contact and it refused",
-      "content": "In April of 2025, Elgin Community College had six Flock safety cameras installed to \"enhance the safety and security of students.\" But by September of that year, the school's administration grew concerned that Flock was sharing data with Customs and Border Patrol, that camera feeds were not properly secured, and that both law enforcement and [&#8230;]",
-      "titleZh": "伊利诺伊州的一所大学试图取消与Flock的联系，但它拒绝了",
-      "contentZh": "2025年4月，埃尔金社区学院安装了六个Flock安全摄像头，以“加强学生的安全保障。“但到当年9月，学校管理部门越来越担心Flock与海关和边境巡逻队共享数据，摄像头饲料没有得到妥善保护，执法部门和[…]"
+      "title": "The Social Reckoning is flopping at the box office",
+      "content": "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that's somewhere within the $30-42 million range. That would make it [&#8230;]",
+      "titleZh": "社会清算在票房上失败了",
+      "contentZh": "与《社会清算》中的一些信息一样重要的是，这部电影在票房上表现不佳。据《综艺》杂志报道，亚伦·索尔金（ Aaron's Sorkin ）对《社交网络》（ The Social Network ）的后续报道在上周末仅获得了550万美元的收入，而预算在3000万至4200万美元之间。这将使它[…]"
     },
     {
-      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "content": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he [&#8230;]",
-      "titleZh": "硅谷正在与特朗普重命名AI的尝试保持一致",
-      "contentZh": "当唐纳德·特朗普总统宣布他计划将人工智能重新命名为“超级智能”时，你会原谅对它会流行的怀疑。虽然大多数人坚持使用人工智能，但硅谷一些最强大的人正在排队，并试图给特朗普带来伟大的人工智能品牌重塑，他[…]"
+      "title": "Meta has some Wonder Full new AI models",
+      "content": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
+      "titleZh": "Meta有一些Wonder全新的AI模型",
+      "contentZh": "Meta正在弥补AI竞赛中失去的时间。在推出Muse Spark （其经过改造的Superintelligence Labs部门的第一个模型）和热闹的人工智能代理Muse之后，它现在推出了两款新型号，它声称可以与业界最好的型号并驾齐驱。新款Muse Wonder和Muse Wonder Full现已上市[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "artificial intelligence",
-      "meaning": "人工智能"
-    },
     {
       "word": "disruption",
       "meaning": "颠覆"
@@ -56,8 +52,8 @@
       "meaning": "下降"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
