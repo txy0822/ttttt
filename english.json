@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "articles": [
+    {
+      "title": "Topgolf saved over $11.3 million after leaving VMware",
+      "content": "Topgolf and VMware \"ran deep\" before the migration.",
+      "titleZh": "Topgolf在离开VMware后节省了超过1130万$",
+      "contentZh": "Topgolf和VMware在迁移之前“深入”。"
+    },
     {
       "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
       "content": "\"The current decline may be just the beginning of a new downward cycle.\"",
@@ -20,40 +26,26 @@
       "contentZh": "不断有报告称OpenAI代理商损害第三方网站。"
     },
     {
-      "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
-      "content": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
-      "titleZh": "许可成本促使90%的VMware用户探索选项：调查",
-      "contentZh": "用户希望在进行更改时“降低风险并避免不必要的干扰”。"
+      "title": "Apple’s HomeView ad is confusing to everyone except parents",
+      "content": "Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells. Apple's typical vibe is clean, simple, orderly; this commercial is chaos. But the spot has parents - those [&#8230;]",
+      "titleZh": "除了家长，苹果的HomeView广告让所有人感到困惑",
+      "contentZh": "苹果推出全新HomeView智能显示屏的广告有点不寻常。它节奏快，不守规矩，描绘了一个五口之家，他们匆匆忙忙地穿过早晨的例行公事。有大喊大叫和乱七八糟、钥匙放错地方和丢弃的蛋壳。苹果的典型氛围是干净、简单、有序；这个广告是混乱的。但这个地方有父母-那些[…]"
     },
     {
-      "title": "The Social Reckoning is flopping at the box office",
-      "content": "As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that's somewhere within the $30-42 million range. That would make it [&#8230;]",
-      "titleZh": "社会清算在票房上失败了",
-      "contentZh": "与《社会清算》中的一些信息一样重要的是，这部电影在票房上表现不佳。据《综艺》杂志报道，亚伦·索尔金（ Aaron's Sorkin ）对《社交网络》（ The Social Network ）的后续报道在上周末仅获得了550万美元的收入，而预算在3000万至4200万美元之间。这将使它[…]"
-    },
-    {
-      "title": "Meta has some Wonder Full new AI models",
-      "content": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
-      "titleZh": "Meta有一些Wonder全新的AI模型",
-      "contentZh": "Meta正在弥补AI竞赛中失去的时间。在推出Muse Spark （其经过改造的Superintelligence Labs部门的第一个模型）和热闹的人工智能代理Muse之后，它现在推出了两款新型号，它声称可以与业界最好的型号并驾齐驱。新款Muse Wonder和Muse Wonder Full现已上市[…]"
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "content": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
+      "titleZh": "OpenAI员工因涉嫌在会议室植入臭虫而被捕",
+      "contentZh": "一名OpenAI工程师在该公司表示在其一个办公室发现了一个隐藏的“精密录音设备”后被捕。这名员工被确认为Abdulrahman Alfozan ， 35岁，沙特国民。根据该部门的新闻稿， Alfozan被指控使用或努力使用设备拦截口头通信[…]"
     }
   ],
   "vocab": [
     {
-      "word": "disruption",
-      "meaning": "颠覆"
-    },
-    {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
+      "word": "allegedly",
+      "meaning": "据称"
     },
     {
       "word": "decline",
       "meaning": "下降"
-    },
-    {
-      "word": "launch",
-      "meaning": "推出/发射"
     }
   ]
 }
