@@ -1,17 +1,6 @@
 {
-  "date": "2026-10-13",
-  "time": "23:13",
-  "count": 1,
-  "candidates": [
-    {
-      "code": "002292",
-      "name": "奥飞娱乐",
-      "price": 9.16,
-      "change_pct": 3.5,
-      "volume_ratio": 1.37,
-      "turnover_rate": 8.33,
-      "float_cap_yi": 93.2,
-      "ma_info": "MA5=8.80 > MA10=8.77 > MA20=8.70"
-    }
-  ]
+  "date": "2026-10-14",
+  "time": "15:30",
+  "count": 0,
+  "candidates": []
 }
