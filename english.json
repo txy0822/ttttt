@@ -1,41 +1,41 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "articles": [
+    {
+      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
+      "content": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
+      "titleZh": "",
+      "contentZh": ""
+    },
     {
       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
       "content": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-      "titleZh": "耗资数百万美元的冰箱黑客攻击和引发火灾的原因是安全状况不佳",
-      "contentZh": "事件袭击了700家超市，利用了暴露在互联网上的过时设备。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "Anthropic warns small AI models could self-replicate through IoT devices",
       "content": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-      "titleZh": "Anthropic警告小型人工智能模型可能会通过物联网设备自我复制",
-      "contentZh": "“基于体重的小型复制器”可能会引入新一代的计算机蠕虫。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
       "title": "Topgolf saved over $11.3 million after leaving VMware",
       "content": "Topgolf and VMware \"ran deep\" before the migration.",
-      "titleZh": "Topgolf在离开VMware后节省了超过1130万$",
-      "contentZh": "Topgolf和VMware在迁移之前“深入”。"
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
-      "content": "\"The current decline may be just the beginning of a new downward cycle.\"",
-      "titleZh": "PC出货量下降20.1% ，为2023年第一季度以来“最大降幅”",
-      "contentZh": "“目前的下跌可能只是一个新的下行周期的开始。”"
+      "title": "The Tesla Roadster flew, drove upside down, and hit 60mph in under a second",
+      "content": "Elon Musk promised a flying car. And the Tesla Roadster did exactly that. Tesla demonstrated its next-generation Roadster at an event in Waco, Texas, where the electric supercar drove upside down, briefly flew, and accelerated to 60mph in under a second. It was an impressive demonstration of a car that likely will come with some [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     },
     {
-      "title": "McKinsey is making job applicants spar with a fake AI client",
-      "content": "Consulting firm McKinsey &#38; Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the [&#8230;]",
-      "titleZh": "麦肯锡正在让求职者与虚假的人工智能客户争吵",
-      "contentZh": "据《华尔街日报》报道，咨询公司麦肯锡公司（ McKinsey & Company ）将要求一些入门级候选人在面试过程中与人工智能模拟客户进行10分钟的对话。人工智能模拟“旨在反映麦肯锡顾问在日常工作中可能遇到的80 ％的场景” ， […]"
-    },
-    {
-      "title": "The best feature of Apple’s HomeView might be its simplicity",
-      "content": "I'm just going to come right out and say it. I love the approach Apple has taken with the HomeView. I think it's the shared, always-available household interface that my family might finally use. Is Apple's first smart display my dream smart home dashboard? No. But is it the right product for Apple Home at [&#8230;]",
-      "titleZh": "Apple HomeView的最佳功能可能是其简单性",
-      "contentZh": "我马上就出来说。我喜欢苹果在HomeView上采用的方法。我认为这是我的家庭最终可能使用的共享、始终可用的家庭界面。苹果的第一个智能显示器是我梦寐以求的智能家居仪表板吗？不是。但它是适合Apple Home的产品吗？ […]"
+      "title": "Steam can now show game achievements in separate ‘sets’",
+      "content": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse what you have unlocked afterward, Steam will [&#8230;]",
+      "titleZh": "",
+      "contentZh": ""
     }
   ],
   "vocab": [
@@ -44,8 +44,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "decline",
-      "meaning": "下降"
+      "word": "demonstrate",
+      "meaning": "展示/证明"
     },
     {
       "word": "feature",
