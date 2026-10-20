@@ -1,6 +1,18 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "articles": [
+    {
+      "title": "PSA: Patch your Plex media server before someone hacks it",
+      "content": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
+      "titleZh": "PSA ：在有人入侵之前修补您的Plex媒体服务器",
+      "contentZh": "一位研究人员表示，链接4个漏洞的攻击正在黑客攻击未修补的盒子。"
+    },
+    {
+      "title": "ReactOS reaches major milestone with NTFS install support",
+      "content": "ReactOS gains NTFS install support with new driver.",
+      "titleZh": "ReactOS达到NTFS安装支持的重要里程碑",
+      "contentZh": "ReactOS通过新驱动程序获得NTFS安装支持。"
+    },
     {
       "title": "OpenAI models hacked a crypto wallet and breached more websites",
       "content": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
@@ -14,28 +26,16 @@
       "contentZh": "这起事件可能是首次确认有针对性的广告投放的雇佣军间谍软件。"
     },
     {
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "content": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-      "titleZh": "耗资数百万美元的冰箱黑客攻击和引发火灾的原因是安全状况不佳",
-      "contentZh": "事件袭击了700家超市，利用了暴露在互联网上的过时设备。"
+      "title": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
+      "content": "Baseus announced a new addition to its lineup of AI-assisted security cameras that's more proactive about discouraging unwanted visitors instead of just recording and alerting you to their presence. The Baseus Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera introduces a motorized spotlight that shines directly on a moving target, even as they're running across [&#8230;]",
+      "titleZh": "Baseus的新型监控摄像头有一个聚光灯，可以跟踪移动的目标",
+      "contentZh": "Baseus宣布了其人工智能辅助安全摄像头阵容的新成员，该阵容更加积极主动地阻止不受欢迎的访问者，而不仅仅是记录和提醒您他们的存在。Baseus Security PrimeSentinel U2 Pro户外3K双摄像头引入了电动聚光灯，可直接照射在移动的目标上，即使它们正在穿过[…]"
     },
     {
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "content": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-      "titleZh": "Anthropic警告小型人工智能模型可能会通过物联网设备自我复制",
-      "contentZh": "“基于体重的小型复制器”可能会引入新一代的计算机蠕虫。"
-    },
-    {
-      "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
-      "content": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he [&#8230;]",
-      "titleZh": "一名萨凡纳警察将她的Flock登录名交给了她的ICE特工丈夫",
-      "contentZh": "现在，前萨凡纳警官琥珀·哈普（ Amber Harpe ）在部门调查后于8月被解雇，调查发现她与ICE特工丈夫泰勒·哈普（ Tyler Harpe ）分享了她的Flock登录信息。SPD不与ICE共享其Flock数据，并表示共享对该系统的访问违反了该部门的安全协议。而他[…]"
-    },
-    {
-      "title": "Mister Organ is one of the most unsettling documentaries I’ve ever seen",
-      "content": "Mister Organ doesn't reach the level of societal horror of The Act of Killing or the creepypasta-meets-true-crime gruesomeness of Beware the Slenderman, but there's something deeply unsettling about Michael Organ and his intimate campaign of terror against everyone who enters his life. Mister Organ is a documentary by David Farrier, an Auckland, New Zealand journalist. [&#8230;]",
-      "titleZh": "《风琴先生》是我见过的最令人不安的纪录片之一",
-      "contentZh": "《风琴先生》没有达到《杀戮法》的社会恐惧程度，也没有达到《当心瘦长者》令人毛骨悚然的犯罪可怕程度，但迈克尔·风琴和他对每一个进入他生活的人的亲密恐怖活动都令人深感不安。《风琴先生》是新西兰奥克兰记者David Farrier的纪录片。[…]"
+      "title": "Elon Musk’s proposed SpaceX stock giveaway would go into &#8216;Trump Accounts&#8217;",
+      "content": "President Donald Trump announced this afternoon that Elon Musk's SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to \"every kid in America\" sometime next year. Musk had thanked Trump Account booster Brad Gerstner for \"helping enable this,\" and Trump appeared [&#8230;]",
+      "titleZh": "埃隆·马斯克（ Elon Musk ）提议的SpaceX股票赠品将进入“特朗普账户”",
+      "contentZh": "唐纳德·特朗普(Donald Trump)总统今天下午宣布，埃隆·马斯克(Elon Musk)的SpaceX儿童股将通过特朗普账户(Trump Accounts马斯克今天早些时候表示，他将在明年某个时候将自己的SpaceX股份交给“美国的每个孩子”。马斯克感谢特朗普账户助推器布拉德·郭士纳（ Brad Gerstner ） “帮助实现了这一点” ，特朗普出现了[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "breach",
       "meaning": "泄露/入侵"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
