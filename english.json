@@ -1,6 +1,24 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "articles": [
+    {
+      "title": "PHP warns it plans to release 2 emergency patches imminently",
+      "content": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+      "titleZh": "PHP警告它计划立即发布2个紧急补丁",
+      "contentZh": "未经确认的报告声称PHP2Shell利用在PHP站点上远程执行代码。"
+    },
+    {
+      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+      "content": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
+      "titleZh": "在发现8个受损的TLS证书后，互联网进入高警戒状态",
+      "contentZh": "中间证书允许任何人为任何Internet服务器铸造Web凭据。"
+    },
+    {
+      "title": "Meta Muse exposes users&#039; personal and business secrets when they share conversations",
+      "content": "Meta is suspending the sharing feature while it investigates its privacy.",
+      "titleZh": "Meta Muse在用户分享对话时暴露其个人和商业秘密",
+      "contentZh": "Meta在调查其隐私时将暂停共享功能。"
+    },
     {
       "title": "PSA: Patch your Plex media server before someone hacks it",
       "content": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
@@ -8,34 +26,16 @@
       "contentZh": "一位研究人员表示，链接4个漏洞的攻击正在黑客攻击未修补的盒子。"
     },
     {
-      "title": "ReactOS reaches major milestone with NTFS install support",
-      "content": "ReactOS gains NTFS install support with new driver.",
-      "titleZh": "ReactOS达到NTFS安装支持的重要里程碑",
-      "contentZh": "ReactOS通过新驱动程序获得NTFS安装支持。"
+      "title": "YouTube might be testing hiding the dislike button",
+      "content": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, [&#8230;]",
+      "titleZh": "YouTube可能正在测试隐藏“不喜欢”按钮",
+      "contentZh": "据9to5Google报道， YouTube似乎正在测试隐藏视频上的“不喜欢”按钮。X上至少有两名用户最近分享了现在放置在三点子菜单中的“不喜欢”按钮的屏幕截图， Reddit上的一名用户也分享了他们没有“不喜欢”按钮的图像。现在， […]"
     },
     {
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "content": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "titleZh": "OpenAI模型入侵加密钱包并入侵更多网站",
-      "contentZh": "如果人类在键盘后面，这些行为可能会导致刑事指控。"
-    },
-    {
-      "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "content": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
-      "titleZh": "有针对性的广告提供了零点击漏洞来安装雇佣军恶意软件",
-      "contentZh": "这起事件可能是首次确认有针对性的广告投放的雇佣军间谍软件。"
-    },
-    {
-      "title": "Baseus’ new security camera has a spotlight that tracks and follows moving targets",
-      "content": "Baseus announced a new addition to its lineup of AI-assisted security cameras that's more proactive about discouraging unwanted visitors instead of just recording and alerting you to their presence. The Baseus Security PrimeSentinel U2 Pro Outdoor 3K Dual Camera introduces a motorized spotlight that shines directly on a moving target, even as they're running across [&#8230;]",
-      "titleZh": "Baseus的新型监控摄像头有一个聚光灯，可以跟踪移动的目标",
-      "contentZh": "Baseus宣布了其人工智能辅助安全摄像头阵容的新成员，该阵容更加积极主动地阻止不受欢迎的访问者，而不仅仅是记录和提醒您他们的存在。Baseus Security PrimeSentinel U2 Pro户外3K双摄像头引入了电动聚光灯，可直接照射在移动的目标上，即使它们正在穿过[…]"
-    },
-    {
-      "title": "Elon Musk’s proposed SpaceX stock giveaway would go into &#8216;Trump Accounts&#8217;",
-      "content": "President Donald Trump announced this afternoon that Elon Musk's SpaceX shares for children will be given through Trump Accounts. Musk said earlier today that he would give one of his SpaceX shares to \"every kid in America\" sometime next year. Musk had thanked Trump Account booster Brad Gerstner for \"helping enable this,\" and Trump appeared [&#8230;]",
-      "titleZh": "埃隆·马斯克（ Elon Musk ）提议的SpaceX股票赠品将进入“特朗普账户”",
-      "contentZh": "唐纳德·特朗普(Donald Trump)总统今天下午宣布，埃隆·马斯克(Elon Musk)的SpaceX儿童股将通过特朗普账户(Trump Accounts马斯克今天早些时候表示，他将在明年某个时候将自己的SpaceX股份交给“美国的每个孩子”。马斯克感谢特朗普账户助推器布拉德·郭士纳（ Brad Gerstner ） “帮助实现了这一点” ，特朗普出现了[…]"
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "content": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
+      "titleZh": "法官驳回Sam Altman姐姐的性虐待诉讼",
+      "contentZh": "周二，美国地区法官扎卡里·布鲁斯通（ Zachary Bluestone ）驳回了安·奥尔特曼（ Ann Altman ）去年提起的诉讼，指控她的兄弟、OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）在她的整个童年时期对她进行了性虐待正如《卫报》早些时候报道的那样，法官写道，在过去的一年里， Ann没有参加独立的体检或[…]"
     }
   ],
   "vocab": [
@@ -44,12 +44,20 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "breach",
-      "meaning": "泄露/入侵"
+      "word": "lawsuit",
+      "meaning": "诉讼"
     },
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "privacy",
+      "meaning": "隐私"
+    },
+    {
+      "word": "investigate",
+      "meaning": "调查"
     }
   ]
 }
