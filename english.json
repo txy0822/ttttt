@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "articles": [
+    {
+      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+      "content": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
+      "titleZh": "企业不断购买IT认为会使事情变得更糟的软件升级",
+      "contentZh": "对大公司2,018名IT主管的调查表明缺乏杠杆作用。"
+    },
     {
       "title": "PHP warns it plans to release 2 emergency patches imminently",
       "content": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
@@ -20,32 +26,30 @@
       "contentZh": "Meta在调查其隐私时将暂停共享功能。"
     },
     {
-      "title": "PSA: Patch your Plex media server before someone hacks it",
-      "content": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
-      "titleZh": "PSA ：在有人入侵之前修补您的Plex媒体服务器",
-      "contentZh": "一位研究人员表示，链接4个漏洞的攻击正在黑客攻击未修补的盒子。"
+      "title": "YouTube says it isn’t testing hiding the dislike button",
+      "content": "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button moved into the three-dot menu. But a YouTube spokesperson, in a Wednesday statement to The Verge, confirmed that YouTube is \"not testing hiding [&#8230;]",
+      "titleZh": "YouTube表示，它没有测试隐藏“不喜欢”按钮",
+      "contentZh": "周二，我发表了一篇关于YouTube如何测试隐藏视频上的“不喜欢”按钮的故事， X上至少有两名用户将“不喜欢”按钮的屏幕截图移到了三点菜单中。但YouTube发言人在周三向The Verge发表的一份声明中证实， YouTube “没有测试隐藏[…]"
     },
     {
-      "title": "YouTube might be testing hiding the dislike button",
-      "content": "YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, [&#8230;]",
-      "titleZh": "YouTube可能正在测试隐藏“不喜欢”按钮",
-      "contentZh": "据9to5Google报道， YouTube似乎正在测试隐藏视频上的“不喜欢”按钮。X上至少有两名用户最近分享了现在放置在三点子菜单中的“不喜欢”按钮的屏幕截图， Reddit上的一名用户也分享了他们没有“不喜欢”按钮的图像。现在， […]"
-    },
-    {
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "content": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
-      "titleZh": "法官驳回Sam Altman姐姐的性虐待诉讼",
-      "contentZh": "周二，美国地区法官扎卡里·布鲁斯通（ Zachary Bluestone ）驳回了安·奥尔特曼（ Ann Altman ）去年提起的诉讼，指控她的兄弟、OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）在她的整个童年时期对她进行了性虐待正如《卫报》早些时候报道的那样，法官写道，在过去的一年里， Ann没有参加独立的体检或[…]"
+      "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
+      "content": "For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. During today's third-quarter earnings call, the company finally gave itself a deadline. According to Tesla VP for Autonomous Driving Ashok Elluswamy, Tesla owners will be able [&#8230;]",
+      "titleZh": "特斯拉表示，客户明年可以将自己的车辆添加到机器人出租车车队中，这会发生吗？",
+      "contentZh": "多年来，埃隆·马斯克（ Elon Musk ）一直在向特斯拉车主做出关于无人驾驶的巨大承诺，并能够将自己的车辆添加到公司的机器人出租车车队中。在今天的第三季度财报电话会议上，该公司终于给了自己一个截止日期。根据特斯拉自动驾驶副总裁Ashok Elluswamy的说法，特斯拉车主将能够[…]"
     }
   ],
   "vocab": [
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "autonomous",
+      "meaning": "自主的"
     },
     {
-      "word": "lawsuit",
-      "meaning": "诉讼"
+      "word": "leverage",
+      "meaning": "利用/杠杆"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
     },
     {
       "word": "feature",
