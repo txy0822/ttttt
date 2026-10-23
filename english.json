@@ -1,6 +1,18 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "articles": [
+    {
+      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "content": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
+      "titleZh": "丢脸的eMudhra在使用4的证书私钥后退出TLS业务",
+      "contentZh": "错误的密钥签名“仪式”允许为任何站点铸造Web凭据。"
+    },
+    {
+      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "content": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
+      "titleZh": "333个Tor出口节点被劫持以拦截SSH流量并检索明文电子邮件",
+      "contentZh": "本月3天， 333个出口节点被黑客入侵，希望窃取敏感数据。"
+    },
     {
       "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
       "content": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
@@ -14,35 +26,19 @@
       "contentZh": "未经确认的报告声称PHP2Shell利用在PHP站点上远程执行代码。"
     },
     {
-      "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-      "content": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
-      "titleZh": "在发现8个受损的TLS证书后，互联网进入高警戒状态",
-      "contentZh": "中间证书允许任何人为任何Internet服务器铸造Web凭据。"
+      "title": "Etsy is cracking down on AI slop listings",
+      "content": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use [&#8230;]",
+      "titleZh": "Etsy正在严厉打击AI SLOP房源",
+      "contentZh": "Etsy宣布了更严格的规则，规定如何在房源中使用人工智能，以减少平台上的人工智能流量。该公司在一篇帖子中表示， “许多活跃的买家表示，他们无法分辨哪些商品涉及人工智能生成的内容” ，卖家“担心您的作品与使用[…]的商品一起出现”。"
     },
     {
-      "title": "Meta Muse exposes users&#039; personal and business secrets when they share conversations",
-      "content": "Meta is suspending the sharing feature while it investigates its privacy.",
-      "titleZh": "Meta Muse在用户分享对话时暴露其个人和商业秘密",
-      "contentZh": "Meta在调查其隐私时将暂停共享功能。"
-    },
-    {
-      "title": "YouTube says it isn’t testing hiding the dislike button",
-      "content": "On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button moved into the three-dot menu. But a YouTube spokesperson, in a Wednesday statement to The Verge, confirmed that YouTube is \"not testing hiding [&#8230;]",
-      "titleZh": "YouTube表示，它没有测试隐藏“不喜欢”按钮",
-      "contentZh": "周二，我发表了一篇关于YouTube如何测试隐藏视频上的“不喜欢”按钮的故事， X上至少有两名用户将“不喜欢”按钮的屏幕截图移到了三点菜单中。但YouTube发言人在周三向The Verge发表的一份声明中证实， YouTube “没有测试隐藏[…]"
-    },
-    {
-      "title": "Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?",
-      "content": "For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company's robotaxi fleet. During today's third-quarter earnings call, the company finally gave itself a deadline. According to Tesla VP for Autonomous Driving Ashok Elluswamy, Tesla owners will be able [&#8230;]",
-      "titleZh": "特斯拉表示，客户明年可以将自己的车辆添加到机器人出租车车队中，这会发生吗？",
-      "contentZh": "多年来，埃隆·马斯克（ Elon Musk ）一直在向特斯拉车主做出关于无人驾驶的巨大承诺，并能够将自己的车辆添加到公司的机器人出租车车队中。在今天的第三季度财报电话会议上，该公司终于给了自己一个截止日期。根据特斯拉自动驾驶副总裁Ashok Elluswamy的说法，特斯拉车主将能够[…]"
+      "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
+      "content": "Spotify co-CEO Alex Norstr&#246;m confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR code verification method that requires scanning the plan manager's phone. TechCrunch reports that in response to a question about the \"crackdown,\" he called it a [&#8230;]",
+      "titleZh": "Spotify说是的，它正在破坏人们使用家庭计划共享太广泛",
+      "contentZh": "Spotify联合首席执行官Alex Norström在本周的财报电话会议上证实，该公司正试图通过一种需要扫描计划经理手机的新二维码验证方法来捕捉实际上并不生活在一起的Spotify家庭计划用户。TechCrunch报道，在回答有关“镇压”的问题时，他称之为[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "autonomous",
-      "meaning": "自主的"
-    },
     {
       "word": "leverage",
       "meaning": "利用/杠杆"
@@ -52,16 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
-    },
-    {
-      "word": "privacy",
-      "meaning": "隐私"
-    },
-    {
-      "word": "investigate",
-      "meaning": "调查"
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
