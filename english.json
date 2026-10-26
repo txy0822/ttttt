@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-26",
   "articles": [
     {
       "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
@@ -26,16 +26,16 @@
       "contentZh": "未经确认的报告声称PHP2Shell利用在PHP站点上远程执行代码。"
     },
     {
-      "title": "Etsy is cracking down on AI slop listings",
-      "content": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongside items that use [&#8230;]",
-      "titleZh": "Etsy正在严厉打击AI SLOP房源",
-      "contentZh": "Etsy宣布了更严格的规则，规定如何在房源中使用人工智能，以减少平台上的人工智能流量。该公司在一篇帖子中表示， “许多活跃的买家表示，他们无法分辨哪些商品涉及人工智能生成的内容” ，卖家“担心您的作品与使用[…]的商品一起出现”。"
+      "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+      "content": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score the [&#8230;]",
+      "titleZh": "iFixit在iPhone Duo中的外观可以解释这些破损的屏幕和铰链",
+      "contentZh": "按照传统， iFixit撕开了最新的iPhone ，将其零件裸露在桌子上。它发现了一些关于苹果如何在Duo的折叠屏幕上隐藏折痕的有趣细节，并给出了5/10的可修复性分数。这可能看起来不是特别高，但它是[…]的最佳分数"
     },
     {
-      "title": "Spotify says yes, it is busting people for using Family Plan sharing too widely",
-      "content": "Spotify co-CEO Alex Norstr&#246;m confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR code verification method that requires scanning the plan manager's phone. TechCrunch reports that in response to a question about the \"crackdown,\" he called it a [&#8230;]",
-      "titleZh": "Spotify说是的，它正在破坏人们使用家庭计划共享太广泛",
-      "contentZh": "Spotify联合首席执行官Alex Norström在本周的财报电话会议上证实，该公司正试图通过一种需要扫描计划经理手机的新二维码验证方法来捕捉实际上并不生活在一起的Spotify家庭计划用户。TechCrunch报道，在回答有关“镇压”的问题时，他称之为[…]"
+      "title": "Scott Walker’s The Drift will get under your skin",
+      "content": "In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like \"The Monster Mash\" and John Carpenter's \"Halloween Theme.\" Then there is the genuinely terrifying: Throbbing Gristle, The Body, or Scott Walker's The Drift. This 2006 album from the singer-songwriter is truly upsetting. On it, Walker explores [&#8230;]",
+      "titleZh": "斯科特·沃克（ Scott Walker ）的《漂移》（ The Drift ）会",
+      "contentZh": "在我看来， Spooky Season音乐有两种不同的风格。有趣的，偶尔是愚蠢的歌曲，如“The Monster Mash”和John Carpenter的“万圣节主题”。“然后是真正可怕的：悸动的手腕，身体，或斯科特沃克的漂移。这张来自这位创作歌手的2006年专辑确实令人沮丧。在上面， Walker探索了[…]"
     }
   ],
   "vocab": [
@@ -46,10 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
