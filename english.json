@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "articles": [
     {
       "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
@@ -26,16 +26,16 @@
       "contentZh": "未经确认的报告声称PHP2Shell利用在PHP站点上远程执行代码。"
     },
     {
-      "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
-      "content": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score the [&#8230;]",
-      "titleZh": "iFixit在iPhone Duo中的外观可以解释这些破损的屏幕和铰链",
-      "contentZh": "按照传统， iFixit撕开了最新的iPhone ，将其零件裸露在桌子上。它发现了一些关于苹果如何在Duo的折叠屏幕上隐藏折痕的有趣细节，并给出了5/10的可修复性分数。这可能看起来不是特别高，但它是[…]的最佳分数"
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "content": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [&#8230;]",
+      "titleZh": "OpenAI宣布三大科学发现和与学术界合作的新方式",
+      "contentZh": "在大量发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后， OpenAI在数学、计算机科学和物理学方面又有了三项“重大”发现。这次的不同之处在于，选择OpenAI描述为“牧羊人”的外部专家来指导[…]的结果"
     },
     {
-      "title": "Scott Walker’s The Drift will get under your skin",
-      "content": "In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like \"The Monster Mash\" and John Carpenter's \"Halloween Theme.\" Then there is the genuinely terrifying: Throbbing Gristle, The Body, or Scott Walker's The Drift. This 2006 album from the singer-songwriter is truly upsetting. On it, Walker explores [&#8230;]",
-      "titleZh": "斯科特·沃克（ Scott Walker ）的《漂移》（ The Drift ）会",
-      "contentZh": "在我看来， Spooky Season音乐有两种不同的风格。有趣的，偶尔是愚蠢的歌曲，如“The Monster Mash”和John Carpenter的“万圣节主题”。“然后是真正可怕的：悸动的手腕，身体，或斯科特沃克的漂移。这张来自这位创作歌手的2006年专辑确实令人沮丧。在上面， Walker探索了[…]"
+      "title": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
+      "content": "Running out of space on your Nintendo Switch 2? Thankfully, Samsung’s P9 MicroSD Express card is discounted at multiple retailers, with the 256GB version going for $47.99 (Amazon, B&#38;H Photo) and the 512GB version $99 (Amazon, B&#38;H Photo). The smaller card typically sells for around $80, and the larger option usually sells between $150 and [&#8230;]",
+      "titleZh": "三星Switch 2-ready MicroSD Express卡售价不到50 $",
+      "contentZh": "您的Nintendo Switch 2空间不足？值得庆幸的是，三星的P9 MicroSD Express卡在多个零售商处都有折扣， 256GB版本的售价为$ 47.99 （亚马逊， B ＆ H Photo ） ， 512GB版本的售价为$ 99 （亚马逊， B ＆ H Photo ）。较小的卡通常售价约为$ 80 ，较大的卡通常售价在$ 150至[…]之间"
     }
   ],
   "vocab": [
@@ -46,6 +46,10 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
