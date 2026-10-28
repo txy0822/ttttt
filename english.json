@@ -1,6 +1,12 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "articles": [
+    {
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "content": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
+      "titleZh": "UEFI固件中的代码执行缺陷影响地球上的大多数服务器",
+      "contentZh": "EDK2中的关键缺陷允许攻击者在引导过程的早期执行代码。"
+    },
     {
       "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
       "content": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
@@ -20,22 +26,16 @@
       "contentZh": "对大公司2,018名IT主管的调查表明缺乏杠杆作用。"
     },
     {
-      "title": "PHP warns it plans to release 2 emergency patches imminently",
-      "content": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
-      "titleZh": "PHP警告它计划立即发布2个紧急补丁",
-      "contentZh": "未经确认的报告声称PHP2Shell利用在PHP站点上远程执行代码。"
+      "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+      "content": "Within hours of the iPhone Duo launch last Friday, people reported that the inner screen on some brand new foldable phones was already broken. The issue was similar across many photos shared on social media: some kind of issue or crack would appear in the middle of the screen above the hinge, with lines appearing [&#8230;]",
+      "titleZh": "这就是为什么iPhone Duo的铰链可能会开裂屏幕",
+      "contentZh": "在上周五iPhone Duo发布后的几个小时内，人们报告说，一些全新可折叠手机的内部屏幕已经坏了。在社交媒体上分享的许多照片中，问题类似：某种问题或裂缝会出现在铰链上方的屏幕中间，线条出现在[…]"
     },
     {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "content": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in [&#8230;]",
-      "titleZh": "OpenAI宣布三大科学发现和与学术界合作的新方式",
-      "contentZh": "在大量发布数百份手稿（据称这些手稿包含了长期存在的数学问题的解决方案）不到一个月后， OpenAI在数学、计算机科学和物理学方面又有了三项“重大”发现。这次的不同之处在于，选择OpenAI描述为“牧羊人”的外部专家来指导[…]的结果"
-    },
-    {
-      "title": "Samsung’s Switch 2-ready MicroSD Express card is on sale for less than $50",
-      "content": "Running out of space on your Nintendo Switch 2? Thankfully, Samsung’s P9 MicroSD Express card is discounted at multiple retailers, with the 256GB version going for $47.99 (Amazon, B&#38;H Photo) and the 512GB version $99 (Amazon, B&#38;H Photo). The smaller card typically sells for around $80, and the larger option usually sells between $150 and [&#8230;]",
-      "titleZh": "三星Switch 2-ready MicroSD Express卡售价不到50 $",
-      "contentZh": "您的Nintendo Switch 2空间不足？值得庆幸的是，三星的P9 MicroSD Express卡在多个零售商处都有折扣， 256GB版本的售价为$ 47.99 （亚马逊， B ＆ H Photo ） ， 512GB版本的售价为$ 99 （亚马逊， B ＆ H Photo ）。较小的卡通常售价约为$ 80 ，较大的卡通常售价在$ 150至[…]之间"
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "content": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI [&#8230;]",
+      "titleZh": "研究人员厌倦了OpenAI的突破",
+      "contentZh": "周一， OpenAI宣布了数学、计算机科学和物理学领域令人印象深刻的突破，以及该公司所说的不断发展的沟通方法。但是，尽管有明显的方向修正，但与The Verge交谈的研究人员越来越厌倦该公司的滑稽动作。OpenAI之间经历了动荡的几个月[…]"
     }
   ],
   "vocab": [
@@ -44,8 +44,8 @@
       "meaning": "利用/杠杆"
     },
     {
-      "word": "exploit",
-      "meaning": "利用/漏洞利用"
+      "word": "launch",
+      "meaning": "推出/发射"
     },
     {
       "word": "announce",
