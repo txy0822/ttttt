@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "articles": [
     {
       "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
@@ -26,22 +26,26 @@
       "contentZh": "本月3天， 333个出口节点被黑客入侵，希望窃取敏感数据。"
     },
     {
-      "title": "Jackery made its portable power stations even smaller",
-      "content": "Jackery announced a new portable power station that uses the safer and longer-lasting lithium iron phosphate (LFP) batteries the company first introduced in 2023. But what makes the new Explorer 100D stand out is that it's Jackery's smallest power station to date, measuring only 4.6 by 3.4 by 3.4 inches and weighing just 1.87 pounds. [&#8230;]",
-      "titleZh": "Jackery使其便携式发电站更小",
-      "contentZh": "Jackery宣布推出一款新的便携式电站，该电站使用了公司于2023年首次推出的更安全、更持久的磷酸铁锂（ LFP ）电池。但让全新Explorer 100D脱颖而出的是，它是Jackery迄今为止最小的发电站，尺寸仅为4.6 x 3.4 x 3.4英寸，重量仅为1.87磅。[…]"
+      "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
+      "content": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this &#8203;point, we're not able to predict when supply and demand will be in [&#8230;]",
+      "titleZh": "苹果“无法预测”何时会有足够的iPhone Duo",
+      "contentZh": "苹果首席执行官约翰·特纳斯（ John Ternus ）没有时间表来确定iPhone Duo的供应限制何时会解除。在接受路透社采访时， Ternus表示，该公司“正在努力尽快将其推广到尽可能多的客户，但目前我们无法预测何时将出现供需[…]"
     },
     {
-      "title": "NASA hopes the commercial space industry can help save Hubble",
-      "content": "Gravity is a cruel mistress, slowly dragging the famed telescope ever closer to its ultimate demise with every day. Hubble is in no immediate danger of burning up in the Earth's atmosphere, but its time will run out in the early to mid 2030s unless its orbit is boosted. So NASA is taking proposals from [&#8230;]",
-      "titleZh": "美国宇航局希望商业航天工业能够帮助拯救哈勃",
-      "contentZh": "重力是一个残酷的情妇，每天都在慢慢地将著名的望远镜拖向最终的死亡。哈勃望远镜没有在地球大气层中燃烧的直接危险，但除非它的轨道得到提升，否则它的时间将在21世纪30年代初至中期耗尽。因此，美国宇航局正在接受来自[…]的建议"
+      "title": "Apple set an iPhone sales record even without a new standard iPhone",
+      "content": "Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday, Apple says it earned $57.58 billion in iPhone revenue, a 17 percent jump from the same time last year. The increase in revenue follows the launch of Apple's [&#8230;]",
+      "titleZh": "即使没有新的标准iPhone ，苹果也创造了iPhone销售记录",
+      "contentZh": "苹果的iPhone销量创下了破纪录的季度，尽管在其最新更新期间没有发布标准型号。在周一发布的第四季度收益报告中，苹果公司表示，其iPhone收入为575.8亿美元，比去年同期增长了17%。在苹果推出[…]之后，收入有所增加"
     }
   ],
   "vocab": [
     {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "revenue",
+      "meaning": "营收"
+    },
+    {
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
