@@ -1,6 +1,12 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "articles": [
+    {
+      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+      "content": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
+      "titleZh": "UEFI bootkit感染了完全修补的Windows计算机。微软是罪魁祸首吗？",
+      "contentZh": "UEFI bootkit BlackX利用了微软在安全启动保护方面缺乏清晰的认识。"
+    },
     {
       "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
       "content": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
@@ -20,28 +26,26 @@
       "contentZh": "错误的密钥签名“仪式”允许为任何站点铸造Web凭据。"
     },
     {
-      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
-      "content": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
-      "titleZh": "333个Tor出口节点被劫持以拦截SSH流量并检索明文电子邮件",
-      "contentZh": "本月3天， 333个出口节点被黑客入侵，希望窃取敏感数据。"
+      "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
+      "content": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is [&#8230;]",
+      "titleZh": "AMD将数据中心财富带到历史上“最大、最赚钱”的季度",
+      "contentZh": "AMD首席执行官Lisa Su在周二的公司季度财报电话会议上表示， 2026年第三季度是“我们历史上最大和最赚钱的季度。“ AMD报告季度收入达到创纪录的134亿美元，预计下个季度将达到创纪录的170亿美元。该公司的数据中心业务是[…]"
     },
     {
-      "title": "Apple is ‘not able to predict’ when it&#8217;ll have enough iPhone Duos to go around",
-      "content": "Apple CEO John Ternus doesn't have a timeline for when iPhone Duo supply constraints could lift. During an interview with Reuters, Ternus said the company is \"working hard to get it to as many customers as quickly as possible, but at this &#8203;point, we're not able to predict when supply and demand will be in [&#8230;]",
-      "titleZh": "苹果“无法预测”何时会有足够的iPhone Duo",
-      "contentZh": "苹果首席执行官约翰·特纳斯（ John Ternus ）没有时间表来确定iPhone Duo的供应限制何时会解除。在接受路透社采访时， Ternus表示，该公司“正在努力尽快将其推广到尽可能多的客户，但目前我们无法预测何时将出现供需[…]"
-    },
-    {
-      "title": "Apple set an iPhone sales record even without a new standard iPhone",
-      "content": "Apple had a record-breaking quarter for iPhone sales - despite not releasing a standard model during its latest refresh. In its fourth-quarter earnings report released on Monday, Apple says it earned $57.58 billion in iPhone revenue, a 17 percent jump from the same time last year. The increase in revenue follows the launch of Apple's [&#8230;]",
-      "titleZh": "即使没有新的标准iPhone ，苹果也创造了iPhone销售记录",
-      "contentZh": "苹果的iPhone销量创下了破纪录的季度，尽管在其最新更新期间没有发布标准型号。在周一发布的第四季度收益报告中，苹果公司表示，其iPhone收入为575.8亿美元，比去年同期增长了17%。在苹果推出[…]之后，收入有所增加"
+      "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
+      "content": "Ahead of the release of Rockstar Games&#8217; Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and [&#8230;]",
+      "titleZh": "关于《塞尔达传说：时间之笛》重拍的所有新闻",
+      "contentZh": "在Rockstar Games的《侠盗猎车手VI》发行之前，任天堂推出了自己的秋季巨作：《塞尔达传说：时间之笛》的Switch 2翻拍版。这部翻拍作品是在任天堂64上推出原始版本28年后发布的，具有更逼真的视觉风格和[…]"
     }
   ],
   "vocab": [
     {
       "word": "revenue",
       "meaning": "营收"
+    },
+    {
+      "word": "exploit",
+      "meaning": "利用/漏洞利用"
     },
     {
       "word": "launch",
