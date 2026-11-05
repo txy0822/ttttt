@@ -1,6 +1,24 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "articles": [
+    {
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "content": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "titleZh": "黑客利用iOS和Android漏洞感染手机",
+      "contentZh": "研究人员说，该组织可能是克里姆林宫为寻找外交目标而资助的。"
+    },
+    {
+      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+      "content": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
+      "titleZh": "VMware发布用于多达128核虚拟化的vSphere Express",
+      "contentZh": "“我们开始倾听许多低端客户的意见，” VMware高管说。"
+    },
+    {
+      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+      "content": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
+      "titleZh": "币安表示，窃取数十亿美元加密货币的黑客花了数月时间策划抢劫",
+      "contentZh": "技术包括笔记本电脑感染、内部工具受损和虚假的工作面试。"
+    },
     {
       "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
       "content": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
@@ -8,48 +26,26 @@
       "contentZh": "UEFI bootkit BlackX利用了微软在安全启动保护方面缺乏清晰的认识。"
     },
     {
-      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-      "content": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-      "titleZh": "Cursor后门上的Anthropic VS代码扩展近12小时",
-      "contentZh": "目前尚不清楚攻击者是如何访问Anthropic已验证的Cursor帐户的。"
+      "title": "X says its updated web app is way faster",
+      "content": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. [&#8230;]",
+      "titleZh": "X表示其更新的网络应用程序速度更快",
+      "contentZh": "X正在推出一个新版本的网络应用程序，它说比以前快得多，现在它正在为登录用户推出更新的应用程序“一次一个国家”。“通过慢速连接在X.com上打开个人资料，”首席工程师Yagiz Nizipli在一篇关于这些变化的博客文章中说。[…]"
     },
     {
-      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-      "content": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
-      "titleZh": "UEFI固件中的代码执行缺陷影响地球上的大多数服务器",
-      "contentZh": "EDK2中的关键缺陷允许攻击者在引导过程的早期执行代码。"
-    },
-    {
-      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
-      "content": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
-      "titleZh": "丢脸的eMudhra在使用4的证书私钥后退出TLS业务",
-      "contentZh": "错误的密钥签名“仪式”允许为任何站点铸造Web凭据。"
-    },
-    {
-      "title": "AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history",
-      "content": "AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was \"was the largest and most profitable in our history.\" AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's data center business is [&#8230;]",
-      "titleZh": "AMD将数据中心财富带到历史上“最大、最赚钱”的季度",
-      "contentZh": "AMD首席执行官Lisa Su在周二的公司季度财报电话会议上表示， 2026年第三季度是“我们历史上最大和最赚钱的季度。“ AMD报告季度收入达到创纪录的134亿美元，预计下个季度将达到创纪录的170亿美元。该公司的数据中心业务是[…]"
-    },
-    {
-      "title": "All the news about The Legend of Zelda: Ocarina of Time remake",
-      "content": "Ahead of the release of Rockstar Games&#8217; Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visual style and [&#8230;]",
-      "titleZh": "关于《塞尔达传说：时间之笛》重拍的所有新闻",
-      "contentZh": "在Rockstar Games的《侠盗猎车手VI》发行之前，任天堂推出了自己的秋季巨作：《塞尔达传说：时间之笛》的Switch 2翻拍版。这部翻拍作品是在任天堂64上推出原始版本28年后发布的，具有更逼真的视觉风格和[…]"
+      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "content": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier [&#8230;]",
+      "titleZh": "随着智能手机销量下滑，高通正大举押注数据中心",
+      "contentZh": "与2025年相比，智能手机销量下降了约20% ，高通正在寻求数据中心来帮助提升利润。在2026年第四季度的财报电话会议上，该公司制定了计划，通过与亚马逊和Meta等公司的合作，在人工智能数据中心业务中大放异彩[…]"
     }
   ],
   "vocab": [
-    {
-      "word": "revenue",
-      "meaning": "营收"
-    },
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
