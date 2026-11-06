@@ -1,6 +1,12 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "articles": [
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "content": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "titleZh": "满足* sshole ，让黑客SSH进入Linux设备的漏洞",
+      "contentZh": "Alpine的某些配置受到影响。其他发行版也可能如此。"
+    },
     {
       "title": "Hackers exploited iOS and Android flaws to infect phones",
       "content": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
@@ -20,28 +26,30 @@
       "contentZh": "技术包括笔记本电脑感染、内部工具受损和虚假的工作面试。"
     },
     {
-      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
-      "content": "UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.",
-      "titleZh": "UEFI bootkit感染了完全修补的Windows计算机。微软是罪魁祸首吗？",
-      "contentZh": "UEFI bootkit BlackX利用了微软在安全启动保护方面缺乏清晰的认识。"
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "content": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions [&#8230;]",
+      "titleZh": "OpenAI正在退出数据中心项目的保密协议",
+      "contentZh": "在本周的中期选举中，选民强烈反对数据中心扩张， OpenAI今天宣布了对正在开展数据中心项目的社区的新承诺，包括不会与公职人员使用保密协议（ NDA ）。许多数据中心项目因依赖NDA来隐藏讨论而受到审查[…]"
     },
     {
-      "title": "X says its updated web app is way faster",
-      "content": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. [&#8230;]",
-      "titleZh": "X表示其更新的网络应用程序速度更快",
-      "contentZh": "X正在推出一个新版本的网络应用程序，它说比以前快得多，现在它正在为登录用户推出更新的应用程序“一次一个国家”。“通过慢速连接在X.com上打开个人资料，”首席工程师Yagiz Nizipli在一篇关于这些变化的博客文章中说。[…]"
-    },
-    {
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "content": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier [&#8230;]",
-      "titleZh": "随着智能手机销量下滑，高通正大举押注数据中心",
-      "contentZh": "与2025年相比，智能手机销量下降了约20% ，高通正在寻求数据中心来帮助提升利润。在2026年第四季度的财报电话会议上，该公司制定了计划，通过与亚马逊和Meta等公司的合作，在人工智能数据中心业务中大放异彩[…]"
+      "title": "Airbnb is working on an AI travel agent",
+      "content": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But [&#8230;]",
+      "titleZh": "爱彼迎正在与人工智能旅行社合作",
+      "contentZh": "该公司在今天发布的2026年第三季度收益股东信中表示，爱彼迎计划在2027年上半年推出一个人工智能代理，帮助用户规划和预订旅行。爱彼迎表示：「今天的人工智能代理擅长简单的日常任务，例如预订餐厅或安排预约。」“可是……"
     }
   ],
   "vocab": [
     {
+      "word": "vulnerability",
+      "meaning": "漏洞"
+    },
+    {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "scrutiny",
+      "meaning": "审查"
     },
     {
       "word": "announce",
