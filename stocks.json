@@ -1,6 +1,27 @@
 {
-  "date": "2026-11-09",
-  "time": "15:30",
-  "count": 0,
-  "candidates": []
+  "date": "2026-11-10",
+  "time": "01:44",
+  "count": 2,
+  "candidates": [
+    {
+      "code": "300969",
+      "name": "恒帅股份",
+      "price": 91.45,
+      "change_pct": 3.79,
+      "volume_ratio": 1.31,
+      "turnover_rate": 9.5,
+      "float_cap_yi": 71.6,
+      "ma_info": "MA5=81.83 > MA10=77.42 > MA20=71.64"
+    },
+    {
+      "code": "688516",
+      "name": "奥特维",
+      "price": 46.0,
+      "change_pct": 4.17,
+      "volume_ratio": 1.23,
+      "turnover_rate": 6.91,
+      "float_cap_yi": 144.8,
+      "ma_info": "MA5=44.59 > MA10=41.34 > MA20=39.43"
+    }
+  ]
 }
