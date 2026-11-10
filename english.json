@@ -1,6 +1,18 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "articles": [
+    {
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "content": "\"*sshole\" poses a serious threat to Internet security.",
+      "titleZh": "允许黑客SSH进入Linux设备的漏洞正在被主动利用",
+      "contentZh": "“* sshole”对互联网安全构成严重威胁。"
+    },
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "content": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+      "titleZh": "Chainalysis称黑客窃取了其所有客户的凭据和令牌",
+      "contentZh": "该公司表示， “多前线网络攻击”包括人工智能代理和路径数据抢夺。"
+    },
     {
       "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
       "content": "Certain configurations of Alpine are affected. Other distros may be as well.",
@@ -14,28 +26,16 @@
       "contentZh": "研究人员说，该组织可能是克里姆林宫为寻找外交目标而资助的。"
     },
     {
-      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
-      "content": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
-      "titleZh": "VMware发布用于多达128核虚拟化的vSphere Express",
-      "contentZh": "“我们开始倾听许多低端客户的意见，” VMware高管说。"
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "content": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to [&#8230;]",
+      "titleZh": "大卫·埃里森说，人工智能可能是“现代历史上最大的创意解锁”",
+      "contentZh": "在派拉蒙Skydance的最新财报电话会议上，首席执行官大卫·埃里森（ David Ellison ）表示， “很难想象”人工智能对电影业的影响不会比CGI更大。在回答有关该公司对人工智能前景的问题时， Ellison说： “我认为，当你缩小视野并关注生产时，人工智能确实有潜力[…]"
     },
     {
-      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-      "content": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
-      "titleZh": "币安表示，窃取数十亿美元加密货币的黑客花了数月时间策划抢劫",
-      "contentZh": "技术包括笔记本电脑感染、内部工具受损和虚假的工作面试。"
-    },
-    {
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "content": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions [&#8230;]",
-      "titleZh": "OpenAI正在退出数据中心项目的保密协议",
-      "contentZh": "在本周的中期选举中，选民强烈反对数据中心扩张， OpenAI今天宣布了对正在开展数据中心项目的社区的新承诺，包括不会与公职人员使用保密协议（ NDA ）。许多数据中心项目因依赖NDA来隐藏讨论而受到审查[…]"
-    },
-    {
-      "title": "Airbnb is working on an AI travel agent",
-      "content": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But [&#8230;]",
-      "titleZh": "爱彼迎正在与人工智能旅行社合作",
-      "contentZh": "该公司在今天发布的2026年第三季度收益股东信中表示，爱彼迎计划在2027年上半年推出一个人工智能代理，帮助用户规划和预订旅行。爱彼迎表示：「今天的人工智能代理擅长简单的日常任务，例如预订餐厅或安排预约。」“可是……"
+      "title": "What could China get from Jensen Huang?",
+      "content": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about [&#8230;]",
+      "titleZh": "中国可以从Jensen Huang那里得到什么？",
+      "contentZh": "在当今的人工智能格局中，很难夸大英伟达的力量。该公司的芯片是美国先进人工智能技术的基础，多年来需求一直超过供应。近年来，英伟达还是一系列崭露头角的人工智能公司的有影响力的投资者，约[…]"
     }
   ],
   "vocab": [
@@ -46,14 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "scrutiny",
-      "meaning": "审查"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
     }
   ]
 }
