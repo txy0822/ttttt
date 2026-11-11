@@ -1,17 +1,6 @@
 {
-  "date": "2026-11-10",
-  "time": "23:43",
-  "count": 1,
-  "candidates": [
-    {
-      "code": "003033",
-      "name": "征和工业",
-      "price": 81.65,
-      "change_pct": 4.53,
-      "volume_ratio": 1.16,
-      "turnover_rate": 5.13,
-      "float_cap_yi": 66.1,
-      "ma_info": "MA5=79.69 > MA10=77.17 > MA20=76.52"
-    }
-  ]
+  "date": "2026-11-11",
+  "time": "15:30",
+  "count": 0,
+  "candidates": []
 }
