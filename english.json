@@ -1,6 +1,12 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "articles": [
+    {
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "titleZh": "Grok Build编码代理泄露了一些机密信息，其中一些属于SpaceXSI",
+      "contentZh": "研究人员发现， 35,000个Grok Build应用程序向所有寻找它们的人开放。"
+    },
     {
       "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
       "content": "\"*sshole\" poses a serious threat to Internet security.",
@@ -20,22 +26,16 @@
       "contentZh": "Alpine的某些配置受到影响。其他发行版也可能如此。"
     },
     {
-      "title": "Hackers exploited iOS and Android flaws to infect phones",
-      "content": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-      "titleZh": "黑客利用iOS和Android漏洞感染手机",
-      "contentZh": "研究人员说，该组织可能是克里姆林宫为寻找外交目标而资助的。"
+      "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+      "content": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official release. In April, Microsoft started testing Auto SR [&#8230;]",
+      "titleZh": "微软的DLSS竞争对手推出了Xbox Ally X ，并以手持模式工作",
+      "contentZh": "微软今天宣布，微软正在推出自动超分辨率（ Auto SR ） ，这是一种与英伟达DLSS竞争的升级技术，适用于Xbox Ally X、Xbox Ally X20和精选的Windows Copilot Plus PC。在此次正式发布的同时， Auto SR也将获得一些新功能。4月，微软开始测试Auto SR […]"
     },
     {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "content": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to [&#8230;]",
-      "titleZh": "大卫·埃里森说，人工智能可能是“现代历史上最大的创意解锁”",
-      "contentZh": "在派拉蒙Skydance的最新财报电话会议上，首席执行官大卫·埃里森（ David Ellison ）表示， “很难想象”人工智能对电影业的影响不会比CGI更大。在回答有关该公司对人工智能前景的问题时， Ellison说： “我认为，当你缩小视野并关注生产时，人工智能确实有潜力[…]"
-    },
-    {
-      "title": "What could China get from Jensen Huang?",
-      "content": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about [&#8230;]",
-      "titleZh": "中国可以从Jensen Huang那里得到什么？",
-      "contentZh": "在当今的人工智能格局中，很难夸大英伟达的力量。该公司的芯片是美国先进人工智能技术的基础，多年来需求一直超过供应。近年来，英伟达还是一系列崭露头角的人工智能公司的有影响力的投资者，约[…]"
+      "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
+      "content": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and Black Panther, Meta says. But the updated [&#8230;]",
+      "titleZh": "Meta Quest上的VR Disney Plus应用程序现在有3D电影",
+      "contentZh": "迪士尼将为Meta Quest上的Disney Plus应用带来60多部3D电影。这些电影将作为今天推出的更新版Disney Plus应用程序的一部分提供给Disney Plus订阅者。Meta说，您可以观看的3D电影包括《复仇者联盟》和《黑豹》。但更新后的[…]"
     }
   ],
   "vocab": [
@@ -46,6 +46,14 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
