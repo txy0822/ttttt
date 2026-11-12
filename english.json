@@ -1,41 +1,41 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "articles": [
     {
       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
       "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-      "titleZh": "Grok Build编码代理泄露了一些机密信息，其中一些属于SpaceXSI",
-      "contentZh": "研究人员发现， 35,000个Grok Build应用程序向所有寻找它们的人开放。"
+      "titleZh": "Grok Build 编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
+      "contentZh": "研究人员发现，有35,000个Grok Build应用程序对任何寻找它们的人完全开放。"
     },
     {
       "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
       "content": "\"*sshole\" poses a serious threat to Internet security.",
-      "titleZh": "允许黑客SSH进入Linux设备的漏洞正在被主动利用",
-      "contentZh": "“* sshole”对互联网安全构成严重威胁。"
+      "titleZh": "黑客利用SSH入侵Linux设备的漏洞正被积极利用",
+      "contentZh": "“*sshole”对互联网安全构成严重威胁。"
     },
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
       "content": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-      "titleZh": "Chainalysis称黑客窃取了其所有客户的凭据和令牌",
-      "contentZh": "该公司表示， “多前线网络攻击”包括人工智能代理和路径数据抢夺。"
+      "titleZh": "Chainalysis称，黑客窃取了其所有客户的凭证和代币",
+      "contentZh": "该公司表示，此次“多线网络攻击”包括人工智能代理和路径上数据窃取。"
     },
     {
       "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
       "content": "Certain configurations of Alpine are affected. Other distros may be as well.",
-      "titleZh": "满足* sshole ，让黑客SSH进入Linux设备的漏洞",
-      "contentZh": "Alpine的某些配置受到影响。其他发行版也可能如此。"
+      "titleZh": "认识一下*sshole，这个漏洞让黑客能够通过SSH入侵Linux设备",
+      "contentZh": "Alpine的某些配置受到影响。其他发行版也可能受到影响。"
     },
     {
-      "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-      "content": "Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official release. In April, Microsoft started testing Auto SR [&#8230;]",
-      "titleZh": "微软的DLSS竞争对手推出了Xbox Ally X ，并以手持模式工作",
-      "contentZh": "微软今天宣布，微软正在推出自动超分辨率（ Auto SR ） ，这是一种与英伟达DLSS竞争的升级技术，适用于Xbox Ally X、Xbox Ally X20和精选的Windows Copilot Plus PC。在此次正式发布的同时， Auto SR也将获得一些新功能。4月，微软开始测试Auto SR […]"
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "content": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who [&#8230;]",
+      "titleZh": "据报道，英伟达正准备解雇黄仁勋",
+      "contentZh": "据《华尔街日报》报道，在《纽约时报》报道了有关黄仁勋的第二起涉嫌婚外情事件后，英伟达董事会正准备解雇这位首席执行官。就在几天前，他承认与一名涉嫌是中国间谍的女性有另一段婚外情。第二段疑似婚外情的对象是一名高管，她……"
     },
     {
-      "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
-      "content": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and Black Panther, Meta says. But the updated [&#8230;]",
-      "titleZh": "Meta Quest上的VR Disney Plus应用程序现在有3D电影",
-      "contentZh": "迪士尼将为Meta Quest上的Disney Plus应用带来60多部3D电影。这些电影将作为今天推出的更新版Disney Plus应用程序的一部分提供给Disney Plus订阅者。Meta说，您可以观看的3D电影包括《复仇者联盟》和《黑豹》。但更新后的[…]"
+      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
+      "content": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've been testing [&#8230;]",
+      "titleZh": "体验Home Assistant全新“智能家居多功能工具”",
+      "contentZh": "Nabu Casa——运营 Home Assistant 的 Open Home Foundation 的商业部门——刚刚推出了 Home Assistant Connect Aux-2，这是一款多功能盒子，旨在帮助您将更多非智能设备纳入智能家居。这是 Home Assistant 为提升用户友好性而持续努力的一部分。而且效果显著。我一直在测试 […]"
     }
   ],
   "vocab": [
@@ -48,12 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
+      "word": "launch",
+      "meaning": "推出/发射"
     }
   ]
 }
