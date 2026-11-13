@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "articles": [
     {
       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
       "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
       "titleZh": "Grok Build 编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
-      "contentZh": "研究人员发现，有35,000个Grok Build应用程序对任何寻找它们的人完全开放。"
+      "contentZh": "研究人员发现，有3.5万个Grok Build应用对所有搜索者完全开放。"
     },
     {
       "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
@@ -16,8 +16,8 @@
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
       "content": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-      "titleZh": "Chainalysis称，黑客窃取了其所有客户的凭证和代币",
-      "contentZh": "该公司表示，此次“多线网络攻击”包括人工智能代理和路径上数据窃取。"
+      "titleZh": "Chainalysis表示，黑客窃取了其所有客户的凭证和代币",
+      "contentZh": "该公司表示，这是一次“多方位的网络攻击”，涉及人工智能代理和路径上的数据窃取。"
     },
     {
       "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
@@ -26,16 +26,16 @@
       "contentZh": "Alpine的某些配置受到影响。其他发行版也可能受到影响。"
     },
     {
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "content": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who [&#8230;]",
-      "titleZh": "据报道，英伟达正准备解雇黄仁勋",
-      "contentZh": "据《华尔街日报》报道，在《纽约时报》报道了有关黄仁勋的第二起涉嫌婚外情事件后，英伟达董事会正准备解雇这位首席执行官。就在几天前，他承认与一名涉嫌是中国间谍的女性有另一段婚外情。第二段疑似婚外情的对象是一名高管，她……"
+      "title": "Donald Trump really wants Tim Cook to run Nvidia",
+      "content": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim [&#8230;]",
+      "titleZh": "唐纳德·特朗普真心希望蒂姆·库克能去执掌英伟达",
+      "contentZh": "在有关黄仁勋婚外情（包括与一名疑似中国间谍的婚外情）的报道传出后，他于今天上午辞去了英伟达首席执行官的职务。目前，该公司正由首席财务官临时领导。但唐纳德·特朗普总统已经开始到处宣扬他认为应该接管这家芯片巨头的人选：苹果前首席执行官蒂姆……"
     },
     {
-      "title": "Hands on with Home Assistant’s new ‘smart home multi-tool’",
-      "content": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-friendly. And it's working. I've been testing [&#8230;]",
-      "titleZh": "体验Home Assistant全新“智能家居多功能工具”",
-      "contentZh": "Nabu Casa——运营 Home Assistant 的 Open Home Foundation 的商业部门——刚刚推出了 Home Assistant Connect Aux-2，这是一款多功能盒子，旨在帮助您将更多非智能设备纳入智能家居。这是 Home Assistant 为提升用户友好性而持续努力的一部分。而且效果显著。我一直在测试 […]"
+      "title": "Xbox announces Wolfenstein 3",
+      "content": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In [&#8230;]",
+      "titleZh": "Xbox 宣布推出《德军总部 3》",
+      "contentZh": "自Bethesda旗下的MachineGames于2017年发布《德军总部2：新巨人》以来，已过去了近十年，现在Xbox即将宣布该工作室的续作。就在Bethesda确认下一款《上古卷轴》游戏将名为《上古卷轴6：哨兵》的几天后，《德军总部3》于今天正式发布。在[…]"
     }
   ],
   "vocab": [
@@ -48,8 +48,8 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "launch",
-      "meaning": "推出/发射"
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
