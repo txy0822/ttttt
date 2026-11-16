@@ -1,11 +1,17 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "articles": [
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "content": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+      "titleZh": "不满的研究人员泄露Windows 0-day漏洞，黑客获得系统权限",
+      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全能的系统权限。"
+    },
     {
       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
       "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
       "titleZh": "Grok Build 编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
-      "contentZh": "研究人员发现，有3.5万个Grok Build应用对所有搜索者完全开放。"
+      "contentZh": "研究人员发现，有35,000个Grok Build应用程序对任何寻找它们的人完全开放。"
     },
     {
       "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
@@ -16,26 +22,20 @@
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
       "content": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-      "titleZh": "Chainalysis表示，黑客窃取了其所有客户的凭证和代币",
+      "titleZh": "Chainalysis称，黑客窃取了其所有客户的凭证和代币",
       "contentZh": "该公司表示，这是一次“多方位的网络攻击”，涉及人工智能代理和路径上的数据窃取。"
     },
     {
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "content": "Certain configurations of Alpine are affected. Other distros may be as well.",
-      "titleZh": "认识一下*sshole，这个漏洞让黑客能够通过SSH入侵Linux设备",
-      "contentZh": "Alpine的某些配置受到影响。其他发行版也可能受到影响。"
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "content": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical [&#8230;]",
+      "titleZh": "苹果公司的新研究旨在提高人工智能健康工具的有效性",
+      "contentZh": "苹果公司今天宣布开展一项新研究，旨在更好地了解人们如何与对话式人工智能健康工具互动，以及这些工具的回复实际上有多大用处。该公司正在与OpenEvidence合作开展Apple Health AI使用情况研究。OpenEvidence是一个由医疗保健专业人员使用的临床AI平台，它根据医疗 […] 生成答案。"
     },
     {
-      "title": "Donald Trump really wants Tim Cook to run Nvidia",
-      "content": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim [&#8230;]",
-      "titleZh": "唐纳德·特朗普真心希望蒂姆·库克能去执掌英伟达",
-      "contentZh": "在有关黄仁勋婚外情（包括与一名疑似中国间谍的婚外情）的报道传出后，他于今天上午辞去了英伟达首席执行官的职务。目前，该公司正由首席财务官临时领导。但唐纳德·特朗普总统已经开始到处宣扬他认为应该接管这家芯片巨头的人选：苹果前首席执行官蒂姆……"
-    },
-    {
-      "title": "Xbox announces Wolfenstein 3",
-      "content": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In [&#8230;]",
-      "titleZh": "Xbox 宣布推出《德军总部 3》",
-      "contentZh": "自Bethesda旗下的MachineGames于2017年发布《德军总部2：新巨人》以来，已过去了近十年，现在Xbox即将宣布该工作室的续作。就在Bethesda确认下一款《上古卷轴》游戏将名为《上古卷轴6：哨兵》的几天后，《德军总部3》于今天正式发布。在[…]"
+      "title": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
+      "content": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that Snakes &#38; Ladders ranks among their best. It doesn't have the seamless throughline production-wise that their collabs with Alchemist [&#8230;]",
+      "titleZh": "听听这个：Armand Hammer的《Snakes & Ladders》",
+      "contentZh": "我首先要说明的是：我没有太多时间来消化本周突然发布的Armand Hammer专辑。不过，Billy Woods和Elucid很少失手，我的第一反应是，《Snakes & Ladders》堪称他们的巅峰之作。在制作方面，它不像他们与Alchemist的合作那样有贯穿始终的流畅性……"
     }
   ],
   "vocab": [
@@ -50,6 +50,10 @@
     {
       "word": "announce",
       "meaning": "宣布"
+    },
+    {
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
