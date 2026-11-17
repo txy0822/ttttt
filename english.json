@@ -1,17 +1,23 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "articles": [
+    {
+      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+      "content": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+      "titleZh": "英特尔股价一天内大跌28.6%，股东起诉英特尔及其首席执行官和首席财务官",
+      "contentZh": "股东表示，个人电脑销售的暴跌“远远抵消了”人工智能热潮带来的收益。"
+    },
     {
       "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
       "content": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
       "titleZh": "不满的研究人员泄露Windows 0-day漏洞，黑客获得系统权限",
-      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全能的系统权限。"
+      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全权系统权限。"
     },
     {
       "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
       "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
       "titleZh": "Grok Build 编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
-      "contentZh": "研究人员发现，有35,000个Grok Build应用程序对任何寻找它们的人完全开放。"
+      "contentZh": "研究人员发现，有3.5万个Grok Build应用程序对所有寻找它们的人完全开放。"
     },
     {
       "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
@@ -20,22 +26,16 @@
       "contentZh": "“*sshole”对互联网安全构成严重威胁。"
     },
     {
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-      "content": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-      "titleZh": "Chainalysis称，黑客窃取了其所有客户的凭证和代币",
-      "contentZh": "该公司表示，这是一次“多方位的网络攻击”，涉及人工智能代理和路径上的数据窃取。"
+      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+      "content": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November [&#8230;]",
+      "titleZh": "2022年《GTA VI》泄露事件幕后黑客认罪",
+      "contentZh": "据英国皇家检察署（CPS）消息，Lapsus$网络犯罪团伙成员Arion Kurtaj于周一认罪。该团伙于2022年泄露了90段《侠盗猎车手VI》的视频，并黑入了其他多家大公司。现年21岁的库尔塔伊在2021年8月至11月期间的某个时候黑进了BT/EE，并从11月初开始……"
     },
     {
-      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-      "content": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical [&#8230;]",
-      "titleZh": "苹果公司的新研究旨在提高人工智能健康工具的有效性",
-      "contentZh": "苹果公司今天宣布开展一项新研究，旨在更好地了解人们如何与对话式人工智能健康工具互动，以及这些工具的回复实际上有多大用处。该公司正在与OpenEvidence合作开展Apple Health AI使用情况研究。OpenEvidence是一个由医疗保健专业人员使用的临床AI平台，它根据医疗 […] 生成答案。"
-    },
-    {
-      "title": "Listen to this: Armand Hammer’s Snakes &#038; Ladders",
-      "content": "I open with this caveat: I haven't had a ton of time to digest the surprise Armand Hammer record that dropped this week. Billy Woods and Elucid rarely miss, though, and my initial reaction is that Snakes &#38; Ladders ranks among their best. It doesn't have the seamless throughline production-wise that their collabs with Alchemist [&#8230;]",
-      "titleZh": "听听这个：Armand Hammer的《Snakes & Ladders》",
-      "contentZh": "我首先要说明的是：我没有太多时间来消化本周突然发布的Armand Hammer专辑。不过，Billy Woods和Elucid很少失手，我的第一反应是，《Snakes & Ladders》堪称他们的巅峰之作。在制作方面，它不像他们与Alchemist的合作那样有贯穿始终的流畅性……"
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+      "content": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]",
+      "titleZh": "科技界领袖深信，黄仁勋的离职是一场针对他的阴谋",
+      "contentZh": "黄仁勋在英伟达任职超过33年后突然辞职，在整个科技行业掀起了轩然大波。现在，知名人士纷纷呼吁让黄仁勋复职，许多人也赞同一种在硅谷广为流传的说法：这场丑闻是针对这位前首席执行官的阴谋所致。在 […]"
     }
   ],
   "vocab": [
@@ -46,14 +46,6 @@
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "announce",
-      "meaning": "宣布"
-    },
-    {
-      "word": "platform",
-      "meaning": "平台"
     }
   ]
 }
