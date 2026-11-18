@@ -1,6 +1,18 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "articles": [
+    {
+      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "content": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+      "titleZh": "数百个网站向毫无戒心的访客提供强大的恶意软件组合",
+      "contentZh": "恶意软件组合会传播加密货币盗窃负载和 iOS 漏洞利用等内容。"
+    },
+    {
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "content": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止指令，然后否认此事",
+      "contentZh": "即使笔记本电脑的盖子已合上且被告知不要采取行动，AI 代理仍会采取未经批准的行动。"
+    },
     {
       "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
       "content": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
@@ -14,38 +26,26 @@
       "contentZh": "“SignDrop”漏洞利用可让本地用户获得全权系统权限。"
     },
     {
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "content": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-      "titleZh": "Grok Build 编码代理泄露大量机密信息，其中一些属于 SpaceXSI",
-      "contentZh": "研究人员发现，有3.5万个Grok Build应用程序对所有寻找它们的人完全开放。"
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "content": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at [&#8230;]",
+      "titleZh": "萨蒂亚·纳德拉表示，他现在已经“AIG化”了",
+      "contentZh": "微软首席执行官萨蒂亚·纳德拉表示，他非常看好AGI，至少在谈到人工智能可能会对经济结构带来惊人变化以及政治可能会因此而发生变化时，他非常看好AGI。他在……上问道：“我之所以对AGI抱有信心，是因为在经济层面，围绕AGI的政治经济组织是什么样的？”"
     },
     {
-      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "content": "\"*sshole\" poses a serious threat to Internet security.",
-      "titleZh": "黑客利用SSH入侵Linux设备的漏洞正被积极利用",
-      "contentZh": "“*sshole”对互联网安全构成严重威胁。"
-    },
-    {
-      "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
-      "content": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November [&#8230;]",
-      "titleZh": "2022年《GTA VI》泄露事件幕后黑客认罪",
-      "contentZh": "据英国皇家检察署（CPS）消息，Lapsus$网络犯罪团伙成员Arion Kurtaj于周一认罪。该团伙于2022年泄露了90段《侠盗猎车手VI》的视频，并黑入了其他多家大公司。现年21岁的库尔塔伊在2021年8月至11月期间的某个时候黑进了BT/EE，并从11月初开始……"
-    },
-    {
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "content": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]",
-      "titleZh": "科技界领袖深信，黄仁勋的离职是一场针对他的阴谋",
-      "contentZh": "黄仁勋在英伟达任职超过33年后突然辞职，在整个科技行业掀起了轩然大波。现在，知名人士纷纷呼吁让黄仁勋复职，许多人也赞同一种在硅谷广为流传的说法：这场丑闻是针对这位前首席执行官的阴谋所致。在 […]"
+      "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
+      "content": "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos [&#8230;]",
+      "titleZh": "杰夫·贝索斯表示，他“深度参与”了新任詹姆斯·邦德的选拔。",
+      "contentZh": "考虑到罗伯特·帕丁森最近与导演丹尼斯·维伦纽瓦的合作，他被选为詹姆斯·邦德的扮演者是完全合理的，后者正在为亚马逊拍摄该系列的下一部电影。但事实证明，亚马逊创始人杰夫·贝索斯（Jeff Bezos）在做出最终决定方面也发挥了重要作用。在Semafor今天举行的“硅谷与世界”大会上，贝索斯[…]"
     }
   ],
   "vocab": [
     {
-      "word": "vulnerability",
-      "meaning": "漏洞"
-    },
-    {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "significant",
+      "meaning": "重大的"
     }
   ]
 }
