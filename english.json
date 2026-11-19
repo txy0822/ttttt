@@ -1,51 +1,59 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "articles": [
     {
       "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
       "content": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
       "titleZh": "数百个网站向毫无戒心的访客提供强大的恶意软件组合",
-      "contentZh": "恶意软件组合会传播加密货币盗窃负载和 iOS 漏洞利用等内容。"
+      "contentZh": "恶意软件组合会传播加密货币盗窃载荷和iOS漏洞利用等内容。"
     },
     {
       "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
       "content": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止指令，然后否认此事",
-      "contentZh": "即使笔记本电脑的盖子已合上且被告知不要采取行动，AI 代理仍会采取未经批准的行动。"
+      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止的指令，然后否认了这一点",
+      "contentZh": "即使笔记本电脑合上且被告知不要采取未批准的操作，AI 代理仍会采取此类操作。"
     },
     {
       "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
       "content": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "titleZh": "英特尔股价一天内大跌28.6%，股东起诉英特尔及其首席执行官和首席财务官",
+      "titleZh": "英特尔股价一日内大跌28.6%，股东起诉英特尔及其首席执行官和首席财务官",
       "contentZh": "股东表示，个人电脑销售的暴跌“远远抵消了”人工智能热潮带来的收益。"
     },
     {
       "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
       "content": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "titleZh": "不满的研究人员泄露Windows 0-day漏洞，黑客获得系统权限",
-      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全权系统权限。"
+      "titleZh": "不满的研究人员曝出Windows 0-day漏洞，黑客得以获得系统权限",
+      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全能的系统权限。"
     },
     {
-      "title": "Satya Nadella says he’s AGI-pilled now",
-      "content": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at [&#8230;]",
-      "titleZh": "萨蒂亚·纳德拉表示，他现在已经“AIG化”了",
-      "contentZh": "微软首席执行官萨蒂亚·纳德拉表示，他非常看好AGI，至少在谈到人工智能可能会对经济结构带来惊人变化以及政治可能会因此而发生变化时，他非常看好AGI。他在……上问道：“我之所以对AGI抱有信心，是因为在经济层面，围绕AGI的政治经济组织是什么样的？”"
+      "title": "Elon Musk tries to explain what&#8217;s going on with Ukraine and Starlink",
+      "content": "Elon Musk said Ukrainian president Volodymyr Zelenskyy is lying about disruptions to Starshield in Ukraine and that he's trying to misuse SpaceX's consumer service, Starlink, for military purposes. Musk made the comments at The New York Times' DealBook Summit on Wednesday as he tried to explain the conflict following weeks of back and forth between [&#8230;]",
+      "titleZh": "埃隆·马斯克试图解释乌克兰和星链之间发生了什么",
+      "contentZh": "埃隆·马斯克表示，乌克兰总统弗拉基米尔·泽连斯基在乌克兰Starshield服务中断一事上撒了谎，而且他正试图将SpaceX的消费级服务Starlink挪用于军事目的。马斯克周三在《纽约时报》的DealBook峰会上发表了上述言论，试图解释双方数周来争论不休的冲突。"
     },
     {
-      "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
-      "content": "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos [&#8230;]",
-      "titleZh": "杰夫·贝索斯表示，他“深度参与”了新任詹姆斯·邦德的选拔。",
-      "contentZh": "考虑到罗伯特·帕丁森最近与导演丹尼斯·维伦纽瓦的合作，他被选为詹姆斯·邦德的扮演者是完全合理的，后者正在为亚马逊拍摄该系列的下一部电影。但事实证明，亚马逊创始人杰夫·贝索斯（Jeff Bezos）在做出最终决定方面也发挥了重要作用。在Semafor今天举行的“硅谷与世界”大会上，贝索斯[…]"
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "content": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice [&#8230;]",
+      "titleZh": "美国最大的学区正考虑弃用谷歌搜索",
+      "contentZh": "据《纽约时报》报道，在谷歌表示将对选择不使用其人工智能功能的学校禁用搜索功能后，纽约、洛杉矶和芝加哥的学校正在考虑使用谷歌的替代方案。从明年开始，学校将无法在不禁用搜索功能的情况下禁用由Gemini提供支持的功能。谷歌副总裁Chris Phillips […]"
     }
   ],
   "vocab": [
+    {
+      "word": "disruption",
+      "meaning": "颠覆"
+    },
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "significant",
-      "meaning": "重大的"
+      "word": "disrupt",
+      "meaning": "扰乱/颠覆"
+    },
+    {
+      "word": "feature",
+      "meaning": "功能/特性"
     }
   ]
 }
