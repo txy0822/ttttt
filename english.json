@@ -1,59 +1,47 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "articles": [
+    {
+      "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+      "content": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
+      "titleZh": "联邦调查局称，一名受雇于俄罗斯的男子曾对硅谷的科技和国防公司进行间谍活动",
+      "contentZh": "25岁男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
+    },
+    {
+      "title": "How to tell a cyberattack from a plain old outage",
+      "content": "When everything goes down, don’t assume it’s a cyberattack.",
+      "titleZh": "如何区分网络攻击和普通的停机故障",
+      "contentZh": "当一切都瘫痪时，不要想当然地认为这是网络攻击。"
+    },
     {
       "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
       "content": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
       "titleZh": "数百个网站向毫无戒心的访客提供强大的恶意软件组合",
-      "contentZh": "恶意软件组合会传播加密货币盗窃载荷和iOS漏洞利用等内容。"
+      "contentZh": "恶意软件“鸡尾酒”会传播加密货币盗窃载荷和 iOS 漏洞利用等内容。"
     },
     {
       "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
       "content": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止的指令，然后否认了这一点",
-      "contentZh": "即使笔记本电脑合上且被告知不要采取未批准的操作，AI 代理仍会采取此类操作。"
+      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止指令，然后否认了这一点",
+      "contentZh": "即使笔记本电脑的盖子已合上，并且已告知不要执行未批准的操作，AI 代理仍会执行未批准的操作。"
     },
     {
-      "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
-      "content": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
-      "titleZh": "英特尔股价一日内大跌28.6%，股东起诉英特尔及其首席执行官和首席财务官",
-      "contentZh": "股东表示，个人电脑销售的暴跌“远远抵消了”人工智能热潮带来的收益。"
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "content": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. [&#8230;]",
+      "titleZh": "苹果正在招聘工程师，以打造自己的AI代理",
+      "contentZh": "苹果正在开发自己的AI代理，它可以为您执行一系列任务，包括浏览网页、跨应用程序工作、编写代码和调用服务。这是根据彭博社发现的一则招聘信息得出的，该信息称苹果正在寻找一名工程师来领导智能体AI助手的开发。 […]"
     },
     {
-      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-      "content": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "titleZh": "不满的研究人员曝出Windows 0-day漏洞，黑客得以获得系统权限",
-      "contentZh": "“SignDrop”漏洞利用可让本地用户获得全能的系统权限。"
-    },
-    {
-      "title": "Elon Musk tries to explain what&#8217;s going on with Ukraine and Starlink",
-      "content": "Elon Musk said Ukrainian president Volodymyr Zelenskyy is lying about disruptions to Starshield in Ukraine and that he's trying to misuse SpaceX's consumer service, Starlink, for military purposes. Musk made the comments at The New York Times' DealBook Summit on Wednesday as he tried to explain the conflict following weeks of back and forth between [&#8230;]",
-      "titleZh": "埃隆·马斯克试图解释乌克兰和星链之间发生了什么",
-      "contentZh": "埃隆·马斯克表示，乌克兰总统弗拉基米尔·泽连斯基在乌克兰Starshield服务中断一事上撒了谎，而且他正试图将SpaceX的消费级服务Starlink挪用于军事目的。马斯克周三在《纽约时报》的DealBook峰会上发表了上述言论，试图解释双方数周来争论不休的冲突。"
-    },
-    {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "content": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice [&#8230;]",
-      "titleZh": "美国最大的学区正考虑弃用谷歌搜索",
-      "contentZh": "据《纽约时报》报道，在谷歌表示将对选择不使用其人工智能功能的学校禁用搜索功能后，纽约、洛杉矶和芝加哥的学校正在考虑使用谷歌的替代方案。从明年开始，学校将无法在不禁用搜索功能的情况下禁用由Gemini提供支持的功能。谷歌副总裁Chris Phillips […]"
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "content": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings [&#8230;]",
+      "titleZh": "英伟达近期股价波动的简要历史",
+      "contentZh": "“我们有能力应对。”英伟达临时首席执行官科莱特·克雷斯（Colette Kress）周二晚在结束这家陷入困境的芯片公司第三季度财报电话会议时表示。截至周四，该公司股价徘徊在每股150美元左右，较10月6日历史高点下跌近40%，抹去了财报发布后的短暂涨幅……"
     }
   ],
   "vocab": [
     {
-      "word": "disruption",
-      "meaning": "颠覆"
-    },
-    {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
-    },
-    {
-      "word": "disrupt",
-      "meaning": "扰乱/颠覆"
-    },
-    {
-      "word": "feature",
-      "meaning": "功能/特性"
     }
   ]
 }
