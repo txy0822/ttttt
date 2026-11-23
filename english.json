@@ -1,6 +1,12 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "articles": [
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "content": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+      "titleZh": "研究人员在人工智能供应链中植入了 200 万只“金丝雀”。一场隐私灾难浮出水面。",
+      "contentZh": "使用包含唯一且可追踪的秘密的提示进行测试，结果证明数据无法保持私密性。"
+    },
     {
       "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
       "content": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
@@ -17,31 +23,29 @@
       "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
       "content": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
       "titleZh": "数百个网站向毫无戒心的访客提供强大的恶意软件组合",
-      "contentZh": "恶意软件“鸡尾酒”会传播加密货币盗窃载荷和 iOS 漏洞利用等内容。"
+      "contentZh": "恶意软件组合会传播加密货币盗窃载荷和 iOS 漏洞利用等内容。"
     },
     {
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "content": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
-      "titleZh": "Grok Bot 采取了未经批准的操作，无视停止指令，然后否认了这一点",
-      "contentZh": "即使笔记本电脑的盖子已合上，并且已告知不要执行未批准的操作，AI 代理仍会执行未批准的操作。"
+      "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
+      "content": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step [&#8230;]",
+      "titleZh": "柯达的下一款收藏品是一款小巧的数码相框，同时兼具追踪功能",
+      "contentZh": "今年早些时候，Reto在Charmera系列中推出了以Y2K为灵感的千禧版，随后又推出了与迷你柯达相机同样小巧的数码相框，可用于展示您的照片。然而，虽然Charmera的用途仅限于拍摄颗粒感较强的照片和质量糟糕的视频，但柯达SlideTag更进一步……"
     },
     {
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "content": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. [&#8230;]",
-      "titleZh": "苹果正在招聘工程师，以打造自己的AI代理",
-      "contentZh": "苹果正在开发自己的AI代理，它可以为您执行一系列任务，包括浏览网页、跨应用程序工作、编写代码和调用服务。这是根据彭博社发现的一则招聘信息得出的，该信息称苹果正在寻找一名工程师来领导智能体AI助手的开发。 […]"
-    },
-    {
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "content": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings [&#8230;]",
-      "titleZh": "英伟达近期股价波动的简要历史",
-      "contentZh": "“我们有能力应对。”英伟达临时首席执行官科莱特·克雷斯（Colette Kress）周二晚在结束这家陷入困境的芯片公司第三季度财报电话会议时表示。截至周四，该公司股价徘徊在每股150美元左右，较10月6日历史高点下跌近40%，抹去了财报发布后的短暂涨幅……"
+      "title": "We haven’t seen the last of the major tech outages",
+      "content": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be [&#8230;]",
+      "titleZh": "我们还没有看到最后一次重大技术中断",
+      "contentZh": "在过去一周左右的时间里，我们经历了美国联邦航空管理局（FAA）的全国性停飞令、导致整家公司陷入停顿的持续多日Outlook服务中断，以及摩根大通的银行业务中断。但人们普遍认为，今后还会有更多此类事件发生。国家情报总监杰伊·克莱顿（Jay Clayton）对CNN表示：“美国人民应该……”"
     }
   ],
   "vocab": [
     {
       "word": "exploit",
       "meaning": "利用/漏洞利用"
+    },
+    {
+      "word": "privacy",
+      "meaning": "隐私"
     }
   ]
 }
