@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "articles": [
     {
       "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "content": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
       "titleZh": "研究人员在人工智能供应链中植入了 200 万只“金丝雀”。一场隐私灾难浮出水面。",
-      "contentZh": "使用包含唯一且可追踪的秘密的提示进行测试，结果证明数据无法保持私密性。"
+      "contentZh": "使用包含唯一且可追踪密钥的提示语进行测试，结果证明数据无法保持私密性。"
     },
     {
       "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
       "content": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
       "titleZh": "联邦调查局称，一名受雇于俄罗斯的男子曾对硅谷的科技和国防公司进行间谍活动",
-      "contentZh": "25岁男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
+      "contentZh": "一名25岁的男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
     },
     {
       "title": "How to tell a cyberattack from a plain old outage",
@@ -26,16 +26,16 @@
       "contentZh": "恶意软件组合会传播加密货币盗窃载荷和 iOS 漏洞利用等内容。"
     },
     {
-      "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
-      "content": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step [&#8230;]",
-      "titleZh": "柯达的下一款收藏品是一款小巧的数码相框，同时兼具追踪功能",
-      "contentZh": "今年早些时候，Reto在Charmera系列中推出了以Y2K为灵感的千禧版，随后又推出了与迷你柯达相机同样小巧的数码相框，可用于展示您的照片。然而，虽然Charmera的用途仅限于拍摄颗粒感较强的照片和质量糟糕的视频，但柯达SlideTag更进一步……"
+      "title": "Google alternative Kagi launches an email service",
+      "content": "Kagi, which already offers a paid alternative to Google Search and its own Orion browser as a rival to Chrome, is taking on another Google service: Gmail. Today, Kagi announced a public beta of Kagi Mail, a new email service that has \"no surveillance, no ads, open standards, and no lock-in.\" With Kagi Mail, you [&#8230;]",
+      "titleZh": "Google 替代搜索引擎 Kagi 推出了电子邮件服务",
+      "contentZh": "Kagi已经提供了Google搜索的付费替代品，以及与Chrome竞争的自有Orion浏览器，现在又将进军另一项Google服务：Gmail。今天，Kagi宣布推出Kagi Mail的公开测试版，这是一项全新的电子邮件服务，具有“无监控、无广告、开放标准和无锁定”的特点。使用Kagi Mail，您可以[…]"
     },
     {
-      "title": "We haven’t seen the last of the major tech outages",
-      "content": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be [&#8230;]",
-      "titleZh": "我们还没有看到最后一次重大技术中断",
-      "contentZh": "在过去一周左右的时间里，我们经历了美国联邦航空管理局（FAA）的全国性停飞令、导致整家公司陷入停顿的持续多日Outlook服务中断，以及摩根大通的银行业务中断。但人们普遍认为，今后还会有更多此类事件发生。国家情报总监杰伊·克莱顿（Jay Clayton）对CNN表示：“美国人民应该……”"
+      "title": "The hacker behind early GTA VI leaks has been sentenced — and released",
+      "content": "Arion Kurtaj, who pleaded guilty last week to hacking Grand Theft Auto VI developer Rockstar Games and other companies, including Uber and Revolut, was sentenced to seven years in prison but released on license, the BBC reports. After hacking Rockstar, Kurtaj leaked 90 videos of GTA VI in 2022, years before the game's public release [&#8230;]",
+      "titleZh": "《GTA VI》早期泄露事件背后的黑客已被判刑并获释",
+      "contentZh": "据英国广播公司报道，上周对黑客入侵《侠盗猎车手VI》开发商Rockstar Games以及包括优步和Revolut在内的其他公司一事认罪的Arion Kurtaj被判处七年有期徒刑，但获假释释放。在黑入Rockstar后，Kurtaj于2022年泄露了90段《GTA VI》的视频，当时距离该游戏的正式发布还有数年时间……"
     }
   ],
   "vocab": [
@@ -44,8 +44,20 @@
       "meaning": "利用/漏洞利用"
     },
     {
+      "word": "launch",
+      "meaning": "推出/发射"
+    },
+    {
       "word": "privacy",
       "meaning": "隐私"
+    },
+    {
+      "word": "surveillance",
+      "meaning": "监控"
+    },
+    {
+      "word": "announce",
+      "meaning": "宣布"
     }
   ]
 }
