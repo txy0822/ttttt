@@ -1,41 +1,41 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "articles": [
+    {
+      "title": "Backblaze explains why it&#039;s sharing customer information with advertisers",
+      "content": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+      "titleZh": "Backblaze解释了为何要与广告商共享客户信息",
+      "contentZh": "Backblaze 告诉 Ars，它不会与广告商共享用户的备份和存储文件。"
+    },
     {
       "title": "Amazon says hackers&#039; AI agents found and exploited 0-day with little human input",
       "content": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-      "titleZh": "亚马逊表示，黑客的AI代理在几乎没有人为干预的情况下发现了零日漏洞并进行了利用",
+      "titleZh": "亚马逊表示，黑客的AI代理在几乎没有人为干预的情况下发现了0-day漏洞并进行了利用",
       "contentZh": "事实证明，Cairn AI框架对防御者和攻击者来说都是一大福音。"
     },
     {
       "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
       "content": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
       "titleZh": "研究人员在人工智能供应链中植入了 200 万只“金丝雀”。一场隐私灾难浮出水面。",
-      "contentZh": "使用包含唯一且可追踪秘密的提示进行测试，结果证明数据无法保持私密。"
+      "contentZh": "使用包含唯一、可追踪密钥的提示进行测试，结果证明数据无法保持私密性。"
     },
     {
       "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
       "content": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
-      "titleZh": "联邦调查局称，一名受雇于俄罗斯的男子对硅谷的科技和国防公司进行间谍活动",
+      "titleZh": "联邦调查局称，一名受雇于俄罗斯的男子曾对硅谷的科技和国防公司进行间谍活动",
       "contentZh": "25岁男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
     },
     {
-      "title": "How to tell a cyberattack from a plain old outage",
-      "content": "When everything goes down, don’t assume it’s a cyberattack.",
-      "titleZh": "如何区分网络攻击和普通的停机故障",
-      "contentZh": "当一切都瘫痪时，不要想当然地认为这是网络攻击。"
+      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "content": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required [&#8230;]",
+      "titleZh": "现在，谷歌的“熟悉的面孔”人工智能功能也适用于沃尔玛售价35美元的智能家居摄像头",
+      "contentZh": "沃尔玛的几款经济实惠的智能家居摄像头现在将能够使用谷歌的“熟悉面孔”检测功能识别您家周围的人。Google Home 的新版更新为售价 35 美元的 Onn 室外插电式摄像头和售价 77 美元的 Onn 泛光灯有线摄像头带来了“熟悉的面孔”功能支持。不过，仍需订阅 Google Home Premium […]"
     },
     {
-      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
-      "content": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury Department, said it's looking into an \"incident that resulted in unauthorized access to a limited subset of its systems.\" It hasn't offered any information about the full scope or source of the [&#8230;]",
-      "titleZh": "美国金融犯罪局披露“网络安全事件”",
-      "contentZh": "金融犯罪执法网（FinCEN）周二披露，该机构正在调查一起“网络安全事件”。该局隶属于美国财政部，表示正在调查一起“导致其部分系统遭到未经授权访问的事件”。该局未提供任何有关该事件的全面范围或来源的信息……"
-    },
-    {
-      "title": "The Verge’s 2026 gift guide for dads",
-      "content": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this [&#8230;]",
-      "titleZh": "The Verge 2026年父亲节礼物指南",
-      "contentZh": "您再也不用像以前那样，随便给父亲买一条领带、一个包着皮革的酒具或一套剃须套装了。爸爸们想要——不，爸爸们值得拥有——一件令人难忘的礼物。幸运的是，找到一件他会喜欢的特别礼物并不难，我们将为您提供指导。我们精心挑选了这份[…]"
+      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
+      "content": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it [&#8230;]",
+      "titleZh": "亚马逊最近一次试图摆脱处理更多召回通知的努力以失败告终",
+      "contentZh": "在输掉与美国消费品安全委员会（CPSC）的法律诉讼后，亚马逊正面临召回40多万件危险产品的责任。美国马里兰州地方法院的裁决有利于CPSC，CPSC认为亚马逊是商品分销商，而不是物流提供商，因此……"
     }
   ],
   "vocab": [
@@ -44,12 +44,16 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "cybersecurity",
-      "meaning": "网络安全"
+      "word": "feature",
+      "meaning": "功能/特性"
     },
     {
       "word": "privacy",
       "meaning": "隐私"
+    },
+    {
+      "word": "subscription",
+      "meaning": "订阅"
     }
   ]
 }
