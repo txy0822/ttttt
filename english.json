@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "articles": [
     {
       "title": "Backblaze explains why it&#039;s sharing customer information with advertisers",
@@ -10,7 +10,7 @@
     {
       "title": "Amazon says hackers&#039; AI agents found and exploited 0-day with little human input",
       "content": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-      "titleZh": "亚马逊表示，黑客的AI代理在几乎没有人为干预的情况下发现了0-day漏洞并进行了利用",
+      "titleZh": "亚马逊表示，黑客的AI代理在几乎没有人工干预的情况下发现了零日漏洞并进行了利用",
       "contentZh": "事实证明，Cairn AI框架对防御者和攻击者来说都是一大福音。"
     },
     {
@@ -23,19 +23,19 @@
       "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
       "content": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
       "titleZh": "联邦调查局称，一名受雇于俄罗斯的男子曾对硅谷的科技和国防公司进行间谍活动",
-      "contentZh": "25岁男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
+      "contentZh": "一名25岁的男子被指控在咖啡店尾随员工，并“咄咄逼人”地驾车追逐。"
     },
     {
-      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
-      "content": "A couple of Walmart's budget-friendly smart home cameras will be able to recognize people around your house now using Google's familiar face detection feature. A new Google Home update brings Familiar Faces support to the $35 Onn Outdoor Camera Plug-In and $77 Onn Floodlight Camera Hardwired. However, a Google Home Premium subscription is still required [&#8230;]",
-      "titleZh": "现在，谷歌的“熟悉的面孔”人工智能功能也适用于沃尔玛售价35美元的智能家居摄像头",
-      "contentZh": "沃尔玛的几款经济实惠的智能家居摄像头现在将能够使用谷歌的“熟悉面孔”检测功能识别您家周围的人。Google Home 的新版更新为售价 35 美元的 Onn 室外插电式摄像头和售价 77 美元的 Onn 泛光灯有线摄像头带来了“熟悉的面孔”功能支持。不过，仍需订阅 Google Home Premium […]"
+      "title": "Netflix’s coziest show has made a very quiet return",
+      "content": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best [&#8230;]",
+      "titleZh": "Netflix最温馨的节目悄然回归",
+      "contentZh": "Netflix 规模越大，就越容易错过精彩内容。当然，所有数字平台都是如此，但最近Netflix尤其如此，因为该流媒体服务的内容阵容现在还包括不断扩充的真人秀、直播节目甚至游戏库。这使得一些最优秀的……很容易被错过。"
     },
     {
-      "title": "Amazon loses its latest attempt to get out of handling more recall notices",
-      "content": "Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which argued that Amazon is a distributor of goods, not a logistics provider, making it [&#8230;]",
-      "titleZh": "亚马逊最近一次试图摆脱处理更多召回通知的努力以失败告终",
-      "contentZh": "在输掉与美国消费品安全委员会（CPSC）的法律诉讼后，亚马逊正面临召回40多万件危险产品的责任。美国马里兰州地方法院的裁决有利于CPSC，CPSC认为亚马逊是商品分销商，而不是物流提供商，因此……"
+      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
+      "content": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks [&#8230;]",
+      "titleZh": "Garmin Forerunner 265S降至300美元，创下今年最低价",
+      "contentZh": "Forerunner 265S可能不是最新款或最炫酷的佳明手表，但它是我在测试中一直最喜欢的一款。对于手腕较小的跑步者来说，它非常合适。得益于OLED触摸屏，这款手表的电池续航时间相当不错。几年前我评测这款手表时，称之为“金发姑娘” […]"
     }
   ],
   "vocab": [
@@ -44,16 +44,12 @@
       "meaning": "利用/漏洞利用"
     },
     {
-      "word": "feature",
-      "meaning": "功能/特性"
-    },
-    {
       "word": "privacy",
       "meaning": "隐私"
     },
     {
-      "word": "subscription",
-      "meaning": "订阅"
+      "word": "platform",
+      "meaning": "平台"
     }
   ]
 }
